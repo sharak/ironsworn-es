@@ -50,7 +50,6 @@ jobs:
       - name: Build
         run: |
           yarn install
-          yarn run build
           yarn run compendium:compile
 
       - run: zip ${{ env.ZIP_NAME }} -r register.js module.json compendium lang  --exclude "packs/_source/*"
