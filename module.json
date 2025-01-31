@@ -1,0 +1,71 @@
+{
+  "title": "[Translation] Ironsworn & Starforged Spanish",
+  "description": "Traducción del sistema y compendios para Ironsworn y Starforged",
+  "url": "https://github.com/sharak/ironsworn-es",
+  "version": "0.1.0",
+  "authors": [
+    {
+      "name": "Roberto Lorite",
+      "url": "https://github.com/sharak",
+      "flags": {}
+    },
+    {
+      "name": "WallaceMcGregor",
+      "url": "https://github.com/WallaceMcGregor",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "register.js"
+  ],
+  "packs": [
+    {
+      "name": "handouts",
+      "label": "Ayudas de juego",
+      "path": "packs/handouts",
+      "type": "JournalEntry"
+    },
+
+    {
+      "name": "macros",
+      "label": "Macros",
+      "path": "packs/macros",
+      "type": "Macro"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/sharak/ironsworn-es/main/module.json",
+  "download": "https://github.com/sharak/ironsworn-es/archive/refs/heads/main.zip",
+  "id": "ironsworn-es",
+  "relationships": {
+    "systems": [
+      {
+        "id": "foundry-ironsworn",
+        "type": "system",
+        "manifest": "https://github.com/ben/foundry-ironsworn/releases/latest/download/system.json",
+        "compatibility": {
+          "verified": "1.24.7",
+          "minimum": "1.24.7"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  }
+}

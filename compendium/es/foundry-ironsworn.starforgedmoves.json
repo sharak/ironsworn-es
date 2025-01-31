@@ -1,0 +1,682 @@
+{
+  "label": "Movimientos de Starforged",
+  "mapping": {
+    "text": "system.Text",
+    "trigger": "system.Trigger.Text",
+    "strongHitText": "system.Outcomes.Strong Hit.Text",
+    "strongHitMatch": "system.Outcomes.Strong Hit.With a Match.Text",
+    "weakHitText": "system.Outcomes.Weak Hit.Text",
+    "missText": "system.Outcomes.Miss.Text",
+    "missMatch": "system.Outcomes.Miss.With a Match.Text",
+    "options": {
+      "path": "system.Trigger.Options",
+      "converter": "sfMoveOptionsConverter"
+    }
+  },
+  "folders": {
+    "Adventure Moves": "Aventura",
+    "Combat Moves": "Combate",
+    "Connection Moves": "Relación",
+    "Exploration Moves": "Exploración",
+    "Fate Moves": "Destino",
+    "Legacy Moves": "Legado",
+    "Quest Moves": "Búsqueda",
+    "Recover Moves": "Recuperación",
+    "Scene Challenge Moves": "Desafío situacional",
+    "Session Moves": "Sesión",
+    "Suffer Moves": "Sufrimiento",
+    "Threshold Moves": "Límite"
+  },
+  "entries": {
+    "Advance": {
+      "name": "Mejorar",
+      "text": "__Cuando desarrollas tus habilidades, mejoras tus recursos, ganas una recompensa o aumentas tu influencia__, puedes gastar 3 puntos de experiencia para añadir un nuevo recurso o 2 puntos de experiencia para mejorar uno que ya tienes. Elige entre las siguientes categorías según resulte apropiado al enfoque:\n\n  * Módulo: Actualiza tú vehículo principal\n  * Vehículo de apoyo: Adquiere o mejora un vehículo secundario\n  * Senda: Refuerza tus capacidades personales o sigue una nueva vocación\n  * Compañero: Adquiere o mejora un ayudante de confianza\n  * Hazaña: Aprende de tus experiencias o construye un legado",
+      "trigger": "Cuando desarrollas tus habilidades, mejoras tus recursos, ganas una recompensa o aumentas tu influencia...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Aid Your Ally": {
+      "name": "Ayudar a un aliado",
+      "text": "__Cuando actúas en apoyo directo de un aliado__, imagina como les ayudas. Luego, @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Crea una ventaja} or @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Gana terreno} para pasar a la acción. Con un éxito, ellos (en lugar de ti) puede aprovecharse de los beneficios del movimiento.\n\nSi @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{ganaste terreno} y obtuviste un éxito total, tanto tú como tu aliado lleváis la iniciativa. Con un __éxito parcial__, tu aliado lleva la iniciativa y tú estás en una mala posición.",
+      "trigger": "Cuando actúas en apoyo directo de un aliado...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Ask the Oracle": {
+      "name": "Pregunta al oráculo",
+      "text": "__Cuando buscas dar una respuesta a una pregunta, revelar detalles, descubrir localizaciones, determinar cómo reaccionan otros personajes o desencadenar eventos o encuentros__, elige una:\n\n  * Decídelo tú: Llega a una conclusión basándote en el resultado que sea más obvio e interesante.\n  * Inspírate: Usa una de las tablas de los oráculos u otra herramienta para generar propuestas aleatorias.\n  * Haz una pregunta de sí/no: Decide cuáles son las propabilidades de que la respuesta sea \"sí\" y tira en la tabla de más abajo.\n  * Elige entre dos opciones: imagina dos opciones. Establece una como \"probable\" y tira en la tabla de más abajo para ver si es verda. Si no lo es, entonces es cierta la otra opción.\n\nProbabilidades           | La respuesta es \"sí\" si sacas...\n---------------|---------------------------------\nRaro   | 10 o menos\nImprobable       | 25 o menos\n50/50          | 50 o menos\nProbable         | 75 o menos\nCasi seguro | 90 o menos\n\nSi obtienes una coincidencia, se produce un resultado extremo o un giro argumental.",
+      "trigger": "Cuando buscas dar una respuesta a una pregunta, revelar detalles, descubrir localizaciones, determinar cómo reaccionan otros personajes o desencadenar eventos o encuentros...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Battle": {
+      "name": "Batalla simplificada",
+      "text": "__Cuando luchas en una batalla y todo se difumina__, determina tu objetivo y tira. Si sobre todo...:\n\n  * Luchas a distancia o usas la velocidad y el terreno a tu favor: Tira +filo.\n  * Luchas apelando al coraje, tus aliados o compañeros: Tira +corazón.\n  * Luchas cuerpo a cuerpo para aplastar a tus oponentes: Tira +hierro.\n  * Luchas empleando artimañas para confundir a tus oponentes: Tira +sombra.\n  * Luchas recurriendo a tu inteligencia para aventajar y superar a tus oponentes: Tira +mente.\n\nCon un __éxito total__, logras tu objetivo sin condiciones. Tú y los aliados que se hayan unido a la batalla ganáis 2 de impulso.\n\nCon un __éxito parcial__, logras tu objetivo, pero no sin un coste. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.\n\nCon un __fallo__, te derrotan y no logras tu objetivo. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "trigger": "Cuando luchas en una batalla y todo se difumina...",
+      "strongHitText": "Con un __éxito total__, logras tu objetivo sin condiciones. Tú y los aliados que se hayan unido a la batalla ganáis 2 de impulso.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, logras tu objetivo, pero no sin un coste. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missText": "Con un __fallo__, te derrotan y no logras tu objetivo. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missMatch": "",
+      "options": [
+        "Luchas a distancia o usas la velocidad y el terreno a tu favor",
+        "Luchas apelando al coraje, tus aliados o compañeros",
+        "Luchas cuerpo a cuerpo para aplastar a tus oponentes",
+        "Luchas empleando artimañas para confundir a tus oponentes",
+        "Luchas recurriendo a tu inteligencia para aventajar y superar a tus oponentes"
+      ]
+    },
+    "Begin a Session": {
+      "name": "Empezar una sesión",
+      "text": "__Cuando empieces una sesión o capítulo importante__, haz lo siguiente:\n\n  * Identifica o ajusta el contenido señalado que no quieres que aparezca en tu sesión y @Compendium[foundry-ironsworn.starforgedmoves.6f3333f430a21db6]{Establece las medidas de seguridad}.\n  * Repasa lo que ocurrió en la sesión anterior.\n  * Establece la escena imaginando la situación actual y las intenciones de tu personaje.\n\nAdemás, puedes destacar un nuevo peligro, oportunidad o visión. Esto puede desencadenar una escena desde la perspetiva de tu personaje. Si lo haces, imagina una breve viñeta (puedes tirar o elegir en la tabla siguiente para inspirarte). Luego, todos los jugadores obtienen +1 impulso y vuelven a la perspectiva de sus personajes.",
+      "trigger": "Cuando empieces una sesión o capítulo importante...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Begin the Scene": {
+      "name": "Comenzar la escena",
+      "text": "__Cuando afrontes un desafío largo o complejo__, define tu objetivo y elige un nivel según corresponda a la situación:\n\n  * Tienes una clara ventaja: Problemático\n  * Estás preparado para actuar: Peligroso\n  * No estás preparado o te superan: Formidable\n\nLuego, activa un reloj de tensión de cuatro segmentos y @Compendium[foundry-ironsworn.starforgedmoves.7bbacec9ac8d8d09]{Afronta el peligro} o @Compendium[foundry-ironsworn.starforgedmoves.03595d7546a1353f]{Crea una ventaja} para pasar a la acción.",
+      "trigger": "Cuando afrontes un desafío largo o complejo...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Change Your Fate": {
+      "name": "Cambiar tu destino",
+      "text": "__Cuando tratas con contenido señalado, rechazas un oráculo, resistes una consecuencia o necesitas cambiar tu situación dentro de la ficción por el bien de tu comodidad y disfrute__, haz una pausa e identifica qué necesitas cambiar. Escoge tantas opciones como sean necesarias.\n\n * Replantear: El suceso no ocurrió cómo pensabas en un principio. Describe ese momento desde otra perspectiva de manera que atenúe o cambie el contenido.\n * Reenfocar: El acontecimiento no es lo más importante que está sucediendo ahora mismo. Piensa cómo el centro de atención cambia para modificar el enfoque.\n * Reemplazar: El hecho ocurre pero con un pequeño ajuste. Sustituye un elemento y concreta cómo este nuevo detalle cambia el escenario.\n * Reconducir: Ajusta la trayectoria para involucrar a alguien que te ayude. Relata cómo otra persona o grupo se ve involucrado.\n * Reformular: La situación cambia completamente. Describe qué sucede en su lugar.",
+      "trigger": "Cuando tratas con contenido señalado, rechazas un oráculo, resistes una consecuencia o necesitas cambiar tu situación dentro de la ficción por el bien de tu comodidad y disfrute...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Check Your Gear": {
+      "name": "Comprobar el equipo",
+      "text": "__Cuando quieras saber si tienes un objeto o bien útil__, tira +suministros.\n\nCon un __éxito total__, lo tienes y estás listo para actuar. Ganas +1 impulso.\n\nCon un __éxito parcial__, lo tienes pero debes elegir una:\n\n  * Disminuyen tus suministros: @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrificar suministros} (-1)\n  * No está del todo bien y causa una complicación o retraso: @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Perder impulso} (-2)\n\nCon un __fallo__, no lo tienes y la situación se vuelve más peligrosa. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "trigger": "Cuando quieras saber si tienes un objeto o recurso útil...",
+      "strongHitText": "Con un __éxito total__, lo tienes y estás listo para actuar. Ganas +1 impulso.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, lo tienes pero debes elegir una:\n\n  * Disminuyen tus suministros: @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrificar suministros} (-1)\n  * No está del todo bien y causa una complicación o retraso: @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Perder impulso} (-2)",
+      "missText": "Con un __fallo__, no lo tienes y la situación se vuelve más peligrosa. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missMatch": ""
+    },
+    "Clash": {
+      "name": "Contratacar",
+      "text": "__Cuando estás en una mala posición y luchas cuerpo a cuerpo__, tira +hierro; __cuando intercambias una salva de proyectiles a distancia__, tira +filo.\n\nCon un __éxito total__, marca progreso dos veces. Arrollas a tu enemigo y tienes la iniciativa.\n\nCon un __éxito parcial__, marca progreso pero recibes un contraataque o un revés. Permaneces en mala posición y debes @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}.\n\nCon un __fallo__, estás contra las cuerdas. Permaneces en mala posición y debes @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}.",
+      "trigger": "Cuando estás en una mala posición y luchas cuerpo a cuerpo, o cuando intercambias una salva de proyectiles a distancia...",
+      "strongHitText": "Con un __éxito total__, marca progreso dos veces. Arrollas a tu enemigo y tienes la iniciativa.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, marca progreso pero recibes un contraataque o un revés. Permaneces en mala posición y debes @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}.",
+      "missText": "Con un __fallo__, estás contra las cuerdas. Permaneces en mala posición y debes @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}.",
+      "missMatch": "",
+      "options": [
+        "Cuando estás en una mala posición y luchas cuerpo a cuerpo\n",
+        "Cuando intercambias una salva de proyectiles a distancia"
+      ]
+    },
+    "Companion Takes a Hit": {
+      "name": "Tu compañero sufre daño",
+      "text": "__Cuando tu compañero sufre daño__, pierde -1 salud si se trata de daño leve, -2 en el caso de daño medio o -3 en el caso de daño grave. Si la salud de tu compañero llega a cero, tú @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{pierdes el sobrante en impulso}.\n\nLuego, si su salud es 0 o quieres probar su resistencia, tira +salud de tu compañero.\n\nCon un __éxito total__, tu compañero se repone. Gana +1 salud.\n\nCon un __éxito parcial__, si su salud no es 0, puedes @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{perder impulso} (-1) y darle +1 salud. En caso contrario, sigue adelante.\n\nCon un __fallo__, es peor de lo que pensabas. Tu compañero sufre -1 adicional de salud o tú @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-2). Si la salud de tu compañero es 0 queda fuera de combate hasta que reciba ayuda. Si su salud es cero y además has sacado una coincidencia, está muerto o destruido. Descarta el recurso.",
+      "trigger": "Cuando tu compañero sufre daño...",
+      "strongHitText": "Con un __éxito total__, tu compañero se repone. Gana +1 de salud.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, si su salud no es 0, puedes @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{perder impulso} (-1) y darle +1 salud. En caso contrario, sigue adelante.",
+      "missText": "Con un __fallo__, es peor de lo que pensabas. Tu compañero sufre -1 adicional de salud o tú @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-2). Si la salud de tu compañero es 0 queda fuera de combate hasta que reciba ayuda. \n\nSi su salud es cero y además has sacado una coincidencia, está muerto o destruido. Descarta el recurso.",
+      "missMatch": ""
+    },
+    "Compel": {
+      "name": "Persuadir",
+      "text": "__Cuando intentas persuadir a alguien o hacerle una oferta__, imagina cómo podrías hacerlo. Si...\n\n  * Recurres a tu carisma, ofreces algo a cambio, convences o tranquilizas a la otra parte: Tira +corazón\n  * Empleas amenazas o provocaciones: Tira +hierro\n  * Empleas mentiras o engaños: Tira +sombra\n\nCon un __éxito total__, hace lo que quieres o acepta tus condiciones. Ganas +1 impulso.\n\nCon un __éxito parcial__, como arriba, pero te pide algo a cambio o surge una complicación. Concreta la contraoferta.\n\nCon un __fallo__, no cede o te exige a cambio algo muy costoso. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "trigger": "Cuando intentas persuadir a alguien o hacerle una oferta...",
+      "strongHitText": "Con un __éxito total__, hace lo que quieres o acepta tus condiciones. Ganas +1 impulso.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, hace lo que quieres o acepta tus condiciones, pero te pide algo a cambio o surge una complicación. Concreta la contraoferta y gana +1 impulso.",
+      "missText": "Con un __fallo__, no cede o te exige a cambio algo muy costoso. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missMatch": "",
+      "options": [
+        "Recurres a tu carisma, ofreces algo a cambio, convences o tranquilizas a la otra parte",
+        "Empleas amenazas o provocaciones",
+        "Empleas mentiras o engaños"
+      ]
+    },
+    "Confront Chaos": {
+      "name": "Afrontar el caos",
+      "text": "__Cuando la exploración de un punto de ruta revela algo espantoso__, decide el número de aspectos: uno, dos o tres. Tira o elige ese número de aspectos en la siguiente tabla. Después, imagina como comienza el encuentro.\n\nPor cada uno de los resultados, cuando te enfrentes por primera vez a ese aspecto en el ambito de este encuentro, tus aliados y tú podéis hacer una marca en el contador de descubrimientos.",
+      "trigger": "Cuando la exploración de un punto de ruta revela algo espantoso...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Continue a Legacy": {
+      "name": "Continuar un Legado",
+      "text": "__Cuando te retiras de tu vida de juramentado del Hierro, o sucumbes a la muerte a la desolación__, puedes crear un nuevo personaje para tu ambientación. Si lo haces, tira los dados de desafío y compara con cada uno de los contadores de legado de tu antiguo personaje: búsquedas, vínculos y descubrimientos (una tirada por contador).\n\nPor cada __éxito total__, escoge una de las opciones siguientes o una de las opciones para el éxito parcial o para el fallo.\n\n  * Sigue sus pasos: Coge una senda o un compañero del antiguo personaje (sin coste) manteniendo las marcas en sus habilidades.\n  * Comparte un contacto: Escoge un contacto del antiguo personaje manteniendo el progreso acumulado o las ventajas del contacto.\n  * Acepta una herencia: Coge el vehículo de mando del antiguo personaje o uno de sus vehículos de apoyo (sin coste), manteniendo las habilidades marcadas.\n\nPor cada __éxito parcial__, escoge una de las siguientes opciones o una de las opciones para el fallo.\n\n  * Mirar a través: Escoge una de las búsquedas incompletas del antiguo personaje y @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Jura por el Hierro} (con un éxito total automático) que la llevarás a cabo. Puedes marcar inmediatamente hasta la mitad de su progreso (redondeando hacia abajo) en esta búsqueda.\n  * Reconstruir un contacto: Elige uno de los contactos del antiguo personaje e imagina como el tiempo o las circunstancias le han cambiado de alguna dramática forma. Cuando @Compendium[foundry-ironsworn.starforgedmoves.05909d6310d209a6]{Establezcas un contacto} con él puedes obtener automáticamente un éxito total y hacer dos marcas en tu contador de vínculos.\n  * Explorar terreno conocido: Nombra un lugar que fuera significativo para el antiguo personaje. Cuando visites ese lugar por primera vez, imagina como ha cambiado o qué lo ha puesto en peligro. Después, realiza dos marcas en tu contador de descubrimientos.\n\nPor cada __fallo__ escoge una.\n\n  * Enfréntate a las consecuencias: Imagina como uno de los antiguos enemigos de tu personaje ha ganado poder o incluencia.\n  * Cambia de lealtades: Imagina como empiezas en contra de las crencias, objetivos y o lealtades de tu antiguo personaje.\n  * Abre la caja de Pandora: Imagina como un avance o un descubrimiento ha desencadenado graves consecuencias.",
+      "trigger": "Cuando te retiras de tu vida de juramentado del Hierro o sucumbes a la muerte o desolación...",
+      "strongHitText": "Con un __éxito total__, escoge una:\n\n  * Sigue sus pasos: Coge una senda o un compañero del antiguo personaje (sin coste) manteniendo las marcas en sus habilidades.\n  * Comparte un contacto: Escoge un contacto del antiguo personaje manteniendo el progreso acumulado o las ventajas del contacto.\n  * Acepta una herencia: Coge el vehículo de mando del antiguo personaje o uno de sus vehículos de apoyo (sin coste), manteniendo las habilidades marcadas.\n\nAlternativamente, puedes escoger una de estas opciones (éxito parcial):\n\n  * Mirar a través: Escoge una de las búsquedas incompletas del antiguo personaje y @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Jura por el Hierro} (con un éxito total automático) que la llevarás a cabo. Puedes marcar inmediatamente hasta la mitad de su progreso (redondeando hacia abajo) en esta búsqueda.\n  * Reconstruir un contacto: Elige uno de los contactos del antiguo personaje e imagina como el tiempo o las circunstancias le han cambiado de alguna dramática forma. Cuando @Compendium[foundry-ironsworn.starforgedmoves.05909d6310d209a6]{Establezcas un contacto} con él puedes obtener automáticamente un éxito total y hacer dos marcas en tu contador de vínculos.\n  * Explorar terreno conocido: Nombra un lugar que fuera significativo para el antiguo personaje. Cuando visites ese lugar por primera vez, imagina como ha cambiado o qué lo ha puesto en peligro. Después, realiza dos marcas en tu contador de descubrimientos.\n\nO una de estas (fallo):\n\n  * Enfréntate a las consecuencias: Imagina como uno de los antiguos enemigos de tu personaje ha ganado poder o incluencia.\n  * Cambia de lealtades: Imagina como empiezas en contra de las crencias, objetivos y o lealtades de tu antiguo personaje.\n  * Abre la caja de Pandora: Imagina como un avance o un descubrimiento ha desencadenado graves consecuencias.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, escoge una:\n\n  * Mirar a través: Escoge una de las búsquedas incompletas del antiguo personaje y @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Jura por el Hierro} (con un éxito total automático) que la llevarás a cabo. Puedes marcar inmediatamente hasta la mitad de su progreso (redondeando hacia abajo) en esta búsqueda.\n  * Reconstruir un contacto: Elige uno de los contactos del antiguo personaje e imagina como el tiempo o las circunstancias le han cambiado de alguna dramática forma. Cuando @Compendium[foundry-ironsworn.starforgedmoves.05909d6310d209a6]{Establezcas un contacto} con él puedes obtener automáticamente un éxito total y hacer dos marcas en tu contador de vínculos.\n  * Explorar terreno conocido: Nombra un lugar que fuera significativo para el antiguo personaje. Cuando visites ese lugar por primera vez, imagina como ha cambiado o qué lo ha puesto en peligro. Después, realiza dos marcas en tu contador de descubrimientos.\n\nAlternativamente, puedes escoger una de estas opciones (fallo):\n\n  * Enfréntate a las consecuencias: Imagina como uno de los antiguos enemigos de tu personaje ha ganado poder o incluencia.\n  * Cambia de lealtades: Imagina como empiezas en contra de las crencias, objetivos y o lealtades de tu antiguo personaje.\n  * Abre la caja de Pandora: Imagina como un avance o un descubrimiento ha desencadenado graves consecuencias.",
+      "missText": "Con un __fallo__, escoge una:\n\n  * Enfréntate a las consecuencias: Imagina como uno de los antiguos enemigos de tu personaje ha ganado poder o influencia.\n  * Cambia de lealtades: Imagina cómo empiezas en contra de las creencias, objetivos y o lealtades de tu antiguo personaje.\n  * Abre la caja de Pandora: Imagina cómo un avance o descubrimiento ha desencadenado graves consecuencias.",
+      "missMatch": ""
+    },
+    "Develop Your Relationship": {
+      "name": "Desarrollar tu relación",
+      "text": "__Cuando refuerzas tu relación con un contacto__ haciendo...\n\n * jurando emprender una peligrosa búsqueda para él\n * completando una búsqueda para él\n * aprovechando su ayuda en circunstancias desesperadas\n * dándole algo de valor\n * compartiendo un momento íntimo\n * estando a su lado en momentos difíciles\n * superando una prueba de vuestra relación\n\n... puedes marcar progreso según el nivel del contacto.\n\nSi ya compartes un vínculo con el contacto, no marcas progreso. En su lugar, tira +su nivel para conocer el impacto en tu legado: problemático = +1; peligroso = +2; formidable = +3; extremo = +4; épico = +5. Con un __éxito total__, haz dos marcas en tu contador de vínculos. Si además tienes una coincidencia, imagina como los recientes acontecimientos han reforzado la posición de tu contacto y aumenta su nivel en uno (si no es ya épico). Con un __éxito parcial__, ganas +2 impulso. Con un __fallo__, no obtienes ningún beneficio.",
+      "trigger": "Cuando refuerzas tu relación con un contacto...",
+      "strongHitText": "Con un __éxito total__, haz dos marcas en tu contador de vínculos. Si además tienes una coincidencia, imagina como los recientes acontecimientos han reforzado la posición de tu contacto y aumenta su nivel en uno (si no es ya épico).",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, ganas +2 impulso.",
+      "missText": "Con un __fallo__, no obtienes ningún beneficio.",
+      "missMatch": ""
+    },
+    "Earn Experience": {
+      "name": "Ganar experiencia",
+      "text": "__Cuando completes una casilla (cuatro marcas) en un contador de legado__, gana 2 puntos de experiencia. Puedes gastar esta experiencia cuando @Compendium[foundry-ironsworn.starforgedmoves.d602da2ce0c05f2c]{mejoras}.\n\nUna vez rellenes las diez casillas de cualquier contador de legado, reinicia el contador. Puedes volver a empezar a marcar el progreso en ese marcador pero la experiencia ganada se reduce a 1 punto por cada casilla completada (en lugar de 2). Si tienes que hacer una tirada de progreso para alguno de estos contadores, trátalo como si tuviera un valor de 10.",
+      "trigger": "Cuando completes una casilla (cuatro marcas) en un contador de legado...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "End a Session": {
+      "name": "Finalizar la sesión",
+      "text": "__Cuando termines una sesión o capítulo importante  de la partida__, reflexiona sobre los acontecimientos acaecidos durante la partida y determina las oportunidades perdidas para marcar progreso.\n\n  * Si fortaleciste tus lazos con un contacto, @Compendium[foundry-ironsworn.starforgedmoves.141aec8b92efd14b]{Desarrollar tu relación}.\n  * Si avanzaste en una búsqueda, @Compendium[foundry-ironsworn.starforgedmoves.0d7f13818c1c19ed]{Alcanzar un hito}.\n\nSi hay una búsqueda, contacto u otra situación en la que te gustaría centrar la atención la siguiente sesión, anótalo y obtienes +1 impulso.",
+      "trigger": "Cuando termines una sesión o capítulo importante...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Endure Harm": {
+      "name": "Soportar el daño",
+      "text": "__Cuando sufres daño físico, fatiga o enfermedad__, pierdes -1 salud si se trata de daño leve, -2 en el caso de daño medio o -3 en el caso de daño grave. Si tu salud llega a 0, @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes tanto impulso} como el daño restante.\n\nDespués, si tu salud es 0 o escoges resistir el daño, tira +salud o +hierro, la que sea más alta.\n\nCon un __éxito total__, elige uno.\n\n * No era para tanto: Si no estabas herido, ganas +1 salud.\n * El dolor es mi alimento: Ganas +1 impulso.\n\nCon un __éxito parcial__, si no estás herido, puedes @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Perder impulso} (-1) y a cambio ganas +1 salud. En cualquier caso, sigues adelante.\n\nCon un __fallo__, es peor de lo que pensabas. Sufres -1 salud adicional o @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-2). Si tu salud es 0, además debes elegir entre marcar herido o mutilado, o tirar en la siguiente tabla.",
+      "trigger": "Cuando sufres daño físico, fatiga o enfermedad...",
+      "strongHitText": "Con un __éxito total__, elige uno.\n\n * No era para tanto: Si no estabas herido, ganas +1 salud\n * El dolor es mi alimento: Ganas +1 impulso",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, si no estás herido, puedes @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Perder impulso} (-1) y a cambio ganas +1 salud. En cualquier caso, sigues adelante.",
+      "missText": "Con un __fallo__, es peor de lo que pensabas. Sufres -1 de salud adicional o @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-2). Si tu salud es 0, además debes elegir entre marcar herido o mutilado, o tirar en la siguiente tabla.",
+      "missMatch": ""
+    },
+    "Endure Stress": {
+      "name": "Soportar el estrés",
+      "text": "__Cuando sufres presión psicológica, un choque emocional o desesperación__, pierdes -1 entereza si se trata de un estrés leve, -2 en el caso de estrés medio o -3 en el caso de estrés grave. Si tu entereza llega a 0, @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes tanto impulso} como el estrés restante.\n\nDespués, si tu entereza es 0 o escoges resistir el estrés, tira +entereza o +corazón, la que sea más alta.\n\nCon un __éxito total__, elige uno.\n\n * No era para tanto: Si no estabas conmocionado, ganas +1 entereza.\n * Me alimento de la oscuridad: Ganas +1 impulso.\n\nCon un __éxito parcial__, si no estás conmocionado, puedes @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Perder impulso} (-1) y a cambio ganas +1 espíritu. En cualquier caso, sigues adelante.\n\nCon un __fallo__, es peor de lo que pensabas. Sufres -1 espíritu adicional o @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-2). Si tu espíritu es 0, además debes elegir entre marcar conmocionado o traumatizado, o tirar en la siguiente tabla.",
+      "trigger": "Cuando sufres presión psicológica, un choque emocional o desesperación...",
+      "strongHitText": "Con un __éxito total__, elige uno.\n\n * No era para tanto: Si no estabas conmocionado, ganas +1 entereza\n * Me alimento de la oscuridad: Ganas +1 impulso",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, si no estás conmocionado, puedes @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Perder impulso} (-1) y a cambio ganas +1 entereza. En cualquier caso, sigues adelante.",
+      "missText": "Con un __fallo__, es peor de lo que pensabas. Sufres -1 entereza adicional o @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-2). Si tu entereza es 0, además debes elegir entre marcar conmocionado o traumatizado, o tirar en la siguiente tabla.",
+      "missMatch": ""
+    },
+    "Enter the Fray": {
+      "name": "Entrar en liza",
+      "text": "__Cuando entras en combate o te veas forzado a pelear__, visualiza a tu objetivo y dale un nivel de desafío. Si el combate incluye desafíos o fases diferenciados, establece un objetivo con un nivel para cada uno.\n\nDespués, tira para comprobar si llevas la iniciativa. Si estás...\n\n * En movimiento: Tira +filo\n * Enfrentándote a tu oponente: Tira +corazón\n * En el fragor del combate cuerpo a cuerpo: Tira +hierro\n * Preparándote para actuar contra un enemigo desprevenido: Tira +sombra\n * Emboscado o evaluando la situación: Tira +mente\n\nCon un __éxito total__, ganas ambos. Con un __éxito parcial__ elige uno.\n\n * Ganas +2 de impulso\n * Llevas la iniciativa\n\nCon un __fallo__ comienzas el combate en situación de desventaja.",
+      "trigger": "Cuando entras en combate o te veas forzado a pelear...",
+      "strongHitText": "Con un __éxito total__, ganas +2 de impulso. Llevas la iniciativa.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__ elige uno.\n\n * Ganas +2 de impulso\n * Llevas la iniciativa",
+      "missText": "Con un __fallo__ comienzas el combate en situación de desventaja.",
+      "missMatch": "",
+      "options": [
+        "En movimiento",
+        "Enfrentándote a tu oponente",
+        "En el fragor del combate cuerpo a cuerpo",
+        "Preparándote para actuar contra un enemigo desprevenido",
+        "Emboscado o evaluando la situación"
+      ]
+    },
+    "Explore a Waypoint": {
+      "name": "Explorar un punto de ruta",
+      "text": "__Cuando te desvías de una expedición para examinar un lugar importante__, tira +mente.\n\nCon un __éxito total__, elige una. Si además tienes __una coincidencia__, puedes en su lugar @Compendium[foundry-ironsworn.starforgedmoves.75d5b0762ebab856]{hacer un descubrimiento}.\n\n  * Tienes un encuentro: Describe una visión, situación, bien o encuentro interesante. Luego, ganas +2 impulso.\n  * Progresas: Marca progreso en tu expedición, según su nivel.\n\nCon un __éxito parcial__, descubres algo interesante, pero además revelas un peligro o un aspecto inquietante del lugar. Imagina lo que encuentras. Luego, ganas +1 impulso.\n\nCon un __fallo__, encuentras una dificultad o una amenaza y debes @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}. Si además obtienes una  __coincidencia__, debes @Compendium[foundry-ironsworn.starforgedmoves.6848983199a497df]{Afrontar el caos}.",
+      "trigger": "Cuando te desvías de una expedición para examinar un lugar importante...",
+      "strongHitText": "Con un __éxito total__, elige una. Si además tienes __una coincidencia__, puedes en su lugar @Compendium[foundry-ironsworn.starforgedmoves.75d5b0762ebab856]{hacer un descubrimiento}.\n\n * Tienes un encuentro: Describe una visión, situación, bien o encuentro interesante. Luego, ganas +2 impulso.\n * Progresas: Marca progreso en tu expedición, según su nivel.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, descubres algo interesante, pero además revelas un peligro o un aspecto inquietante del lugar. Imagina lo que encuentras. Luego, ganas +1 impulso.",
+      "missText": "Con un __fallo__, encuentras una dificultad o una amenaza y debes @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}. Si además obtienes una __coincidencia__, debes @Compendium[foundry-ironsworn.starforgedmoves.6848983199a497df]{Afrontar el caos}.",
+      "missMatch": ""
+    },
+    "Face Danger": {
+      "name": "Afrontar el peligro",
+      "text": "__Cuando intentas algo arriesgado o reacciones ante una amenaza inminente__, concreta cómo lo vas a hacer y tira. Si actúas...:\n\n * Con rapidez, agilidad o precisión: Tira +filo.\n * Con carisma, lealtad o coraje: Tira +corazón.\n * Con una acción agresiva, una defensa enérgica, fuerza o resistencia: Tira +hierro.\n * Con sigilo, engaños o artimañas: Tira +sombra.\n * Usando tus conocimientos, perspicacia u observación: Tira + mente.\n\nCon un __éxito total__, consigues lo que pretendías o evitas la amenaza. Ganas +1 impulso.\n\nCon un __éxito parcial__, tienes éxito, pero con un coste. Haz un movimiento de sufrimiento (-1).\n\nCon un __fallo__, fracasas o tu progreso se ve obstaculado por un giro dramático de los acontecimientos que supondrá un coste. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "trigger": "Cuando intentas algo arriesgado o reacciones ante una amenaza inminente...",
+      "strongHitText": "Con un __éxito total__, consigues lo que pretendías o evitas la amenaza. Ganas +1 impulso.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, tienes éxito, pero con un coste. Haz un movimiento de sufrimiento (-1).",
+      "missText": "Con un __fallo__, fracasas o tu progreso se ve obstaculizado por un giro dramático de los acontecimientos que supondrá un coste. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missMatch": "",
+      "options": [
+        "Con rapidez, agilidad o precisión",
+        "Con carisma, lealtad o coraje",
+        "Con una acción agresiva, una defensa enérgica, fuerza o resistencia",
+        "Con sigilo, engaños o artimañas",
+        "Usando tus conocimientos, perspicacia u observación"
+      ]
+    },
+    "Face Danger (Scene Challenge)": {
+      "name": "Afrontar el peligro (Desafío situacional)",
+      "text": "__Cuando intentas algo arriesgado o reacciones ante una amenaza inminente en el marco de un desafío situacional__, concreta cómo lo vas a hacer y tira. Si actúas...:\n\n * Con rapidez, agilidad o precisión: Tira +filo.\n * Con carisma, lealtad o coraje: Tira +corazón.\n * Con una acción agresiva, una defensa enérgica, fuerza o resistencia: Tira +hierro.\n * Con sigilo, engaños o artimañas: Tira +sombra.\n * Usando tus conocimientos, perspicacia u observación: Tira + mente.\n\nCon un __éxito total__, consigues lo que pretendías o evitas la amenaza. Marca progreso. Si además obtienes una __coincidencia__, marcas progreso dos veces.\n\nCon un __éxito parcial__, tienes éxito y marcas progreso, pero con un coste. Imagina qué es lo que ocurre y avanza el reloj un sector.\n\nCon un __fallo__, fracasas o tu progreso se ve obstaculado por un giro dramático de los acontecimientos que supondrá un coste. Avanza un sector el reloj y @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}. Si tienes una __coincidencia__, avanza dos sectores el reloj y @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "trigger": "Cuando intentas algo arriesgado o reacciones ante una amenaza inminente en el marco de un desafío situacional...",
+      "strongHitText": "Con un __éxito total__, consigues lo que pretendías o evitas la amenaza. Marca progreso. Si además obtienes una __coincidencia__, marcas progreso dos veces.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, tienes éxito y marcas progreso, pero con un coste. Imagina qué es lo que ocurre y avanza el reloj un sector.",
+      "missText": "Con un __fallo__, fracasas o tu progreso se ve obstaculizado por un giro dramático de los acontecimientos que supondrá un coste. Avanza un sector el reloj y @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}. Si tienes una __coincidencia__, avanza dos sectores el reloj y @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missMatch": "",
+      "options": [
+        "Con rapidez, agilidad o precisión",
+        "Con carisma, lealtad o coraje",
+        "Con una acción agresiva, una defensa enérgica, fuerza o resistencia",
+        "Con sigilo, engaños o artimañas",
+        "Usando tus conocimientos, perspicacia u observación"
+      ]
+    },
+    "Face Death": {
+      "name": "Afrontar la muerte",
+      "text": "__Cuando te encuentres en una situación en la que la muerte sea inminente e inevitable__, estás muerto. __En cambio, cuando estés al borde de la muerte pero exista alguna posibilidad de recuperación o salvación__, tira +corazón.\n\nCon un __éxito total__, eres devuelto al mundo de los vivos.\n\nCon un __éxito parcial__, elige una:\n\n  * Mueres, pero no antes de hacer un noble sacrificio. Imagina tus últimos momentos.\n  * Puedes hacer algo más. Imagina qué se te revelará o pedirá a las puertas de la muerte y @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{jura por el hierro} que completarás una búsqueda extrema. Regresas el mundo de los vivos y debes marcar __condenado__. Cuando completes la búsqueda que te condenó, puedes borrar el impacto.\n\nCon un __fallo__, estás muerto.",
+      "trigger": "Cuando estés al borde de la muerte pero exista alguna posibilidad de recuperación o salvación...",
+      "strongHitText": "Con un __éxito total__, eres devuelto al mundo de los vivos.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, elige una:\n\n  * Mueres, pero no antes de hacer un noble sacrificio. Imagina tus últimos momentos.\n  * Puedes hacer algo más. Imagina qué se te revelará o pedirá a las puertas de la muerte y @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Jura por el Hierro} que completarás una búsqueda extrema. Regresas el mundo de los vivos y debes marcar __condenado__. Cuando completes la búsqueda que te condenó, puedes borrar el impacto.",
+      "missText": "Con un __fallo__, estás muerto.",
+      "missMatch": ""
+    },
+    "Face Defeat": {
+      "name": "Afrontar la derrota",
+      "text": "__Cuando abandonas o pierdes tu objetivo__, imagina las consecuencias del fracaso, elimina el objetivo y @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{paga el precio}.\n\nSi el combate continúa, puedes crear un nuevo objetivo y darle un nivel que represente el cambio de situación. Si queda algún objetivo, el combate continúa y te encuentras en mala posición.",
+      "trigger": "Cuando abandonas o pierdes tu objetivo...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Face Desolation": {
+      "name": "Afrontar la desolación",
+      "text": "__Cuando estás al borde de la desolación__, tira +corazón.\n\nCon un __éxito total__, resistes y sigues adelante a pesar de las dificultades.\n\nCon un __éxito parcial__, elige una:\n\n * Te rompes por dentro. Pierdes las ganas de vivir o la cordura, pero no antes de hacer un noble sacrificio. Detalla tus últimos momentos.\n * Tienes una visión en la que se revela cómo sucederá algo terrible. Concreta en qué consiste ese futuro aciago y @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Jura por el Hierro} que lo impedirás. Vuelves a tus cabales y debes marcas __atormentado__. La única forma de eliminar el impacto atormentado es completando la búsqueda.\n\nCon un __fallo__, sucumbes a la desesperación o el horror y te pierdes para siempre.",
+      "trigger": "Cuando estás al borde de la desolación...",
+      "strongHitText": "Con un __éxito total__, resistes y sigues adelante a pesar de las dificultades.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, elige una:\n\n * Te rompes por dentro. Pierdes las ganas de vivir o la cordura, pero no antes de hacer un noble sacrificio. Detalla tus últimos momentos.\n * Tienes una visión en la que se revela cómo sucederá algo terrible. Concreta en qué consiste ese futuro aciago y @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Jura por el Hierro} que lo impedirás. Vuelves a tus cabales y debes marcas __atormentado__. La única forma de eliminar el impacto atormentado es completando la búsqueda.",
+      "missText": "Con un __fallo__, sucumbes a la desesperación o el horror y te pierdes para siempre.",
+      "missMatch": ""
+    },
+    "Finish an Expedition": {
+      "name": "Finalizar una expedición",
+      "text": "__Cuando tu expedición llega a su fin__, tira los dados de desafío y compara el resultado con tu progreso.\n\nCon un __éxito total__, llegas a tu destino y completas tu estudio. Marca la recompensa en el contador de descubrimientos según el nivel de la expedición: problemática=1 marca; peligrosa=2 marcas; formidable=1 casilla; extrema=2 casillas; épica=3 casillas. Los aliados que hayan compartido esta expedición también marcan la recompensa.\n\nCon un __éxito parcial__, como arriba pero debes afrontar una complicación inesperada al final de la expedición. Marca la recompensa como si la expedición hubiera tenido un nivel por debajo del actual y detalla lo que encuentras.\n\nCon un __fallo__, tu destino se pierde o comprendes la verdadera naturaleza o el coste de la expedición. Imagina qué es lo que ocurre y elige una opción:\n\n  * Abandonas la expedición: Detalla el coste de este contratiempo y @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{paga el precio}.\n  * Continuas la expedición: Vuelve a tirar los dados de desafío, quédate con el valor más bajo y elimina ese número de casillas de progreso. Después, eleva en uno el nivel de la expedición (si no es ya épica).",
+      "trigger": "Cuando tu expedición llega a su fin...",
+      "strongHitText": "Con un __éxito total__, llegas a tu destino y completas tu estudio. Marca la recompensa en el contador de descubrimientos según el nivel de la expedición: problemática=1 marca; peligrosa=2 marcas; formidable=1 casilla; extrema=2 casillas; épica=3 casillas. Los aliados que hayan compartido esta expedición también marcan la recompensa.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, llegas a tu destino y completas tu estudio, pero debes afrontar una complicación inesperada al final de la expedición. Marca la recompensa como si la expedición hubiera tenido un nivel por debajo del actual y detalla lo que encuentras.",
+      "missText": "Con un __fallo__, tu destino se pierde o comprendes la verdadera naturaleza o el coste de la expedición. Imagina qué es lo que ocurre y elige una opción:\n\n  * Abandonas la expedición: Detalla el coste de este contratiempo y @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{paga el precio}.\n  * Continuas la expedición: Vuelve a tirar los dados de desafío, quédate con el valor más bajo y elimina ese número de casillas de progreso. Después, eleva en uno el nivel de la expedición (si no es ya épica).",
+      "missMatch": ""
+    },
+    "Finish the Scene": {
+      "name": "Terminar la escena",
+      "text": "__Cuando el reloj de tensión o el registro de progreso del desafío situacional se completa o cuando los eventos desembocan en la conclusión de la escena__, tira el dado de desafío y compáralo con tu progreso.\n\nCon un __éxito total__, consigues tu objetivo sin complicaciones.\n\nCon un __éxito parcial__, tienes éxito pero con un coste. Tienes que @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}. Es un coste pequeño relacionado con el ámbito de la escena.\n\nCon un __fallo__, no lo consigues o te ves afectado por un peligroso o grave giro de los acontecimientos. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagas el precio}.",
+      "trigger": "Cuando el reloj de tensión o el registro de progreso del desafío situacional se completa o cuando los eventos desembocan en la conclusión de la escena...",
+      "strongHitText": "Con un __éxito total__, consigues tu objetivo sin complicaciones.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, tienes éxito pero con un coste. Tienes que @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}. Es un coste pequeño relacionado con el ámbito de la escena.",
+      "missText": "Con un __fallo__, no lo consigues o te ves afectado por un peligroso o grave giro de los acontecimientos. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagas el precio}.",
+      "missMatch": ""
+    },
+    "Forge a Bond": {
+      "name": "Forjar un vínculo",
+      "text": "__Cuando tu relación con un contacto está preparada para evolucionar__, tira los dados de desafío y compara los resultados con tu progreso.\n\nCon un __éxito total__, ahora compartís un vínculo. Marca la recompensa en el contador de vínculos según el nivel del contacto: problemático=1 marca; peligroso=2 marcas; formidable=1 casilla; extremo=2 casillas; épico=3 casillas. Si compartes este contacto con algún aliado, éste también marca la recompensa. Después, elige una:\n\n  * Refuerza su influencia: Cuando te ayude en un movimiento asociado con su rol, añade +2 en lugar de +1.\n  * Amplía su influencia: Dale un segundo rol. Cuando te ayude en un movimiento estrechamente relacionado con cualquiera de sus roles, añade +1 y gana +1 impulso si tienes éxito.\n\nCon un __éxito parcial__, como arriba pero te pedirá algo a cambio primero. Imagina qué podría ser, dáselo (o @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Jura por el Hierro} que se lo darás).\n\nCon un __fallo__, el contacto revela una motivación o unos hechos que rompen la negociación. Si aún así apuestas por la relación, vuelve a tirar los dados de desafío, coge el valor más bajo y elimina ese número de casillas de progreso. Después, aumenta un nivel el contacto (si no es ya épico).",
+      "trigger": "Cuando tu relación con un contacto está preparada para evolucionar...",
+      "strongHitText": "Con un __éxito total__, ahora compartís un vínculo. Marca la recompensa en el contador de vínculos según el nivel del contacto: problemático=1 marca; peligroso=2 marcas; formidable=1 casilla; extremo=2 casillas; épico=3 casillas. Si compartes este contacto con algún aliado, éste también marca la recompensa. Después, elige una:\n\n  * Refuerza su influencia: Cuando te ayude en un movimiento asociado con su rol, añade +2 en lugar de +1.\n  * Amplía su influencia: Dale un segundo rol. Cuando te ayude en un movimiento estrechamente relacionado con cualquiera de sus roles, añade +1 y gana +1 impulso si tienes éxito.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, como arriba pero te pedirá algo a cambio primero. Imagina qué podría ser, dáselo (o @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Jura por el Hierro} que se lo darás).\n\nMarca la recompensa en el contador de vínculos según el nivel del contacto: problemático=1 marca; peligroso=2 marcas; formidable=1 casilla; extremo=2 casillas; épico=3 casillas. Si compartes este contacto con algún aliado, éste también marca la recompensa. Después, elige una:\n\n  * Refuerza su influencia: Cuando te ayude en un movimiento asociado con su rol, añade +2 en lugar de +1.\n  * Amplía su influencia: Dale un segundo rol. Cuando te ayude en un movimiento estrechamente relacionado con cualquiera de sus roles, añade +1 y gana +1 impulso si tienes éxito.",
+      "missText": "Con un __fallo__, el contacto revela una motivación o unos hechos que rompen la negociación. Si aún así apuestas por la relación, vuelve a tirar los dados de desafío, coge el valor más bajo y elimina ese número de casillas de progreso. Después, aumenta un nivel el contacto (si no es ya épico).",
+      "missMatch": ""
+    },
+    "Forsake Your Vow": {
+      "name": "Romper tu Juramento",
+      "text": "__Cuando renuncias a una búsqueda, traicionas tu promesa o tu meta se vuelve inalcanzable__, borra el juramento.\n\nA continuación, imagina el impacto de este fracaso y elige una o varias según la naturaleza del juramento. Cualquier aliado que comparta el juramento puede también imaginar este coste.\n\n  * Estás desmoralizado o desaminado: @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Soportar el estrés}.\n  * Un contacto pierde la confianza: @Compendium[foundry-ironsworn.starforgedmoves.8704c945023355fb]{Poner a prueba una relación} en tu próxima interacción.\n  * Debes abandonar una senda o un recurso: Descarta un recurso.\n  * Alguien más paga el precio: Detalla qué persona, ser o comunidad es afectado por tu fracaso.\n  * Alguien se aprovecha: Detalla qué enemigo gana poder.\n  * Tú reputación sufre: Detalla como este fracaso te marca.",
+      "trigger": "Cuando renuncias a una búsqueda, traicionas tu promesa o tu meta se vuelve inalcanzable...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Fulfill Your Vow": {
+      "name": "Cumplir tu Juramento",
+      "text": "__Cuando crees haber cumplido tu palabra dada en un juramento__, tira los dados de desafío y compáralos con tu progreso.\n\nCon un __éxito total__, has logrado completar tu juramento. Registra la recompensa en tu contador de búsquedas según el nivel del juramento: probelmático=1 marca; peligroso=2 marcas; formidable=1 casilla; extremo=2 casillas; epic=3 casillas. Cualquier aliado que comparta tu juramento, también registra la recompensa.\n\nCon un __éxito parcial__, como arriba, pero aún queda más por hacer o comprendes la auténtica verdad tras tu búsqueda. Si @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Juraste por el Hierro} para hacer lo correcto, registra la recompensa completa. En otro caso, registra la recopensa como si hubiera sido de un nivel inferior.\n\nCon un __fallo__, tú busqueda queda inacabada. Determina qué es lo que ocurre y elige una:\n\n  * Abandonas: @Compendium[foundry-ironsworn.starforgedmoves.449c1e260c941a40]{Romper el juramento}.\n  * Perseveras: Vuelve a tirar los dados de desafío, quédate con el valor más bajo y borra ese número de casillas de tu contador de progreso. Aumenta el nivel de desafío de la búsqueda en uno (si no es ya épico).",
+      "trigger": "Cuando crees haber cumplido tu palabra dada en un juramento...",
+      "strongHitText": "Con un __éxito total__, has logrado completar tu juramento. Registra la recompensa en tu contador de búsquedas según el nivel del juramento: problemático=1 marca; peligroso=2 marcas; formidable=1 casilla; extremo=2 casillas; epic=3 casillas. Cualquier aliado que comparta tu juramento, también registra la recompensa.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, has cumplido tu juramento pero aún queda más por hacer o comprendes la auténtica verdad tras tu búsqueda. Si @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Juraste por el Hierro} para hacer lo correcto, registra la recompensa completa: problemático=1 marca; peligroso=2 marcas; formidable=1 casilla; extremo=2 casillas; épico=3 casillas. En otro caso, registra la recopensa como si hubiera sido de un nivel inferior. Cualquier aliado que comparta tu juramento, también registra la recompensa.",
+      "missText": "Con un __fallo__, tú búsqueda queda inacabada. Determina qué es lo que ocurre y elige una:\n\n  * Abandonas: @Compendium[foundry-ironsworn.starforgedmoves.449c1e260c941a40]{Romper el juramento}.\n  * Perseveras: Vuelve a tirar los dados de desafío, quédate con el valor más bajo y borra ese número de casillas de tu contador de progreso. Aumenta el nivel de desafío de la búsqueda en uno (si no es ya épico).",
+      "missMatch": ""
+    },
+    "Gain Ground": {
+      "name": "Ganar terreno",
+      "text": "__Cuando llevas la iniciativa y actúas en un combate para reforzar tu posición o avazar hacia un objetivo__, visualiza la escena y tira. Si estás...\n\n * En una persecución, huida o maniobra: Tira +filo\n * Entrando en acción con coraje, acudiendo en ayuda de otros, negociando o dándo órdenes: Tira +corazón\n * Utilizando la fuerza para ganar ventaja, imponiéndote o amenazando: Tira +hierro\n * Escondiendote, preparando una emboscada o desviandote: Tira +sombra\n * Coordinando un plan, estudiando la situación o tratando de usar la astucia ganar ventaja: Tira +mente\n\nSi tienes __éxito__, llevas la iniciativa. Con un __éxito total__, elige dos. Con un __éxito parcial__ elige una.\n\n * Registra el progreso\n * Ganas +2 impulso\n * Añades +1 a tu siguiente movimiento (que no sea movimiento de progreso).\n\nCon un __fallo__, tu enemigo gana ventaja, el combate de traslada a otro lugar o te enfrentas a un nuevo peligro. Pasas a estar en mala posición y debes @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}.",
+      "trigger": "Cuando llevas la iniciativa y actúas en un combate para reforzar tu posición o avanzar hacia un objetivo...",
+      "strongHitText": "Con un __éxito total__, llevas la iniciativa. Elige dos.\n\n * Registra el progreso\n * Ganas +2 impulso\n * Añades +1 a tu siguiente movimiento (que no sea movimiento de progreso)",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, llevas la iniciativa. Elige una.\n\n * Registra el progreso\n * Ganas +2 impulso\n * Añades +1 a tu siguiente movimiento (que no sea movimiento de progreso)",
+      "missText": "Con un __fallo__, tu enemigo gana ventaja, el combate se traslada a otro lugar o te enfrentas a un nuevo peligro. Pasas a estar en mala posición y debes @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}.",
+      "missMatch": "",
+      "options": [
+        "En una persecución, huida o maniobra",
+        "Entrando en acción con coraje, acudiendo en ayuda de otros, negociando o dando órdenes",
+        "Utilizando la fuerza para ganar ventaja, imponiéndote o amenazando",
+        "Escondiéndote, preparando una emboscada o desviándote",
+        "Coordinando un plan, estudiando la situación o tratando de astutamente ganar ventaja"
+      ]
+    },
+    "Gather Information": {
+      "name": "Reunir información",
+      "text": "__Cuando buscas pistas, realizas una investigación, analizas evidencias o investigas__, tira +mente.\n\nCon un __éxito total__, descubres algo útil y específico. El camino que debes seguir o lo que debes hacer para progresar queda claro. Imagina qué es lo que descubres. Ganas +2 impulso.\n\nCon un __éxito parcial__, la información proporciona nuevos conocimientos pero también complica tu búsqueda. Imagina qué descubres. Ganas +1 impulso.\n\nCon un __fallo__, tu investigación descubre una amenaza grave o revela una verdad incómoda que compromete tu búsqueda. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "trigger": "Cuando buscas pistas, realizas una investigación, analizas evidencias o investigas...",
+      "strongHitText": "Con un __éxito total__, descubres algo útil y específico. El camino que debes seguir o lo que debes hacer para progresar queda claro. Imagina qué es lo que descubres. Ganas +2 impulso.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, la información proporciona nuevos conocimientos pero también complica tu búsqueda. Imagina qué descubres. Ganas +1 impulso.",
+      "missText": "Con un __fallo__, tu investigación descubre una amenaza grave o revela una verdad incómoda que compromete tu búsqueda. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missMatch": ""
+    },
+    "Heal": {
+      "name": "Curar",
+      "text": "__Cuando recibes cuidados méditos o proporcionas tratamiento__, imagina la situación y tira. Si...\n\n  * Recibes tratamiento de alguien (que no sea un aliado): Tira +hierro\n  * Tratas tus propias heridas: Tira +hierro o +mente, la que sea menor\n  * Recibes tratamiento de un compañero: Tira +corazón\n  * Prestas asistencia: Tira +mente\n\nCon un __éxito total__, el tratamiento funciona. Si tú (o el personaje que tratas) está herido, puedes eliminar dicho impacto y ganar +2 de salud. En otro caso, gana u otorga +3 salud.\n\nCon un __éxito parcial__, como arriba, pero la recuperación te cuesta tiempo y recursos. Elige una: @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Perder impulso} (-2) o @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrificar suministros} (-2).\n\nCon un __fallo__, el tratamiento es ineficaz y la situación empeora. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "trigger": "Cuando recibes cuidados médicos o proporcionas tratamiento...",
+      "strongHitText": "Con un __éxito total__, el tratamiento funciona. Si tú (o el personaje que tratas) está herido, puedes eliminar dicho impacto y ganar +2 salud. En otro caso, gana u otorga +3 salud.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, el tratamiento funciona. Si tú (o el personaje que tratas) está herido, puedes eliminar dicho impacto y ganar +2 de salud. En otro caso, gana u otorga +3 salud.\n\nSin embargo, la recuperación te cuesta tiempo y recursos. Elige una: @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Perder impulso} (-2) o @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrificar suministros} (-2).",
+      "missText": "Con un __fallo__, el tratamiento es ineficaz y la situación empeora. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missMatch": "",
+      "options": [
+        "Recibes tratamiento de alguien (que no sea un aliado)",
+        "Tratas tus propias heridas",
+        "Recibes tratamiento de un compañero",
+        "Prestas asistencia"
+      ]
+    },
+    "Hearten": {
+      "name": "Reconfortarse",
+      "text": "__Cuando socializas, intimas o encuentras un momento de paz__, tira +corazón.\n\nCon un __éxito total__, encuentras compañía o consuelo y tu espíritu se fortalece. Si estas conmocionado, borra dicho impacto. Ganas +1 espíritu. En otro caso, ganas +2 entereza. Si haces este movimiento mientras @Compendium[foundry-ironsworn.starforgedmoves.3de42d2d3cb78855]{pasas tiempo en una comunidad}, ganas +1 adicional.\n\nCon un __éxito parcial__, como arriba, pero todo es fugaz. Detalla una interrupción, complicación o conflicto interno. Luego, @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierde impulso} (-1).\n\nCon un __fallo__, no encuentras consuelo y la situación empeora. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "trigger": "Cuando socializas, intimas o encuentras un momento de paz...",
+      "strongHitText": "Con un __éxito total__, encuentras compañía o consuelo y tu entereza se fortalece. Si estas conmocionado, borra dicho impacto. Ganas +1 entereza. En otro caso, ganas +2 entereza. Si haces este movimiento mientras @Compendium[foundry-ironsworn.starforgedmoves.3de42d2d3cb78855]{pasas tiempo en una comunidad}, ganas +1 adicional.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, encuentras compañía o consuelo y tu entereza se fortalece. Si estas conmocionado, borra dicho impacto. Ganas +1 entereza. En otro caso, ganas +2 entereza. Si haces este movimiento mientras @Compendium[foundry-ironsworn.starforgedmoves.3de42d2d3cb78855]{pasas tiempo en una comunidad}, ganas +1 adicional. Detalla una interrupción, complicación o conflicto interno. Luego, @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierde impulso} (-1).\n\nSin embargo, todo es fugaz. Detalla una interrupción, complicación o conflicto interno. Luego, @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierde impulso} (-1).",
+      "missText": "Con un __fallo__, no encuentras consuelo y la situación empeora. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missMatch": ""
+    },
+    "Lose Momentum": {
+      "name": "Perder impulso",
+      "text": "__Cuando te demoras o estás en desventaja__, pierdes -1 impulso si se trata de un contratiempo menor, -2 en el caso de uno serio o -3 en el caso de un gran contratiempo.\n\nSi tu impulso está en su valor mínimo (-6) y tienes que sufrir una pérdida de impulso, elige una:\n\n * Detalla como vas a pagar el precio y aplica el coste en otro movimiento de sufrimiento diferente.\n * Detalla como esto menoscaba el progreso de tu juramento, expedición, contacto o combate. Entonces, borra progreso en ese contador según su nivel: problemático= 3 casillas; peligroso= 2 casillas; formidable= 1 casilla; extremo= 2 marcas; épico=1 marca.",
+      "trigger": "Cuando te demoras o estás en desventaja...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Make a Connection": {
+      "name": "Establecer un contacto",
+      "text": "__Cuando buscas una nueva relación o te centras en una relacion existente (no un aliado o un compañero)__, tira +corazón.\n\nCon un __éxito total__, creas un contacto. Dale un rol y un nivel. Siempre que tu contacto te ayude en un movimiento estrechamente relacionado con su rol, suma +1 y gana +1 impulso si tienes éxito.\n\nCon un __éxito parcial__, como arriba, pero el contacto acarrea una complicación o un coste. Detalla lo que te revela o lo que te pide.\n\nCon un __fallo__, no haces el contacto y la situación empeora. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "trigger": "Cuando buscas una nueva relación o te centras en una relación existente (no un aliado o un compañero)...",
+      "strongHitText": "Con un __éxito total__, creas un contacto. Dale un rol y un nivel. Siempre que tu contacto te ayude en un movimiento estrechamente relacionado con su rol, suma +1 y gana +1 impulso si tienes éxito.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, creas un contacto pero acarrea una complicación o un coste. Detalla lo que te revela o lo que te pide. \n\nDale un rol y un nivel. Siempre que tu contacto te ayude en un movimiento estrechamente relacionado con su rol, suma +1 y gana +1 impulso si tienes éxito.",
+      "missText": "Con un __fallo__, no haces el contacto y la situación empeora. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missMatch": ""
+    },
+    "Make a Discovery": {
+      "name": "Hacer un descubrimiento",
+      "text": "__Cuando la exploración de un punto de ruta revele algo maravilloso__, tira o elige en la siguiente tabla. A continuación, detalla la naturaleza del descubrimiento y cómo se manifiesta. Cuando interactúes por primera vez con el descubrimiento, tus aliados y tú podéis hacer dos marcas en vuestro contador de descubrimientos.",
+      "trigger": "Cuando la exploración de un punto de ruta revele algo maravilloso...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Overcome Destruction": {
+      "name": "Superar la destrucción",
+      "text": "__Cuando tu vehículo de mando es destruido o se pierde irrevocablemente__, debes descartar el recurso junto con cualquier módulo y vehículo de apoyo acoplado.\n\nSi sobrevives, puedes usar tus contactos para reemplazar parte de lo perdido. Para saber el coste tira los dados y compáralos con el valor de tu contador de vínculos.\n\nCon un __éxito total__, puedes pedir un favor que será realizado sin condiciones.\n\nCon un __éxito parcial__, estás en deuda con alguien. Debes marcar __endeudado__ y @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Jurar por el Hierro} que completarás una búsqueda extrema a este servicio. Cuando la completes, borra el impacto __endeudado__.\n\nCon un __fallo__, como en el caso del éxito parcial, pero la búsqueda va contra tus principios, te fuerza a @Compendium[foundry-ironsworn.starforgedmoves.449c1e260c941a40]{romper tu juramento} en otra búsqueda o te pone al servicio de un enemigo.\n\nSi aceptas el coste, marca 1 de experiencia por cada capacidad marcada en los recursos descartados (mínimo 3 puntos de experiencia). Solo puedes gastar esta experiencia en un nuevo vehículo de mando, módulos o vehículos de apoyo.",
+      "trigger": "Cuando tu vehículo de mando es destruido o se pierde irrevocablemente...",
+      "strongHitText": "Con un __éxito total__, puedes pedir un favor que será realizado sin condiciones.\n\nSi aceptas el coste, marca 1 de experiencia por cada capacidad marcada en los recursos descartados (mínimo 3 puntos de experiencia). Solo puedes gastar esta experiencia en un nuevo vehículo de mando, módulos o vehículos de apoyo.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, estás en deuda con alguien. Debes marcar __endeudado__ y @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{jurar por el hierro} que completarás una búsqueda extrema a este servicio. Cuando la completes, borra el impacto __endeudado__.\n\nSi aceptas el coste, marca 1 de experiencia por cada capacidad marcada en los recursos descartados (mínimo 3 puntos de experiencia). Solo puedes gastar esta experiencia en un nuevo vehículo de mando, módulos o vehículos de apoyo.",
+      "missText": "Con un __fallo__, estás en deuda con alguien. Debes marcar __endeudado__ y @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{jurar por el hierro} que completarás una búsqueda extrema a este servicio. Esta búsqueda va contra tus principios, te fuerza a @Compendium[foundry-ironsworn.starforgedmoves.449c1e260c941a40]{romper tu juramento} en otra búsqueda o te pone al servicio de un enemigo. \n\nCuando la completes, borra el impacto __endeudado__.\n\nSi aceptas el coste, marca 1 de experiencia por cada capacidad marcada en los recursos descartados (mínimo 3 puntos de experiencia). Solo puedes gastar esta experiencia en un nuevo vehículo de mando, módulos o vehículos de apoyo.",
+      "missMatch": ""
+    },
+    "Pay the Price": {
+      "name": "Paga el precio",
+      "text": "__Cuando sufres las consecuencias de una acción__, elige una:\n\n * Haz que suceda el resultado negativo más obvio.\n * @Compendium[foundry-ironsworn.starforgedmoves.bd6278f18bbd6739]{Pregunta al oráculo} para buscar inspiración. Interpreta el resultado como una dificultad o complicación apropiada a la situación.\n * Tira en la siguiente tabla. Si resulta difícil interpretar el resultado para que se ajuste a la situación actual, vuelve a tirar.",
+      "trigger": "Cuando sufres las consecuencias de una acción...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Reach a Milestone": {
+      "name": "Alcanzar un hito",
+      "text": "__Cuando progresas en tu búsqueda__ haciendo cualquiera de las siguientes cosas...\n\n  * superar un obstáculo crítico\n  * conseguir conocimientos relevantes\n  * completar una expedición peligrosa\n  * adquirir un objeto o recurso de crucial importancia\n  * obtener apoyos vitales\n  * derrotar a un enemigo destacable\n\n...marcas tanto progreso como el nivel del juramento.",
+      "trigger": "Cuando progresas en tu búsqueda...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "React Under Fire": {
+      "name": "Actuar en combate",
+      "text": "__Cuando estás en mala posición y actúas para evitar un peligro o superar un obstáculo__, detalla cómo lo haces y tira. Si estás...\n\n  * En una persecución, huyendo, esquivando, recuperando la posición o poniéndote a cubierto: Tira +filo\n  * Manteniéndote firme a pesar del miedo y la tensión: Tira +corazón\n  * Bloqueando, desviando con fuerza o encajando el impacto: Tira +hierro\n  * Escondiéndote o creando una distracción: Tira +sombra\n  * Cambiando de planes, buscando una salida o sorteando algún obstáculo con astucia: Tira +mente\n\nCon un __éxito total__, tienes éxito y ganas la iniciativa. Ganas también +1 impulso.\n\nCon un __éxito parcial__, evitas la mayor parte del daño o superas el obstáculo, pero no sin un coste. Haz un movimiento de sufrimiento (-1). Quedas en mala posición.\n\nCon un __fallo__, la situación empeora. Acabas en mala posición y debes @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}.",
+      "trigger": "Cuando estás en mala posición y actúas para evitar un peligro o superar un obstáculo...",
+      "strongHitText": "Con un __éxito total__, tienes éxito y ganas la iniciativa. Ganas también +1 impulso.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, evitas la mayor parte del daño o superas el obstáculo, pero no sin un coste. Haz un movimiento de sufrimiento (-1). Quedas en mala posición.",
+      "missText": "Con un __fallo__, la situación empeora. Acabas en mala posición y debes @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}.",
+      "missMatch": "",
+      "options": [
+        "En una persecución, huyendo, esquivando, recuperando la posición o poniéndote a cubierto",
+        "Manteniéndote firme a pesar del miedo y la tensión",
+        "Bloqueando, desviando con fuerza o encajando el impacto",
+        "Escondiéndote o creando una distracción",
+        "Cambiando de planes, buscando una salida o sorteando algún obstáculo con astucia"
+      ]
+    },
+    "Repair": {
+      "name": "Reparar",
+      "text": "__Cuando realizas reparaciones a tus vehículos, módulos, compañeros mecánicos u otros dispositivos__, concreta cómo lo vas a hacer y tira. Si vas a...\n\n * Realizar las reparaciones tú mismo o a dirigir a un compañero para que las lleve a cabo: Tira +mente\n * Obtener las reparaciones de otra persona (que no sea un aliado): Tira +suministros\n\nCon un __éxito__, ganas los puntos de reparación que sean acordes a la situación según la tabla de abajo. Además, puedes @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrificar suministros} e intercambiar cada -1 de suministros por 1 punto de reparación adicional (hasta 3 puntos).\n\nSituacion     | Éxito total | Éxito parcial\n--------------|------------|---------\nEn unas instalaciones | 5 puntos   | 3 puntos\nSobre el terreno  | 3 puntos   | 1 puntos\nBajo ataque    | 2 puntos   | 0 puntos\n\nGasta los puntos de reparación de la siguiente manera, descartando aquellos que no se utilicen:\n\n * Eliminar el impacto maltrecho de un vehículo: 2 puntos\n * Arreglar un módulo roto: 2 puntos\n * Ganar +1 integridad en un vehículo: 1 punto\n * Ganar +1 salud para un compañero mecánico: 1 punto\n * Reparar otro dispositivo cualquiera: 3 puntos\n * Reparar otro dispositivo cualquiera pero con un coste o defecto: 2 puntos\n\nCon un __fallo__ no se realizan las reparaciones y empeora la situación. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "trigger": "Cuando realizas reparaciones a tus vehículos, módulos, compañeros mecánicos u otros dispositivos...",
+      "strongHitText": "Con un __éxito total__, ganas los puntos de reparación que sean acordes a la situación según la tabla de abajo.\n\nSituacion     | Éxito total \n--------------|------------\nEn unas instalaciones | 5 puntos\nSobre el terreno  | 3 puntos\nBajo ataque    | 2 puntos\n\nAdemás, puedes @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrificar suministros} e intercambiar cada -1 de suministros por 1 punto de reparación adicional (hasta 3 puntos).\n\nGasta los puntos de reparación de la siguiente manera, descartando aquellos que no se utilicen:\n\n * Eliminar el impacto maltrecho de un vehículo: 2 puntos\n * Arreglar un módulo roto: 2 puntos\n * Ganar +1 integridad en un vehículo: 1 punto\n * Ganar +1 salud para un compañero mecánico: 1 punto\n * Reparar otro dispositivo cualquiera: 3 puntos\n * Reparar otro dispositivo cualquiera pero con un coste o defecto: 2 puntos",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, ganas los puntos de reparación que sean acordes a la situación según la tabla de abajo.\n\nSituacion     | Éxito parcial\n--------------|------------\nEn unas instalaciones  | 3 puntos\nSobre el terreno  1 puntos\nBajo ataque    | 0 puntos\n\nAdemás, puedes @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrificar suministros} e intercambiar cada -1 de suministros por 1 punto de reparación adicional (hasta 3 puntos).\n\nGasta los puntos de reparación de la siguiente manera, descartando aquellos que no se utilicen:\n\n * Eliminar el impacto maltrecho de un vehículo: 2 puntos\n * Arreglar un módulo roto: 2 puntos\n * Ganar +1 integridad en un vehículo: 1 punto\n * Ganar +1 salud para un compañero mecánico: 1 punto\n * Reparar otro dispositivo cualquiera: 3 puntos\n * Reparar otro dispositivo cualquiera pero con un coste o defecto: 2 puntos",
+      "missText": "Con un __fallo__ no se realizan las reparaciones y empeora la situación. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missMatch": "",
+      "options": [
+        "Realizar las reparaciones tú mismo o a dirigir a un compañero para que las lleve a cabo",
+        "Obtener las reparaciones de otra persona (que no sea un aliado)"
+      ]
+    },
+    "Resupply": {
+      "name": "Reabastecerte",
+      "text": "__Cuando intentas mejorar tu preparación__, concreta cómo lo vas a hacer. Si vas a...\n\n * Hacer un trueque o una petición: Tira +corazón\n * Amenazar o arrebatar: Tira +hierro\n * Robar o estafar: Tira +sombra\n * Rebuscar o fabricar: Tira +mente\n\nCon un __éxito total__, elige una.\n\n * Si estás sin suministros, elimina el impacto y ganas +1 suministro. En cualquier otro caso, ganas +2 suministros.\n * Si necesitas un objeto o recurso concreto que sea razonable conseguir, lo consigues. Ganas +1 impulso.\n\nCon un __éxito parcial__, como arriba pero primero deberás lidiar con un coste, complicación o exigencia. Concreta el obstáculo.\n\nCon un __fallo__, te encuentras con un peligro inesperado. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "trigger": "Cuando intentas mejorar tu preparación...",
+      "strongHitText": "Con un __éxito total__, elige una.\n\n * Si estás sin suministros, elimina el impacto y ganas +1 suministro. En cualquier otro caso, ganas +2 suministros.\n * Si necesitas un objeto o recurso concreto que sea razonable conseguir, lo consigues. Ganas +1 impulso.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, como arriba pero primero deberás lidiar con un coste, complicación o exigencia. Concreta el obstáculo.\n\nDespués, elige una.\n\n * Si estás sin suministros, elimina el impacto y ganas +1 suministro. En cualquier otro caso, ganas +2 suministros.\n * Si necesitas un objeto o recurso concreto que sea razonable conseguir, lo consigues. Ganas +1 impulso.",
+      "missText": "Con un __fallo__, te encuentras con un peligro inesperado. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missMatch": "",
+      "options": [
+        "Hacer un trueque o una petición",
+        "Amenazar o arrebatar",
+        "Robar o estafar",
+        "Rebuscar o fabricar"
+      ]
+    },
+    "Sacrifice Resources": {
+      "name": "Sacrificar suministros",
+      "text": "__Cuando pierdas o consumas bienes__, sufres -1 suministros por una pérdida menor, -2 por una pérdida importante o -3 por una pérdida fundamental.\n\nSi tus suministros están agotados (reducidos a 0), marca __sin suministros__. Cuando sufras una pérdida de bienes mientras estés sin suministros, concreta cómo te perjudica y aplica el coste a otro movimiento de sufrimiento diferente.",
+      "trigger": "Cuando pierdas o consumas bienes...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Secure an Advantage": {
+      "name": "Crear una ventaja",
+      "text": "__Cuando evalúas una situación, te preparas o intentas sacar ventaja__, concreta cómo lo vas a hacer y tira. Si actúas...\n\n * Con rapidez, movilidad o agilidad: Tira +filo.\n * Con determinación, liderazgo o carisma: Tira +corazón.\n * Con una acción agresiva, una defensa enérgica, fuerza o resistencia: Tira +hierro.\n * Con sigilo, engaños o artimañas: Tira +sombra.\n * Usando tus conocimientos, perspicacia u observación: Tira + mente.\n\nCon un __éxito__, consigues lo que pretendías. Con un __éxito total__, obtienes ambas. Con un __éxito parcial__, elige una.\n\n * Ganas +2 impulso\n * Añades +1 a tu siguiente movimiento (que no sea de progreso)\n\nCon un __fallo__, fracasas o tus suposiciones son erróneas. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "trigger": "Cuando evalúas una situación, te preparas o intentas sacar ventaja...",
+      "strongHitText": "Con un __éxito total__, consigues lo que pretendías. Ganas +2 impulso. Añades +1 a tu siguiente movimiento (que no sea de progreso).",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, consigues lo que pretendías. Elige una.\n\n * Ganas +2 impulso\n * Añades +1 a tu siguiente movimiento (que no sea de progreso)",
+      "missText": "Con un __fallo__, fracasas o tus suposiciones son erróneas. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missMatch": "",
+      "options": [
+        "Con rapidez, movilidad o agilidad",
+        "Con determinación, liderazgo o carisma",
+        "Con una acción agresiva, una defensa enérgica, fuerza o resistencia",
+        "Con sigilo, engaños o artimañas",
+        "Usando tus conocimientos, perspicacia u observación"
+      ]
+    },
+    "Secure an Advantage (Scene Challenge)": {
+      "name": "Crear una ventaja (Desafío situacional)",
+      "text": "__Cuando evalúas una situación, te preparas o intentas sacar ventaja en un desafío situacional__, concreta cómo lo vas a hacer y tira. Si actúas...\n\n * Con rapidez, movilidad o agilidad: Tira +filo.\n * Con determinación, liderazgo o carisma: Tira +corazón.\n * Con una acción agresiva, una defensa enérgica, fuerza o resistencia: Tira +hierro.\n * Con sigilo, engaños o artimañas: Tira +sombra.\n * Usando tus conocimientos, perspicacia u observación: Tira + mente.\n\nCon un __éxito__, consigues lo que pretendías. Con un __éxito total__, obtienes ambas. Con un __éxito total con una coincidencia__, obtienes ambas y marcas progreso. Con un __éxito parcial__, elige una.\n\n * Ganas +2 impulso\n * Añades +1 a tu siguiente movimiento (que no sea de progreso)\n\nCon un __fallo__, fracasas o tus suposiciones son erróneas. Rellena un sector del reloj y @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}. Con un __fallo con una coincidencia__, rellena dos sectores y @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "trigger": "Cuando evalúas una situación, te preparas o intentas sacar ventaja en un desafío situacional...",
+      "strongHitText": "Con un __éxito total__, consigues lo que pretendías. Ganas +2 impulso y añades +1 a tu siguiente movimiento (que no sea de progreso).\n\nCon una __coincidencia__, obtienes ambas y marcas progreso.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, consigues lo que pretendías. Elige una.\n\n * Ganas +2 impulso\n * Añades +1 a tu siguiente movimiento (que no sea de progreso)",
+      "missText": "Con un __fallo__, fracasas o tus suposiciones son erróneas. Rellena un sector del reloj y @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}. Con una __coincidencia__, rellena dos sectores y @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missMatch": "",
+      "options": [
+        "Con rapidez, movilidad o agilidad",
+        "Con determinación, liderazgo o carisma",
+        "Con una acción agresiva, una defensa enérgica, fuerza o resistencia",
+        "Con sigilo, engaños o artimañas",
+        "Usando tus conocimientos, perspicacia u observación"
+      ]
+    },
+    "Set a Course": {
+      "name": "Fijar un rumbo",
+      "text": "__Cuando sigues una ruta conocida a través del espacio inseguro, terreno peligroso o en un sitio misterioso__, tira +suministros.\n\nCon un __éxito total__, llegas a tu destino y la situación te es favorable. Ganas +1 impulso.\n\nCon un __éxito parcial__, llegas pero tienes que hacer frente a un coste o complicación. Elige una.\n\n * Sufres un percance durante el trayecto: Realiza un movimiento de sufrimiento (-2) o dos movimientos de sufrimiento (-1).\n * Afronta un peligro en tu destino: Concreta qué te encuentras.\n\nCon un __fallo__, te retrasas por una amenaza importante y debes @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}. Si superas este escollo, puedes seguir adelante de forma segura hasta tu destino.",
+      "trigger": "Cuando sigues una ruta conocida a través del espacio inseguro, terreno peligroso o en un sitio misterioso...",
+      "strongHitText": "Con un __éxito total__, llegas a tu destino y la situación te es favorable. Ganas +1 impulso.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, llegas pero tienes que hacer frente a un coste o complicación. Elige una.\n\n * Sufres un percance durante el trayecto: Realiza un movimiento de sufrimiento (-2) o dos movimientos de sufrimiento (-1).\n * Afronta un peligro en tu destino: Concreta qué te encuentras.",
+      "missText": "Con un __fallo__, te retrasas por una amenaza importante y debes @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}. Si superas este escollo, puedes seguir adelante de forma segura hasta tu destino.",
+      "missMatch": ""
+    },
+    "Set a Flag": {
+      "name": "Establecer las medidas de seguridad",
+      "text": "__Cuando identificas las situaciones o temas que no quieres tratar, ver en detalle o que requieran un mayor cuidado al abordarlos___, ese contenido se considera señalado.\n\nCuando aparezca contenido señalado como que hay que abordarlos cuidadosamente, dedica unos instantes a considerar o discutir su papel en vuestra historia. Cuando surja contenido señalado como que hay que ajustar u omitir, @Compendium[foundry-ironsworn.starforgedmoves.aa6aea2e2f5ce064]{Cambia tu destino}.",
+      "trigger": "Cuando identificas las situaciones o temas que no quieres tratar, ver en detalle o que requieran un mayor cuidado al abordarlos...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Sojourn": {
+      "name": "Pasar tiempo en una comunidad",
+      "text": "__Cuando pasas tiempo en una comunidad buscando ayuda__, tira +corazón.\n\nCon un __éxito total__, es un refugio seguro. Tú y cada aliado podéis elegir dos opciones de recuperación: @Compendium[foundry-ironsworn.starforgedmoves.2051538f0c9d5d27]{Curar}, @Compendium[foundry-ironsworn.starforgedmoves.c2c2f31f564caa06]{Reconfortarse}, @Compendium[foundry-ironsworn.starforgedmoves.eece9a67d1961f70]{Reparar}, o @Compendium[foundry-ironsworn.starforgedmoves.703964b8d02355b8]{Reabastecerte}. En lugar de realizar la tirada, se considera que habéis obtenido un éxito total en cada uno. Estos movimientos se pueden elegir más de una vez.\n\nCon un __éxito parcial__, como antes, pero tenéis menos tiempo o los recursos escasean. Tú y cada aliado realizáis una opción de recuperación en lugar de dos, no pudiendo superar los tres movimientos en total para todo el grupo.\n\nCon un __fallo__, elige una.\n\n * La comunidad necesita tu ayuda o te hace una petición muy costosa a cambio del puerto seguro. Establece lo que te podrían pedir. Si lo cumples o @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Juras por el Hierro} que lo cumplirás, resuelve este movimiento como un éxito total.\n * No encuentras ayuda y la situación empeora. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "trigger": "Cuando pasas tiempo en una comunidad buscando ayuda...",
+      "strongHitText": "Con un __éxito total__, es un refugio seguro. Tú y cada aliado podéis elegir dos opciones de recuperación: @Compendium[foundry-ironsworn.starforgedmoves.2051538f0c9d5d27]{Curar}, @Compendium[foundry-ironsworn.starforgedmoves.c2c2f31f564caa06]{Reconfortarse}, @Compendium[foundry-ironsworn.starforgedmoves.eece9a67d1961f70]{Reparar}, o @Compendium[foundry-ironsworn.starforgedmoves.703964b8d02355b8]{Reabastecerte}. En lugar de realizar la tirada, se considera que habéis obtenido un éxito total en cada uno. Estos movimientos se pueden elegir más de una vez.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, como antes, pero tenéis menos tiempo o los recursos escasean. Tú y cada aliado realizáis una opción de recuperación (no pudiendo superar los tres movimientos en total para todo el grupo): @Compendium[foundry-ironsworn.starforgedmoves.2051538f0c9d5d27]{Curar}, @Compendium[foundry-ironsworn.starforgedmoves.c2c2f31f564caa06]{Reconfortarse}, @Compendium[foundry-ironsworn.starforgedmoves.eece9a67d1961f70]{Reparar}, o @Compendium[foundry-ironsworn.starforgedmoves.703964b8d02355b8]{Reabastecerte}. En lugar de realizar la tirada, se considera que habéis obtenido un éxito total en cada uno. Estos movimientos se pueden elegir más de una vez.",
+      "missText": "Con un __fallo__, elige una.\n\n * La comunidad necesita tu ayuda o te hace una petición muy costosa a cambio del puerto seguro. Establece lo que te podrían pedir. Si lo cumples o @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Juras por el Hierro} que lo cumplirás, resuelve este movimiento como un éxito total.\n * No encuentras ayuda y la situación empeora. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missMatch": ""
+    },
+    "Strike": {
+      "name": "Golpear",
+      "text": "__Cuando tienes la iniciativa y atacas a un enemigo cuerpo a cuerpo__, tira +hierro; __cuando atacas a distancia__, tira +filo.\n\nCon un __éxito total__, marcas progreso dos veces. Superas a tu enemigo y conserva la iniciativa.\n\nCon un __éxito parcial__, marcas progreso dos veces pero te expones al peligro. Te encuentras en una mala posición.\n\nCon un __fallo__, el combate se te pone en contra. Te encuentras en una mala posición y tienes que @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}.",
+      "trigger": "Cuando tienes la iniciativa y atacas a un enemigo cuerpo a cuerpo o cuando atacas a distancia...",
+      "strongHitText": "Con un __éxito total__, marcas progreso dos veces. Superas a tu enemigo y conserva la iniciativa.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, marcas progreso dos veces pero te expones al peligro. Te encuentras en una mala posición.",
+      "missText": "Con un __fallo__, el combate se te pone en contra. Te encuentras en una mala posición y tienes que @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}.",
+      "missMatch": "",
+      "options": [
+        "Atacas a un enemigo cuerpo a cuerpo",
+        "Atacas a distancia"
+      ]
+    },
+    "Swear an Iron Vow": {
+      "name": "Jurar por el Hierro",
+      "text": "__Cuando juras por el Hierro que completarás una búsqueda__, escribe tu juramento y asigna a la búsqueda un nivel de desafío. Después, tira +corazón. Si haces este juramento a un contacto, suma +1; si compartes un vínculo, suma +2.\n\nCon un __éxito total__, te embarga el entusiasmo. Está claro lo que debes hacer a continuación. Ganas +2 impulso.\n\nCon un __éxito parcial__, aunque enfrentas el futuro con determinación, comienzas tu búsqueda con más preguntas que respuestas. Ganas +1 impulso. Establece qué es lo que haces para poner en marcha tu búsqueda.\n\nCon un __fallo__, has de enfrentar un obstáculo considerable antes de que puedas comenzar con tu búsqueda. Determina qué es lo que se interpone en tu camino.",
+      "trigger": "Cuando juras por el Hierro que completarás una búsqueda...",
+      "strongHitText": "Con un __éxito total__, te embarga el entusiasmo. Está claro lo que debes hacer a continuación. Ganas +2 de impulso.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, aunque enfrentas el futuro con determinación, comienzas tu búsqueda con más preguntas que respuestas. Ganas +1 impulso. Establece qué es lo que haces para poner en marcha tu búsqueda.",
+      "missText": "Con un __fallo__, has de enfrentar un obstáculo considerable antes de que puedas comenzar con tu búsqueda. Determina qué es lo que se interpone en tu camino.",
+      "missMatch": ""
+    },
+    "Take a Break": {
+      "name": "Tomar un descanso",
+      "text": "__Cuando resolváis un movimiento de progreso o completéis una situación intensa__, respira profundamente varias veces y dedica un tiempo a atender las necesidades de tu cuerpo. Reflexiona sobre lo que acaba de ocurrir y cómo te has sentido. Después, elige una.\n\n * Seguid adelante: La sesión continua. Tú o un aliado podéis añadir +1 al siguiente movimiento (que no sea de progreso), animados por tu reflexión y las experiencias pasadas.\n * Dejarlo aquí: @Compendium[foundry-ironsworn.starforgedmoves.005fa1851e72ab46]{Finalizar la sesión}.",
+      "trigger": "Cuando resolváis un movimiento de progreso o completéis una situación intensa...",
+      "strongHitText": "",
+      "strongHitMatch": "",
+      "weakHitText": "",
+      "missText": "",
+      "missMatch": ""
+    },
+    "Take Decisive Action": {
+      "name": "Llevar a cabo una acción decisiva",
+      "text": "__Cuando te impones a tu objetivo en un combate__, concreta cómo llevas a cabo una acción decisiva. Después, tira el dado de desafío y compáralo con tu progreso.\n\nSi llevas la iniciativa, comprueba el resultado de manera normal. Si te encuentras en una mala posición, un éxito total sin coincidencia cuenta como un éxito parcial, y un éxito parcial como un fallo.\n\nCon un __éxito total__, prevaleces. Ganas +1 impulso. Si quedan objetivos y la pelea continúa, llevas la iniciativa.\n\nCon un __éxito parcial__, logras tu objetivo pero con un coste. Tira en la tabla de abajo o elige uno. Si la pelea continúa, te encuentras en una mala posición.\n\n\nCon un __fallo__, caes derrotado o pierdes tu objetivo. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "trigger": "Cuando te impones a tu objetivo en un combate...",
+      "strongHitText": "Con un __éxito total__, prevaleces. Ganas +1 impulso. Si quedan objetivos y la pelea continúa, llevas la iniciativa.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, logras tu objetivo pero con un coste. Tira en la tabla de abajo o elige uno. Si la pelea continúa, te encuentras en una mala posición.",
+      "missText": "Con un __fallo__, caes derrotado o pierdes tu objetivo. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.",
+      "missMatch": ""
+    },
+    "Test Your Relationship": {
+      "name": "Poner a prueba una relación",
+      "text": "__Cuando las circunstancias, un conflicto o una traición ponen a prueba tu relación con un contacto__, tira +corazón. Si compartes un vínculo, añade +1.\n\nCon un __éxito total__, @Compendium[foundry-ironsworn.starforgedmoves.141aec8b92efd14b]{Desarrolla tu relación}.\n\nCon un __éxito parcial__, @Compendium[foundry-ironsworn.starforgedmoves.141aec8b92efd14b]{Desarrolla tu relación} y además concreta una petición o complicación como consecuencia de esta prueba.\n\nCon un __fallo__, o si no tienes interés en conservar esta relación, elige una.\n\n * Pierdes el contacto: Describe cómo te afecta y @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.\n * Demuestra tu lealtad: Imagina qué le propones o qué exige y @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Jura por el Hierro} (formidable o mayor) que lo llevarás a cabo. Hasta que no completes la búsqueda, no obtendrás los beneficios del contacto. Si te niegas o fallas la búsqueda, pierdes al contacto para siempre.",
+      "trigger": "Cuando las circunstancias, un conflicto o una traición ponen a prueba tu relación con un contacto...",
+      "strongHitText": "Con un __éxito total__, @Compendium[foundry-ironsworn.starforgedmoves.141aec8b92efd14b]{Desarrolla tu relación}.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, @Compendium[foundry-ironsworn.starforgedmoves.141aec8b92efd14b]{Desarrolla tu relación} y además concreta una petición o complicación como consecuencia de esta prueba.",
+      "missText": "Con un __fallo__, o si no tienes interés en conservar esta relación, elige una.\n\n * Pierdes el contacto: Describe cómo te afecta y @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.\n * Demuestra tu lealtad: Imagina qué le propones o qué exige y @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Jura por el Hierro} (formidable o mayor) que lo llevarás a cabo. Hasta que no completes la búsqueda, no obtendrás los beneficios del contacto. Si te niegas o fallas la búsqueda, pierdes al contacto para siempre.",
+      "missMatch": ""
+    },
+    "Undertake an Expedition": {
+      "name": "Viajar",
+      "text": "__Cuando recorres una ruta por el espacio inseguro, viajas por tierras peligrosas o inspeccionas un sitio misterioso__, primero dale un nombre y un nivel de desafío a la expedición. Después, por cada tramo de la expedición, imagina cómo lo abordas. Si tú...\n\n * Fuerzas la marcha: Tira +filo\n * Pasas desapercibido: Tira +sombra\n * Te mantienes alerta: Tira +mente\n\nCon un __éxito total__, llegas a un punto de ruta. Si no conoces el lugar, imagina cómo es y registra el progreso acorde al nivel de la expedición.\n\nCon un __éxito parcial__, como antes pero el progreso tiene un coste. Elige una.\n\n * Sufres un percance durante el trayecto: Realiza un movimiento de sufrimiento (-2) o dos movimientos de sufrimiento (-1).\n * Afronta un peligro en el punto de ruta: Concreta qué te encuentras.\n\nCon un __fallo__, te retrasas por una crisis o cuando llegas al punto de ruta te enfrentas inmediatamente a una adversidad o amenaza. No registras el progreso y @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagas el precio}.",
+      "trigger": "Cuando recorres una ruta por el espacio inseguro, viajas por tierras peligrosas o inspeccionas un sitio misterioso...",
+      "strongHitText": "Con un __éxito total__, llegas a un punto de ruta. Si no conoces el lugar, imagina cómo es y registra el progreso acorde al nivel de la expedición.",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, llegas a un punto de ruta pero el progreso tiene un coste. Si no conoces el lugar, imagina cómo es y registra el progreso acorde al nivel de la expedición y elige una.\n\n * Sufres un percance durante el trayecto: Realiza un movimiento de sufrimiento (-2) o dos movimientos de sufrimiento (-1).\n * Afronta un peligro en el punto de ruta: Concreta qué te encuentras.",
+      "missText": "Con un __fallo__, te retrasas por una crisis o cuando llegas al punto de ruta te enfrentas inmediatamente a una adversidad o amenaza. No registras el progreso y @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagas el precio}.",
+      "missMatch": "",
+      "options": [
+        "Fuerzas la marcha",
+        "Pasas desapercibido",
+        "Te mantienes alerta"
+      ]
+    },
+    "Withstand Damage": {
+      "name": "Resistir los golpes",
+      "text": "__Cuando tu vehículo afronte un entorno o situación dañina__, sufre -1 integridad por un daño menor, -2 por un daño serio o -3 por un daño imporante. Si su integridad es 0, @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{pierdes tanto impulso} como el daño restante.\n\nDespués, si su integridad es 0 o escoges resistir el daño, tira +integridad.\n\nCon un __éxito total__, elige una.\n\n * Derivación: Si tu vehículo no está maltrecho, ganas +1 integridad\n * Tirar para delante: Ganas +1 impulso\n\nCon un __éxito parcial__, si tu vehículo no está maltrecho, puedes @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Perder impulso} (-1) e intercambiarlo por +1 integridad. Por lo demás, sigue adelante.\n\nCon un __fallo__, es peor de lo que pensabas. Sufres un -1 integridad adicional o @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierde impulso} (-2). Si tu intefridad es 0, además, sufres una complicación acorde al tipo de vehículo.\n\n * __Vehículo de mando:__ Marca el vehículo como __maltrecho__ o __maldito__, marca un módulo como __roto__, destruye un módulo roto descartándolo, o tira en la tabla de abajo. Si el vehículo de mando queda destruído, @Compendium[foundry-ironsworn.starforgedmoves.a44ecb0d77487549]{Supera la destrucción}.\n * __Vehículo de apoyo:__ Marca el vehículo como __maltrecho__ o tira en la tabla de abajo. Si el vehículo queda destruído, descarta el recurso.\n * __Vehículo circunstancial:__ Tira en la tabla de abajo.",
+      "trigger": "Cuando tu vehículo afronte un entorno o situación dañina...",
+      "strongHitText": "Con un __éxito total__, elige una.\n\n * Derivación: Si tu vehículo no está maltrecho, ganas +1 integridad\n * Tirar para delante: Ganas +1 impulso",
+      "strongHitMatch": "",
+      "weakHitText": "Con un __éxito parcial__, si tu vehículo no está maltrecho, puedes @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Perder impulso} (-1) e intercambiarlo por +1 integridad. Por lo demás, sigue adelante.",
+      "missText": "Con un __fallo__, es peor de lo que pensabas. Sufres un -1 integridad adicional o @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierde impulso} (-2). Si tu intefridad es 0, además, sufres una complicación acorde al tipo de vehículo.\n\n * __Vehículo de mando:__ Marca el vehículo como __maltrecho__ o __maldito__, marca un módulo como __roto__, destruye un módulo roto descartándolo, o tira en la tabla de abajo. Si el vehículo de mando queda destruído, @Compendium[foundry-ironsworn.starforgedmoves.a44ecb0d77487549]{Supera la destrucción}.\n * __Vehículo de apoyo:__ Marca el vehículo como __maltrecho__ o tira en la tabla de abajo. Si el vehículo queda destruído, descarta el recurso.\n * __Vehículo circunstancial:__ Tira en la tabla de abajo.",
+      "missMatch": ""
+    }
+  }
+}

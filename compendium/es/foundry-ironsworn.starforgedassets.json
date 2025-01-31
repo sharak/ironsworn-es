@@ -1,0 +1,1706 @@
+{
+  "label": "Recursos Starforged",
+  "mapping": {
+    "category": "system.category",
+    "requirement": "system.requirement",
+    "abilities": {
+      "path": "system.abilities",
+      "converter": "arrayConverter"
+    },
+    "fields": {
+      "path": "system.fields",
+      "converter": "arrayConverter"
+    },
+    "track": "system.track.name"
+  },
+  "folders": {
+    "Command Vehicle Assets": "Vehículo de mando",
+    "Companion Assets": "Recursos de Compañeros",
+    "Deed Assets": "Recursos de Hazañas",
+    "Module Assets": "Módulo",
+    "Path Assets": "Senda",
+    "Support Vehicle Assets": "Vehículo de apoyo"
+  },
+  "entries": {
+    "Ace": {
+      "name": "As",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afrontes el peligro} o @Compendium[foundry-ironsworn.starforgedmoves.d9208f9b7d827aec]{Actúes en combate} guiando tu vehículo a través de un peligro o sacándolo de él, suma +1 y con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganas terreno} maniobrando tu vehículo contra un enemigo, suma +1. Si tienes un éxito total con un 4, 5 o 6 en el dado de acción, puedes colocarte en posición de disparo. En tal caso, anota el valor obtenido en el dado de acción y apártalo. Si tú o algún aliado @Compendium[foundry-ironsworn.starforgedmoves.ae5994ceb3cba098]{Golpeais} usando las armas del vehículo podéis usar el valor guardado del dado de acción. Podéis hacer esto mientras obtengais éxito total en este movimiento o hasta que tengáis que cambiar el vehículo de posición.</p>"
+        },
+        {
+          "description": "<p>Cuando tengas que @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Soportar el estrés} mientras pilotas un vehículo, puedes tirar +integridad. En tal caso, con un éxito total ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Archer": {
+      "name": "Arquero",
+      "category": "Senda",
+      "requirement": "<p>Si tienes un arco de energía…</p>",
+      "abilities": [
+        {
+          "description": "<p>Llevas 6 proyectiles. Cuando @Compendium[foundry-ironsworn.starforgedmoves.ae5994ceb3cba098]{Golpeas} o @Compendium[foundry-ironsworn.starforgedmoves.723192c97fec4fe2]{Contratacas} puedes sumar +1 o +2 y perder esa cantidad de proyectiles. Para reponer tus proyectiles, tira +mente. Con un éxito total, recuperas tus 6 proyectiles. Con un éxito parcial, ganas hasta +4 proyectiles y @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrifica suministros} (-1). Con un fallo @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrifica suministros} (-1).</p>"
+        },
+        {
+          "description": "<p>Puedes @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entrar en liza} soltando una andanada de proyectiles. En tal caso, tira +proyectiles y pierde -1 proyectil. Si tienes éxito, marca progreso.</p>"
+        },
+        {
+          "description": "<p>Cuando cargas un proyectil especializado como una tirolina, un explosivo o un disruptor electromagnético, pierdes -1 proyectil. Si luego realizas tu disparo haciendo un movimiento puedes preestablecer tu dado de acción a 5. Con un éxito detalla los efectos y ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Proyectiles"
+    },
+    "Armored": {
+      "name": "Blindado",
+      "category": "Senda",
+      "requirement": "<p>Si portas tu exquisitamente elaborado conjunto de armadura personal…</p>",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{afrontes el peligro}, @Compendium[foundry-ironsworn.starforgedmoves.d9208f9b7d827aec]{actúes en combate} o @Compendium[foundry-ironsworn.starforgedmoves.723192c97fec4fe2]{contraataques} frente ataques físicos o impactos, puedes confiar en la solidez de tu armadura. En tal caso, establece tu dado de acción como un 4. Con un éxito total con una coincidencia, ganas +2 impulso al ganar confiaza, impresionar a tus enemigos o mejorar tu posición.</p>"
+        },
+        {
+          "description": "<p>Añades una pieza importante nueva a tu conjunto de armadura o mejoras sus materiales. Como arriba pero tu dado de acción se establece en 5 en vez de 4.</p>"
+        },
+        {
+          "description": "<p>Cuando tienes que @Compendium[foundry-ironsworn.starforgedmoves.905205c073b09eac]{soportar el daño}, en su lugar puedes hacer que tu armadura reciba el golpe. En tal caso, tira tu dado de acción. Con 4 o más, ignoras el daño. Si sacas entre 1 y 3, ignoras el daño pero tu armadura está rota; tienes que @Compendium[foundry-ironsworn.starforgedmoves.eece9a67d1961f70]{repararla} y gastar 5 puntos de reparación para poder usarla de nuevo.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Artist": {
+      "name": "Artista",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando realizas un movimiento para crear una obra de arte, mostrar tus dotes artísticas o dejar tu seña artística en un objeto o localización, puedes volver a tirar el dado de acción si su resultado es inferior a tu entereza. Con un éxito total, ganas +1 impulso o +1 entereza.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.13b2d777c6fb719d]{reúnas información} o @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{crees una ventaja} analizando la estética de un ser o cultura, añade +2.</p>"
+        },
+        {
+          "description": "<p>Cuando creas o representas un obra de arte importante para una ceremonia pública o tributo, tira +la característica que más encaje. Con un éxito total, la obra resistirá el paso del tiempo; registra 2 marcas en tu contador de vínculos. Con un éxito parcial, su repercusión es efímera; avanza 1 marca en vez de 2. Con un fallo, la obra se pasa por alto, no se entiende o la plagian y debes @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Augmented": {
+      "name": "Implantado",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Estás equipado con una prótesis, implante o mejora mecánica avanzada. Cuando realizas un movimiento en el que tu implante te ayuda directamente, concreta cómo te otorga capacidades excepcionales y suma +1. Con un éxito total con una coincidencia, tu implante sobrepasa las expectativas y ganas +2 impulso. Con un fallo con una coincidencia, el implante se rompe. Tienes que @Compendium[foundry-ironsworn.starforgedmoves.eece9a67d1961f70]{repararlo} y gastar 3 puntos de reparación para poder usarlo de nuevo.</p>"
+        },
+        {
+          "description": "<p>Posees un segundo implante. Funciona como arriba, pero los beneficios de dos implantes no se suman.</p>"
+        },
+        {
+          "description": "<p>Cuando tienes que @Compendium[foundry-ironsworn.starforgedmoves.905205c073b09eac]{Soportar el daño} o Compendium[foundry-ironsworn.starforgedmoves.0cfcd6fbaf6135d0]{Afrontar la muerte}, en su lugar puedes marcar el implante como roto. @Compendium[foundry-ironsworn.starforgedmoves.eece9a67d1961f70]{Repáralo} tal y como se describe arriba.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Uno"
+        },
+        {
+          "name": "Dos"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Bannersworn": {
+      "name": "Vasallaje",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tienes un vínculo con un clan, facción o credo. Cuando @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Juras por el Hierro} al servicio de esta ideología, puedes volver a tirar cualquier dado. Con un éxito, registra 1 marca en tu contador de vínculos.</p>"
+        },
+        {
+          "description": "<p>Cuando un aliado o tú @Compendium[foundry-ironsworn.starforgedmoves.3de42d2d3cb78855]{Pasáis tiempo en una comunidad} y obtenéis un éxito total con una coincidencia, puedes concretar cómo conocéis a alguien de tu misma ideología. Si @Compendium[foundry-ironsworn.starforgedmoves.05909d6310d209a6]{Estableces un contacto} con él y obtienes un éxito, registra 1 marca en tu contador de vínculos. Cuando @Compendium[foundry-ironsworn.starforgedmoves.287bb4c2b53ea847]{Forjes un vínculo} con alguien de tu ideología, obtienes la recompensa del legado como si fuese un nivel más alto (1 casilla extra si ya era épico).</p>"
+        },
+        {
+          "description": "<p>Cuando realizas un movimiento de progreso al servicio directo de tu ideología, puedes volver a tirar un dado de desafío. Si obtienes un éxito total con una coincidencia, aumenta tu reputación frente aquellos con los que compartes ideología. Registra 1 marca en tu contador de vínculos.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Ideología"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Banshee": {
+      "name": "Aullido",
+      "category": "Compañero",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu compañero aullido te acompaña en las misiones planetarias, utilizando su ecolocalización como ayuda para indicar el camino. Cuando montas a tu aullido al @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Iniciar una expedición} o @Compendium[foundry-ironsworn.starforgedmoves.ed490d43a2533506]{Fijar un rumbo}, puedes tirar +su salud.</p>"
+        },
+        {
+          "description": "<p>Cuando realizas un movimiento montado sobre tu aullido para detectar una amenaza o para evitar una pelea, suma +1 y con un éxito ganas +1 impulso. Con un éxito total con una coincidencia, desapareces en un abrir y cerrar de ojos. Ganas otro +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando realizas un movimiento de combate y obtienes un 1 en tu dado de acción, el aullido siente el peligro y emite un poderoso chillido de advertencia que te avisa y distrae a tus enemigos. Puedes volver a tirar cualquier dado.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Blademaster": {
+      "name": "Maestro de espadas",
+      "category": "Senda",
+      "requirement": "<p>Si portas un arma de filo…</p>",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.723192c97fec4fe2]{Contraataques} o @Compendium[foundry-ironsworn.starforgedmoves.ae5994ceb3cba098]{Golpees} cuerpo a cuerpo, suma +1. Con un éxito total con una coincidencia, eres imparable, marca progreso.</p>"
+        },
+        {
+          "description": "<p>Si @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganas terreno} cuando te acercas al cuerpo a cuerpo con tu enemigo, elige tu enfoque.</p>\n<ul>\n<li>Cargas: Tira +corazón, y marcas progreso con un éxito.</li>\n<li>Evades: Tira +filo, y ganas +1 impulso con un éxito.</li>\n</ul>"
+        },
+        {
+          "description": "<p>Portas una espada legendaria. Dale un nombre. Cuando @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Juras por el Hierro} ligando tu promesa a la espada, suma +1. Con un éxito, rellena la casilla de abajo. Si realizas un movimiento (incluyendo un movimiento de progreso) utilizando esta espada jurada y sacas un fallo, puedes borrar la casilla y volver a tirar cualquier dado.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Bonded": {
+      "name": "Fuertes Vínculos",
+      "category": "Hazaña",
+      "requirement": "<p>Solo una vez, cuando @Compendium[foundry-ironsworn.starforgedmoves.287bb4c2b53ea847]{Forjes un Vínculo} con un individuo especial…</p>",
+      "abilities": [
+        {
+          "description": "<p>Esta persona es tu amigo-vinculado. Cuando @Compendium[foundry-ironsworn.starforgedmoves.3de42d2d3cb78855]{Pases tiempo en una comunidad} en su casa, @Compendium[foundry-ironsworn.starforgedmoves.c2c2f31f564caa06]{te reconfortes} en su presencia, @Compendium[foundry-ironsworn.starforgedmoves.8704c945023355fb]{Pongas a prueba una relación} o @Compendium[foundry-ironsworn.starforgedmoves.141aec8b92efd14b]{Desarrolles tu relación} con él, vuelve a tirar cualquier dado. Con un éxito total, ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.ed490d43a2533506]{Fijes un rumbo} de vuelta a la localización de tu amigo-vinculado, añade +corazón. Con un éxito total con una coincidencia, concreta una reunión especial y registra 2 marcas en tu contador de vínculos.</p>"
+        },
+        {
+          "description": "<p>Cuando realizas un movimiento en un momento crucial y obtienes un fallo, puedes aferrarte a los pensamientos de tu amigo-vinculado para que te apoye. En tal caso, vuelves a tirar cualquier dado. Si vuelves a fallar, además del resultado del movimiento, tienes que marcar conmocionado o traumatizado. Si ambas debilidades ya están marcadas, @Compendium[foundry-ironsworn.starforgedmoves.ff17e67a59539df4]{Afronta la desolación}.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Amigo-vinculado"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Bounty Hunter": {
+      "name": "Cazarrecompensas",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando aceptas un contrato de recompensa y @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Juras por el Hierro} que lo completarás, suma +1. Con un éxito total, tienes una pista sólida y marcas progreso en la búsqueda. Cuando @Compendium[foundry-ironsworn.starforgedmoves.985a5415860a99e9]{Cumples un Juramento} de caza, la recompensa del legado es un nivel más alto (1 casilla adicional si ya era épico).</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.13b2d777c6fb719d]{Reúnes información} sobre una recompensa, suma +1. Con una coincidencia, revelas un aspecto inesperado o siniestro del contrato. Concreta qué has descubierto y escoge una.</p>\n<ul>\n<li>Sigues adelante: Marcas progreso en la búsqueda. Si obtuviste un éxito total con una coincidencia, además ganas +2 impulso.</li>\n<li>Cambias tus lealtades: @Compendium[foundry-ironsworn.starforgedmoves.449c1e260c941a40]{Rompes tu Juramento} y registras 2 marcas en tu contador de vínculos.</li>\n</ul>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.3129f4caa4754caf]{Llevas a cabo una acción decisiva} en una pelea contra tu recompensa o sus agentes, puedes volver a tirar un dado de desafío.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Brawler": {
+      "name": "Matón",
+      "category": "Senda",
+      "requirement": "<p>Si estás luchando sin armas o con un arma de combate cuerpo a cuerpo…</p>",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganas terreno} tratando de desarmar, proyectar, empujar, agarrar o aturdir a tu enemigo, suma +1 y con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.723192c97fec4fe2]{Contraatacas} en cuerpo a cuerpo, puedes recurrir a tu impulso para ganar ventaja. En tal caso, @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-2) y escoge una (antes de tirar).</p>\n<ul>\n<li>Agresivo: El éxito parcial se considera un éxito total.</li>\n<li>Defensivo: El fallo se considera un éxito parcial.</li>\n</ul>"
+        },
+        {
+          "description": "<p>Si @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entras en liza} cuando ya estás posicionado al cuerpo a cuerpo con tu enemigo, con un éxito marcas progreso. Con un éxito total con una coincidencia, tu ataque inicial lo deja aturdido y ganas +2 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Combat Bot": {
+      "name": "Robot de combate",
+      "category": "Compañero",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu compañero robot de combate lucha junto a ti. Cuando @Compendium[foundry-ironsworn.starforgedmoves.ae5994ceb3cba098]{Golpeas} ayudado por el robot, suma +1. Si @Compendium[foundry-ironsworn.starforgedmoves.723192c97fec4fe2]{Contraatacas}, con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando amenazas con usar la violencia para @Compendium[foundry-ironsworn.starforgedmoves.9f538fabf8998c5b]{Persuadir} o @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganar terreno} mientras el robot muestra las armas que podría utilizar, puedes tirar con +su salud. En tal caso, con un éxito ganas +1 impulso. Con un éxito total con una coincidencia, el robor se muestra especialmente persuasivo y ganas otro +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Una vez por combate, cuando @Compendium[foundry-ironsworn.starforgedmoves.d9208f9b7d827aec]{Actúas en combate} utilizando al robot para atreaer los disparos o creando una distracción, tira +su salud. Con un éxito total, marca progreso. Con un éxito parcial, afronta las consecuencias como siempre, pero llevas la iniciativa.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Courier": {
+      "name": "Mensajero",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Juras por el Hierro} que transportarás y protegerás algo valioso, establece su seguridad en 5. Cuando @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Inicias una expedición} o @Compendium[foundry-ironsworn.starforgedmoves.ed490d43a2533506]{Fijas un rumbo} y obtienes un éxito parcial o un fallo, puedes sufrir -1 seguridad como consecuencia. Con un fallo con una coincidencia, sufres -2 seguridad como consecuencia. Si la seguridad llega a 0, concreta una consecuencia grave relacionada con la misión. Si superas la amenaza, marca progreso dos veces en la búsqueda. Después, establece la seguridad en 3.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.985a5415860a99e9]{Cumples tu juramento} al completar la misión de mensajero con un contacto sin vínculo, marca progreso dos veces en la relación.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.3de42d2d3cb78855]{Pasas tiempo en una comunidad} durante una misión de mensajero, puedes tirar +seguridad. Con un éxito total, ganas +1 seguridad o +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Seguridad"
+    },
+    "Demolitionist": {
+      "name": "Experto en demoliciones",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando realizas un movimiento para atacar, destruir o sabotear algo mediante la colocación o activación de un dispositivo explosivo, escoge el valor de tu carga antes de tirar: normal=1, alta=2 o sobrecarga=3. Si cualquiera de los dados de desafío es igual o menor a la carga, los éxitos parciales se consideran éxitos totales. Si no es el caso y tu dado de acción es igual o menor a la carga, quedas atrapado en la destrucción o desencadenas un efecto inesperado. Los éxitos parciales se consideran un fallo.</p>"
+        },
+        {
+          "description": "<p>Cuando realices un movimiento para crear, modificar o desactivar un dispositivo explosivo; o si amenazas con o provocas la activación de un dispositivo explosivo, suma +1 y con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando tu impulso está al máximo, puedes restablecer tu impulso (antes de tirar) para activar un dispositivo explosivo cuando @Compendium[foundry-ironsworn.starforgedmoves.3129f4caa4754caf]{Llevas a cabo una acción decisiva}. En tal caso, puedes volver a tirar cualquier dado de desafío.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Devotant": {
+      "name": "Devoto",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Adoras a un dios, poder o entidad. Dale un nombre y elige una de tus características para representar su naturaleza. Cuando @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Creas una ventaja} o @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganas terreno} acudiendo a él para que te guíe o ayude, tira +característica relacionada. Con un éxito, ganas +1 impulso o +1 entereza. Con un éxito total con una coincidencia, se manifiesta un milagro o señal. Ganas otro +1 impulso o +1 entereza.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Juras por el Hierro} al servicio de tu fe, tira +característica relacionada. Con un éxito ganas +2 impulso o +2 entereza. Cuando @Compendium[foundry-ironsworn.starforgedmoves.985a5415860a99e9]{Cumples tu juramento} en una búsqueda divina (formidable o mayor) y obtienes un éxito, también registras 2 marcas en tu contador de vínculos.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.c2c2f31f564caa06]{Te reconfortas} mediante la meditación o compartiendo tu fe, puedes tirar +característica relacionada. En tal caso, con un éxito total ganas +1 impulso o +1 entereza.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Diplomat": {
+      "name": "Diplomático",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Juras por el Hierro} que resolverás una disputa, negociarás un acuerdo u obtendrás apoyos, suma +1. Con un éxito total, marca progreso en la búsqueda. Cuando @Compendium[foundry-ironsworn.starforgedmoves.985a5415860a99e9]{Cumplas tu juramento} para una misión diplomática (formidable o mayor) y obtengas un éxito, también registras 2 marcas en tu contador de vínculos.</p>"
+        },
+        {
+          "description": "<p>Cuando realices un movimiento para calmar, razonar o negociar, sumas +1. Con un fallo, puedes abordar una estrategia distinta. Concreta este nuevo enfoque, vuelve a tirar todos los dados y suma +2. Si vuelves a obtener un fallo, afronta una complicación grave o pierde tu reputación cuando @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagues el precio}.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.05909d6310d209a6]{Establezcas un contacto} o @Compendium[foundry-ironsworn.starforgedmoves.3de42d2d3cb78855]{Pases tiempo en una comunidad}, suma +1. Si @Compendium[foundry-ironsworn.starforgedmoves.3de42d2d3cb78855]{Pasas tiempo en una comunidad} y obtienes un éxito total con una coincidencia, te mostrarán gran respeto o amabilidad; ganas +2 impulso o un movimiento de recuperación adicional con un éxito total automático.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Empath": {
+      "name": "Empático",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando interpretes las intenciones, emociones o recuerdos de un ser cercano, tira +corazón. Con un éxito total, vislumbras un aspecto útil de su yo interno. Concreta qué has aprendido, ganas +1 impulso y sumas +1 cuando realices movimientos para interactuar con él durante esta escena. Con un éxito parcial, las visiones son confusas. Ganas +1 impulso. Con un fallo, revelas una motivación preocupante o un secreto. @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Paga el precio}.</p>"
+        },
+        {
+          "description": "<p>Como arriba, y si obtienes un éxito al interpretarlo, puedes influir sutilmente en su actitud o acciones, por ejemplo, haciendo que alguien hostil dude. Ganas otro +1 impulso. Si estás en un combate, marca progreso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afrontes el peligro} para calmar la angustia de un ser creando un vínculo empático, tira +entereza y con un éxito ganas +1 impulso. Si es un aliado, con un éxito también gana +2 entereza.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Engine Upgrade": {
+      "name": "Motor mejorado",
+      "category": "Módulo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Los motores finamente ajustados de tu vehículo, hacen tus viajes más rápidos. Cuando @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Inicies una expedición} (+filo) y obtengas un éxito total, ganas +1 impulso. Si además sacaste un 6 en el dado de acción, ganas +2 impulso en vez de +1.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entres en liza}, elige una (antes de tirar).</p>\n<ul>\n<li>Maniobra: Suma +1 y con un éxito total ganas +1 impulso.</li>\n<li>Propulsión: Con un éxito ganas +2 impulso.</li>\n</ul>"
+        },
+        {
+          "description": "<p>Cuando efectúas un movimiento desesperado para perseguir a un enemigo, escapar de una amenaza o ponerte dentro del alcance, puedes forzar tus motores al límite. Si lo haces puedes decidirlo después de tirar), vuelve a tirar cualquier dado y considera los éxitos parciales como éxitos totales. Luego, @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Resiste los golpes} (-2).</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Exosuit": {
+      "name": "Exotraje",
+      "category": "Vehículo de apoyo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu robusta armadura aloja a un único piloto, está sellada frente entornos hostiles y está posee armas fijas o portátiles. Cuando realices un movimiento enérgico, dañino o resistente, puedes (después de tirar) reemplazar el valor de tu dado de acción con la integridad del exotraje. En tal caso, @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-1).</p>"
+        },
+        {
+          "description": "<p>Tu exotraje está equipado con impulsores. Puedes maniobrar en gravedad cero, realizar saltos asistidos por los impulsores y caer a la superficie desde una gran altura. Cuando quemes combustible para superar un obstáculo crítico (puedes decidirlo después de tirar), puedes volver a tirar cualquier dado. En tal caso, @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrificas suministros} (-1).</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Resistas los golpes}, puedes volver a tirar un dado de desafío.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Integridad"
+    },
+    "Expanded Hold": {
+      "name": "Bodegas ampliadas",
+      "category": "Módulo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu vehículo puede transportar hasta 3 de carga. Cuando ganas +suministros, puedes convertirlos en +carga. Cuando realices un movimiento +suministros, puedes añadir +carga. Cuando @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrifiques suministros}, en su lugar puedes sufrir -carga para cualquier cantidad del coste.</p>"
+        },
+        {
+          "description": "<p>Cuando obtienes un fallo o éxito parcial mientras realizas un movimiento para llevar a cabo un intercambio o negociación y tienes al menos 1 de carga, puedes mejorar la oferta. En tal caso, vuelve a tirar todos los dados y añade +carga. Luego, sufres -1 carga.</p>"
+        },
+        {
+          "description": "<p>Cuando realices un movimiento para huir de una amenaza y tengas al menos 1 de carga, puedes aligerar el peso dejando caer parte de la carga. En tal caso, sufres tanta -carga como la cantidad lanzada y añades +esa cantidad. Con un éxito ganas +2 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Carga"
+    },
+    "Explorer": {
+      "name": "Explorador",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Explores un punto de ruta}, con un éxito ganas +1 impulso. Cuando @Compendium[foundry-ironsworn.starforgedmoves.edac426b7c23f060]{Finalices una expedición} y obtengas un éxito, registra 1 marca adicional en tu contador de descubrimientos.</p>"
+        },
+        {
+          "description": "<p>Cuando te topes con un espectáculo o fenómeno maravilloso, como puede ser un planeta fuera de lo común, una criatura majestuosa o un deslumbrante objeto estelar; elige una:</p>\n<ul>\n<li>Encontrar la inspiración: Ganas +1 impulso</li>\n<li>Empaparse de todo: @Compendium[foundry-ironsworn.starforgedmoves.c2c2f31f564caa06]{Reconfortarse}; suma +1 y con un éxito ganas +1 impulso.</li>\n</ul>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Crees una ventaja} mediante el estudio de un lugar recién descubierto desde una posición segura, suma +1 y con un éxito ganas +1 impulso. Con un éxito total con una coincidencia, ganas otro +1 impulso y puedes imaginar un aspecto inusual del lugar.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Fated": {
+      "name": "Predestinado",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando completes una casilla en el contador de progreso de tu juramento de trasfondo haz también una marca en el contador de búsquedas. Cuando @Compendium[foundry-ironsworn.starforgedmoves.985a5415860a99e9]{Cumplas tu juramento} de trasfondo, tu destino está en tus manos; automáticamente tienes un éxito total. Describe el sacrificio final que pone fin a tu historia.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.0cfcd6fbaf6135d0]{Afrontes la muerte} o @Compendium[foundry-ironsworn.starforgedmoves.ff17e67a59539df4]{Afrontes la desolación} mientras tu juramento de trasfondo no está completo; no te ha llegado la hora. En lugar de tirar puedes obtener automáticamente un éxito total. Si lo haces, este recurso se considera un impacto (y no te ofrecerá su protección) hasta que @Compendium[foundry-ironsworn.starforgedmoves.0d7f13818c1c19ed]{Alcances un hito} en tu juramento de trasfondo.</p>"
+        },
+        {
+          "description": "<p>Cuando hagas cualquier movimiento de progreso directamente relacionado con tu juramento de trasfondo y saques un 10 en cualquiera de los dados de desafío, puedes volver a tirar ese dado. Con un éxito total, ganas +2 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Firebrand": {
+      "name": "Ígneo",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Posees una energia ardiente. Cuando te concentras para reunir esta energía, tira +entereza. Con un éxito total, ganas +3 fuego. Con un éxito parcial, ganas +2 fuego. Con un fallo, ganas +2 fuego pero tienes que @Compendium[foundry-ironsworn.starforgedmoves.905205c073b09eac]{Soportar el daño} (-2). Tu fuego máximo es +5. Cuando efectúes movimientos ayudado por esta energía para atacar o superar obstáculos, suma +2 y pierde -1 de fuego.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.905205c073b09eac]{Soportas el daño} y obtienes un éxito total con una coincidencia, puedes ignorar el daño y ganar +fuego igual al daño recibido (+1, +2 o +3) en lugar de resolver el movimiento original.</p>"
+        },
+        {
+          "description": "<p>Cuando tienes al menos +3 fuego, puedes @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganar terreno} o @Compendium[foundry-ironsworn.starforgedmoves.ae5994ceb3cba098]{Golpear} desatando el infierno. En tal caso, obtienes un éxito total automáticamente y marcas progreso. Después, pon tu fuego a 0.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Fuego"
+    },
+    "Fugitive": {
+      "name": "Fugitivo",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Te persigue un poder o autoridad. Cuando realices un movimiento puedes mejorar el resultado a éxito total. Si lo haces, avanza un segmento de un reloj de cuatro segmentos que representa a los cazadores acercándose. Cuando el reloj se completa, un enemigo o fuerza notable te ha seguido la pista. Si los vences o escapas, reinicia el reloj y haz una marca en tu contador de búsquedas.</p>"
+        },
+        {
+          "description": "<p>Cuando realizas un movimiento escondiéndote, ocultando tu identidad o huyendo de un perseguidor, suma +1 y con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.985a5415860a99e9]{cumples un juramento} (extremo o superior) limpiando tu nombre o derrotando al poder o autoridad que te hizo ser un fugitivo obtienes esta capacidad sin coste alguno. A continuación puedes cambiar este recurso por otro con el mismo número de capacidades marcadas.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Gearhead": {
+      "name": "Manitas",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando realices un movimiento para crear, reparar, readaptar o modificar el equipo o dispositivo tecnológico, suma +1 y con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.13b2d777c6fb719d]{Reúnas información} estudiando o desmontando una máquina o dispositivo, puedes volver a tirar cualquier dado. Con un éxito, revelas una función, capacidad o peligo inesperado. Registra 1 marca en tu contador de descubrimientos.</p>"
+        },
+        {
+          "description": "<p>Si dispones del tiempo suficiente (un par de horas o más), puedes @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Crear una ventaja} y montar o mejorar un dispositivo para que cumpla un función de manera muy eficaz pero limitada. Con un éxito, el dispositivo está listo para su uso. Una sola vez, cuando tú o un aliado realizáis un movimiento ayudados por el dispositivo, este movimiento obtiene un éxito total automáticamente. Si estabas en un combate, también marcas progreso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Glowcat": {
+      "name": "Felilúmina",
+      "category": "Compañero",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu compañero felilúmina percibe las emocioes e intenciones internas de las personas y criaturas que le rodéan y plasma esas sensaciones mediante distintos colores e intensidades en su pelaje luminoso. Cuando @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Creas una ventaja} mediante el estudio de las reacciones del felilúmina durante una interacción tensa, añade +su salud.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.9f538fabf8998c5b]{Persuades}, la reacción del felilúmina te ayuda en cómo abordar la situación. Puedes volver a tirar el dado de acción si su valor es menor que la salud del felilúmina.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Soportes el estrés} en compañía del felilúmina, suma +1. Con un éxito total con una coincidencia, ganas +impulso igual a su salud.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Grappler": {
+      "name": "Arpón magnético",
+      "category": "Módulo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu arpón magnético puede intereferir en los sistemas y atrapar máquinas o vehículos gracias a su cable magnético. Cuando dedicas un minuto aproximadamente a preparar el arpón magnético, tira +integridad o +mente. Con un éxito total, el arpón magnético está cargado y listo para disparar. Con un éxito parcial, la recarga requiere algo más de tiempo o atención. @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-1). Con un fallo, la recarga falla y tienes que @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Resistir los golpes} (-2). Si realizas un movimiento para atacar a un enemigo o sobreponerte a una complicación disparando el arpón magnético, obtienes un éxito total automáticamente.</p>"
+        },
+        {
+          "description": "<p>Si obtienes un éxito total cuando preparas el arpón magnético, puedes @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrificar suministros} (-1) para sobrecargar el módulo. Cuando disparas el arpón magnético sobrecargado, ganas +2 impulso. Si estás en combate, también marcas progreso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.3129f4caa4754caf]{Llevas a cabo una acción decisiva} disparando el arpón magnético, puedes volver a tirar un dado de desafío.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Gunner": {
+      "name": "Artillero",
+      "category": "Senda",
+      "requirement": "<p>Si empuñas un arma personal pesada de largo alcance…</p>",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.ae5994ceb3cba098]{Golpeas}, elige una (antes de tirar).</p>\n<ul>\n<li>Mantenerlos a raya: Suma +1 y con un éxito ganas +1 impulso.</li>\n<li>Hacerles sufrir: Con un éxito, marca progreso.</li>\n</ul>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.3129f4caa4754caf]{Llevas a cabo una acción decisiva} al vaciar el cargador del arma, puedes @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrificar suministros} (-1) y volver a tirar un dado de desafío (elige antes de tirarlo). Si el combate prosigue o te ves envuelto en otro combate, @Compendium[foundry-ironsworn.starforgedmoves.8d9830fb825057b0]{Comprueba el equipo} para ver si tienes más munición disponible.</p>"
+        },
+        {
+          "description": "<p>Dale un nombre a tu arma favorita. Cuando @Compendium[foundry-ironsworn.starforgedmoves.723192c97fec4fe2]{Contraataques} con ella, suma +1. Cuando @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entres en liza} o @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Soportes el estrés} mientras la utilizas, suma +1 y con un éxito ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Gunslinger": {
+      "name": "Pistolero",
+      "category": "Senda",
+      "requirement": "<p>Si empuñas una pistola…</p>",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entras en liza} enfrentándote cara a cara a tu enemigo (+corazón) o preparándote para actuar sin alertarlo (+sombra), suma +1 y con un éxito ganas +1 impulso. Con un éxito total con una coincidencia, puedes realizar un disparo inmediatamente (sin realizar un movimiento) y marcar progreso dos veces.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganas terreno} o @Compendium[foundry-ironsworn.starforgedmoves.d9208f9b7d827aec]{Actuas en combate} al buscar cobertura, suma +1. Con un éxito total, la cobertura te da ventaja; suma +1 cuando realices un movimiento para atacar o defender a distancia. Si en este movmiento obtienes un fallo, pierdes la cobertura o queda destrozada.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.9f538fabf8998c5b]{Persuades} o @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganas terreno} amenazando que usarás la violencia mientras apuntas a alguien con tu arma, suma +1 y con un éxito ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Haunted": {
+      "name": "Embrujado",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Te atormenta el espíritu de alguien cuya muerte causaste o lamentas (o ambas). Cuando realices un movimiento para recurrir a sus conocimientos, suma +1. Con un éxito parcial, también @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Soportas el estrés} (-1). Con un éxito total con una coincidencia, registra una marca en tu contador de vínculos.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.0cfcd6fbaf6135d0]{Afrontes la muerte} guiado por el espíritu, suma +1. Con un éxito total, concreta qué te enseñó o qué conociste de él y registra 2 marcas en tu contador de vínculos.</p>"
+        },
+        {
+          "description": "<p>Solo una vez, cuando @Compendium[foundry-ironsworn.starforgedmoves.985a5415860a99e9]{Completes tu juramento} (extremo o mayor) para servir al espíritu, ganas esta capacidad de forma gratuita. Elige una.</p>\n<ul>\n<li>Déjalo ir: Registra 2 marcas en tu contadorde vínculos por cada capacidad marcada y descarta el recurso.</li>\n<li>Refuerza tu conexión: Cuando obtengas un éxito al utilizar culaquier capacidad del recurso EMBRUJADO, ganas +1 impulso.</li>\n</ul>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Healer": {
+      "name": "Curandero",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando proporcionas cuidados médicos para @Compendium[foundry-ironsworn.starforgedmoves.2051538f0c9d5d27]{Curar} a otro personaje o a ti mismo, suma +1. Si estás tratando a otra persona, con un éxito, ganas +1 entereza o +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.13b2d777c6fb719d]{Reúnes información} mediante el estudio de las evidencias médicas o restos biológicos, suma +1 y con un éxito ganas +1 impulso. Con un éxito total con una coincidencia, también revelas una anomalía médica inesperada. Registra 1 marca en tu contador de descubrimientos.</p>"
+        },
+        {
+          "description": "<p>Una vez al día, cuando estás en un lugar seguro con todo el tiempo del mundo a tu disposición, puedes @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrificar suministros} (-1) y proporcionar cuidados médicos básicos sin riesgo a tus compeñeros, aliados o a ti mismo. En tal caso, tira solo tu dado de acción. Con un 1-4 le proporcionas +1 salud a todo aquel que su salud esté por encima de 0. Con un 5-6, proporcionas un +2.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Heavy Cannons": {
+      "name": "Cañones pesados",
+      "category": "Módulo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando apuntas con tus cañones y @Compendium[foundry-ironsworn.starforgedmoves.ae5994ceb3cba098]{Golpeas}, elige una.</p>\n<ul>\n<li>Barrido: Suma +1 y con un éxito ganas +1 impulso.</li>\n<li>Fuego concentrado: Con un éxito marcas progreso pero @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-1).</li>\n</ul>"
+        },
+        {
+          "description": "<p>Una vez por combate, cuando @Compendium[foundry-ironsworn.starforgedmoves.723192c97fec4fe2]{Contraataques} acometiendo un intercambio de disparos al todo o nada, suma +1. Además, los éxitos parciales se consideran éxitos totales y con un éxito marcas progreso. Con un fallo, sufres una consecuencia grave.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.9f538fabf8998c5b]{Persuades}, @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entras en liza}, o @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganas terreno} amenazando a tus enemigos por los canales de comunicación con el uso de tus cañones, suma +1 y con un éxito ganas +1 impulso. Con un éxito total con una coincidencia, ganas otro +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Homesteader": {
+      "name": "Colono",
+      "category": "Hazaña",
+      "requirement": "<p>Cuando rellenes 4 casillas en tu contador de vínculos…</p>",
+      "abilities": [
+        {
+          "description": "<p>Has elegido o establecido una comunidad como tu hogar. Cuando @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Juras por el Hierro} (formidable o superior) al servicio de tu hogar, puedes volver a tirar cualquier dado. Con un éxito, registra 1 marca en tu contador de vínculos. Cuando @Compendium[foundry-ironsworn.starforgedmoves.985a5415860a99e9]{Completes tu juramento} y obtengas un éxito, también registras 2 marcas en tu contador de vínculos.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.3de42d2d3cb78855]{Pasas tiempo en una comunidad} en tu hogar, elige una.</p>\n<ul>\n<li>No tardes: Obtienes un éxito parcial automáticamente</li>\n<li>Quédate un poco: Suma +1 y con un éxito ganas +1 impulso</li>\n</ul>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.ed490d43a2533506]{Fijes un rumbo} a casa, puedes volver a tirar el dado de acción si su resultado era inferior a tu entereza.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Hoverbike": {
+      "name": "Aeromoto",
+      "category": "Vehículo de apoyo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu aeromoto es un medio de transporte sin armas extremadamente rápido para la superfice planetaria. Es capaz de transportar a dos personas y su equipo. Cuando @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Inicias una expedición} (+filo), con un éxito ganas +1 impulso. Con un éxito total con una coincidencia, también avanzas rápidamente o encuentras un nuevo camino; marcas progreso.</p>"
+        },
+        {
+          "description": "<p>Cuando activas el posquemador de la moto y realizas un movimiento para ejecutar una maniobra arriesgada, puedes sumar +integridad y con un éxito total ganas +2 impulso. En tal caso, los éxitos parciales se consideran un fallo.</p>"
+        },
+        {
+          "description": "<p>Cuando realizas un movimiento mientras maniobras con la moto y aprovechas el impulso para mejorar el resultado, tira el dado de acción. Con un 5 o 6, no se restablece el impulso.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Integridad"
+    },
+    "Infiltrator": {
+      "name": "Infiltrador",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando realices un movimiento para irrumpir en un sitio seguro, te infiltres en una zona protegida o hackees o manipules un sistema de seguridad, suma +1 y con un éxito ganas +1 impulso. Con un éxito total con una coincidencia, el acceso era más fácil de lo que esperabas; ganas otro +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afrontes el peligro} o @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Ganes una ventaja} para crear una nueva identidad, suma +1. Con un éxito, puedes sumar +1 cuando utilices esta identidad para engañar o influenciar a otros. Si obtienes un fallo con una coincidencia mientras utilizas esta identidad, tu engaño se descubre de manera dramática.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.8d9830fb825057b0]{Compruebes el equipo} de un dispositivo con una función concreta que ayuda en la infiltración, espionaje o sabotaje, suma +1. Con un éxito, vuelve a tirar cualquier dado la primera vez que realizas un movimiento utilizando el dispositivo.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Internal Refit": {
+      "name": "Interior optimizado",
+      "category": "Módulo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Has adaptado los camarotes, espacios comunes y el entorno de la nave a tus necesidades. Cuando @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Inicias una expedición} (peligrosa o superior), puedes volver a tirar cualquier dado durante el primer tramo del viaje. Con un éxito, tú y tus aliados podéis imaginar cómo os sentís como en casa. En tal caso, ganas +2 impulso o +1 entereza.</p>"
+        },
+        {
+          "description": "<p>Tu vehículo está provisto de reservas. Cuando @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrifiques suministros} y los suministros queden reducidos a 0, primero tira +integridad en lugar de marcar sin suministros. Con un éxito total, ganas +1 suministros. En cualquier otro caso, marca sin suministros.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entres en liza} para oponerte a un invasor en tu nave, puedes volver a tirar cualquier dado. Con un éxito total, ganas +tanto impulso como la integridad. Con un éxito total con una coincidencia, también marcas progreso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Kinetic": {
+      "name": "Telequinético",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Controlas poderes telequinéticos. Cuando te concentras, puedes empujar, tirar, levantar o apretar a distancia objetos y criaturas de tu tamaño o menos. Cuando estás en una situación arriesgada y recurres a tus poderes para realizar un movimiento, sumas +2 y @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-2).</p>"
+        },
+        {
+          "description": "<p>Como arriba pero puedes recurrir a tus poderes como un intento desesperado de cambiar el resultado de una acción. En tal caso, sumas +2 (después de tirar) y @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-3).</p>"
+        },
+        {
+          "description": "<p>Cuando tu impulso está al máximo, puedes intentar grandes proezas telequinéticas, tales como manipular grandes objetos o crear una destructiva descarga de fuerza aturdidora. Para llevarlo a cabo, restablece el impulso. Luego, cuando realices un movimiento basado en tus poderes, obtienes un éxito total automáticamente. Si estás en combate, marcas progreso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Leader": {
+      "name": "Líder",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.f4dec946415d8e57]{Ayudas a un aliado} mediante el liderazgo, la coordinación o la planificación, suma +1. Con un éxito total, cualquier aliado presente gana +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entres en liza} (+corazón) coordiando a tu equipo mientras entran en el combate, puedes hacer tu movimiento antes que ellos actúen. Con un éxito total, todos los aliados obtienen un éxito total automáticamente. Con un éxito total con una coincidencia, también marcan progreso en cualquier objetivo de este combate.</p>"
+        },
+        {
+          "description": "<p>Cuando realices un movimiento para influir a alguien (que no sea un aliado) mediante el liderazgo, suma +1 y con un éxito ganas +1 impulso. Con un éxito total con una coincidencia, tu orden los incita a llevar a cabo una acción inesperada. Ganas otro +1 impulso, y registras 1 marca en el contador de vínculos.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Looper": {
+      "name": "Bucle",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando obtienes un fallo en un movimiento de sufrimiento (que no sea @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Soportar el estrés}), puedes volver atrás uno o dos segundos. En tal caso, @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-2), vuelves a tirar cualquier dado y con un éxito total ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando creas un enlace con el punto actual del tiempo, anota los valores de los medidodes de condición de tus aliados y el tuyo. Puedes mantener activo un solo enlace. Si posteriormente retrocedes a este momento, tira +lapso de tiempo: +4 si son minutos, +3 si son horas o +2 si son días. No puedes aprovechar el impulso en esta tirada. Con un éxito total, vuelves al punto enlazado, manteniendo cualquier progreso y estableciendo los medidores de condición a su valor original (excepto el de entereza). Con un éxito parcial, como arriba pero @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Soportas el estrés} (-2). Con un fallo, es igual que con un éxito total pero se corrompe la línea temporal; @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagas el precio}.</p>"
+        },
+        {
+          "description": "<p>Cuando una capacidad de un recurso te proporciona una repetición de tirada, también sumas +1.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Lore Hunter": {
+      "name": "Cazatesoros",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Juras por el Hierro} (formidable o mayor) recuperar un conocimiento valioso o una reliquia extraordinaria, puedes volver a tirar cualquier dado. Cuando @Compendium[foundry-ironsworn.starforgedmoves.0d7f13818c1c19ed]{Alcances un hito} en aras de esa búsqueda, ganas +2 impulso. Cuando @Compendium[foundry-ironsworn.starforgedmoves.985a5415860a99e9]{Cumplas tu juramento} y obtengas un éxito, también registras 2 marcas en tu contador de descubrimientos.</p>"
+        },
+        {
+          "description": "<p>Cuando realices un movimiento para llevar a cabo una extensa investigación o estudio, puedes volver a tirar cualquier dado de desafío. Con una coincidencia, descifras una nueva teoría insólita o espeluznante. Concreta la naturaleza de esta revelación y registra 1 marca en el contador de descubrimientos.</p>"
+        },
+        {
+          "description": "<p>Cuando rememores un conocimiento esotérico para @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Crear una ventaja} o @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganar terreno}, suma +1. Con un éxito, imagina el oscuro pero útil hecho, teoría o técnica de la que hiciste uso y ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Loyalist": {
+      "name": "Leal",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.f4dec946415d8e57]{Ayudas a un aliado}, suma +1 y con un éxito ganas +1 impulso (adicionalmente a los beneficios que recibe tu aliado). Con un éxito total con una coincidencia, concreta como este momento crea un antes y un después o supone un hito en vuestra relación. Ambos registráis 1 marca en el contador de vínculos.</p>"
+        },
+        {
+          "description": "<p>Puedes aprovechar impulso en favor de un aliado para mejorar su resultado en un movimiento. En tal caso, tu aliado gana +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando apoyas a tu aliado mientras hace un movimiento de progreso, detalla cómo le ayudas. A continuación tira un dado de desafío. Con un 1-9, tu aliado puede reemplazar uno de sus propios dados de desafío por el tuyo. Con un 10, describe cómo le perjudicas involuntariamente; tu aliado debe reemplazar su dado de desafío más bajo por el tuyo.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Marked": {
+      "name": "Marcado",
+      "category": "Hazaña",
+      "requirement": "<p>Cuando rellenes 5 casillas de tu contador de búsquedas…</p>",
+      "abilities": [
+        {
+          "description": "<p>Describe el título, emblema, uniforme o tatuaje que portas en reconocimiento por tus logros. Cuando @Compendium[foundry-ironsworn.starforgedmoves.9f538fabf8998c5b]{Persuades} o @Compendium[foundry-ironsworn.starforgedmoves.05909d6310d209a6]{Estableces un contacto} entre aquellos que conocen tu reputación, suma +1. Con un éxito total con una coincidencia, ganas notoriedad; registras 2 marcas en el contador de vínculos.</p>"
+        },
+        {
+          "description": "<p>Cuando pones en juego tu reputación para superar un fallo, puedes volver a tirar cualquier dado. Si vuelves a obtener un fallo, rellena un sector de un reloj de seis sectores que representa las manchas en tu reputación. Cuando se complete el reloj, descarta este recurso.</p>"
+        },
+        {
+          "description": "<p>Una vez por combate, cuando @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganas terreno} mediante la intimidación o el liderazgo, puedes volver a tirar cualquier dado y con un éxito marcar progreso.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Identificador"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Medbay": {
+      "name": "Bahía médica",
+      "category": "Módulo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando utilices tu bahía médica para @Compendium[foundry-ironsworn.starforgedmoves.2051538f0c9d5d27]{Curarte} a ti mismo u otro paciente, puedes volver a tirar el dado de acción si su valor es inferior a la integridad de tu vehículo.</p>"
+        },
+        {
+          "description": "<p>Cuando tú o un aliado marcáis el impacto herido permanentemente y os llevan a la bahía médica sin demora (en menos de una hora), tenéis una oportunidad para que las cosas salgan bien. Si @Compendium[foundry-ironsworn.starforgedmoves.2051538f0c9d5d27]{Curas} y obtienes un éxito total, borra el impacto (además del resto de beneficios del movimiento). A continuación, describe la cicratiz que servirá como recordatorio del incidente.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afrontes el peligro} al realizar un procedimiento médico arriesgado o si @Compendium[foundry-ironsworn.starforgedmoves.13b2d777c6fb719d]{Reunes información} mediante una autopsia o examen médico, vuelves a tirar cualquier dado y con un éxito ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Mercenary": {
+      "name": "Mercenario",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando aceptes entrar en guerra o defender a otros de la guerra a cambio de un pago o promesa, puedes @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Jurar por el Hierro} que completarás la misión. En tal caso, vuelves a tirar cualquier dado. Cuando @Compendium[foundry-ironsworn.starforgedmoves.985a5415860a99e9]{Completes tu juramento}, la recompensa de legado es un nivel más alta (1 casilla adicional si ya era épica).</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.05909d6310d209a6]{Estableces un contacto} buscando o consultando a alguien que necesite tus servicios, suma +1 y con un éxito ganas +1 impulso. Con un éxito total con una coincidencia, esta misión te enfrenta a un aspecto sin resolver de tu pasado o a un enemigo al que odias. Registra 2 marcas en tu contador de búsquedas.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.8d9830fb825057b0]{Compruebas el equipo} en mitad de un combate o te @Compendium[foundry-ironsworn.starforgedmoves.703964b8d02355b8]{Reabasteces} saqueando el campo de batalla tras el combate, sumas +2.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Missile Array": {
+      "name": "Arsenal de misiles",
+      "category": "Módulo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu arsenal de misiles cuenta con 5 munición. Cuando @Compendium[foundry-ironsworn.starforgedmoves.ae5994ceb3cba098]{Golpeas} o @Compendium[foundry-ironsworn.starforgedmoves.723192c97fec4fe2]{Contraatacas} mediante un ataque con misiles, sufres -1 munición y con un éxito marcas progreso. Si te @Compendium[foundry-ironsworn.starforgedmoves.703964b8d02355b8]{Reabasteces} en un lugar donde se puedan reponer los misiles, puedes intercambiar cualquier +suministros por +munición.</p>"
+        },
+        {
+          "description": "<p>Cuando al menos tengas 1 munición y @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganes terreno} fijando un misil sobre un objetivo, suma +1 y con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando al menos tengas 3 munición y @Compendium[foundry-ironsworn.starforgedmoves.3129f4caa4754caf]{Llevas a cabo una acción decisiva} lanzando todos tus misiles, tira un dado de acción antes de realizar la tirada de progreso. Si el dado de acción es igual o menor a la munición, puedes volver a tirar cualquier dado de desafío. A continuación, establece la munición en 0.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Munición"
+    },
+    "Naturalist": {
+      "name": "Naturalista",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Creas una ventaja} o @Compendium[foundry-ironsworn.starforgedmoves.13b2d777c6fb719d]{Reúnes información} recurriendo a tus conocimientos de las formas de vida o ecosistemas planetarios, suma +1 y con un éxito ganas +1 impulso. Con un éxito total con una coincidencia, también confirmas una oscura teoría o revelas un aspecto sorprendente del encuentro. Registras 1 marca en tu contador de descubrimientos.</p>"
+        },
+        {
+          "description": "<p>Cuando realices un movimiento llevando a cabo una acción arriesgada para apaciguar, eludir o burlar a una criatura, puedes volver a tirar cualquier dado (elige antes de tirarlos), pero debes @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Perder impulso} (-2).</p>"
+        },
+        {
+          "description": "<p>Eres un experto superviviente de las superficies planetarias. Cuando te @Compendium[foundry-ironsworn.starforgedmoves.703964b8d02355b8]{Reabasteces} rebuscando recursos en un entorno natural que alberga vida, con un éxito ganas +1 suministros. Cuando @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afrontas el peligro} ante las amenazas del entorno, suma +1 y con un éxito ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Navigator": {
+      "name": "Navegante",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.ed490d43a2533506]{Fijas un rumbo}, elige una.</p>\n<ul>\n<li>Seguir la ruta más rápida: Con un éxito total ganas +2 impulso.</li>\n<li>Seguir la ruta más segura: Sumas +1</li>\n</ul>\n<p>Con un éxito total con una coincidencia, cartografiaste una ruta nueva durante el trayecto; registras 1 marca en tu contador de descubrimientos.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Creas una ventaja} trazando el camino a seguir, @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afrontas el peligro} para encontrar una ruta alternativa para evitar un riesgo o @Compendium[foundry-ironsworn.starforgedmoves.13b2d777c6fb719d]{Reúnes información} sobre la localización estudiando tus cartas de navegación, suma +1 y con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Una vez por expedición, cuando tú o un aliado @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Iniciáis una expedición} y obtenéis un éxito parcial o fallo, podéis ignorar el resultado, trazar una ruta alternativa y convertirlo en un éxito total.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Oathbreaker": {
+      "name": "Rompejuramentos",
+      "category": "Hazaña",
+      "requirement": "<p>Una vez hayas @Compendium[foundry-ironsworn.starforgedmoves.449c1e260c941a40]{Roto tu juramento}…</p>",
+      "abilities": [
+        {
+          "description": "<p>Este recurso cuenta como un impacto. Una sola vez en la vida, al @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Jurar por el Hierro} que te redimirás (desafío extremo o mayor), marca dicho juramento con un símbolo para que puedas reconocerlo. Al @Compendium[foundry-ironsworn.starforgedmoves.0d7f13818c1c19ed]{Alcanzar un hito} en el juramento que has marcado, ganas +2 impulso. Si @Compendium[foundry-ironsworn.starforgedmoves.449c1e260c941a40]{Rompes tu Juramento} durante la búsqueda, descarta este recurso y conserva el impacto.</p>"
+        },
+        {
+          "description": "<p>Tanto al @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Crear una ventaja} como @Compendium[foundry-ironsworn.starforgedmoves.9f538fabf8998c5b]{Persuadir} reafirmando tu compromiso con el juramento marcado, suma +1 y con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando obtienes un éxito al @Compendium[foundry-ironsworn.starforgedmoves.985a5415860a99e9]{Cumplir tu Juramento} marcado, encuentras la redención que buscabas y esta capacidad se activa automáticamente sin ningún coste asociado. A continuación, mejora una de tus características en +1 y descarta este recurso. Una vez has descartado este recurso, no lo puedes obtener de nuevo.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Outcast": {
+      "name": "Paria",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando te @Compendium[foundry-ironsworn.starforgedmoves.c2c2f31f564caa06]{Reconfortas} en soledad, puedes tratar de hallar consuelo en los buenos recuerdos o la esperanza. En tal caso, puedes volver a tirar cualquier dado pero los éxitos totales se consideran éxitos parciales (elige antes de tirarlos).</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrifiques suministros} y tus suministros se reduzcan a 0, tira +mente. Con un éxito total, consigues subsistir y ganas +1 suministros. Con un éxito parcial, puedes @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Perder impulso} (-1) a cambio de +1 suminitros. Con un fallo, tus suministros siguen en 0 y @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-1).</p>"
+        },
+        {
+          "description": "<p>Cuando tú o un aliado @Compendium[foundry-ironsworn.starforgedmoves.3de42d2d3cb78855]{Pasáis tiempo en una comunidad} y obtenéis un éxito total con una coincidencia, puedes describir cómo encuentras a alguien que te conoce y comprende. Si @Compendium[foundry-ironsworn.starforgedmoves.05909d6310d209a6]{Estableces un contacto} con él, obtienes un éxito total automáticamente y registras 2 marcas en el contador de vínculos.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Overseer": {
+      "name": "Supervisor",
+      "category": "Módulo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>El módulo de IA vela por los sistemas y los datos de los sensores del vehículo. Cuando @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Creas una ventaja} o @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganas terreno} discutiendo los detalles con el supervisor, puedes tirar +integridad. En tal caso, con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Resistas los golpes} y tengas que tirar en la tabla de fallos, el supervisor hará lo que pueda para ayudar. Tira dos veces en la tabla y elige uno de los resultados.</p>"
+        },
+        {
+          "description": "<p>El supervisor puede pilotar el vehículo de manera autónoma. Cuando @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afrontes el peligro} durante una emergencia transfiriendo los mandos a la IA o llamando remotamente al vehículo en una situación peligrosa, puedes tirar +integridad. En tal caso, con un éxito ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Protocol Bot": {
+      "name": "Robot de protocolo",
+      "category": "Compañero",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu compañero robot de protocolo está programado con el conocimiento de las culturas, idiomas y costumbres. Cuando el robot te ayuda a realizar un movimiento en una interacción social formal, suma +1. Con un éxito total con una coincidencia, aprendiste algo que favorece el entendimiento o la empatía; también registras 1 marca en el contador de vínculos.</p>"
+        },
+        {
+          "description": "<p>Cuando visitas o interactúas por primera vez con una comunidad o cultura nueva, puedes consultar los conocimientos del robot. En tal caso, concreta qué aprendiste y ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Si realizas un movimiento en una situación tensa y el valor de tu dado de acción es menor que la salud del robot, puedes volver a tirar el dado de acción gracias a la intervención, comentarios o consejos del robot.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Reinforced Hull": {
+      "name": "Casco reforzado",
+      "category": "Módulo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu vehículo está chapado en hierro. Cuando @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Resistes los golpes}, suma +1. Con un éxito total, ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Tu casco reforzado otorga un feroz color o diseño inconfundible. Cuando llegas a un lugar en el que tu reputación sea relevante, ganas +1 impulso. Cuando @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entres en liza} contra enemigos que conocen tu reputación, con un éxito total ganas tanto +impulso como la integridad de tu vehículo.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.d9208f9b7d827aec]{Actuas en combate} dejando que tu casco reforzado reciba los golpes, suma +1 y con un éxito ganas +1 impulso. Con un éxito total con una coincidencia, ganas otro +1 impulso cuando surges de entre la confusión y te colocas es una posición perfecta. Con un fallo, @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagas el precio} al marcar este módulo como roto.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Research Lab": {
+      "name": "Laboratorio de investigación",
+      "category": "Módulo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando utilizas tu laboratorio para @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Crear una ventaja} o @Compendium[foundry-ironsworn.starforgedmoves.13b2d777c6fb719d]{Reunir información} mediante minuciosos análisis o experimentos, suma +1 y con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afrontes el peligro} para aislar o proteger un espécimen peligroso, puedes volver a tirar cualquier dado.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Jures por el Hierro} que llevarás a cabo un proyecto de investigación a largo plazo (extremo o superior), puedes volver a tirar cualquier dado. Cuando obtienes muestras, equipo o datos imprescindibles, marca progreso en la búsqueda y ganas +2 impulso. Cuando dedicas mucho tiempo al proyecto en tu laboratorio, @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afronta el peligro} y suma +1. Con un éxito, marca progreso. Con un éxito total con una coincidencia, marca progreso dos veces. Cuando @Compendium[foundry-ironsworn.starforgedmoves.985a5415860a99e9]{Cumplas tu juramento} y obtengas un éxito, también marcas una casilla del contador de descubrimientos.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Revenant": {
+      "name": "Renacido",
+      "category": "Hazaña",
+      "requirement": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.0cfcd6fbaf6135d0]{Afrontes la muerte}…</p>",
+      "abilities": [
+        {
+          "description": "<p>Si tu salud llega a 0 y has de @Compendium[foundry-ironsworn.starforgedmoves.905205c073b09eac]{Soportar el daño} o @Compendium[foundry-ironsworn.starforgedmoves.0cfcd6fbaf6135d0]{Afrontar la muerte}, suma +1. A continuación, puedes volver a tirar el dado de acción si su valor es menor que tu entereza.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.starforgedmoves.3129f4caa4754caf]{Llevar a cabo una acción decisiva} dando muerte a tu oponente, puedes aprovecharte del impulso para cancelar un dado de desafío (no ambos) si tu impulso es mayor que el valor de ese dado. En tal caso, debes @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Soportar el estrés} (-2).</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.13b2d777c6fb719d]{Reúnas información} mediante el estudio de un lugar en el que la muerte dejó su impronta, puedes tirar +corazón. En tal caso, con un éxito ganas +1 impulso. Con un éxito total con una coincidencia, experimentas un visión detallada o una revelación que esclarece lo que sucedió en el lugar. Ganas otro +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Rockhorn": {
+      "name": "Rocacuerno",
+      "category": "Compañero",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu compañero rocacuerno utiliza su resistencia, piel pétrea o fuerza bruta para superar las amenazas. Cuando realices un movimiento mandando al rocacuerno al ataque contra un enemigo o destrozando un obstáculo, tira +su salud.</p>"
+        },
+        {
+          "description": "<p>Cuando realizas el movimiento @Compendium[foundry-ironsworn.starforgedmoves.d34cdf2408cd22b6]{Tu compañero sufre daño} para el rocacuerno, los éxitos parciales se consideran éxitos totales. Con un éxito total con una coincidencia, su rápida curación lo vuelve imparable. Dale otro +1 salud o ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Si te encuentres indefenso, tu rocacuerno acudirá en tu ayuda. Cuando obtienes un fallo al @Compendium[foundry-ironsworn.starforgedmoves.905205c073b09eac]{Soportar el daño} o @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Soportar el estrés}, puedes volver a tirar el dado de acción si su valor es menor que la salud del rocacuerno.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Rover": {
+      "name": "Astromóvil",
+      "category": "Vehículo de apoyo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu astromóvil sin armas te provee de transporte seguro en la superficie planetaria. Cuando @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Inicias una expedición} o @Compendium[foundry-ironsworn.starforgedmoves.ed490d43a2533506]{Fijas un rumbo}, suma +1. Cuando @Compendium[foundry-ironsworn.starforgedmoves.edac426b7c23f060]{Finalizas una expedición} en tu astromóvil, puedes volver a tirar un dado de desafío.</p>"
+        },
+        {
+          "description": "<p>Puedes equipar a tu astromóvil con un recurso de tipo módulo sin coste adicional. Cuando @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Resistis los golpes}, el módulo se puede romper o destruir como en un vehículo de mando. Para reconfigurar tu astromóvil, gasta 1 experiencia, descarta el módulo y equipa otro diferente con el mismo número de capacidades marcadas.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afrontes el peligro} o @Compendium[foundry-ironsworn.starforgedmoves.d9208f9b7d827aec]{Actúes en combate} recibiendo un golpe o estrellándote con un obstáculo, puedes tirar +integridad. En tal caso, con un éxito ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Integridad"
+    },
+    "Scavenger": {
+      "name": "Carroñero",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.starforgedmoves.13b2d777c6fb719d]{Reunir información} o @Compendium[foundry-ironsworn.starforgedmoves.703964b8d02355b8]{Reabastecerse} rebuscando entre unos restos, ruinas o lugar abandonado, suma +1 y con un éxito ganas +1 impulso. Con un éxito total con una coincidencia, también encuentras algo con un valor, trascendencia o función única. Concreta la naturaleza del descubrimiento, ganas +2 impulso y registra 2 marcas en tu contador de descubrimientos.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Creas una ventaja} al improvisar una herramienta, dispositivo o arma para una situación concreta, describe qué es lo que intentas crear. Con un éxito, puedes sumar +1 al realizar un movimiento usando el objeto. Si sacas un 1 en el dado de acción cuando utilizas el objeto, se rompe, pierde o agota permanentemente.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.8d9830fb825057b0]{Compruebas el equipo}, tira +mente o +suministros (lo que sea más alto) y con un éxito ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Scoundrel": {
+      "name": "Bandido",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando realices un movimiento mintiendo, faroleando, robando o haciendo trampas, suma +2. Con un éxito total con una coincidencia, tu mentira crea una oportunidad inesperada; ganas +tanto impulso como tu valor de sombra.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.05909d6310d209a6]{Estableces un contacto} para buscar un nuevo contacto, puedes tirar +sombra. En tal caso, con un fallo puedes volver a tirar cualquier dado y describir cómo tu reputación o contactos en los bajos fondos te lleva a un contacto de mala fama.</p>"
+        },
+        {
+          "description": "<p>Cuando haces una huida rápida o buscas una salida de una situación y aprovechas tu impulso para obtener un éxito total, ganas +1 impulso después de restablecerlo. Si describes cómo este triunfo momentáneo te condena para futuros problemas, registra 2 marcas en tu contador de búsquedas.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Seer": {
+      "name": "Vidente",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando describes cómo experimentas un sueño profético, puedes @Compendium[foundry-ironsworn.starforgedmoves.bd6278f18bbd6739]{Pregunta al oráculo} por los detalles utilizando un oráculo interpretativo como Acción/Tema o Descriptor/Foco. Si anotas la respuesta y posteriormente afrontas una situación que da veracidad a la visión, cuando realices un movimiento para actuar según tu previsión, obtienes un éxito total automáticamente (solo una vez). A continuación, borra la profecía. Solo puedes tener una profecía activa al mismo tiempo.</p>"
+        },
+        {
+          "description": "<p>Cuando te concentras o meditas para @Compendium[foundry-ironsworn.starforgedmoves.13b2d777c6fb719d]{Reunir información} sobre un lugar, ser o situación (en persona o remotamente), tira +entereza y con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando tú o un aliado obtiene una coincidencia en una tirada al @Compendium[foundry-ironsworn.starforgedmoves.3de42d2d3cb78855]{Pasar tiempo en una comunidad} o @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Iniciar una expedición} en un lugar, puedes describir cómo, de repente, tienes una visión inesperada sobre la localización. En tal caso, ganas +2 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Sensor Array": {
+      "name": "Matriz de sensores",
+      "category": "Módulo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tus sensores avanzados escanea el camino a seguir para localizar posibles peligros. Cuando @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Inicias una expedición} (+mente), puedes volver a tirar un dado de desafío.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Creas una ventaja} o @Compendium[foundry-ironsworn.starforgedmoves.13b2d777c6fb719d]{Reúnes información} escaneando los alrededores de tu vehículo o analizando un objeto cercano, elige una y con un éxito ganas +1 impulso.</p>\n<ul>\n<li>Escáner manual: Suma +1</li>\n<li>Escáner automático: En lugar de tirar el dado de acción, utiliza la integridad de tu vehículo como resultado</li>\n</ul>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entras en liza} en una emboscada o cuando @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afrontas el peligro} para detectar una amenaza oculta, puedes tirar +integridad. En tal caso, puedes volver a tirar cualquier dado y con un éxito ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Service Pod": {
+      "name": "Cápsula de servicio",
+      "category": "Vehículo de apoyo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu vehículo sin armas de servicio, puede alojar a un piloto durante operaciones en baja gravedad con una autonomía limitada. Cuando realices un movimiento mientras utilizas los brazos robóticos de la cápsula para llevar a cabo una tarea delicada o de gran fuerza, suma +1 y con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afrontas el peligro}, @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganas terreno} o @Compendium[foundry-ironsworn.starforgedmoves.d9208f9b7d827aec]{Actuas en combate} maniobrando tu cápsula a través de una zona bloqueada o peligrosa, elige un planteamiento y tira +integridad.</p>\n<ul>\n<li>Cuidadoso: Suma +2 y @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-1)</li>\n<li>Temerario: Con un éxito ganas +1 impulso</li>\n</ul>"
+        },
+        {
+          "description": "<p>Cuando realices un movimiento mientras controlas la cápsula y llevas sus capacidades al límite, puedes obtener un éxito total automáticamente. En tal caso, @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Resiste los golpes} (-2).</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Integridad"
+    },
+    "Shade": {
+      "name": "Sombra",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Atrayendo energías esotéricas, puedes cubrir instantáneamente tu forma con el velo sombrío del vacío. Cuando estés cubierto y hagas un movimiento para emboscarte, esconderte o escabullirte, puedes preestablecer tu dado de acción en 5. Si estás a oscuras, hazlo en 6. Con un fallo, además de cualquier otro coste, quedas al descubierto y no puedes volver a esconderte hasta que se resuelva la escena actual.</p>"
+        },
+        {
+          "description": "<p>Cuando expandes tu velo para sumergir tu entorno en la oscuridad, tira +sombra. Con un éxito total, la oscuridad se extiende a todos los espacios adyacentes. Con un éxito parcial, sólo se oscurece tu entorno inmediato. Si fallas atraes atención no deseada.</p>"
+        },
+        {
+          "description": "<p>Cuando Eliminas tu velo para dejarte ver con un efecto dramático o sorprendente, renunciando a su uso posterior en esta situación, ganas +2 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Shields": {
+      "name": "Escudos",
+      "category": "Módulo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando levantas tus escudos, tira +integridad de tu vehículo o +mente. Con un éxito total, establece tus escudos en 4. Con un éxito parcial, establécelos en 3. Con un fallo, hazlo en 2 pero @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-1). Cuando @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Resistas los golpes}, ignoras el daño hasta el valor de tus escudos y sufres -1 de escudos. Los escudos levantados solo duran un tiempo. Si se reducen a 0, no se pueden volver a levantar hasta que pase más o menos una hora.</p>"
+        },
+        {
+          "description": "<p>Puedes @Compendium[foundry-ironsworn.starforgedmoves.d9208f9b7d827aec]{Actuar en combate} dejando que tus escudos reciban los golpes. En tal caso, tira +escudos y con un éxito ganas +2 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entres en liza} y consigas un éxito total, puedes establecer tus escudos en 3 sin tirar. En tal caso, ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Escudos"
+    },
+    "Shuttle": {
+      "name": "Lanzadera",
+      "category": "Vehículo de apoyo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu lanzadera desarmada proporciona transporte de corto alcance para varias personas a través del espacio o la atmósfera. Cuando viajas a un lugar (no a tu vehículo de mando), tú y tus aliados ganáis +1 impulso al llegar.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afrontas el peligro} o @Compendium[foundry-ironsworn.starforgedmoves.d9208f9b7d827aec]{Actúas en combate} para navegar por cielos peligrosos, evitar obstáculos o evadir un ataque, suma +1 y con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Tu lanzadera está sellada contra entornos de alta presión, puede viajar bajo el agua y es más resistente al daño; cuando @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Resiste los golpes}, suma +1.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Integridad"
+    },
+    "Sidekick": {
+      "name": "Secuaz",
+      "category": "Compañero",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu secuaz tiene una habilidad útil. Cuando realizas un movimiento fuera de un combate ayudado directamente por sus habilidades, puedes volver a lanzar tu dado de acción si su valor es menor que la salud de tu compañero. Si entonces consigues un éxito total con una coincidnecia, haz 1 marca en tu contador de vínculos.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entras en liza} con el apoyo de tu secuaz, ganas +2 impulso si tienes éxito. Cuando @Compendium[foundry-ironsworn.starforgedmoves.723192c97fec4fe2]{Contraatacáis} juntos, suma +1.</p>"
+        },
+        {
+          "description": "<p>Cuando tu secuez actúe para sacarte de un apuro, puedes @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afrontar el peligro} o @Compendium[foundry-ironsworn.starforgedmoves.d9208f9b7d827aec]{Actuar en combate} y tirar +su salud (en vez de tu propia estadística). Si tienes éxito, ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        },
+        {
+          "name": "Especialidad"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Skiff": {
+      "name": "Esquife",
+      "category": "Vehículo de apoyo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu vehículo aerodeslizador desarmado transporta a varias personas, equipo y carga por tierra o agua. Cuando @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Inicias una expedición} o @Compendium[foundry-ironsworn.starforgedmoves.ed490d43a2533506]{Fijas un rumbo} puedes confiar en la resistencia del esquife y tirar +integridad. En tal caso, con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Tu esquife está armado con un cañón de torreta. Cuando @Compendium[foundry-ironsworn.starforgedmoves.ae5994ceb3cba098]{Golpeas} o @Compendium[foundry-ironsworn.starforgedmoves.723192c97fec4fe2]{Contratacas} disparando el cañón, tiras +integridad y ganas +1 impulso si tienes éxito. Con un éxito total con una coincidencia, tus disparos causan destrucción extra o crean estragos; marca progreso.</p>"
+        },
+        {
+          "description": "<p>Tu esquife está completamente pertrechado. Cuando @Compendium[foundry-ironsworn.starforgedmoves.8d9830fb825057b0]{Compruebas tu equipo}, suma +1 y con un éxito ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Integridad"
+    },
+    "Slayer": {
+      "name": "Azote de abominaciones",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando realices un movimiento para investigar, rastrear o acechar a un enemigo alienígena, suma +1 y con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Juras por el Hierro} (formidable o mayor) que asesinarás a un enemigo alienígena al servicio de una comunidad, puedes volver a tirar cualquier dado. Cuando @Compendium[foundry-ironsworn.starforgedmoves.985a5415860a99e9]{Completes tu juramento} y obtengas un éxito, también registras 2 marcas en el contador de vínculos.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entras en liza} con el objetivo de acabar con un enemigo alienígena, ganas +2 impulso. Si, cuando comienza el combate, escoges enfrentarte a la criatura según sus reglas, concreta qué arma, protección o ayuda imprescindible dejaste a un lado y aumenta en uno el nivel del objetivo. Si tras hacer este sacrificio @Compendium[foundry-ironsworn.starforgedmoves.3129f4caa4754caf]{Llevas a cabo una acción decisiva} y obtienes un éxito total, te llevas un trofeo de tu victoria y registras 2 marcas en tu contador de búsquedas.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Sleuth": {
+      "name": "Detective",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Juras por el Hierro} que resolverás un asesinato, desaparición, robo u otro misterio, establece el nivel de la búsqueda en formidable o menor. Después, cuando @Compendium[foundry-ironsworn.starforgedmoves.13b2d777c6fb719d]{Reúnes información} durante el transcurso de una investigación, tira tres dados de desafío y escoge dos. Si hay dados de desafío que obtienen una coincidencia, tienes que utilizar estos. Con un fallo con una coincidencia, describe qué averiguaste sobre una creciente conspiración o traición. Aumenta en uno el nivel de tu búsqueda (nunca más alto que épico) y utiliza el nuevo nivel cuando marques progreso en el futuro.</p>"
+        },
+        {
+          "description": "<p>Cuando realices un movimiento par evitar que te detecten mientras vigilas a una persona o lugar, suma +1 y con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.05909d6310d209a6]{Estableces un contacto} con potencial de ser un informante, puedes (en vez de tirar) obtener un éxito parcial automáticamente.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Sniper": {
+      "name": "Francotirador",
+      "category": "Senda",
+      "requirement": "<p>Si empuñas un fusil…</p>",
+      "abilities": [
+        {
+          "description": "<p>Cuando apuntes a un enemigo menor desde lejos (fuera de una pelea), tira +mente. Con un éxito total, quedan fuera de combate. Si quedan más enemigos y Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entras en liza} contra ellos, marca progreso. Con un éxito parcial, como antes pero sacrificas tiempo o tu posición; @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-1). Con un fallo, atraes la atención o afrontas una represalia; @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagas el precio}.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.ae5994ceb3cba098]{Golpeas} desde la distancia con el tiempo suficiente para preparar tu disparo, puedes tirar +mente. En tal caso, con un éxito total marcas progreso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Creas una ventaja} mediante el estudio de una situación lejana a través de la mira de tu rifle o @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganas terreno} apuntando cuidadosamente, puedes sacrificar tiempo por una mayor seguridad de acertar. En tal caso (elige antes de tirar), @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierde impulso} (-1, -2, o -3) y suma esa cantidad. Luego, con un éxito total ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Snub Fighter": {
+      "name": "Caza ligero",
+      "category": "Vehículo de apoyo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu caza ligero armado permite a un único piloto volar y combatir en el espacio o la atmósfera. Cuando @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entras en liza}, puedes tirar +integridad. En tal caso, con un éxito ganas +2 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.ae5994ceb3cba098]{Golpeas} o @Compendium[foundry-ironsworn.starforgedmoves.723192c97fec4fe2]{Contraatacas}, suma +1. Con un éxito total con una coincidencia, marca progreso.</p>"
+        },
+        {
+          "description": "<p>Cuando tú personalmente derrotas a un enemigo importante con tu caza ligero, describe la marca de victoria que haces en el fuselaje. Recuenta tus victorias en esta casilla. Por cada cinco, registra 2 marcas en tu contador de búsquedas.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Integridad"
+    },
+    "Sprite": {
+      "name": "Vítreo",
+      "category": "Compañero",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu compañero vítreo modifica su delicada y cristalina forma para volar, nadar o escabullirse, y puede desplazarse secretamente por los entornos más hostiles. Cuando realices un movimiento enviándolo a ejecutar alguna artimaña (como crear una distracción, colarse en una localización protegida o robar un objeto), suma +su salud.</p>"
+        },
+        {
+          "description": "<p>Estás en sintonía con la resonancia de la estructura cristalina del vítreo, lo que te permite comunicaros a distancia o percibir a través de sus sentidos. Cuando @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Creas una ventaja} al observar una situación desde su perspectiva o @Compendium[foundry-ironsworn.starforgedmoves.13b2d777c6fb719d]{Reúnes información} remotamente, suma +su salud.</p>"
+        },
+        {
+          "description": "<p>Durante un momento de descanso, el vítreo puede recomponer su forma y volver a tener su salud al máximo automáticamente.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Starship": {
+      "name": "Nave estelar",
+      "category": "Vehículo de mando",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu armada y multipropósito nave estelar, está adaptada al vuelo interestelar y atmosférico. Puede transportar a varias personas cómodamente, tiene espacio para cargamento y puede cargar y desplegar vehículos de apoyo. Cuando @Compendium[foundry-ironsworn.starforgedmoves.d602da2ce0c05f2c]{Mejora}, puedes gastar experiencia para equipar este vehículo con recursos de módulos.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.edac426b7c23f060]{Finalizas una expedición} (peligrosa o mayor) en tu nave estelar y obtienes un éxito, este viaje reforzó tu afinidad con la nave y cualquier compañero de viaje. Tú y tus aliados podéis registrar 1 marca en el contador de vínculos.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Resistes los golpes}, puedes tirar con +corazón. En tal caso, con un éxito parcial o fallo @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Soportas el estrés} (-1).</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Integridad"
+    },
+    "Stealth Tech": {
+      "name": "Tecnología de camuflaje",
+      "category": "Módulo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu vehículo está preparado para desplazarse en silencio. Cuando realices un movimiento para evitar la detección de un enemigo o amenaza específica, suma +1. Si @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entras en liza} emboscando a un enemigo desprevenido, suma +1 y con un éxito total marca progreso.</p>"
+        },
+        {
+          "description": "<p>Cuando viajas sigilosamente al @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Iniciar una expedición} (+sombra), puedes volver a tirar el dado de acción.</p>"
+        },
+        {
+          "description": "<p>Cuando estás listo para @Compendium[foundry-ironsworn.starforgedmoves.ae5994ceb3cba098]{Golpear} desde tu escondite, puedes tirar +sombra. En tal caso, elige una (antes de tirar).</p>\n<ul>\n<li>Golpear con precisión: Vuelves a tirar cualquier dado.</li>\n<li>Golpear duro: Con un éxito, marca progreso.</li>\n</ul>\n<p>Con un éxito total con una coincidencia, además sigues sin ser detectado. Ganas +2 impulso y suma +1 en tu siguiente @Compendium[foundry-ironsworn.starforgedmoves.ae5994ceb3cba098]{Golpear}.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Survey Bot": {
+      "name": "Robot de reconocimiento",
+      "category": "Compañero",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu robot de reconocimiento escanea el camino a seguir. Cuando @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Inicias una expedición} (+mente) terrestre o en el interior de un emplazamiento, suma +1.</p>"
+        },
+        {
+          "description": "<p>Una vez por expedición, cuando @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Creas una ventaja} enviando a tu robot a explorar tira +su salud. Con un éxito, además marcas progreso en la expedición. Si tienes un éxito total con una coincidencia, el robot descubre una característica o una localización inesperada. Detalla lo que descubre y haz una marca en el contador de descubrimientos.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Exploras un punto de ruta} ayudado por los sensores del robot o @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afrontas el peligro} para detectar una amenaza, tira +su salud y con un éxito ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Survivor": {
+      "name": "Superviviente",
+      "category": "Hazaña",
+      "requirement": "<p>Cuando marcas traumatizado o herido permanentemente…</p>",
+      "abilities": [
+        {
+          "description": "<p>Cuando te atormentan las experiencias pasadas y debes @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Soportar el estrés}, puedes @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Perder impulso} (-1) antes de tirar en un intento de centrarte y encontrar la calma. En tal caso, puedes volver a tirar cualquier dado. Con un éxito total, ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando realices un movimiento en el que un efecto permanente (como traumatizado o herido permanentemente) tiene un impacto narrativo en la escena que vas a abordar y aprovechas el impulso para mejorar el resultado, puedes describir qué te anima o motiva en este motmento. En tal caso, registra 1 marca en tu contador de búsquedas. Con un éxito total con una coincidencia, registra 2 marcas.</p>"
+        },
+        {
+          "description": "<p>Estás aprendiendo a vivir con este impacto. El efecto permanente (ya sea traumatizado o herido permanentemente, pero no ambos) se mantiene marcado, pero ya no reduce tu impulso máximo o lo restablece.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Symbiote": {
+      "name": "Simbionte",
+      "category": "Compañero",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Estás físicamente unido a uno ser con 2 de salud. Cuando realices movimientos agresivos entregándote al poder del simbionte, suma +su salud. Si sufres daño físico puedes elegir entre @Compendium[foundry-ironsworn.starforgedmoves.905205c073b09eac]{Soportar el daño} o que @Compendium[foundry-ironsworn.starforgedmoves.d34cdf2408cd22b6]{Tu compañero sufra daño}. Para restaurar la salud del simbionte debes @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Soportar el estrés} para tanta +salud al simbionte como -entereza que intentas soportar. Si haces un movimiento ayudado por el simbionte y obtienes un 1 en el dado de acción, tu frágil vínculo con él se rompe durante unas horas.</p>"
+        },
+        {
+          "description": "<p>Cuando realizas un movimiento dejándote guiar por el simbionte, puedes volver a tirar cualquier dado (puedes decidirlo después de tirar). En ese caso, @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Soporta el estrés} (-2).</p>"
+        },
+        {
+          "description": "<p>El simbionte gana poder y ahora tiene salud 3</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Tech": {
+      "name": "Tecnología",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando realices un movimiento para configurar, optimizar, hackear o interrumpir un sistema electrónico, suma +1. Con un éxito parcial, puedes elegir tentar a la suerte. En tal caso, vuelve a tirar todos los dados y suma +2 (en lugar de +1).</p>"
+        },
+        {
+          "description": "<p>Cuando obtengas un fallo @Compendium[foundry-ironsworn.starforgedmoves.3782f1b3c8ca8b88]{Resistiendo los golpes}, puedes intentar redirigir la energía o reiniciar sistemas críticos. En tal caso, primero @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierde impulso} (-2). Luego, vuelve a tirar los dados y añade +mente en lugar de +integridad. Los éxitos parciales se consideran un fallo.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afrontas el peligro} o @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Creas una ventaja} elaborando un programa informático que realice una función específica y compleja, suma +2 y con un éxito ganas +1 impulso. La primera vez que actives el programa para el propósito para el que lo has creado, vuelve a tirar cualquier dado.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Trader": {
+      "name": "Comerciante",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.3de42d2d3cb78855]{Pasas tiempo en una comunidad} o @Compendium[foundry-ironsworn.starforgedmoves.9f538fabf8998c5b]{Persuades}, puedes tirar +suministros. Si lo haces @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrifica los suministros} (-1).</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.05909d6310d209a6]{Estableces un contacto} con un mercader o un proveedor, suma +1. Cuando te @Compendium[foundry-ironsworn.starforgedmoves.703964b8d02355b8]{Reabasteces} negociando con él, puedes volver a tirar el dado de acción si su resultado es más bajo que tus suministros. Con un éxito total, ganas +1 impulso o +1 suministros.</p>"
+        },
+        {
+          "description": "<p>Cuando tú o un aliado @Compendium[foundry-ironsworn.starforgedmoves.3de42d2d3cb78855]{Pasais tiempo en una comunidad} y obtenéis un éxito con una coincidencia, tendréis la posibilidad de conseguir un objeto único o un valioso botín. Detalla esa oportunidad y el obstáculo que debes superar para conseguirlo. Si tienes éxito, gana 2 marcas en tu contador de búsquedas. La primera vez que uses tu adquisición puedes obtener automáticamente un éxito total en cualquier movimiento en el que los recursos sean importantes.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Utility Bot": {
+      "name": "Robot auxiliar",
+      "category": "Compañero",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu robot auxiliar tiene herramientas útiles a mano. Cuando realizas un movimiento indicándole que acceda a un sistema, elimine un obstáculo, analice un problema mecánico o monte/desmonte un dispositivo, tira +su salud y si tienes éxito gana +1 impulso. Si tienes un éxito total con una coincidencia, te revelará una ventaja o conocimiento inesperado; ganas otro +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.eece9a67d1961f70]{Reparas} ayudado por tu robot auxiliar, suma +1. Con un fallo, no consigues tu propósito pero tu robot descubre un enfoque alternativo que te hará perder tiempo; puedes volver a tirar cualquier dado @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-2).</p>"
+        },
+        {
+          "description": "<p> Cuando @Compendium[foundry-ironsworn.starforgedmoves.8d9830fb825057b0]{Compruebas el equipo} para ver si tu robot tiene alguna herramienta específica, tira +su salud. Si tienes éxito, ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Vanguard": {
+      "name": "Vanguardia",
+      "category": "Hazaña",
+      "requirement": "<p>Cuando completas 6 casillas en tu contador de descubrimientos...</p>",
+      "abilities": [
+        {
+          "description": "<p>Cuando busques un lugar seguro en un entorno remoto haz una tirada de progreso contra tu contador de descubrimientos. Con un éxito total, estableces un refugio; suma +2 cada vez que hagas un movimiento de recuperación en ese lugar. Con un éxito parcial, como antes pero suma +1 cuando hagas un movimiento de recuperación. Con un fallo, te ves arrastrado a una mala situación y debes @Compendium[foundry-ironsworn.starforgedmoves.78baa51694fe37c5]{Pagar el precio}. Si estableces un refugio pero fallas un movimiento de recuperación, ese lugar ya no es seguro.</p>"
+        },
+        {
+          "description": "<p>Cuando haces un movimiento con +mente y obtienes un éxito total con una coincidencia, tu experiencia duramente ganada te otorga conocimiento; ganas +1 impulso</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Soportas el estrés} puedes tirar +mente. En tal caso, con un éxito ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Vehicle Bay": {
+      "name": "Hangar de vehículos",
+      "category": "Módulo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Puedes adquirir o mejorar un vehículo de apoyo por uno menos de experiencia. Cuando @Compendium[foundry-ironsworn.starforgedmoves.eece9a67d1961f70]{Reparas} un vehículo de apoyo maltrecho, gastas 1 punto de reparación en lugar de 2.</p>"
+        },
+        {
+          "description": "<p>Cuando un vehículo de apoyo queda destruido y eres capaz de recuperar sus restos, puedes @Compendium[foundry-ironsworn.starforgedmoves.bd6278f18bbd6739]{Preguntar al oráculo} en la tabla sí/no con una probabilidad 50/50, para descubrir si se puede recuperar algo del desastre. Con un sí, gasta 1 experiencia para restaurar el recurso del vehículo de apoyo con todas las capacidades previamente marcadas. Hasta que no lo @Compendium[foundry-ironsworn.starforgedmoves.eece9a67d1961f70]{Repares} y vuelva a estar completamente operativo, el vehículo está maltrecho y con integridad 0.</p>"
+        },
+        {
+          "description": "<p>Cuando realices un movimiento para despegar o aterrizar en tu vehículo de mando en una situación o entorno peligroso, puedes volver a tirar cualquier dado y con un éxito ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Vestige": {
+      "name": "Vestigio",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Eres todo lo que queda de un pueblo, cultura o tradición. Cuando @Compendium[foundry-ironsworn.starforgedmoves.0cfcd6fbaf6135d0]{Afrontes la muerte} o @Compendium[foundry-ironsworn.starforgedmoves.ff17e67a59539df4]{Afrontes la desolación}, las visiones de tu herencia te otorgan las fuerzas necesarias para seguir adelante. Describe cómo se manifiesta esto y vuelve a tirar cualquier dado. Con un éxito total con una coincidencia, se revela un sorprendente nuevo aspecto de tu herencia. Ganas +2 impulso y registras 2 marcas en el contador de vínculos.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Crear una ventaja} o @Compendium[foundry-ironsworn.starforgedmoves.9f538fabf8998c5b]{Persuadir} mediante una historia, interpretación o ceremonia, describe qué revelas de tu herencia. Después, suma +1 y con un éxito ganas +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Conservas una reliquia material de tu herencia. Concreta sus poderes o naturaleza. Cuando realizas un movimiento utilizando la reliquia como ayuda y obtienes un fallo, puedes volver a tirar el dado de acción.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "El último de"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Veteran": {
+      "name": "Veterano",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando estás en combate, aumenta en uno el impulso restablecido. Después, si aprovechas el impulso para mejorar tu resultado, suma +1 en tu siguiente movimiento.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.05909d6310d209a6]{Estableces un contacto}, suma +1. Si obtienes una coincidencia, compartís un pasado.</p>\n<ul>\n<li>Con un éxito total con una coincidencia, luchaste a su lado y te debe un favor. Registra 1 marca en el contador de vínculos y @Compendium[foundry-ironsworn.starforgedmoves.141aec8b92efd14b]{Desarrolla tu relación} ahora.</li>\n<li>Con un fallo con una coincidencia, luchaste contra él y te guarda rencor.</li>\n</ul>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Creas una ventaja} o @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganas terreno} relatando o rememorando una lección duramente aprendida durante tus vivencias en el campo de batalla, describe ese recuerdo y suma +1. Con un éxito, ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Voidborn": {
+      "name": "Nacido del Vacío",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Estás mejor adaptado a vivir en el vacío infinito. Cuando estás en el espacio (o en un vehículo o estación espacial), aumenta en uno tu impulso restablecido. Cuando entras en una superficie planetaria o en un entorno con alta gravedad, @Compendium[foundry-ironsworn.starforgedmoves.93d2d69b7e2b85e1]{Pierdes impulso} (-1).</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.3de42d2d3cb78855]{Pasas tiempo en una comunidad} o @Compendium[foundry-ironsworn.starforgedmoves.05909d6310d209a6]{Estableces un contacto} con una comunidad espacial, suma +1. Si te @Compendium[foundry-ironsworn.starforgedmoves.c2c2f31f564caa06]{Reconfortas} ahí y obtienes un éxito total, ganas +1 entereza o +1 impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando realices un movimiento para ejecutar una ágil maniobra física (como saltar o esquivar) en un entorno de baja gravedad, suma +1 y con un éxito ganas +1 impulso. Con un éxito total con una coincidencia, aumentas tu velocidad o te colocas en una posición perfecta; ganas otro +1 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Voidglider": {
+      "name": "Alacio",
+      "category": "Compañero",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tu compañero alacio surca el rastro de energía de tu nave estelar y puede guiarte en tus viajes espaciales. Cuando @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Inicias una expedición}, suma +1.</p>"
+        },
+        {
+          "description": "<p>El alacio está entrenado y preparado para utilizarse como montura. Se puede emplear brevemente como transporte espacial. Cuando estás montando el alácio y realizas un movimiento para detectar o evadir una amenaza confiando en sus instintos, tira +su salud.</p>"
+        },
+        {
+          "description": "<p>Cuando realices un movimiento señalando al alacio un enemigo espacial para que lo distraiga o ataque, tira +su salud y con un éxito ganas +1 impulso.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Weapon Master": {
+      "name": "Maestro de armas",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Eres una armería andante, con un arma para cada ocasión. Cuando @Compendium[foundry-ironsworn.starforgedmoves.2f2ba4090b22a122]{Entras en liza} en un combate personal, suma +1 y con un éxito ganas +1 impulso. Una vez por combate, cuando @Compendium[foundry-ironsworn.starforgedmoves.3f5a834fa3fea5d1]{Ganas terreno} cambiando de armas o estrategia, obtienes un éxito total automáticamente.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.ae5994ceb3cba098]{Golpeas} utilizando un arma personal que tiene munición limitada o un modo de uso único, suma +1 y con un éxito marca progreso. A continuación, @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrifica suministros} (-1). Si obtienes un éxito total en este ataque e inmediatamente @Compendium[foundry-ironsworn.starforgedmoves.3129f4caa4754caf]{Llevas a cabo una acción decisiva}, puedes conservar el valor de uno de los dados de desafío de tu acción de @Compendium[foundry-ironsworn.starforgedmoves.ae5994ceb3cba098]{Golpear} en lugar de tirarlo.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.a2d7793b23c17489]{Creas una ventaja} equipándote y reuniendo tu equipo para un encuentro peligroso en una misión, puedes tirar +suministros. En tal caso, con un éxito, ganas +2 impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Workshop": {
+      "name": "Taller",
+      "category": "Módulo",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.eece9a67d1961f70]{Reparas} sobre el terreno, suma +1.</p>"
+        },
+        {
+          "description": "<p>Cuando realices un movimiento en tu taller para crear, modificar, desactivar o desmontar un dispositivo o máquina, puedes volver a tirar el dado de acción si su valor es inferior a la integridad de tu vehículo.</p>"
+        },
+        {
+          "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.9c9ab6a42daa96e0]{Jures por el Hierro} que llevarás a cabo un proyecto de ingeniería a largo plazo (extremo o superior), puedes volver a tirar cualquier dado. Cuando obtienes partes o recursos imprescindibles, marca progreso en la búsqueda y ganas +2 impulso. Cuando dedicas mucho tiempo al proyecto en tu taller, @Compendium[foundry-ironsworn.starforgedmoves.e6ed148eff82c171]{Afronta el peligro} y suma +1. Con un éxito, marca progreso. Con un éxito total con una coincidencia, marca progreso dos veces. Cuando @Compendium[foundry-ironsworn.starforgedmoves.985a5415860a99e9]{Cumplas tu juramento} y obtengas un éxito, marcas una casilla adicional del contador de búsquedas.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    }
+  }
+}

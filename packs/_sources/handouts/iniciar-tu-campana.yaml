@@ -1,0 +1,607 @@
+name: Iniciar tu campaña
+_id: xVc1KKNyDmQsp016
+pages:
+  - sort: 100000
+    name: Elige tus verdades
+    type: text
+    _id: sPC7Fqea2jKemFqU
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>En este ejercicio, establecerás el tono y el trasfondo de tu campaña
+        decidiendo la naturaleza de tu versión de la Forja. Éstas son tus
+        <strong>verdades</strong>.</p><p>Cuando hayas terminado, tendrás
+        esbozados los aspectos clave de tu escenario y un telón de fondo para
+        tus desafíos que te ayudarán a alimentar tus aventuras.</p><h2>SUPUESTOS
+        PREVIOS</h2><p>Dado que la ciencia ficción es un género lleno de
+        posibilidades es importante establecer algunos pilares clave sobre cómo
+        concebirás tus aventuras en Starforged. Los siguientes puntos
+        representan el punto de partida por defecto. Si estás trabajando en este
+        ejercicio con un grupo, lee o resume estos puntos en voz
+        alta.</p><ul><li><p><strong>Es un futuro peligroso</strong>. Hace dos
+        siglos, tu pueblo huyó de un cataclismo y se establecieron en una
+        galaxia lejana que llaman la Forja. Es un lugar lugar caótico lleno de
+        peligros y misterios.</p></li><li><p><strong>Es un futuro
+        solitario</strong>. Con algunas posibles excepciones (que identificarás
+        como parte de tus propias verdades), los humanos son la única vida vida
+        inteligente conocida en esta galaxia. Otros vivieron aquí una vez, pero
+        sólo quedan misteriosos vestigios que de recuerdan su
+        legado.</p></li><li><p><strong>Es un futuro diverso</strong>. Hay una
+        vibrante mezcla de personas y culturas entre los humanos de la
+        Forja.</p></li><li><p><strong>Es un futuro lejano</strong>. Los
+        asentamientos se encuentran dispersos y a menudo aislados unos de otros.
+        Tu nave estelar puede viajar a velocidades más rápidas que la luz pero
+        es terriblemente lenta a escala cósmica.</p></li><li><p><strong>Es un
+        futuro inexplorado</strong>. Los descubrimientos aguardan. Incluso en
+        las regiones pobladas, gran parte de la Forja es desconocida y no está
+        cartografiada.</p></li><li><p><strong>Es un futuro maravilloso</strong>.
+        La Forja es una galaxia llena de antiguos misterios, criaturas
+        espaciales, fenómenos sorprendentes y otras
+        maravillas.</p></li><li><p><strong>Es un
+        </strong><em><strong>retro</strong></em>. Imagina que la tecnología que
+        manejas es apenas superior a la actual o incluso un poco desfasada en
+        muchos aspectos. Los recursos son escasos y la gente de la Forja debe
+        improvisar lo que puedan.</p></li><li><p><strong>Es un futuro
+        injusto</strong>. Los poderosos acaparan recursos, controlan tecnologías
+        e imponen su voluntad por la fuerza o el engaño. Los demás deben
+        oponerse a estas fuerzas del imperialismo y la
+        opresión.</p></li><li><p><strong>Es un futuro esperanzador</strong>. A
+        pesar de estos desafíos sigue habiendo esperanza. Cumplir tus juramentos
+        es una forma de mantener esa esperanza.</p></li></ul><h2>¿CÓMO ELEGIR
+        TUS VERDADES?</h2><p>Selecciona tus verdades de cada una de las
+        categorías. Puedes hacerlo de tres modos, incluso puedes mezclarlos si
+        quieres:</p><ul><li><p>Elige una verdad entre las tres
+        opciones.</p></li><li><p>Utiliza el oráculo para elegir aleatoriamente
+        tu verdad.</p></li><li><p>Crea tu propia verdad.</p></li></ul><p>Algunas
+        verdades incluyen subopciones que puedes elegir. Puedes usar el mismo
+        criterio para elegirlas.</p><p>Utiliza el siguiente formulario para
+        elegir tus verdades:
+        @UUID[Compendium.ironsworn-es.macros.Macro.KXA0BYKXMcZHPeQ3]{Verdades
+        Starforged}</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      YpOXgqXvXWOBNd3c: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundry-ironsworn
+      systemVersion: 1.24.8
+      createdTime: 1736594573738
+      modifiedTime: 1736596172255
+      lastModifiedBy: YpOXgqXvXWOBNd3c
+    _key: '!journal.pages!xVc1KKNyDmQsp016.sPC7Fqea2jKemFqU'
+  - sort: 200000
+    name: Crea tu personaje
+    type: text
+    _id: PmaIwplePj47sKxr
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>En Starforged, emprenderás misiones, superarás desafíos y explorarás
+        la Forja desde la perspectiva de tu personaje. En este ejercicio,
+        definirás algunos aspectos clave de ese personaje y de su nave
+        estelar.</p><h2>EL ÁMBITO DE TU PERSONAJE</h2><h4>ERES HUMANO</h4><p>Los
+        habitantes de la Forja son humanos. Starforged no proporciona
+        directamente opciones para jugar con alienígenas, robots, animales
+        antropomórficos u otros personajes no humanos. Los aspectos mecánicos
+        reales de tu personaje son relativamente ligeros y pueden tematizarse
+        para dar cabida a entidades no humanas, pero Starforged está diseñado
+        principalmente para ser jugado desde la perspectiva de un ser humano o
+        un análogo cercano de un ser humano.</p><h4>DIVERSIDAD E
+        INCLUSIÓN</h4><p>Aparte de esta asunción centrada en el ser humano,
+        imagina tu personaje como quieras. No hay restricciones de juego ni de
+        ambientación que limiten la raza, la cultura, las discapacidades, la
+        orientación sexual o identidad de género de tu personaje.</p><p>Si tu
+        objetivo es interpretar una experiencia concreta, no te bases en
+        suposiciones o estereotipos. Dedica tiempo a investigar y conocer las
+        experiencias de los demás.</p><h2>PASO 1: Prepara los
+        recursos</h2><p>Empezarás eligiendo los recursos para tu personaje.
+        Utiliza la siguiente ventana para elegir tus recursos (puedes
+        arrastrarlas a tu
+        ficha):</p><p>@UUID[Compendium.foundry-ironsworn.macros.Macro.xvJpniCT0lAIf3Eh]{Recursos}</p><p>Durante
+        la creación del personaje, deja de lado los recursos de tipo
+        "<strong>hazaña</strong>" ya que no están disponibles en este
+        punto.</p><h2>PASO 2: Elige dos sendas</h2><p>Elige dos sendas
+        cualesquiera. Considera cómo cada una de ellas se integra en el concepto
+        emergente de tu personaje.</p><p>Ten en cuenta las verdades establecidas
+        en el ejercicio anterior. Puede que algunas no encajen bien en tu
+        escenario.</p><p>¿Necesitas inspiración?</p><p>Puedes utilizar
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.eb992ccf692d8592]{este
+        oráculo} para obtener algunas
+        ideas:</p><table><tbody><tr><td><p><strong>Tirada</strong></p></td><td><p><strong>Trasfondo</strong></p></td><td><p><strong>Sendas</strong></p></td></tr><tr><td><p>1-5</p></td><td><p>Médico
+        de
+        batalla</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.4fafc93fdd8873ce]{Curandero}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.5b517486f8722fdb]{Veterano}</p></td></tr><tr><td><p>6-10</p></td><td><p>Delegado</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.92c1672053d9fba4]{Vasallaje}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.bcc219b0ebfb5c68]{Diplomático}</p></td></tr><tr><td><p>11-15</p></td><td><p>Exobiólogo</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.ce347bbfcee2e8ae]{Cazatesoros}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.6830f088164f3c60]{Naturalista}</p></td></tr><tr><td><p>16-20</p></td><td><p>Comerciante</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.4692e18baff8bd18]{Navegante}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.f64df27e8f9083bd]{Comerciante}</p></td></tr><tr><td><p>21-25</p></td><td><p>Cazador
+        de
+        fugitivos</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.3bd3cddf27041c08]{Blindado}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.9e8a91f52b96c95b]{Cazarrecompensas}</p></td></tr><tr><td><p>26-30</p></td><td><p>Hacker</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.1e03c8d44d0b3ffc]{Infiltrador}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.fd358fb5b9dcad41]{Tecnología}</p></td></tr><tr><td><p>31-35</p></td><td><p>Piloto
+        de
+        primera</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.c7a0220765d0b579]{As}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.4692e18baff8bd18]{Navegante}</p></td></tr><tr><td><p>36-40</p></td><td><p>Explorador
+        estelar</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.62c8297fab069013]{Explorador}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.77b99abd50137354]{Nacido
+        del Vacío}</p></td></tr><tr><td><p>41-45</p></td><td><p>Cazador de
+        monstruos</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.e6dd0f7e6ac6e3cc]{Artillero}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.b01dc7301d7d8fb3]{Azote
+        de
+        abominaciones}</p></td></tr><tr><td><p>46-50</p></td><td><p>Ocultista</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.085d80b933598615]{Paria}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.12a922e088c35efa]{Sombra}</p></td></tr><tr><td><p>51-55</p></td><td><p>Operativo</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.1e03c8d44d0b3ffc]{Infiltrador}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.82cb2564aae5bf0f]{Maestro
+        de
+        espadas}</p></td></tr><tr><td><p>56-60</p></td><td><p>Forajido</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.93b030423d23059d]{Fugitivo}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.0b42a1e32bdb10c9]{Pistolero}</p></td></tr><tr><td><p>61-65</p></td><td><p>Investigador
+        privado</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.6e439be2dd0bd5a4]{Matón}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.26787f46840c03ad]{Detective}</p></td></tr><tr><td><p>66-70</p></td><td><p>Profeta</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.14c1e6ecd4680fee]{Devoto}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.98f1ff9b338b5695]{Vidente}</p></td></tr><tr><td><p>71-75</p></td><td><p>Psiónico</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.fd7a1b4ec8ae5771]{Telequinético}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.d68e04a72dd54d32]{Vestigio}</p></td></tr><tr><td><p>76-80</p></td><td><p>Contrabandista</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.87222132d6c0379b]{Mensajero}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.d7fbe5fded75531c]{Bandido}</p></td></tr><tr><td><p>81-85</p></td><td><p>Espiritista</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.7fdebd942b7163b6]{Embrujado}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.db0df04af3ca4cc4]{Empático}</p></td></tr><tr><td><p>86-90</p></td><td><p>Ingeniero
+        de
+        naves</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.2d9f63e491a880c8]{Manitas}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.fd358fb5b9dcad41]{Tecnología}</p></td></tr><tr><td><p>91-95</p></td><td><p>Supersoldado</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.4c75d631a38fd3b8]{Implantado}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.9530a642ebdca5a5]{Mercenario}</p></td></tr><tr><td><p>96-100</p></td><td><p>Asaltatumbas</p></td><td><p>@UUID[Compendium.foundry-ironsworn.starforgedassets.Item.11de92d262291440]{Carroñero}
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.d7fbe5fded75531c]{Bandido}</p></td></tr></tbody></table><h2>PASO
+        3: Crea tu trasfondo</h2><p>Cuando empiezas a jugar en Starforged, tu
+        personaje es una persona con pocos lazos con los demás. La Forja es una
+        galaxia inmensa y tu antiguo hogar -si es que tuviste uno- está perdido,
+        abandonado o es un recuerdo lejano.</p><p>Piensa en lo que ocurrió al
+        separarte de tu hogar y tus relaciones. Éste es tu
+        <strong>trasfondo</strong>. Este origen puede influir en las historias
+        que explores y en los juramentos que hagas mientras juegas a Starforged
+        o puede que simplemente te aporte algo de textura para ayudar a dar vida
+        a tu personaje.</p><p>Si no se te ocurre nada, puedes usar
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.e43cc387717a7507]{este
+        oráculo} </p><h4>CONSTRUIR UNA HISTORIA CON OTROS JUGADORES</h4><p>Si
+        juegas con más gente hablad de vuestra historia común. ¿Os conocéis
+        desde hace años, sólo tenéis vínculos ocasionales o estáis formando un
+        equipo para esta campaña?</p><h2>PASO 4: Escribe tu juramento de
+        trasfondo</h2><p>A continuación, imagina un juramento de trasfondo que
+        represente una motivación principal o un objetivo final.</p><h4>IMAGINAR
+        EL VOTO</h4><p>Considera lo que sabes del escenario y de tu personaje
+        hasta ahora. ¿Qué ambición, necesidad o compromiso sagrado te mueve?
+        Este es tu juramento de trasfondo.</p><p>Este juramento forma parte de
+        la historia de tu personaje, lo juró hace meses o años. Puede estar
+        relacionado con tu historia o representar un objetivo más profundo.
+        </p><p>Cumplir este juramento no será fácil. Mecánicamente es un
+        juramento <strong>épico</strong> por lo que cada oportunidad de
+        @UUID[Compendium.foundry-ironsworn.starforgedmoves.Item.0d7f13818c1c19ed]{Alcanzar
+        un Hito} es sólo una marca en el contador de progreso del juramento. En
+        la campaña pueden pasar meses, años o incluso décadas hasta que este
+        juramento se cumpla o tengas que abandonarlo. Incluso puedes decidir que
+        tu juramento de trasfondo no es algo en lo que hagas progresos
+        significativos en tu narración; en su lugar, ayuda a establecer algunos
+        detalles para rolear a tu personaje y da cuerpo a tu
+        escenario.</p><h4>JURAMENTOS DE TRASFONDO Y ALIADOS</h4><p>Si juegas con
+        más gente a Starforged cada uno debería tener su propio juramento de
+        trasfondo. Esto es parte de lo que hace que tu personaje sea
+        único.</p><h4>ESCRIBE EL JURAMENTO </h4><p>Escribe el juramento en tu
+        hoja de personaje en el espacio llamado «Juramento de trasfondo».
+        Escribe el juramento utilizando las palabras imaginadas de tu personaje,
+        como por ejemplo:</p><ul><li><p>Juro destruir al clan de asaltantes
+        Talón de Hierro.</p></li><li><p>Descubriré un medio de preservar la
+        conciencia más allá de la muerte.</p></li></ul><h4>¿NO SE TE OCURRE UN
+        JURAMENTO?</h4><p>Si tienes problemas para imaginarte un juramento,
+        puedes usar varios oráculos para que te ayuden. Aquí tienes
+        algunos:</p><p>@UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.b347a87fb81a3abb]{Acción}</p><p>@UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.0c5ce82c7adbb4e2]{Tema}</p><p>@UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.a707e132902305f0]{Objetivo
+        del personaje}</p><p>También puedes dejar tu juramento en blanco y
+        añadirlo ocurra algo mientras juegas. </p><h2>PASO 5: Embárcate en tu
+        nave</h2><p>Ahora puedes coger el recurso
+        @UUID[Compendium.foundry-ironsworn.starforgedassets.Item.21d5a48992b8eb81]{Nave}.
+        Esta es tu nave estelar. Su capacidad inicial proporciona sus funciones
+        básicas. Podrás reclarmar las otras dos capacidades cuando
+        @UUID[Compendium.foundry-ironsworn.starforgedmoves.Item.d602da2ce0c05f2c]{Mejores}.
+        Por ahora, déjalas desmarcadas.</p><h4>VOLANDO CON ALIADOS</h4><p>Si
+        estás jugando con más gente la nave es compartida. Discutid si sois
+        copropietarios de la nave o alguno es el propietario principal. La nave
+        también puede pertenecer a otra persona o facción y vosotros sois su
+        tripulación. </p><p>Esto simplemente es un adorno narrativo; no tendrá
+        efecto en cómo uséis el recurso en la partida. Cualquiera a bordo de la
+        nave puede usar sus capacidades.</p><h4>DALE A TU NAVE UNA
+        HISTORIA</h4><p>Imagina cómo has obtenido o ganado esta nave. Puedes
+        inventar tu propio origen, tirar o elegir de
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.6361f92838cea0d3]{esta
+        tabla}. Si utilizas un resultado de la tabla, tómate un momento para
+        considerar y matizar la sugerencia.</p><h4>IMAGINA TU NAVE</h4><p>Tu
+        nave es un aspecto importante de tu personaje y un personaje en sí
+        misma. ¿Qué aspecto tiene? ¿Qué la hace interesante o única? ¿Tiene
+        alguna peculiaridad? Si no se te ocurre nada ahora, puedes desarrollarlo
+        durante la partida. También puedes tirar una o dos veces en la
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.a19e731ea24cf3dd]{esta
+        tabla}.</p><h4>DALE UN NOMBRE A TU NAVE</h4><p>Por último, dale un
+        nombre a tu nave y escríbelo en su tarjeta. Si no se te ocurre un
+        nombre, puedes usar
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.f5409d739f5c0b27]{el
+        oráculo}.</p><h2>PASO 6: Elige tu último recurso</h2><p>Ahora que tu
+        nave está lista elige un
+        @UUID[Compendium.foundry-ironsworn.macros.Macro.xvJpniCT0lAIf3Eh]{último
+        recurso}. Esta vez, no estás limitado a elegir una senda. Puedes elegir
+        entre cualquiera de estas
+        categorías:</p><ul><li><p><strong>Modulo</strong>: funciones o
+        capacidades mejoradas para tu nave. Si la nave es compartida, este
+        módulo beneficiará al resto de jugadores
+        también.</p></li><li><p><strong>Vehículo de apoyo</strong>: vehículos
+        secundarios que puede transportar tu nave. Si juegas con más gente estos
+        vehículos son compartidas y sus capacidades estarán disponibles para
+        cualquier personaje a bordo del
+        mismo.</p></li><li><p><strong>Compañero</strong>: Ayudantes, incluidos
+        alienígenas y robots.</p></li><li><p><strong>Senda</strong>: Aspectos
+        del trasfondo, carreras, intereses, entrenamientos y
+        habilidades.</p></li></ul><p>Este recurso, junto con las dos sendas que
+        cogiste en un paso anterior, suman un total de tres recursos para tu
+        personaje, además de la nave.</p><h2>PASO 7: Define tus
+        características</h2><p>Tu personaje tiene cinco características que
+        representan sus habilidades, naturaleza y su foco. Cada una tiene un
+        valor entre 1 y 3. Cuando hagas un movimiento, tirarás los dados
+        habitualmente sumarás una de tus características al valor de tu dado de
+        acción. El movimiento te dirá cual sumar. Tus características
+        son:</p><ul><li><p><strong>Filo</strong>: Rapidez, coordinación,
+        agilidad y pericia en el combate a
+        distancia.</p></li><li><p><strong>Corazón</strong>: Coraje, fuerza de
+        voluntad, empatía, sociabilidad y
+        lealtad.</p></li><li><p><strong>Hierro</strong>: Fuerza física,
+        resistencia, combatividad y pericia en el combate cuerpo a
+        cuerpo.</p></li><li><p><strong>Sombra</strong>: Disimulo, subterfugio,
+        engaño y astucia.</p></li><li><p><strong>Mente</strong>: Experiencia,
+        capacidad de observación y conocimientos.</p></li></ul><p>Reparte los
+        siguientes valores entre las cinco características en cualquier orden: :
+        3, 2, 2, 1, 1.</p><h2>PASO 8: Ajusta tus marcadores de condición e
+        impulso</h2><p>Tus <strong>marcadores de condición</strong> están a la
+        derecha de tu ficha y el marcador de <strong>impulso</strong> a la
+        izquierda. El valor inicial de los marcadores de <strong>salud</strong>,
+        <strong>espíritu</strong> y <strong>suministros</strong> es de 5.
+        </p><p>Establece el <strong>impulso</strong> en +2, el impulso máximo en
+        +10 y su valor inicial en +2.</p><p>Por último, establece la
+        <strong>integridad </strong>de tu nave y de cualquier vehículo de apoyo
+        en su máximo valor y la <strong>salud </strong>de cualquier compañero
+        también en su máximo valor.</p><h2>PASO 9: Detalla a tu
+        personaje</h2><p>Una vez definidos los aspectos mecánicos y de trasfondo
+        de tu personaje tómate un momento para detallar su aspecto y
+        personalidad.</p><p>Para empezar, aporta uno o dos datos sobre su
+        aspecto físico, su forma de actuar y su vestimenta. No es necesario
+        añadir muchos detalles en esta fase: puedes descubrir los matices de tu
+        personaje mientras juegas.</p><p>Por
+        ejemplo:</p><ul><li><p><strong>Apariencia</strong>: Cubierto de
+        tatuajes; tiene una pierna mecánica adornada con
+        dibujos.</p></li><li><p><strong>Actitud</strong>: Comprensión aguda de
+        las máquinas; a menudo las prefiere a las
+        personas.</p></li><li><p><strong>Vestimenta</strong>: Gafas de seguridad
+        y mono sucio.</p></li></ul><p>Anota estas características donde quieras
+        o simplemente tenlas en cuenta al presentar a tu personaje.</p><h2>PASO
+        10: Dale un nombre a tu personaje</h2><p>Escribe el nombre de tu
+        personaje en la hoja de persoanje. Si necesitas inspiración, puedes usar
+        estos oráculos:
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.2ac8af92c0509f72]{Nombres},
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.f94e58504ac34af8]{Apellidos}.</p><p>Anota
+        los pronombres que quieres usar para tu personaje. Puedes usar
+        pronombres tradicionales o algunos no tradicionales como
+        ze/zir.</p><p>Si quieres, puedes darle un <strong>apodo</strong> a tu
+        personaje. En el espacio típico llamar a los personajes por su apodo. En
+        realidad, a menudo se refiere a su nombre propio como "nombre
+        sucio".</p><h2>PASO 11: Equípalo</h2><p>En Starforged no necesitarás una
+        lista detallada de equipo. Tu marcador de suministros es una
+        representación abstracta de tu preparación general, tu ropa,
+        combustible, energía, comida, agua, herramientas, armas, munición,
+        equipo común y recursos financieros. Te equiparás y armarás según la
+        visión que tengas de tu personaje y la naturaleza de tu
+        entorno.</p><h4>TU EQUIPO ESPACIAL</h4><p>Puedes asumir que tienes
+        acceso a algunas necesidades fundamentales para el viaje espacial y la
+        exploración, bien llevadas contigo o almacenadas en tu nave. Tu equipo
+        espacial incluye:</p><ul><li><p>Traje ambiental
+        sellado</p></li><li><p>Linternas / faros</p></li><li><p>Kit de
+        herramientas</p></li><li><p>Botiquín</p></li><li><p>Comunicador
+        personal</p></li></ul><h4>OBJETOS PERSONALES</h4><p>Anota cualquier
+        equipo u objeto personal que represente un aspecto importante del
+        enfoque, las capacidades o los antecedentes de tu personaje. Haz una
+        lista corta, de cuatro o cinco objetos como máximo. La hoja de personaje
+        tiene espacio para anotar cualquier equipo destacable. La pérdida de
+        equipo importante u objetos preciados puede ser el resultado de una
+        acción o acontecimiento costoso en tu historia.</p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      YpOXgqXvXWOBNd3c: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundry-ironsworn
+      systemVersion: 1.24.8
+      createdTime: 1736596192931
+      modifiedTime: 1736604370861
+      lastModifiedBy: YpOXgqXvXWOBNd3c
+    _key: '!journal.pages!xVc1KKNyDmQsp016.PmaIwplePj47sKxr'
+  - sort: 300000
+    name: Construye el sector inicial
+    type: text
+    _id: CP3BLaMmWRir2GaB
+    system: {}
+    title:
+      show: true
+      level: 1
+    image: {}
+    text:
+      format: 1
+      content: >-
+        <p>En este ejercicio, prepararás un sector inicial. Esta zona del
+        espacio servirá de telón de fondo al comienzo de tus
+        aventuras.</p><p>@UUID[Compendium.foundry-ironsworn.starforged-sectors.Scene.yoU9GLOjNcAaBuN3]{Aquí}
+        tienes una plantilla para poder desarrollar tu sector.</p><h2>¿QUÉ ES UN
+        SECTOR?</h2><p>Un sector es una zona asentada o explorada del espacio.
+        En la ficción los sectores se nombran y proporcionan a la gente de la
+        Forja una forma común de identificar una localización o cartografiar los
+        dominios de una potencia o facción. Por ejemplo, alguien podría decir
+        «La estación Bleakhold está en las Fauces del Diablo».</p><p>Tu
+        personaje necesitaría cartas o coordenadas más precisas para situar
+        realmente esa estación en el sector de las Fauces del Diablo, pero es un
+        comienzo.</p><p>Desde la perspectiva del jugador, los sectores le ayudan
+        a gestionar los detalles de sus viajes e interacciones. Un sector
+        conocido puede servir de escenario para tus misiones juradas. Luego, a
+        medida que te adentras en lo desconocido, puedes descubrir, explorar y
+        nombrar nuevos sectores.</p><h2>PASO 1: Elige tu región
+        inicial</h2><p>La Forja es una galaxia inmensa así que vamos a elegir
+        una región para comenzar tus aventuras. La Forja está dividida a grandes
+        rasgos en cuatro regiones. Elige tu región inicial y anótala en tu hoja
+        de sector.</p><ul><li><p><strong>Terminus</strong>: Los asentamientos
+        son relativamente comunes aquí y las rutas espaciales entre comunidades
+        suelen estar bien trazadas. Si quieres centrarte en interactuar con
+        otras personas y comunidades, empieza
+        aquí.</p></li><li><p><strong>Regiones exteriores</strong>: Estas
+        regiones representas una zona de reciente expansión. Los asentamientos
+        están dispersos y las rutas de navegación suelen ser inexploradas y
+        peligrosas. Si te imaginas como un astronauta en una frontera salvaje,
+        empieza aquí.</p></li><li><p><strong>La inmensidad</strong>: Sólo unos
+        pocos pioneros audaces se han adentrado en estos lejanos confines. Si
+        estás listo para enfrentarte a los peligros de la exploración solitaria
+        en el espacio inexplorado, empieza aquí.</p></li><li><p><strong>El
+        Vacío</strong>: En los confines más allá de la Forja las estrellas
+        aisladas están separadas por vastos golfos de nada. Viajar y
+        establecerse aquí es poco práctico, si no imposible. No empieces tu
+        campaña aquí.</p></li></ul><h2>PASO 2: Determina el número de
+        asentamientos</h2><p>Un <strong>asentamiento</strong> es un lugar
+        poblado por otros humanos. Los asentamientos pueden ser hábitats en
+        planetas, estaciones orbitales o instalaciones en el espacio profundo.
+        Te ofrecen un lugar donde recuperarte después de que tus aventuras en la
+        Forja te hayan pasado factura. Y lo que es más importante, los
+        asentamientos son un nexo de unión para rolear y obtener
+        misiones.</p><p>Primero, determina el número de asentamientos conocidos
+        en el sector basándote en la región donde está
+        localizado:</p><ul><li><p><strong>Terminus</strong>: 4
+        asentamientos</p></li><li><p><strong>Regiones exteriores</strong>: 3
+        asentamientos</p></li><li><p><strong>La inmensidad</strong>: 2
+        asentamientos</p></li></ul><p>Ten en cuenta que esto no es un estándar
+        que tendrás que seguir cada vez que generes otros sectores a medida que
+        explores la Forja. Estos valores nos dan algo manejable para este
+        ejercicio.</p><h2>PASO 3: Genera los detalles de los
+        asentamientos</h2><p>Para cada asentamiento en tu sector, tira en la
+        siguientes
+        tablas:</p><ul><li><p>@UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.c25eade4d8daa0bc]{Nombre
+        del
+        asentamiento}</p></li><li><p>@UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.68efb47a93ee8925]{Localización}</p></li><li><p>Población:
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.473250ed66f4c411]{Terminus},
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.8d5220c3ac5a5199]{Regiones
+        exteriores},
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.058fd93e957c6804]{La
+        inmensidad}</p></li><li><p>@UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.eb909255e1df463b]{Proyectos
+        del asentamiento} (tira 1-2 veces)</p></li></ul><h2>PASO 4: Genera
+        planetas</h2><p>Si alguno de tus asentamientos está localizado en un
+        planeta o en una órbita planetaria, puedes identificar y nombrar el
+        planeta para ayudarte a darle cuerpo a la naturaleza del
+        asentamiento.</p><p>Para saber el tipo base de planeta, puedes tirar en
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.affbef437e01ef10]{esta
+        tabla}.</p><p>Si quieres puedes darle al planeta un nombre. Si necesitas
+        inspiración puedes usar las nombres de ejemplo que hay los diferentes
+        oráculos según el tipo de planeta:
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.d9ccce4a55cf1ba3]{Desértico},
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.f45c90ceb8432000]{Helado},
+        …</p><p>No tires todavía en el resto de tablas disponibles para cada
+        planeta. Cuando visites los planetas obtendrás más información sobre
+        ellos.</p><h2>PASO 5: Genera estrellas (opcional)</h2><p>Si quieres
+        conocer la naturaleza de las estrellas primarias que orbitan estos
+        asentamientos y planetas, tira una vez en
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.f2bba7a759c5871a]{esta
+        tabla} para cada asentamiento.</p><p>Por lo general esto sólo añadirá un
+        poco de escenografía a estos lugares. Por ejemplo, puedes imaginar cómo
+        una estrella azul baña el asentamiento con una luz dura y fría. O cómo
+        una hipergigante llena el cielo de un resplandor ardiente.</p><p>Una
+        estrella inusual, como una estrella corrupta o una supernova inminente,
+        podría tener un impacto narrativo en tu situación inicial e incluso
+        influir en tus desafíos y misiones iniciales.</p><h2>PASO 6: Crea el
+        mapa del sector</h2><p>Puedes usar el
+        @UUID[Compendium.foundry-ironsworn.starforged-sectors.Scene.yoU9GLOjNcAaBuN3]{sector
+        vacío} incluido en los compendios para dibujar el mapa de tu
+        sector.</p><p>Una nota importante: no te compliques. La Forja es
+        inmensa. Densas nubes estelares, complejos sistemas y caóticas tormentas
+        de energía dificultan la navegación. A medida que explores la galaxia
+        marcarás los lugares importantes, como asentamientos o descubrimientos
+        interesantes. Todo lo demás se abstrae o se ignora.</p><p>Para empezar,
+        coloca los asentamientos en el mapa como te parezca mejor. La cuadrícula
+        no es una medida literal de distancia pero puede ser usada como una
+        representación abstracta de están más o menos cercanas.</p><p>El mapa
+        también se puede utilizar para marcar ubicaciones destacadas a medida
+        que descubres más sobre un sector. Esto puede incluir descubrimientos
+        como planetas deshabitados, cámaras de los precursores, naves
+        abandonadas, campos de asteroides, agujeros negros o calamares
+        espaciales titánicos. Por ahora, nos centraremos en los asentamientos
+        iniciales.</p><h2>PASO 7: Genera pasajes</h2><p>A continuación
+        establecerás los pasajes de este sector. Un <strong>pasaje</strong> es
+        una ruta trazada entre las <strong>corrientes</strong>. Los tripulantes
+        confían en estas rutas para viajar y comerciar. Es como utilizar un GPS
+        y las autopistas para llegar a una ciudad lejana en lugar de viajar con
+        direcciones imprecisas por carreteras sin señalizar.</p><p>Desde el
+        punto de vista de la jugabilidad, seguir un pasaje te permite resolver
+        el resultado de un viaje peligroso con una sola tirada de dados
+        utilizando el movimiento
+        @UUID[Compendium.foundry-ironsworn.starforgedmoves.Item.ed490d43a2533506]{Fijar
+        un rumbo}. Facilita la gestión de tus recursos y desplaza el foco de tu
+        historia a lo que ocurre en tu destino.</p><p>Si viajas por rutas
+        inexploradas a través del espacio
+        @UUID[Compendium.foundry-ironsworn.starforgedmoves.Item.3ff03b51f620ab26]{emprenderás
+        una expedición}. Esto le da al viaje y a sus peligros un mayor enfoque.
+        A cambio ganas Experiencia por una expedición exitosa. Además, crearás
+        un nuevo pasaje que tú (y quizás otros) podréis usar para acelerar
+        vuestro camino por la misma senda en el futuro.</p><h4>DEFINE EL NÚMERO
+        DE PASAJES</h4><p>¿Cuántos pasajes hay en tu sector? En el transcurso
+        normal de la partida, el aprendizaje de los pasajes y la adquisición de
+        datos de navegación pueden ser retos a superar. Para el sector inicial,
+        supongamos lo siguiente:</p><ul><li><p><strong>Terminus</strong>: 3
+        pasajes</p></li><li><p><strong>Regiones exteriores</strong>: 2
+        pasajes</p></li><li><p><strong>La inmensidad</strong>: 1
+        pasaje</p></li></ul><h4>MARCA LOS PASAJES</h4><p>Dibuja los pasajes como
+        líneas en el mapa de tu sector. Cada pasaje debe hacer una de estas dos
+        cosas:</p><ul><li><p>Conectar dos asentamientos.</p></li><li><p>Conectar
+        un asentamiento con el borde del mapa del sector (que lleve a otro
+        sector).</p></li></ul><h2>PASO 8: Enfócate en un
+        asentamiento</h2><p>Será útil disponer de algunos detalles adicionales
+        sobre uno de los asentamientos de tu sector inicial. Puede que empieces
+        la campaña en medio de una escala o que acabes de llegar allí cuando
+        empiece la historia.</p><p>Elige uno de los asentamientos de tu sector
+        inicial, el que más te interese. A continuación, ve a los oráculos de
+        asentamiento y tira en las siguientes
+        tablas:</p><ul><li><p>@UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.5ff0f4816e9338b4]{Primer
+        vistazo}; tira 1-2
+        veces.</p></li><li><p>@UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.b42abc2bc10cd38b]{Problemas
+        del asentamiento}</p></li></ul><p>Si el asentamiento está en un planeta
+        o en órbita, también puedes ampliar tus conocimientos sobre ese planeta.
+        Ve al tipo de planeta apropiado y tira en las siguientes tablas (ejemplo
+        para planeta
+        desértico):</p><ul><li><p>@UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.f42af77272694d08]{Atmósfera}</p></li><li><p>@UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.ed4e3e57470dd927]{Observado
+        desde el espacio}; tira 1-2
+        veces</p></li><li><p>@UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.88fd2037f0802836]{Característica
+        del planeta}; tira 1-2 veces.</p></li></ul><p>Si el planeta es un Mundo
+        Vital, tira también en las tablas de
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.2ccc456d0af8d199]{Diversidad}
+        y
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.85e11dcd94c71ef2]{Biomas}.</p><p>No
+        tires en la tabla de asentamientos del planeta. Para simplificar las
+        cosas por ahora, supondremos que hay un asentamiento
+        habitado.</p><h2>PASO 9: Crea un contacto local</h2><p>Un contacto
+        representa una relación importante con un personaje (PNJ). Crearás
+        contactos con los PNJ, harás avanzar esas relaciones en el transcurso de
+        tu narración y forjarás vínculos que representen conexiones más
+        profundas. Construir y alimentar estas relaciones te permitirá marcar el
+        progreso en tu contador de vínculos y ganar experiencia. Los contactos
+        también ofrecen beneficios narrativos apropiados a su papel y pueden
+        apoyar tus acciones con una bonificación mecánica.</p><p>Por ahora,
+        tienes una única conexión en el sector inicial.</p><h4>COMPARTIR UN
+        CONTACTO</h4><p>Si estás jugando con más gente, crearás un único
+        contacto como parte de este ejercicio. Será un contacto común. Ya sea
+        que os lo hayáis presentado o lo hayáis conocido mediante interacciones
+        colectivas, cada uno tenéis un vínculo con esta persona.</p><h4>HAZ EL
+        MOVIMIENTO</h4><p>Echa un vistazo al movimiento
+        @UUID[Compendium.foundry-ironsworn.starforgedmoves.Item.05909d6310d209a6]{Establecer
+        un contacto}. En lugar de tirar, asume que has sacado un éxito total.
+        Este contacto ya está establecido al comenzar la campaña por lo que no
+        es necesaria ninguna tirada.</p><h4>DALE UN PAPEL</h4><p>El papel de tu
+        contacto representa su deber, experiencia o formación. Por
+        ejemplo:</p><ul><li><p>Un <strong>mecanico</strong> construye y repara
+        naves estelares.</p></li><li><p>Un <strong>enviado</strong> puede
+        organizar presentaciones o ayudar a resolver disputas.</p></li><li><p>Un
+        <strong>explorador</strong> se ha adentrado en las profundidades de la
+        Forja y conoce muchos de sus secretos.</p></li></ul><p>Si quieres dejar
+        esta decisión en las manos de la suerte, puedes tirar en
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.fbb49cabf7e9596c]{esta
+        tabla}.</p><h4>DALE UN RANGO</h4><p>El rango de tu contacto representa
+        la dificultad de profundizar en la relación. Cuanto mayor sea el rango,
+        mayor será el enfoque narrativo y el tiempo necesario para
+        @UUID[Compendium.foundry-ironsworn.starforgedmoves.Item.287bb4c2b53ea847]{forjar
+        un vínculo} con ellos.</p><p>Elige un rango apropiado a su papel y al
+        nivel de implicación que quieres que tenga en tu historia: problemático,
+        peligroso, formidable, extremo o épico. Para un primer vínculo,
+        considera la posibilidad de que sea problemático o peligroso. Marca su
+        rango en la hoja de contactos.</p><h4>DEFINE SUS
+        CARACTERÍSTICAS</h4><p>Dale a tu contacto algunos atributos distintivos.
+        Puedes simplemente imaginar lo que sabes de esta persona, o tirar en los
+        siguientes
+        oráculos:</p><ul><li><p>@UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.e422399eb54ed7b1]{Primeras
+        impresiones}; tira 1-2
+        veces</p></li><li><p>@UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.a707e132902305f0]{Objetivos}</p></li><li><p>@UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.4c4b6c28ff08ad98]{Aspectos
+        relevante}; tira 1-2 veces</p></li></ul><h4>ELIGE UN HOGAR PARA TU
+        CONTACTO</h4><p>Elige un asentamiento de tu sector como hogar de tu
+        contacto. Si quieres involucrarlos en tu historia de inmediato,
+        colócalos en el asentamiento que detallaste en el paso 8. Escríbelo en
+        la hoja de contactos.</p><h4>DALE UN NOMBRE</h4><p>Dale un nombre o
+        apodo a tu contacto. Si necesitas inspiración usa el oráculo de
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.2ac8af92c0509f72]{nombres
+        de personaje},
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.f94e58504ac34af8]{apellidos}
+        o
+        .@UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.76cd6f5340a4978a]{apodos}.
+        Anota esta identidad en la ficha de contactos.</p><h2>PASO 10: Introduce
+        el problema del sector</h2><p>Has oído rumores de un peligro, conflicto
+        o misterio en todo el sector. Puedes inventar un problema apropiado para
+        tu escenario o tirar en los oráculos de
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.b347a87fb81a3abb]{Acción}
+        y
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.0c5ce82c7adbb4e2]{Tema}
+        para inspirarte (páginas 296-297) o elegir o tirar en
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.f6764b50761b77eb]{esta
+        tabla}. Imagina cómo podría manifestarse este problema y anótalo la
+        ficha del sector o en tus notas.</p><h2>PASO 11: Finaliza tu sector
+        inicial</h2><p>Dale un nombre a tu sector. Si quieres una sugerencia,
+        puedes usar los oráculos de nombres:
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.306501658d12dbad]{Prefijo}
+        @UUID[Compendium.foundry-ironsworn.starforgedoracles.RollTable.0b2b7f507f8901cc]{Sufijo}.</p><p>También
+        puedes establecer una potencia controladora para el sector si una
+        facción pasó a primer plano durante el ejercicio de las verdades. Si no,
+        mantenlo ambiguo. Los sectores pueden estar aislados, ser caóticos o
+        albergar muchas facciones insignificantes. Si quieres revelar detalles
+        de una facción durante el juego, usa los oráculos de facción como
+        inspiración.</p><p></p>
+    video:
+      controls: true
+      volume: 0.5
+    src: null
+    ownership:
+      default: -1
+      YpOXgqXvXWOBNd3c: 3
+    flags: {}
+    _stats:
+      compendiumSource: null
+      duplicateSource: null
+      coreVersion: '12.331'
+      systemId: foundry-ironsworn
+      systemVersion: 1.24.8
+      createdTime: 1736605619415
+      modifiedTime: 1736612605552
+      lastModifiedBy: YpOXgqXvXWOBNd3c
+    _key: '!journal.pages!xVc1KKNyDmQsp016.CP3BLaMmWRir2GaB'
+folder: null
+sort: 0
+ownership:
+  default: 0
+flags: {}
+_stats:
+  compendiumSource: null
+  duplicateSource: null
+  coreVersion: '12.331'
+  systemId: foundry-ironsworn
+  systemVersion: 1.24.8
+  createdTime: 1736594565866
+  modifiedTime: 1736594565866
+  lastModifiedBy: htpexporter00000
+_key: '!journal!xVc1KKNyDmQsp016'
+

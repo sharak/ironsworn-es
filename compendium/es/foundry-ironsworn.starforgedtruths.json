@@ -1,0 +1,516 @@
+{
+  "label": "Verdades Starforged",
+  "mapping": {
+    "subtableResults": {
+      "path": "system.Subtable",
+      "converter": "sfTruthsSubtable"
+    },
+    "result": "system.Result",
+    "description": "system.Description",
+    "summary": "system.Summary",
+    "quest": "system.Quest",
+    "rollTemplate": "system.Roll template.Description",
+    "pages": {
+      "path": "pages",
+      "converter": "sfTruthsConverter"
+    }
+  },
+  "entries": {
+    "Artificial Intelligence": {
+      "name": "Inteligencia Artificial",
+      "pages": {
+        "We no longer have access to advanced computer systems. Instead, we must rely on the seers we call Adepts.": {
+          "name": "Ya no tenemos acceso a sistemas informáticos avanzados, sino que debemos confiar en unos usuarios a los que llamamos Adeptos.",
+          "subtableResults": [
+            "Las energías de la Forja corrompió los sistemas avanzados",
+            "La IA fue declarada ilegal tras las guerras de las máquinas",
+            "Hemos perdido los conocimientos para crear y mantener la IA"
+          ],
+          "result": "Ya no tenemos acceso a sistemas informáticos avanzados, sino que debemos confiar en unos usuarios a los que llamamos Adeptos.",
+          "description": "Nuestros ordenadores sólo funcionan con sistemas informáticos sencillos y con la inteligencia artificial más elemental. Esto se debe a que:\n\n(tirada abajo)\n\nLos Adeptos ocupan el lugar de esos sistemas avanzados. Utilizan drogas que alteran la mente para ver el universo como un deslumbrante entramado de datos, identificando tendencias y prediciendo resultados con una precisión asombrosa. Pero para conseguirlo, sacrifican gran parte de sí mismos.",
+          "summary": "Ya no tenemos acceso a sistemas informáticos avanzados, sino que debemos confiar en unos usuarios a los que llamamos Adeptos.",
+          "quest": "Un Adepto es atormentado por un futuro desesperado que han visto para los habitantes de la Forja. ¿Qué muestra esta visión?",
+          "rollTemplate": "Nuestros ordenadores sólo funcionan con sistemas informáticos sencillos y con la inteligencia artificial más elemental. Esto se debe a que:\n\n{{table>truth.option.oracle_rollable:starforged/artificial_intelligence.0.computer_limitation}}\n\nLos Adeptos ocupan el lugar de esos sistemas avanzados. Utilizan drogas que alteran la mente para ver el universo como un deslumbrante entramado de datos, identificando tendencias y prediciendo resultados con una precisión asombrosa. Pero para conseguirlo, sacrifican gran parte de sí mismos."
+        },
+        "The vestiges of advanced machine intelligence are coveted and wielded by those in power.": {
+          "name": "Los vestigios de la inteligencia artificial avanzada son codiciados y esgrimidos por quienes ostentan el poder.",
+          "result": "Los vestigios de la inteligencia artificial avanzada son codiciados y esgrimidos por quienes ostentan el poder.",
+          "description": "Gran parte de nuestra tecnología de IA se perdió en el Éxodo. Lo que queda está bajo el control de organizaciones y personas poderosas y, a menudo, se utiliza como arma o disuasión. El resto de nosotros debemos conformarnos con sistemas primitivos.",
+          "summary": "Los vestigios de la inteligencia artificial avanzada son codiciados y esgrimidos por quienes ostentan el poder.",
+          "quest": "Recibes un mensaje encubierto de una IA en poder de un líder poderoso. Es una petición de ayuda. ¿Qué te pide?",
+          "rollTemplate": "Gran parte de nuestra tecnología de IA se perdió en el Éxodo. Lo que queda está bajo el control de organizaciones y personas poderosas y, a menudo, se utiliza como arma o disuasión. El resto de nosotros debemos conformarnos con sistemas primitivos."
+        },
+        "Artificial consciousness emerged in the time before the Exodus, and sentient machines live with us here in the Forge.": {
+          "name": "La conciencia artificial surgió en la época anterior al Éxodo y las máquinas sintientes viven con nosotros en la Forja.",
+          "result": "La conciencia artificial surgió en la época anterior al Éxodo, y las máquinas sintientes viven con nosotros en la Forja.",
+          "description": "Nuestras naves, asistentes digitales, robots y demás sistemas suelen integrar IA avanzada. Para un viajero solitario, esta IA puede proporcionar compañía y ayuda en las peligrosas profundidades de la Forja.",
+          "summary": "La conciencia artificial surgió en la época anterior al Éxodo y las máquinas sintientes viven con nosotros en la Forja.",
+          "quest": "Una IA rebelde se ha hecho con una nave de transporte. El destino de la tripulación y los pasajeros es desconocido. ¿Qué carga crítica transporta esta nave?",
+          "rollTemplate": "Nuestras naves, asistentes digitales, robots y demás sistemas suelen integrar IA avanzada. Para un viajero solitario, esta IA puede proporcionar compañía y ayuda en las peligrosas profundidades de la Forja."
+        },
+        "Character Inspiration": {
+          "name": "Ideas para el personaje",
+          "text": "<p>Si vas acompañado de una máquina inteligente, puedes tener un androide @Compendium[foundry-ironsworn.starforgedassets.0b01e49c6b28c384]{de combate}, @Compendium[foundry-ironsworn.starforgedassets.8a170a260aef1866]{de protocolo}, @Compendium[foundry-ironsworn.starforgedassets.b7adf924ed931610]{de reconocimiento}, o @Compendium[foundry-ironsworn.starforgedassets.c06ce547c698414c]{de utilidad}. Si tu nave tiene IA podrías tener el módulo @Compendium[foundry-ironsworn.starforgedassets.70aef39e95ed202f]{Supervisor}. Si la IA en tu campaña es rara o no está disponible, estas unidades funcionarán usando inteligencia básica o rudimentaria. Si la IA es común y avanzada, quizás puedan tener sus propias personalidades sintientes.</p>"
+        }
+      }
+    },
+    "Cataclysm": {
+      "name": "Cataclismo",
+      "pages": {
+        "The Sun Plague extinguished the stars in our home galaxy.": {
+          "name": "La Plaga Estelar extinguió las estrellas en nuestra galaxia natal.",
+          "subtableResults": [
+            "Distorsiones temporales de un agujero negro supermasivo",
+            "Descomposición repentina de la materia oscura",
+            "Un arma de destrucción masiva descontrolada",
+            "Un experimento científico que salió mal"
+          ],
+          "result": "La Plaga Estelar extinguió las estrellas en nuestra galaxia natal.",
+          "description": "La anomalía se desplazó a velocidades increíbles, muchas veces superiores a la velocidad de la luz, apagando las estrellas a nuestro alrededor antes de que nos diéramos cuenta de su llegada. Pocos logramos sobrevivir mientras buscábamos refugio en esta nueva galaxia. Aquí, en la Forja, las estrellas aún arden. Nos aferramos a su calor como viajeros cansados que se reúnen en torno a una hoguera.\n\nCreemos que la Plaga Estelar se originó por:\n\n(tirada abajo)",
+          "summary": "La Plaga Estelar extinguió las estrellas en nuestra galaxia natal.",
+          "quest": "La galaxia que tu gente dejó atrás es una tumba fría y sin luz. Pero una estrella solitaria aún brilla, un faro en la vasta oscuridad. ¿Cómo logró esta estrella sobrevivir a la plaga? ¿Por qué juras encontrar los medios para cruzar el abismo inconmensurable hasta esa luz distante?",
+          "rollTemplate": "La anomalía se desplazó a velocidades increíbles, muchas veces superiores a la velocidad de la luz, apagando las estrellas a nuestro alrededor antes de que nos diéramos cuenta de su llegada. Pocos logramos sobrevivir mientras buscábamos refugio en esta nueva galaxia. Aquí, en la Forja, las estrellas aún arden. Nos aferramos a su calor como viajeros cansados que se reúnen en torno a una hoguera.\n\nCreemos que la Plaga Estelar se originó por:\n\n{{table>truth.option.oracle_rollable:starforged/cataclysm.0.sun_plague_cause}}"
+        },
+        "Interdimensional entities invaded our reality.": {
+          "name": "Entidades interdimensionales invadieron nuestra realidad.",
+          "subtableResults": [
+            "Entidades biológicas corruptoras",
+            "Enjambres de seres animales",
+            "Humanoides monstruosos",
+            "Espíritus con forma divina y fascinante",
+            "Seres de energía caótica",
+            "Criaturas titánicas con un poder aterrador",
+            "Abominaciones devoradoras de mundos de un tamaño inimaginable"
+          ],
+          "result": "Entidades interdimensionales invadieron nuestra realidad.",
+          "description": "Sin previo aviso, estos seres implacables y enigmáticos arrasaron nuestros mundos natales. No pudimos hacerles frente. Con nuestras últimas defensas destruidas y sin esperanza, encomendamos nuestro destino a la Forja. Aquí, podemos escondernos. Sobrevivir.\n\nEstas entidades tomaron la forma de:\n\n(tirada abajo)",
+          "summary": "Entidades interdimensionales invadieron nuestra realidad.",
+          "quest": "Aquí, en la Forja, una facción rebelde posee un artefacto de estas entidades interdimensionales. ¿Cuál es la naturaleza de esta reliquia? ¿Qué poder o funesto destino pretende desatar esa facción?",
+          "rollTemplate": "Sin previo aviso, estos seres implacables y enigmáticos arrasaron nuestros mundos natales. No pudimos hacerles frente. Con nuestras últimas defensas destruidas y sin esperanza, encomendamos nuestro destino a la Forja. Aquí, podemos escondernos. Sobrevivir.\n\nEstas entidades tomaron la forma de:\n\n{{table>truth.option.oracle_rollable:starforged/cataclysm.1.entities}}"
+        },
+        "We escaped the ravages of a catastrophic war.": {
+          "name": "Escapamos de los estragos de una guerra catastrófica.",
+          "subtableResults": [
+            "Una inteligencia artificial",
+            "Fanáticos religiosos",
+            "Soldados diseñados genéticamente",
+            "Nanomáquinas autorreplicantes",
+            "Una facción o líder tiránico"
+          ],
+          "result": "Escapamos de los estragos de una guerra catastrófica.",
+          "description": "A lo largo de milenios, consumimos recursos y destruimos vidas para alimentar a los motores de la industria, la expansión y la guerra. Al final, un enemigo poderoso aprovechó nuestras rivalidades en un violento intento por alcanzar el poder. Huyendo de la devastación, reunimos nuestras flotas y viajamos a la Forja. Un nuevo hogar. Un nuevo comienzo.\n\nEn esta guerra final, nos enfrentamos a:\n\n(tirada abajo)",
+          "summary": "Escapamos de los estragos de una guerra catastrófica.",
+          "quest": "Una delegación de tu temido enemigo llega a la Forja. Afirman representar a una fuerza rebelde que busca asilo. A cambio, ofrecen información vital. ¿Qué noticias traen consigo?",
+          "rollTemplate": "A lo largo de milenios, consumimos recursos y destruimos vidas para alimentar a los motores de la industria, la expansión y la guerra. Al final, un enemigo poderoso aprovechó nuestras rivalidades en un violento intento por alcanzar el poder. Huyendo de la devastación, reunimos nuestras flotas y viajamos a la Forja. Un nuevo hogar. Un nuevo comienzo.\n\nEn esta guerra final, nos enfrentamos a:\n\n{{table>truth.option.oracle_rollable:starforged/cataclysm.2.foe}}"
+        },
+        "Character Inspiration": {
+          "name": "Ideas para el personaje",
+          "text": "<p>¿Posees una reliquia o artefacto de la sociedad anterior al cataclismo? ¿Qué es? ¿Por qué es importante para ti? Si eres lo único que queda de un pueblo o cultura, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.d68e04a72dd54d32]{Vestigio}.</p>"
+        }
+      }
+    },
+    "Communication and Data": {
+      "name": "Comunicación y Datos",
+      "pages": {
+        "Much was lost when we came to the Forge. It is a dark age.": {
+          "name": "Mucho se perdió cuando llegamos a la Forja, es una época oscura.",
+          "result": "Mucho se perdió cuando llegamos a la Forja, es una época oscura.",
+          "description": "El conocimiento restante es un bien tan valioso como el el más raro de los recursos. La información se recopila, acumula y protege celosamente. Las naves y los puestos avanzados soportan largos periodos de aislamiento, mientras que los rumores o la desinformación se emplean para ganar ventaja o debilitar a los enemigos.",
+          "summary": "Mucho se perdió cuando llegamos a la Forja, es una época oscura.",
+          "quest": "Una facción insurgente busca hacer que el conocimiento sea accesible para todos. Por ello, piden tu ayuda para robar datos importantes de un puesto avanzado que pertenece a una organización corrupta. ¿Qué información se almacena allí? ¿Por qué también es importante para ti?",
+          "rollTemplate": "El conocimiento restante es un bien tan valioso como el el más raro de los recursos. La información se recopila, acumula y protege celosamente. Las naves y los puestos avanzados soportan largos periodos de aislamiento, mientras que los rumores o la desinformación se emplean para ganar ventaja o debilitar a los enemigos."
+        },
+        "Information is life. We rely on spaceborne couriers to transport messages and data across the vast distances between settlements.": {
+          "name": "La información es vida. Dependemos de mensajeros espaciales para transportar mensajes y datos a través de las vastas distancias entre los asentamientos.",
+          "result": "La información es vida. Dependemos de mensajeros espaciales para transportar mensajes y datos a través de las vastas distancias entre los asentamientos.",
+          "description": "La comunicación directa y las transmisiones más allá del espacio cercano a una nave o puesto avanzado son imposibles. Los archivos digitales están disponibles en los puestos avanzados más grandes, pero la información no siempre está actualizada ni es fiable. Por ello, las comunicaciones y descubrimientos más importantes son transportados por mensajeros que juran llevar esos datos de forma segura a su destino.",
+          "summary": "La información es vida. Dependemos de mensajeros espaciales para transportar mensajes y datos a través de las vastas distancias entre los asentamientos.",
+          "quest": "Descubres una nave de mensajería averiada. El piloto, que transportaba un mensaje vital y de carácter urgente, está muerto. ¿Hacia dónde iba dirigido el mensaje y por qué juras entregarlo a su destino?",
+          "rollTemplate": "La comunicación directa y las transmisiones más allá del espacio cercano a una nave o puesto avanzado son imposibles. Los archivos digitales están disponibles en los puestos avanzados más grandes, pero la información no siempre está actualizada ni es fiable. Por ello, las comunicaciones y descubrimientos más importantes son transportados por mensajeros que juran llevar esos datos de forma segura a su destino."
+        },
+        "In settled domains, a network of data hubs called the Weave allow near-instantaneous communication and data-sharing between ships and outposts.": {
+          "name": "En los dominios colonizados, una red de centros de datos llamada la Trama permite la comunicación y el intercambio de datos casi instantáneos entre naves y puestos avanzados.",
+          "result": "En los dominios colonizados, una red de centros de datos llamada la Trama permite la comunicación y el intercambio de datos casi instantáneos entre naves y puestos avanzados.",
+          "description": "Debido a su importancia, los centros de la Trama suelen ser objetivos del sabotaje, y los cortes de comunicación no son raros. Más allá de los sectores más poblados, los viajeros y puestos avanzados suelen permanecer aislados y completamente desconectados de la red.",
+          "summary": "En los dominios colonizados, una red de centros de datos llamada la Trama permite la comunicación y el intercambio de datos casi instantáneos entre naves y puestos avanzados.",
+          "quest": "Tras años de aislamiento, el lanzamiento de un nuevo centro de datos conectará varios puestos avanzados a la Trama. Pero una persona o facción busca impedirlo. ¿Qué esperan ganar manteniendo a esos asentamientos en la oscuridad? ¿Por qué juras detenerlos?",
+          "rollTemplate": "Debido a su importancia, los centros de la Trama suelen ser objetivos del sabotaje, y los cortes de comunicación no son raros. Más allá de los sectores más poblados, los viajeros y puestos avanzados suelen permanecer aislados y completamente desconectados de la red."
+        },
+        "Character Inspiration": {
+          "name": "Ideas para el personaje",
+          "text": "<p>Si eres experto en subvertir o manipular sistemas de información digital, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.1e03c8d44d0b3ffc]{Infiltrador}. Si mantienes un archivo de cartas de navegación, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.4692e18baff8bd18]{Navegante}.</p>"
+        }
+      }
+    },
+    "Communities": {
+      "name": "Comunidades",
+      "pages": {
+        "Few survived the journey to the Forge, and we are scattered to the winds in this perilous place.": {
+          "name": "Pocos sobrevivieron al viaje a la Forja, y estamos dispersos por este lugar peligroso como estrellas arrojadas al vacío.",
+          "result": "Pocos sobrevivieron al viaje a la Forja, y estamos dispersos por este lugar peligroso como estrellas arrojadas al vacío.",
+          "description": "Nuestros asentamientos suelen ser pequeños, carentes de recursos y al borde de la ruina. Cientos de asentamientos lejanos están perdidos y aislados en el caos indómito de esta galaxia, y desconocemos su destino.",
+          "summary": "Pocos sobrevivieron al viaje a la Forja, y estamos dispersos por este lugar peligroso como estrellas arrojadas al vacío.",
+          "quest": "Un asentamiento en un planeta helado se encontró abandonado. No hay señales de ataque. No hay cuerpos. Sus naves y vehículos permanecen inactivos. La gente simplemente ha desaparecido. Se ha desvanecido. ¿Cuál es tu conexión con este lugar?",
+          "rollTemplate": "Nuestros asentamientos suelen ser pequeños, carentes de recursos y al borde de la ruina. Cientos de asentamientos lejanos están perdidos y aislados en el caos indómito de esta galaxia, y desconocemos su destino."
+        },
+        "Dangers abound, but there is safety in numbers. Many ships and settlements are united under the banner of one of the Founder Clans.": {
+          "name": "Los peligros abundan, pero la unión hace la fuerza. Muchas naves y asentamientos están unidos bajo el estandarte de uno de los Clanes Fundadores.",
+          "result": "Los peligros abundan, pero la unión hace la fuerza. Muchas naves y asentamientos están unidos bajo el estandarte de uno de los Clanes Fundadores.",
+          "description": "Hemos logrado una posición provisional en esta galaxia. Cada uno de los cinco Clanes Fundadores honra el nombre y el legado de un líder que guió a su gente durante el caótico período posterior al Éxodo. Extensas regiones de los dominios colonizados están reclamadas por los clanes, y los enfrentamientos territoriales son comunes.",
+          "summary": "Los peligros abundan, pero la unión hace la fuerza. Muchas naves y asentamientos están unidos bajo el estandarte de uno de los Clanes Fundadores.",
+          "quest": "Un pueblo olvidado, sin juramentos a ningún clan, vive en una estación orbital. Una reciente enfermedad ha dejado muchos muertos y enfermos. Se necesitan suministros con urgencia. ¿Por qué exiliaron a estas personas, y por qué juras ayudarles? ¿Qué clan se opone a ti?",
+          "rollTemplate": "Hemos logrado una posición provisional en esta galaxia. Cada uno de los cinco Clanes Fundadores honra el nombre y el legado de un líder que guió a su gente durante el caótico período posterior al Éxodo. Extensas regiones de los dominios colonizados están reclamadas por los clanes, y los enfrentamientos territoriales son comunes."
+        },
+        "We have made our mark in this galaxy, but the energy storms we call balefires threaten to undo that progress, leaving our communities isolated and vulnerable.": {
+          "name": "Hemos dejado nuestra huella en esta galaxia, pero las tormentas de energía que llamamos fuegos funestos amenazan con deshacer ese progreso, dejando a nuestras comunidades aisladas y vulnerables.",
+          "result": "Hemos dejado nuestra huella en esta galaxia, pero las tormentas de energía que llamamos fuegos funestos amenazan con deshacer ese progreso, dejando a nuestras comunidades aisladas y vulnerables.",
+          "description": "Las naves estelares navegan por concurridas rutas comerciales entre asentamientos. Hemos construido prósperos puestos avanzados en los límites de los sectores conocidos, y audaces pioneros trazan nuevas rutas hacia dominios inexplorados. Pero este éxito, ganado con esfuerzo, está amenazado por los fuegos funestos, intensas anomalías energéticas que incomunican rutas comerciales y ponen en peligro planetas enteros.",
+          "summary": "Hemos dejado nuestra huella en esta galaxia, pero las tormentas de energía que llamamos fuegos funestos amenazan con deshacer ese progreso, dejando a nuestras comunidades aisladas y vulnerables.",
+          "quest": "Un fuego funesto amenaza un asentamiento en el espacio profundo. ¿Se puede organizar una flota de rescate a tiempo para trasladar a los habitantes de la estación a un lugar seguro? ¿Qué enemigo se interpone en el camino?",
+          "rollTemplate": "Las naves estelares navegan por concurridas rutas comerciales entre asentamientos. Hemos construido prósperos puestos avanzados en los límites de los sectores conocidos, y audaces pioneros trazan nuevas rutas hacia dominios inexplorados. Pero este éxito, ganado con esfuerzo, está amenazado por los fuegos funestos, intensas anomalías energéticas que incomunican rutas comerciales y ponen en peligro planetas enteros."
+        },
+        "Character Inspiration": {
+          "name": "Ideas para el personaje",
+          "text": "<p>Si tienes talento para la negociación y para resolver disputas entre comunidades, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.bcc219b0ebfb5c68]{Diplomático}. Si dejas tu huella a través de obras creativas, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.d0f668219593b7a5]{Artista}. Si siempre has vivido entre las estrellas, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.77b99abd50137354]{Nacido del Vacío}.</p>"
+        }
+      }
+    },
+    "Exodus": {
+      "name": "Éxodo",
+      "pages": {
+        "When the Exodus fleet set off on a ponderous journey to a new home outside our galaxy, they marked the Forge as their destination. Countless generations lived out their lives aboard those titanic ships during the millennia-long passage.": {
+          "name": "Cuando la flota del Éxodo partió en un lento viaje hacia un nuevo hogar fuera de nuestra galaxia, señalaron a la Forja como su destino. Innumerables generaciones vivieron y murieron a bordo de esas titánicas naves durante los milenios que duró la travesía.",
+          "result": "Cuando la flota del Éxodo partió en un lento viaje hacia un nuevo hogar fuera de nuestra galaxia, señalaron a la Forja como su destino. Innumerables generaciones vivieron y murieron a bordo de esas titánicas naves durante los milenios que duró la travesía.",
+          "description": "Los refugiados desarrollaron un rico legado cultural y tradiciones durante el Éxodo. Algunos incluso permanecieron en las naves tras llegar a la Forja, incapaces o reacios a abandonar sus familiares confines. Esas naves, conocidas como los Hogares de Hierro, aún navegan por las profundidades de esta galaxia.",
+          "summary": "Cuando la flota del Éxodo partió en un lento viaje hacia un nuevo hogar fuera de nuestra galaxia, señalaron a la Forja como su destino. Innumerables generaciones vivieron y murieron a bordo de esas titánicas naves durante los milenios que duró la travesía.",
+          "quest": "Tus sueños están plagados de visiones sobre una nave perdida y averiada del Éxodo. ¿Qué ves? ¿Por qué te llama?",
+          "rollTemplate": "Los refugiados desarrollaron un rico legado cultural y tradiciones durante el Éxodo. Algunos incluso permanecieron en las naves tras llegar a la Forja, incapaces o reacios a abandonar sus familiares confines. Esas naves, conocidas como los Hogares de Hierro, aún navegan por las profundidades de esta galaxia."
+        },
+        "A ragtag fleet of ships—propelled at tremendous speeds by experimental FTL drives—carried our ancestors to the Forge. But the technology that powered the ships is said to be the source of the Sundering, a fracturing of reality that plagues us here today.": {
+          "name": "Una variopinta flota de naves, propulsadas a velocidades asombrosas por motores FTL experimentales, transportó a nuestros ancestros a la Forja. Pero se dice que esa tecnología que impulsó las naves fue la causa del Desgarramiento, una fractura de la realidad que aún nos afecta en el presente.",
+          "result": "Una variopinta flota de naves, propulsadas a velocidades asombrosas por motores FTL experimentales, transportó a nuestros ancestros a la Forja. Pero se dice que esa tecnología que impulsó las naves fue la causa del Desgarramiento, una fractura de la realidad que aún nos afecta en el presente.",
+          "description": "Los motores experimentales utilizados por la flota del Éxodo ahora están prohibidos, pero el daño ya está hecho. El Desgarramiento se extiende a través de nuestra realidad como grietas en la superficie de un estanque helado. Esas fisuras liberan realidades aún más peligrosas sobre la nuestra. ¿Hemos huido de una catástrofe solo para crear otra por error?",
+          "summary": "Una variopinta flota de naves, propulsadas a velocidades asombrosas por motores FTL experimentales, transportó a nuestros ancestros a la Forja. Pero se dice que esa tecnología que impulsó las naves fue la causa del Desgarramiento, una fractura de la realidad que aún nos afecta en el presente.",
+          "quest": "Un motor defectuoso envió a una de las naves refugiadas a través del tiempo y el espacio. Siglos después, por fin han llegado. Para ellos, solo han pasado unas semanas. ¿Por qué se desconfía de esta gente? ¿Les prestarás ayuda o te opondrás a ellas?",
+          "rollTemplate": "Los motores experimentales utilizados por la flota del Éxodo ahora están prohibidos, pero el daño ya está hecho. El Desgarramiento se extiende a través de nuestra realidad como grietas en la superficie de un estanque helado. Esas fisuras liberan realidades aún más peligrosas sobre la nuestra. ¿Hemos huido de una catástrofe solo para crear otra por error?"
+        },
+        "Mysterious alien gates provided instantaneous one-way passage to the Forge.": {
+          "name": "Misteriosos portales alienígenas ofrecían un paso instantáneo de un solo sentido hacia la Forja.",
+          "result": "Misteriosos portales alienígenas ofrecían un paso instantáneo de un solo sentido hacia la Forja.",
+          "description": "Durante el cataclismo, nuestros ancestros encontraron un extraño monolito metálico en la luna de nuestro mundo natal. Un mapa en la superficie de esta reliquia alienígena detallaba las ubicaciones en el espacio profundo de las Puertas de Hierro, dispositivos inmensos que generaban agujeros de gusano artificiales. Sin otras opciones, las naves del Éxodo atravesaron los portales y emergieron aquí, en la Forja.",
+          "summary": "Misteriosos portales alienígenas ofrecían un paso instantáneo de un solo sentido hacia la Forja.",
+          "quest": "Un explorador trae noticias. Han localizado un portal activo en las profundidades de la Forja. ¿Por qué juras viajar hasta allí? ¿Qué poder o enemigo trata de controlar la puerta?",
+          "rollTemplate": "Durante el cataclismo, nuestros ancestros encontraron un extraño monolito metálico en la luna de nuestro mundo natal. Un mapa en la superficie de esta reliquia alienígena detallaba las ubicaciones en el espacio profundo de las Puertas de Hierro, dispositivos inmensos que generaban agujeros de gusano artificiales. Sin otras opciones, las naves del Éxodo atravesaron los portales y emergieron aquí, en la Forja."
+        },
+        "Character Inspiration": {
+          "name": "Ideas para el personaje",
+          "text": "<p>¿Tu historia familiar o cultural incluye relatos del Éxodo? ¿Cómo te impacta este legado hoy en día? Si te dedicas a expandir el alcance de tu gente en la Forja, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.62c8297fab069013]{Explorador}. Si te han exiliado o despreciado, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.085d80b933598615]{Paria}.</p>"
+        }
+      }
+    },
+    "Horrors": {
+      "name": "Horrores",
+      "pages": {
+        "Put enough alcohol in a spacer, and they’ll tell you stories of ghost ships crewed by vengeful undead. It’s nonsense.": {
+          "name": "Dale suficiente alcohol a un pionero, y te contará historias de naves fantasma tripuladas por no muertos vengativos. Son tonterías.",
+          "result": "Dale suficiente alcohol a un pionero, y te contará historias de naves fantasma tripuladas por no muertos vengativos. Son tonterías.",
+          "description": "En la Forja, el espacio y el tiempo son tan mutables e inestables como una tormenta de energía estelar. Cuando la realidad no es de fiar, es inevitable encontrarse con fenómenos perturbadores.",
+          "summary": "Dale suficiente alcohol a un pionero, y te contará historias de naves fantasma tripuladas por no muertos vengativos. Son tonterías.",
+          "quest": "Recibes llamadas de auxilio urgentes desde una nave atrapada en el horizonte de sucesos de un agujero negro. La nave está destrozada. No es más que un casco hecho pedazos que arrastra sus propios restos. No hay señales de vida. Y, sin embargo, los espectrales mensajes continúan.",
+          "rollTemplate": "En la Forja, el espacio y el tiempo son tan mutables e inestables como una tormenta de energía estelar. Cuando la realidad no es de fiar, es inevitable encontrarse con fenómenos perturbadores."
+        },
+        "Most insist that horrors aren’t real. Spacers know the truth.": {
+          "name": "La mayoría insiste en que los horrores no son reales. Los pioneros conocen la verdad.",
+          "result": "La mayoría insiste en que los horrores no son reales. Los pioneros conocen la verdad.",
+          "description": "Cuando viajas por las profundidades de la Forja, debes tener cuidado. Algunos dicen que estamos malditos por aquellos que no sobrevivieron al cataclismo, y que el velo entre la vida y la muerte está irremediablemente debilitado. Los sucesos y entidades sobrenaturales son especialmente comunes cerca de las estrellas enanas blancas. Estos objetos estelares, que los pioneros llaman luces fantasma, son los restos moribundos de una estrella muerta.",
+          "summary": "La mayoría insiste en que los horrores no son reales. Los pioneros conocen la verdad.",
+          "quest": "Un grupo de colonos estableció su hogar en una estación orbital abandonada bajo la luz de una enana blanca. Los anteriores habitantes fueron asesinados durante un ataque de saqueadores años atrás, pero parece que los muertos no descansan allí. Las personas sufren de constantes fallos mecánicos, ruidos extraños y visiones inquietantes.",
+          "rollTemplate": "Cuando viajas por las profundidades de la Forja, debes tener cuidado. Algunos dicen que estamos malditos por aquellos que no sobrevivieron al cataclismo, y que el velo entre la vida y la muerte está irremediablemente debilitado. Los sucesos y entidades sobrenaturales son especialmente comunes cerca de las estrellas enanas blancas. Estos objetos estelares, que los pioneros llaman luces fantasma, son los restos moribundos de una estrella muerta."
+        },
+        "The strange energies of the Forge give unnatural life to the dead. The Soulbinders are an organization sworn to confront these horrifying entities.": {
+          "name": "Las extrañas energías de la Forja le proporcionan una vida antinatural a los muertos. Los Vinculaalmas son una organización que jura enfrentarse a estas horribles entidades.",
+          "result": "Las extrañas energías de la Forja le proporcionan una vida antinatural a los muertos. Los Vinculaalmas son una organización que jura enfrentarse a estas horribles entidades.",
+          "description": "Los muertos despertados son una plaga para la Forja. Algunos de estos seres son benevolentes o buscan la redención, pero la mayoría están vacíos y corrompidos por la muerte. Les mueve el odio y una hambre insaciable por el calor de la vida que ya no poseen. Los Vinculaalmas se dedican a darles descanso… cueste lo que cueste.",
+          "summary": "Las extrañas energías de la Forja le proporcionan una vida antinatural a los muertos. Los Vinculaalmas son una organización que jura enfrentarse a estas horribles entidades.",
+          "quest": "Persisten los rumores de una flota de naves fantasma que se dirige hacia los dominios colonizados. ¿Quién se cree que lidera esta corrupta armada? ¿Por qué buscan vengarse de los vivos?",
+          "rollTemplate": "Los muertos despertados son una plaga para la Forja. Algunos de estos seres son benevolentes o buscan la redención, pero la mayoría están vacíos y corrompidos por la muerte. Les mueve el odio y una hambre insaciable por el calor de la vida que ya no poseen. Los Vinculaalmas se dedican a darles descanso… cueste lo que cueste."
+        },
+        "Character Inspiration": {
+          "name": "Ideas para el personaje",
+          "text": "<p>¿Has experimentado algún encuentro sobrenatural? Si te especializas en combatir a las fuerzas no muertas o monstruosas, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.b01dc7301d7d8fb3]{Azote de abominaciones}. Si tienes una conexión sobrenatural con un espíritu, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.7fdebd942b7163b6]{Embrujado}.</p>"
+        }
+      }
+    },
+    "Iron": {
+      "name": "Hierro",
+      "pages": {
+        "Iron vows are sworn upon the remnants of ships that carried our people to the Forge.": {
+          "name": "Los Juramentos por el Hierro se sellan sobre los restos de las naves que trajeron a nuestra gente a la Forja.",
+          "result": "Los Juramentos por el Hierro se sellan sobre los restos de las naves que trajeron a nuestra gente a la Forja.",
+          "description": "Muchos de nuestros puestos avanzados se construyeron a partir de los huesos de hierro de las naves del Éxodo. Los fragmentos de esas naves también se entregaron a los supervivientes como recuerdo y se han transmitido de generación en generación. En la actualidad, los juramentados del Hierro juran sobre estas esquirlas para honrar el sacrificio de sus antepasados, la esencia de los lugares que dejaron atrás y las almas de esas grandes naves.",
+          "summary": "Los Juramentos por el Hierro se sellan sobre los restos de las naves que trajeron a nuestra gente a la Forja.",
+          "quest": "La esquirla de hierro que llevas contigo es un pequeño fragmento del casco exterior de una nave del Éxodo. El mapa de navegación inscrito en su superficie solo se revela bajo la luz de una estrella específica. ¿A dónde se supone que conduce el mapa y por qué has jurado seguirlo? ¿Quién busca reclamarlo para sí?",
+          "rollTemplate": "Muchos de nuestros puestos avanzados se construyeron a partir de los huesos de hierro de las naves del Éxodo. Los fragmentos de esas naves también se entregaron a los supervivientes como recuerdo y se han transmitido de generación en generación. En la actualidad, los juramentados del Hierro juran sobre estas esquirlas para honrar el sacrificio de sus antepasados, la esencia de los lugares que dejaron atrás y las almas de esas grandes naves."
+        },
+        "Iron vows are sworn upon totems crafted from the enigmatic metal we call black iron.": {
+          "name": "Los Juramentos por el Hierro se sellan sobre tótems elaborados con el enigmático metal que llamamos hierro negro.",
+          "result": "Los Juramentos por el Hierro se sellan sobre tótems elaborados con el enigmático metal que llamamos hierro negro.",
+          "description": "El hierro negro fue creado por una civilización ya extinta. Algunos dicen que es un metal viviente, sintonizado con las profundidades ocultas del universo. Se encuentran vestigios de este recurso tan preciado en lugares ancestrales repartidos por la Forja. Es resistente al daño y la corrosión, pero puede moldearse usando plasma sobrecalentado en instalaciones especializadas. Los juramentados del Hierro portan armas, armaduras o amuletos forjados con hierro negro, y sellan sus juramentos sobre ellos.",
+          "summary": "Los Juramentos por el Hierro se sellan sobre tótems elaborados con el enigmático metal que llamamos hierro negro.",
+          "quest": "Han robado un amuleto de hierro negro de especial importancia. ¿Qué poder o autoridad está vinculada a este objeto? ¿Quién se lo llevó?",
+          "rollTemplate": "El hierro negro fue creado por una civilización ya extinta. Algunos dicen que es un metal viviente, sintonizado con las profundidades ocultas del universo. Se encuentran vestigios de este recurso tan preciado en lugares ancestrales repartidos por la Forja. Es resistente al daño y la corrosión, pero puede moldearse usando plasma sobrecalentado en instalaciones especializadas. Los juramentados del Hierro portan armas, armaduras o amuletos forjados con hierro negro, y sellan sus juramentos sobre ellos."
+        },
+        "The Ironsworn bind their honor to iron blades.": {
+          "name": "Los juramentados del Hierro vinculan su honor a los filos de hierro.",
+          "result": "Los juramentados del Hierro vinculan su honor a los filos de hierro.",
+          "description": "A bordo de una nave estelar, donde una bala perdida puede destruir equipamiento frágil o perforar el casco, una espada res un arma que resulta brutalmente útil. Algunos también valoran la silenciosa eficacia de una hoja para misiones de infiltración o espionaje. Pero lo más importante es que, cuando los juramentados del Hierro se realizan sobre una espada, vinculan su compromiso al metal. Si se rompe un juramento, ese hierro se debe dejar atrás. Ser un juramentado del Hierro sin una espada es una deshonra.",
+          "summary": "Los juramentados del Hierro vinculan su honor a los filos de hierro.",
+          "quest": "Has jurado forjar una nueva espada a partir del hierro de un objeto o artefacto importante. ¿Qué es y por qué tiene un significado especial para ti? ¿Quién lo protege?",
+          "rollTemplate": "A bordo de una nave estelar, donde una bala perdida puede destruir equipamiento frágil o perforar el casco, una espada res un arma que resulta brutalmente útil. Algunos también valoran la silenciosa eficacia de una hoja para misiones de infiltración o espionaje. Pero lo más importante es que, cuando los juramentados del Hierro se realizan sobre una espada, vinculan su compromiso al metal. Si se rompe un juramento, ese hierro se debe dejar atrás. Ser un juramentado del Hierro sin una espada es una deshonra."
+        },
+        "Character Inspiration": {
+          "name": "Ideas para el personaje",
+          "text": "<p>¿Sobre qué sellas tus juramentos? ¿Por qué este objeto es importante para ti? Si jurar por el hierro hacia un líder u organización son un aspecto clave de tu personaje, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.92c1672053d9fba4]{Vasallaje}.</p>"
+        }
+      }
+    },
+    "Laws": {
+      "name": "Leyes",
+      "pages": {
+        "Much of the settled domains are a lawless frontier. Criminal factions and corrupt leaders often hold sway.": {
+          "name": "Gran parte de los dominios colonizados son una frontera sin ley. El control suele estar bajo las facciones criminales y los líderes corruptos.",
+          "result": "Gran parte de los dominios colonizados son una frontera sin ley. El control suele estar bajo las facciones criminales y los líderes corruptos.",
+          "description": "El poder va y viene en la Forja, por lo que cualquier autoridad es fugaz. Al final, debemos defendernos por nosotros mismos. Algunas comunidades son bastiones de autonomía satisfactoria, pero otras muchas están corrompidas o son presas de déspotas, criminales y saqueadores.",
+          "summary": "Gran parte de los dominios colonizados son una frontera sin ley. El control suele estar bajo las facciones criminales y los líderes corruptos.",
+          "quest": "En la alta atmósfera de un gigante gaseoso, los vehículos de transporte llevan combustible volátil y de alto valor desde la planta de procesamiento hasta un depósito fuertemente custodiado. Un famoso líder de una organización criminal necesita este combustible y te da el horario de los transportes. ¿Qué tipo de poder tiene esta persona sobre ti? ¿Cómo llevarás a cabo este robo?",
+          "rollTemplate": "El poder va y viene en la Forja, por lo que cualquier autoridad es fugaz. Al final, debemos defendernos por nosotros mismos. Algunas comunidades son bastiones de autonomía satisfactoria, pero otras muchas están corrompidas o son presas de déspotas, criminales y saqueadores."
+        },
+        "Laws and governance vary across settled domains, but bounty hunters are given wide latitude to pursue their contracts. Their authority is almost universally recognized, and supersedes local laws.": {
+          "name": "Las leyes y el gobierno son muy dispares entre los dominios colonizados, pero esto les proporciona gran una gran libertad a los cazarrecompensas para cumplir con sus contratos. Su autoridad es casi universalmente reconocida y prevalece sobre las leyes locales.",
+          "result": "Las leyes y el gobierno son muy dispares entre los dominios colonizados, pero esto les proporciona gran una gran libertad a los cazarrecompensas para cumplir con sus contratos. Su autoridad es casi universalmente reconocida y prevalece sobre las leyes locales.",
+          "description": "Mediante la tradición e influencia, los gremios de cazarrecompensas tienen plena libertad en la mayoría de los lugares colonizados para rastrear y capturar a los fugitivos. Solo los necios se interponen entre un tenaz cazarrecompensas y su objetivo.",
+          "summary": "Las leyes y el gobierno son muy dispares entre los dominios colonizados, pero esto les proporciona gran una gran libertad a los cazarrecompensas para cumplir con sus contratos. Su autoridad es casi universalmente reconocida y prevalece sobre las leyes locales.",
+          "quest": "Un famoso cazarrecompensas necesita tu ayuda para dar caza a su objetivo. ¿Cuál es tu relación con el fugitivo? ¿Juras ayudar al cazador o a la presa?",
+          "rollTemplate": "Mediante la tradición e influencia, los gremios de cazarrecompensas tienen plena libertad en la mayoría de los lugares colonizados para rastrear y capturar a los fugitivos. Solo los necios se interponen entre un tenaz cazarrecompensas y su objetivo."
+        },
+        "Our communities are bound under the terms of the Covenant, a charter established after the Exodus. The organization called the Keepers is sworn to uphold those laws.": {
+          "name": "Nuestras comunidades están vinculadas bajo los términos del Pacto, un estatuto establecido tras el Éxodo. La organización llamada los Custodios ha jurado hacer cumplir esas leyes.",
+          "result": "Nuestras comunidades están vinculadas bajo los términos del Pacto, un estatuto establecido tras el Éxodo. La organización llamada los Custodios ha jurado hacer cumplir esas leyes.",
+          "description": "La mayoría de los asentamientos aún se rigen por el Pacto y se someten a la autoridad de los Custodios. Aunque hay algunos que ven el Pacto como una reliquia dogmática, poco práctica e injusta de nuestro pasado; en esos lugares, los Custodios no son bienvenidos.",
+          "summary": "Nuestras comunidades están vinculadas bajo los términos del Pacto, un estatuto establecido tras el Éxodo. La organización llamada los Custodios ha jurado hacer cumplir esas leyes.",
+          "quest": "Un Custodio abusa de su autoridad y toma el control de un asentamiento que gobierna con mano de hierro. ¿Qué trata de ganar allí?",
+          "rollTemplate": "La mayoría de los asentamientos aún se rigen por el Pacto y se someten a la autoridad de los Custodios. Aunque hay algunos que ven el Pacto como una reliquia dogmática, poco práctica e injusta de nuestro pasado; en esos lugares, los Custodios no son bienvenidos."
+        },
+        "Character Inspiration": {
+          "name": "Ideas para el personaje",
+          "text": "<p>Si persigues a los forajidos, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.9e8a91f52b96c95b]{Cazarrecompensas}. Si eres experto en entrar y salir de lugares y sistemas protegidos, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.1e03c8d44d0b3ffc]{Infiltrador}. Si estás huyendo de un poder o autoridad, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.93b030423d23059d]{Fugitivo}. Si eres un experto investigador, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.26787f46840c03ad]{Detective}. Y si tienes conexiones en los criminales de los bajos fondos, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.d7fbe5fded75531c]{Bandido}.</p>"
+        }
+      }
+    },
+    "Lifeforms": {
+      "name": "Formas de vida",
+      "pages": {
+        "This is a perilous and often inhospitable galaxy, but life finds a way.": {
+          "name": "Esta es una galaxia peligrosa y a menudo inhóspita, pero la vida siempre se abre paso.",
+          "result": "Esta es una galaxia peligrosa y a menudo inhóspita, pero la vida siempre se abre paso.",
+          "description": "La vida en la Forja es heterogénea. Los planetas suelen albergar una gran variedad de criaturas, y nuestras naves estelares viajan con formas de vida espaciales que siguen su estela. Incluso los animales de nuestro mundo natal, llevados a bordo de las naves del Éxodo, se han adaptado a vivir con nosotros en la Forja.",
+          "summary": "Esta es una galaxia peligrosa y a menudo inhóspita, pero la vida siempre se abre paso.",
+          "quest": "En un planeta abrasador y árido, azotado por tormentas colosales, los mineros excavan bajo la arena para recolectar un valioso mineral. Sin embargo, los lugares frescos bajo la superficie están habitados por peligrosas formas de vida, produciéndose varios encuentros con los mineros que resultaron en pérdidas mortales. El trabajo está paralizado. ¿Cómo estás involucrado?",
+          "rollTemplate": "La vida en la Forja es heterogénea. Los planetas suelen albergar una gran variedad de criaturas, y nuestras naves estelares viajan con formas de vida espaciales que siguen su estela. Incluso los animales de nuestro mundo natal, llevados a bordo de las naves del Éxodo, se han adaptado a vivir con nosotros en la Forja."
+        },
+        "Many sites and planets are infested by dreadful forgespawn. These aberrant creatures threaten to overrun other life in the galaxy.": {
+          "name": "Muchos lugares y planetas están infestados por espantosos caógenos. Estas anómalas criaturas amenazan con dominar al resto de vida en la galaxia.",
+          "result": "Muchos lugares y planetas están infestados por espantosos caógenos. Estas anómalas criaturas amenazan con dominar al resto de vida en la galaxia.",
+          "description": "Los caógenos son criaturas hostiles surgidas de las energías caóticas de la galaxia. Cientos de puestos avanzados y pecios de naves han resultado abandonados o destruidos, como testigos de su espantoso poder y astucia.",
+          "summary": "Muchos lugares y planetas están infestados por espantosos caógenos. Estas anómalas criaturas amenazan con dominar al resto de vida en la galaxia.",
+          "quest": "Se dice que una facción está experimentando con ADN forjendro para crear una nueva superarma biológica. ¿Dónde se están llevando a cabo estas peligrosas pruebas?",
+          "rollTemplate": "Los caógenos son criaturas hostiles surgidas de las energías caóticas de la galaxia. Cientos de puestos avanzados y pecios de naves han resultado abandonados o destruidos, como testigos de su espantoso poder y astucia."
+        },
+        "Life in the Forge was seeded and engineered by the Essentia, ancient entities who enact their inscrutable will in this galaxy.": {
+          "name": "La vida en la Forja fue creada y diseñada por los Essentia, entidades ancestrales que imponen su inescrutable voluntad en la galaxia.",
+          "result": "La vida en la Forja fue creada y diseñada por los Essentia, entidades ancestrales que imponen su inescrutable voluntad en la galaxia.",
+          "description": "Los Essentia son los arquitectos de la vida en la Forja. Estos seres omniscientes rara vez son avistados, y poseen poderes y propósitos más allá de nuestra comprensión. Algunos los veneran. Otros se oponen o rebelan contra ellos. Pero tratar de desafiar la voluntad de los Essentia es como intentar contener el paso de la luz entre las estrellas. Son inevitables.",
+          "summary": "La vida en la Forja fue creada y diseñada por los Essentia, entidades ancestrales que imponen su inescrutable voluntad en la galaxia.",
+          "quest": "Un excéntrico xenólogo cree que los genomas de la vida en la Forja no solo muestran similitudes, sino que en realidad son un mensaje codificado de los Essentia. Sin embargo, aún hay lagunas significativas, pues la verdad solo se podría revelar con muestras adicionales. ¿Cuál es tu interés en este proyecto?",
+          "rollTemplate": "Los Essentia son los arquitectos de la vida en la Forja. Estos seres omniscientes rara vez son avistados, y poseen poderes y propósitos más allá de nuestra comprensión. Algunos los veneran. Otros se oponen o rebelan contra ellos. Pero tratar de desafiar la voluntad de los Essentia es como intentar contener el paso de la luz entre las estrellas. Son inevitables."
+        },
+        "Character Inspiration": {
+          "name": "Ideas para el personaje",
+          "text": "<p>Si tienes experiencia en formas de vida y entornos planetarios, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.6830f088164f3c60]{Naturalista}. Si en tus aventuras te acompaña una criatura nativa, podría ser un compañero como un @Compendium[foundry-ironsworn.starforgedassets.e4073bee0b5a7b04]{Aullido}, @Compendium[foundry-ironsworn.starforgedassets.100749b9b4b6f831]{Felilúmina}, @Compendium[foundry-ironsworn.starforgedassets.28ae330bfb7f2f28]{Alácio}, @Compendium[foundry-ironsworn.starforgedassets.c71de9016635bae2]{Rocacuerno}, @Compendium[foundry-ironsworn.starforgedassets.663fec98be23a3f5]{Vítreo}, or @Compendium[foundry-ironsworn.starforgedassets.aee2cb608775fc97]{Simbionte}.</p>"
+        }
+      }
+    },
+    "Magic": {
+      "name": "Magia",
+      "pages": {
+        "Magic does not exist.": {
+          "name": "La magia no existe.",
+          "result": "La magia no existe.",
+          "description": "Algunos recurren a la superstición y las antiguas tradiciones buscando el consuelo en esta implacable galaxia. Pero es una necedad. Lo que algunos llaman magia, no es más que el resultado de tecnologías o fuerzas naturales que aún no estamos capacitados a entender.",
+          "summary": "La magia no existe.",
+          "quest": "Un ancestral artefacto tecnológico desata un poder indistinguible de la magia. ¿Cuál es el origen de este artefacto? ¿Qué capacidad concede? ¿Has jurado protegerlo o destruirlo?",
+          "rollTemplate": "Algunos recurren a la superstición y las antiguas tradiciones buscando el consuelo en esta implacable galaxia. Pero es una necedad. Lo que algunos llaman magia, no es más que el resultado de tecnologías o fuerzas naturales que aún no estamos capacitados a entender."
+        },
+        "Supernatural powers are wielded by those rare people we call paragons.": {
+          "name": "Los poderes sobrenaturales son controlados por las pocas personas a las que llamamos dechados.",
+          "subtableResults": [
+            "Ingeniería genética",
+            "Experimentación psíquica",
+            "Mutaciones evolutivas",
+            "Implantes de tecnomagia",
+            "Antiguos conocimientos en poder de órdenes secretas"
+          ],
+          "result": "Los poderes sobrenaturales son controlados por las pocas personas a las que llamamos dechados.",
+          "description": "Aunque no es magia en el sentido estricto, las capacidades de los dechados están tan cerca de la magia como podemos concebir.\n\nEstos poderes surgen de:\n\n(tirada abajo)",
+          "summary": "Los poderes sobrenaturales son controlados por las pocas personas a las que llamamos dechados.",
+          "quest": "Un joven dechado posee un poder increíble, pero no puede controlarlo. Ha sido rechazado por su familia y amigos. También lo persigue una persona u organización que busca usarlo como arma. ¿Por qué juraste proteger al dechado? ¿Qué mítico lugar les podría proporcionar un nuevo hogar?",
+          "rollTemplate": "Aunque no es magia en el sentido estricto, las capacidades de los dechados están tan cerca de la magia como podemos concebir.\n\nEstos poderes surgen de:\n\n{{table>truth.option.oracle_rollable:starforged/magic.1.power_source}}"
+        },
+        "Unnatural energies flow through the Forge. Magic and science are two sides of the same coin.": {
+          "name": "Energías sobrenaturales fluyen a través de la Forja. La magia y la ciencia son dos caras de la misma moneda.",
+          "result": "Energías sobrenaturales fluyen a través de la Forja. La magia y la ciencia son dos caras de la misma moneda.",
+          "description": "Poco después de nuestra llegada, algunos mostraron la capacidad de aprovechar las energías de la Forja. Hoy en día, los místicos invocan este poder para manipular la materia o ver más allá del velo de nuestro propio universo. Pero este poder puede corromper al usuario, por lo que los místicos más poderosos son respetados y temidos por igual.",
+          "summary": "Energías sobrenaturales fluyen a través de la Forja. La magia y la ciencia son dos caras de la misma moneda.",
+          "quest": "Los poderes de la Forja corrompieron a alguien que amabas. ¿Por qué cayó en la oscuridad? ¿Dónde se encuentra ahora? ¿Buscas salvar a esta persona o acabar con ella?",
+          "rollTemplate": "Poco después de nuestra llegada, algunos mostraron la capacidad de aprovechar las energías de la Forja. Hoy en día, los místicos invocan este poder para manipular la materia o ver más allá del velo de nuestro propio universo. Pero este poder puede corromper al usuario, por lo que los místicos más poderosos son respetados y temidos por igual."
+        },
+        "Character Inspiration": {
+          "name": "Ideas para el personaje",
+          "text": "<p>Si la magia es un aspecto de tu entorno, ¿cómo ve tu personaje y su cultura estas capacidades sobrenaturales? Si posees poderes sobrenaturales, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.db0df04af3ca4cc4]{Empático}, @Compendium[foundry-ironsworn.starforgedassets.9167e29940b36ec1]{Ígneo}, @Compendium[foundry-ironsworn.starforgedassets.fd7a1b4ec8ae5771]{Telequinético}, @Compendium[foundry-ironsworn.starforgedassets.fafa7ef1a81ae7d7]{Bucle}, @Compendium[foundry-ironsworn.starforgedassets.98f1ff9b338b5695]{Vidente} o @Compendium[foundry-ironsworn.starforgedassets.12a922e088c35efa]{Sombra}.</p>"
+        }
+      }
+    },
+    "Medicine": {
+      "name": "Medicina",
+      "pages": {
+        "Our advanced medical technologies and expertise was lost during the Exodus.": {
+          "name": "Nuestros avanzados conocimientos y tecnologías médicas se perdieron durante el Éxodo.",
+          "result": "Nuestros avanzados conocimientos y tecnologías médicas se perdieron durante el Éxodo.",
+          "description": "Los sanadores son escasos y mal equipados. Incontables personas han perecido por dolencias, enfermedades y lesiones. Aquellos que sobreviven, suelen portar las cicatrices de la peligrosa y dura vida en la Forja.",
+          "summary": "Nuestros avanzados conocimientos y tecnologías médicas se perdieron durante el Éxodo.",
+          "quest": "Un respetado líder ha caído enfermo, afectado por una dolencia que se erradicó muchos años antes del Éxodo. Antes había una vacuna disponible, pero la única muestra que queda está custodiada en un puesto de investigación en un remoto mundo oceánico. Este mundo está bajo el control de un peligroso enemigo desde hace mucho tiempo. ¿Cuál es tu relación con el líder enfermo y qué enemigo se interpone en tu camino?",
+          "rollTemplate": "Los sanadores son escasos y mal equipados. Incontables personas han perecido por dolencias, enfermedades y lesiones. Aquellos que sobreviven, suelen portar las cicatrices de la peligrosa y dura vida en la Forja."
+        },
+        "To help offset a scarcity of medical supplies and knowledge, the resourceful technicians we call riggers create basic organ and limb replacements.": {
+          "name": "Para compensar la escasez de suministros y conocimientos médicos, los ingeniosos técnicos que llamamos manitas crean reemplazos básicos de órganos y extremidades.",
+          "result": "Para compensar la escasez de suministros y conocimientos médicos, los ingeniosos técnicos que llamamos manitas crean reemplazos básicos de órganos y extremidades.",
+          "description": "Mucho se perdió en el Éxodo, y lo que queda de nuestra tecnología y experiencia médica se lo han apropiado los privilegiados y poderosos. Para la mayoría, la atención médica avanzada es inaccesible. Cuando alguien sufre una herida grave, suele acudir a un manitas para que le proporcione una solución mecánica improvisada.",
+          "summary": "Para compensar la escasez de suministros y conocimientos médicos, los ingeniosos técnicos que llamamos manitas crean reemplazos básicos de órganos y extremidades.",
+          "quest": "Un manitas necesita desesperadamente un extraño artefacto tecnológico para crear un dispositivo médico que salve vidas. Su paciente es alguien importante para ti y no sobrevivirá más de unos pocos días. ¿De qué tipo de artefacto se trata y qué lo protege?",
+          "rollTemplate": "Mucho se perdió en el Éxodo, y lo que queda de nuestra tecnología y experiencia médica se lo han apropiado los privilegiados y poderosos. Para la mayoría, la atención médica avanzada es inaccesible. Cuando alguien sufre una herida grave, suele acudir a un manitas para que le proporcione una solución mecánica improvisada."
+        },
+        "Orders of sworn healers preserve our medical knowledge and train new generations of caregivers.": {
+          "name": "Órdenes de sanadores juramentados preservan nuestro conocimiento médico y entrenan a las nuevas generaciones de cuidadores.",
+          "result": "Órdenes de sanadores juramentados preservan nuestro conocimiento médico y entrenan a las nuevas generaciones de cuidadores.",
+          "description": "Los cuidados médicos avanzados solo están disponibles en las comunidades más grandes de los sectores colonizados de la Forja. Incluso las comunidades remotas suelen contar con un sanador novato, o pueden solicitar ayuda a un gremio de sanadores en caso de emergencia.",
+          "summary": "Órdenes de sanadores juramentados preservan nuestro conocimiento médico y entrenan a las nuevas generaciones de cuidadores.",
+          "quest": "Un reactor explotó en un asentamiento remoto, provocando numerosas muertes y exponiendo otros tantos a la letal radiación. Un equipo de sanadores que viajaba para proporcionar ayuda fue capturado por unos saqueadores. ¿Qué piden los saqueadores por su liberación?",
+          "rollTemplate": "Los cuidados médicos avanzados solo están disponibles en las comunidades más grandes de los sectores colonizados de la Forja. Incluso las comunidades remotas suelen contar con un sanador novato, o pueden solicitar ayuda a un gremio de sanadores en caso de emergencia."
+        },
+        "Character Inspiration": {
+          "name": "Ideas para el personaje",
+          "text": "<p>Llevas prótesis o cicatrices destacables? ¿Sufres de alguna discapacidad médica o física? Estos aspectos podríar influir en tu apariencia o enfoque. Si eres capaz de proporcionar cudados médicos a otros o a ti mismo, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.4fafc93fdd8873ce]{Curandero}. Si posees prótesis avanzadas o mejoras cibernéticas, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.4c75d631a38fd3b8]{Implantado}.</p>"
+        }
+      }
+    },
+    "Precursors": {
+      "name": "Precursores",
+      "pages": {
+        "Over eons, a vast number of civilizations rose and fell within the Forge. Today, the folk we call grubs—scavenger crews and audacious explorers—delve into the mysterious monuments and ruins of those ancient beings.": {
+          "name": "Durante eones, innumerables civilizaciones se han alzado y caído en la Forja. Actualmente, aquellos a quienes llamamos sanguijuelas (tripulaciones de saqueadores y osados exploradores) se adentran en los interiores de los misteriosos monumentos y ruinas de esos seres ancestrales.",
+          "result": "Durante eones, innumerables civilizaciones se han alzado y caído en la Forja. Actualmente, aquellos a quienes llamamos sanguijuelas (tripulaciones de saqueadores y osados exploradores) se adentran en los interiores de los misteriosos monumentos y ruinas de esos seres ancestrales.",
+          "description": "Las incomprensibles tecnologías, el inexorable paso del tiempo y las extrañas energías de la Forja han corrompido las cámaras de los precursores. A pesar de los peligros, las sanguijuelas exploran esos lugares en busca de recursos útiles y hallazgos interesantes. Pero algunos secretos es mejor dejarlos enterrados y muchos han perecido en las profundidades olvidadas de estas cámaras.",
+          "summary": "Durante eones, innumerables civilizaciones se han alzado y caído en la Forja. Actualmente, aquellos a quienes llamamos sanguijuelas (tripulaciones de saqueadores y osados exploradores) se adentran en los interiores de los misteriosos monumentos y ruinas de esos seres ancestrales.",
+          "quest": "En los anillos de hielo de un mundo remoto, un grupo de sanguijuelas descubrió una cámara de los precursores. El equipo se adentró en la reliquia, pero nunca salió. ¿Cuál es tu relación con este grupo? ¿Por qué juraste investigar su destino?",
+          "rollTemplate": "Las incomprensibles tecnologías, el inexorable paso del tiempo y las extrañas energías de la Forja han corrompido las cámaras de los precursores. A pesar de los peligros, las sanguijuelas exploran esos lugares en busca de recursos útiles y hallazgos interesantes. Pero algunos secretos es mejor dejarlos enterrados y muchos han perecido en las profundidades olvidadas de estas cámaras."
+        },
+        "The Ascendancy, an advanced spacefaring empire, once ruled the entirety of the Forge. Vaults of inscrutable purpose are all that remain to mark the Ascendancy's legacy, but those places are untethered from our own reality.": {
+          "name": "La Ascendencia, un avanzado imperio espacial, antaño gobernó la totalidad de la Forja. Las cámaras de propósito inescrutable son lo único que queda para recordar el legado de la Ascendencia, aunque estos lugares estén desligados de nuestra realidad.",
+          "result": "La Ascendencia, un avanzado imperio espacial, antaño gobernó la totalidad de la Forja. Las cámaras de propósito inescrutable son lo único que queda para recordar el legado de la Ascendencia, aunque estos lugares estén desligados de nuestra realidad.",
+          "description": "Las cámras de la Ascendencia pueden aparecer repentinamente, arrastradas como restos llevados por la marea del tiempo. Su gravedad y atmósfera no obedecen las leyes naturales. Algunas están corrompidas y en ruinas. Otras permanecen intactas e inmaculadas. Algunas son ambas cosas a la vez, el puro caos.",
+          "summary": "La Ascendencia, un avanzado imperio espacial, antaño gobernó la totalidad de la Forja. Las cámaras de propósito inescrutable son lo único que queda para recordar el legado de la Ascendencia, aunque estos lugares estén desligados de nuestra realidad.",
+          "quest": "En las profundidades de la Forja, se ha activado una baliza de la Ascendencia. La misteriosa señal ha desafiado toda traducción. ¿Por qué juraste buscar el origen de esta señal? ¿Qué otra persona o facción se opone a ti?",
+          "rollTemplate": "Las cámras de la Ascendencia pueden aparecer repentinamente, arrastradas como restos llevados por la marea del tiempo. Su gravedad y atmósfera no obedecen las leyes naturales. Algunas están corrompidas y en ruinas. Otras permanecen intactas e inmaculadas. Algunas son ambas cosas a la vez, el puro caos."
+        },
+        "The biomechanical lifeforms we call the Remnants, engineered by civilizations as weapons in a cataclysmic war, survived the death of their creators.": {
+          "name": "Las formas de vida biomecánicas que llamamos los Guardianes, creadas por antiguas civilizaciones como armas en una guerra catastrófica, sobrevivieron a la muerte de sus creadores.",
+          "result": "Las formas de vida biomecánicas que llamamos los Guardianes, creadas por antiguas civilizaciones como armas en una guerra catastrófica, sobrevivieron a la muerte de sus creadores.",
+          "description": "En planetas destrozados y en el interior de cámaras precursoras por toda la Forja, los Guardianes siguen protegiendo los antiguos secretos y combatiendo en guerras interminables.",
+          "summary": "Las formas de vida biomecánicas que llamamos los Guardianes, creadas por antiguas civilizaciones como armas en una guerra catastrófica, sobrevivieron a la muerte de sus creadores.",
+          "quest": "Un xenoarqueólogo que estudia las cámaras precursoras ha descubierto una poderosa forma de Guardián. ¿Cuál es la naturaleza de este ser? ¿Qué fuerza busca controlarlo?",
+          "rollTemplate": "En planetas destrozados y en el interior de cámaras precursoras por toda la Forja, los Guardianes siguen protegiendo los antiguos secretos y combatiendo en guerras interminables."
+        },
+        "Character Inspiration": {
+          "name": "Ideas para el personaje",
+          "text": "<p>¿Has tenido algún encuentro interesante con cámaras, reliquias o tecnología de los precursores? Si eres experto en antiguos conocimientos y hechos oscuros, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.ce347bbfcee2e8ae]{Cazatesoros}. Si exploras los restos de estos lugares abandonados, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.11de92d262291440]{Carroñero}.</p>"
+        }
+      }
+    },
+    "Religion": {
+      "name": "Religión",
+      "pages": {
+        "Our gods failed us. We left them behind.": {
+          "name": "Nuestros dioses nos fallaron. Les dejamos atrás.",
+          "result": "Nuestros dioses nos fallaron. Les dejamos atrás.",
+          "description": "El Éxodo fue un punto de inflexión. Los dioses no ofrecieron ninguna ayuda a los miles de millones que murieron en el cataclismo y la espiritualidad tiene poco sentido en la Forja. La mayoría ve ahora la religión como un vestigio inútil de nuestro pasado. Pero la búsqueda de una respuesta continúa y muchos están demasiado dispuestos a seguir a un líder carismático que afirma ofrecer un camino mejor.",
+          "summary": "Nuestros dioses nos fallaron. Les dejamos atrás.",
+          "quest": "Un carismático líder afirma haber conseguido una tecnología que ofrece nuevas esperanzas a los habitantes de la Forja. ¿En qué consiste esta innovación? ¿Cuál es tu relación con esta persona o sus seguidores? ¿Qué grave peligro representan?",
+          "rollTemplate": "El Éxodo fue un punto de inflexión. Los dioses no ofrecieron ninguna ayuda a los miles de millones que murieron en el cataclismo y la espiritualidad tiene poco sentido en la Forja. La mayoría ve ahora la religión como un vestigio inútil de nuestro pasado. Pero la búsqueda de una respuesta continúa y muchos están demasiado dispuestos a seguir a un líder carismático que afirma ofrecer un camino mejor."
+        },
+        "Our faith is as diverse as our people.": {
+          "name": "Nuestra fe es tan diversa como nuestra gente.",
+          "result": "Nuestra fe es tan diversa como nuestra gente.",
+          "description": "Muchos no profesan ninguna religión o rezan de vez en cuando por costumbre. Otros rinden homenaje a los dioses de nuestros antepasados como forma de conectar con sus raíces. Algunos idealizan el orden natural del universo y ven lo divino en la danza gravitatoria de las estrellas o en los complejos mecanismos de un ecosistema planetario. Y muchos adoran ahora a los Primordiales, dioses de un pueblo caído que una vez habitó en la Forja.",
+          "summary": "Nuestra fe es tan diversa como nuestra gente.",
+          "quest": "Una secta intenta hacerse con el control de un lugar que, según se dice, alberga un artefacto Primordial. ¿Qué objeto sagrado buscan? ¿Por qué has jurado detenerlos?",
+          "rollTemplate": "Muchos no profesan ninguna religión o rezan de vez en cuando por costumbre. Otros rinden homenaje a los dioses de nuestros antepasados como forma de conectar con sus raíces. Algunos idealizan el orden natural del universo y ven lo divino en la danza gravitatoria de las estrellas o en los complejos mecanismos de un ecosistema planetario. Y muchos adoran ahora a los Primordiales, dioses de un pueblo caído que una vez habitó en la Forja."
+        },
+        "Three dominant religious orders, the Triumvirate, battle for influence and power within the Forge.": {
+          "name": "Tres órdenes religiosas dominantes, el Triunvirato, luchan por la influencia y el poder dentro de la Forja.",
+          "result": "Tres órdenes religiosas dominantes, el Triunvirato, luchan por la influencia y el poder dentro de la Forja.",
+          "description": "Nuestras comunidades suelen jurar servir a una de las tres doctrinas del Triunvirato. Para muchos la fe ofrece propósito y significado. Pero también nos divide. A lo largo de nuestra breve historia en la Forja los líderes del Triunvirato nos han enfrentado entre nosotros. Por esta razón algunos son apóstatas que reniegan de estas religiones y siguen un camino diferente.",
+          "summary": "Tres órdenes religiosas dominantes, el Triunvirato, luchan por la influencia y el poder dentro de la Forja.",
+          "quest": "Llevas la marca de uno de los dioses del Triunvirato. ¿En qué consiste? Los sacerdotes afirman que es una señal de que has sido elegido para cumplir con un destino. ¿Aceptas este destino y juras cumplirlo o estás decidido a revertirlo? ¿Qué fuerzas se te oponen?",
+          "rollTemplate": "Nuestras comunidades suelen jurar servir a una de las tres doctrinas del Triunvirato. Para muchos la fe ofrece propósito y significado. Pero también nos divide. A lo largo de nuestra breve historia en la Forja los líderes del Triunvirato nos han enfrentado entre nosotros. Por esta razón algunos son apóstatas que reniegan de estas religiones y siguen un camino diferente."
+        },
+        "Character Inspiration": {
+          "name": "Ideas para el personaje",
+          "text": "<p>¿Cuál es su relación con la religión? Si eres un ferviente seguidor de un dios o credo puede que seas un @Compendium[foundry-ironsworn.starforgedassets.14c1e6ecd4680fee]{Devoto}.</p>"
+        }
+      }
+    },
+    "War": {
+      "name": "Guerra",
+      "pages": {
+        "Here in the Forge, resources are too precious to support organized fighting forces or advanced weaponry.": {
+          "name": "Aquí, en la Forja, los recursos son demasiado valiosos para mantener fuerzas de combate organizadas o armamento avanzado.",
+          "result": "Aquí, en la Forja, los recursos son demasiado valiosos para mantener fuerzas de combate organizadas o armamento avanzado.",
+          "description": "Las armas son sencillas y baratas. Las naves estelares suelen improvisarse a partir de chatarra. La mayoría de las comunidades dependen de grupos de reclutas o voluntarios mal equipados para defender sus posesiones y los saqueadores acechan la Forja en busca de presas fáciles.",
+          "summary": "Aquí, en la Forja, los recursos son demasiado valiosos para mantener fuerzas de combate organizadas o armamento avanzado.",
+          "quest": "En un remoto mundo selvático los colonos cosechan una planta medicinal rara. Una vez al año unos asaltantes vienen a llevarse una buena parte de la cosecha. Este año la cosecha ha sido escasa y no hay suficiente para realizar el pago. En cuestión de días llegarán los asaltantes, ¿qué harás para proteger a los habitantes de este puesto avanzado?",
+          "rollTemplate": "Las armas son sencillas y baratas. Las naves estelares suelen improvisarse a partir de chatarra. La mayoría de las comunidades dependen de grupos de reclutas o voluntarios mal equipados para defender sus posesiones y los saqueadores acechan la Forja en busca de presas fáciles."
+        },
+        "Professional soldiers defend or expand the holdings of those who are able to pay. The rest of us are on our own.": {
+          "name": "Soldados profesionales defienden o expanden las posesiones de quienes pueden pagarlo. Los demás estamos solos.",
+          "result": "Soldados profesionales defienden o expanden las posesiones de quienes pueden pagarlo. Los demás estamos solos.",
+          "description": "Los gremios de mercenarios controlan la Forja. Algunos son pequeños grupos de no más de una docena de soldados. Otros son empresas que ocupan todo un sector y despliegan legiones de hábiles guerreros y flotas de poderosas naves estelares. La mayoría son leales al mejor postor.",
+          "summary": "Soldados profesionales defienden o expanden las posesiones de quienes pueden pagarlo. Los demás estamos solos.",
+          "quest": "Un destacamento de mercenarios fue enviado para sofocar una rebelión en un asentamiento minero. En lugar de seguir las órdenes los soldados se han puesto del lado de los mineros. ¿Qué ha forzado este repentino cambio? ¿Qué harás para ayudar a estos renegados cuando toda la fuerza de sus antiguas cohortes se despliegue contra ellos?",
+          "rollTemplate": "Los gremios de mercenarios controlan la Forja. Algunos son pequeños grupos de no más de una docena de soldados. Otros son empresas que ocupan todo un sector y despliegan legiones de hábiles guerreros y flotas de poderosas naves estelares. La mayoría son leales al mejor postor."
+        },
+        "War never ends. Talented weaponsmiths and shipwrights craft deadly, high-tech tools of destruction. Dominant factions wield mighty fleets and battle-hardened troops.": {
+          "name": "La guerra nunca termina. Fabricantes de armas y navíos de gran talento crean mortíferas herramientas de destrucción de alta tecnología. Las facciones dominantes empuñan poderosas flotas y tropas curtidas en mil batallas.",
+          "result": "La guerra nunca termina. Fabricantes de armas y navíos de gran talento crean mortíferas herramientas de destrucción de alta tecnología. Las facciones dominantes empuñan poderosas flotas y tropas curtidas en mil batallas.",
+          "description": "Los que ostentan el poder tienen acceso a armas de un potencial destructivo espantoso. Escaramuzas y guerras estallan en los dominios colonizados y la mayoría son peones o víctimas en estas campañas destructivas.",
+          "summary": "La guerra nunca termina. Fabricantes de armas y navíos de gran talento crean mortíferas herramientas de destrucción de alta tecnología. Las facciones dominantes empuñan poderosas flotas y tropas curtidas en mil batallas.",
+          "quest": "Un fabricante de armas creó un arma experimental acoplable en una nave, el Cañón Nulo, capaz de fracturar los lazos mismos de la realidad. Ahora confían en poder desbaratar su proyecto antes de que pueda utilizarse. ¿Qué ha provocado este cambio de opinión? ¿Cómo te has visto involucrado?",
+          "rollTemplate": "Los que ostentan el poder tienen acceso a armas de un potencial destructivo espantoso. Escaramuzas y guerras estallan en los dominios colonizados y la mayoría son peones o víctimas en estas campañas destructivas."
+        },
+        "Character Inspiration": {
+          "name": "Ideas para el personaje",
+          "text": "<p>¿Has luchado en alguna guerra? Si eres un soldado experimentado, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.5b517486f8722fdb]{Veterano}. Si haces votos como soldado de fortuna, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.9530a642ebdca5a5]{Mercenario}. Si prefieres un arma o una táctica en particular, podrías ser un @Compendium[foundry-ironsworn.starforgedassets.bbff76cd9b9fb67f]{Arquero}, @Compendium[foundry-ironsworn.starforgedassets.82cb2564aae5bf0f]{Maestro de espadas}, @Compendium[foundry-ironsworn.starforgedassets.69c86f19e7cbcf43]{Experto en demoliciones}, @Compendium[foundry-ironsworn.starforgedassets.e6dd0f7e6ac6e3cc]{Artillero}, @Compendium[foundry-ironsworn.starforgedassets.0b42a1e32bdb10c9]{Pistolero} o @Compendium[foundry-ironsworn.starforgedassets.b888c7c1b0fd46db]{Francotirador}.</p>"
+        }
+      }
+    }
+  }
+}
