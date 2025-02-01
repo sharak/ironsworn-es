@@ -14,7 +14,53 @@
     "Precursor Vault Oracles": "Precursor Vault Oracles",
     "Settlement Oracles": "Settlement Oracles",
     "Space Enconter Oracles": "Space Enconter Oracles",
-    "Starship Oracles": "Starship Oracles"
+    "Starship Oracles": "Starship Oracles",
+    "Launching Your Campaign": "Launching Your Campaign",
+    "Begin Your Adventure": "Begin Your Adventure",
+    "Build Your Starting Sector": "Build Your Starting Sector",
+    "Create Your Character": "Create Your Character",
+    "Population": "Population",
+    "Interior": "Interior",
+    "Sanctum": "Sanctum",
+    "Creature Basic Form": "Creature Basic Form",
+    "Faction Name": "Faction Name",
+    "Access": "Access",
+    "Community": "Community",
+    "Derelict Type (by location)": "Derelict Type (by Location)",
+    "Derelict Zones": "Derelict Zones",
+    "Engineering": "Engineering",
+    "Living": "Living",
+    "Medical": "Medical",
+    "Operations": "Operations",
+    "Production": "Production",
+    "Research": "Research",
+    "Starship Mission": "Starship Mission",
+    "Character Name": "Character Name",
+    "Desert World": "Desert World",
+    "Furnace World": "Furnace World",
+    "Grave World": "Grave World",
+    "Ice World": "Ice World",
+    "Jovian World": "Jovian World",
+    "Jungle World": "Jungle World",
+    "Ocean World": "Ocean World",
+    "Planetside Opportunity": "Planetside Opportunity",
+    "Planetside Peril": "Planetside Peril",
+    "Rocky World": "Rocky World",
+    "Shattered World": "Shattered World",
+    "Tainted World": "Tainted World",
+    "Vital World": "Vital World",
+    "Chaotic": "Chaotic",
+    "Fortified": "Fortified",
+    "Haunted": "Haunted",
+    "Infested": "Infested",
+    "Inhabited": "Inhabited",
+    "Mechanical": "Mechanical",
+    "Ruined": "Ruined",
+    "Sacred": "Sacred",
+    "Sector Name": "Sector Name",
+    "Space Sighting": "Space Sighting",
+    "Step 5: Board Your Starship": "Step 5: Board Your Starship",
+    "Settlements": "Settlements"
   },
   "entries": {
     "50/50": {
@@ -383,6 +429,113 @@
         "41-70": "Marginal",
         "71-95": "Breathable",
         "96-100": "Ideal"
+      }
+    },
+    "c274f74ecf7ce593": {
+      "name": "Atmosphere (Ice World)",
+      "description": "",
+      "results": {
+        "1-15": "None / thin",
+        "16-35": "Toxic",
+        "36-40": "Corrosive",
+        "41-70": "Marginal",
+        "71-95": "Breathable",
+        "96-100": "Ideal"
+      }
+    },
+    "b7b9ee078847e834": {
+      "name": "Atmosphere (Furnace World)",
+      "description": "",
+      "results": {
+        "1-10": "None / thin",
+        "11-50": "Toxic",
+        "51-65": "Corrosive",
+        "66-90": "Marginal",
+        "91-100": "Breathable"
+      }
+    },
+    "32962e84047f17b5": {
+      "name": "Atmosphere (Jovian World)",
+      "description": "",
+      "results": {
+        "1-50": "Toxic",
+        "51-65": "Corrosive",
+        "66-85": "Marginal",
+        "86-100": "Breathable"
+      }
+    },
+    "d5ac3f9b20d9f5dc": {
+      "name": "Atmosphere (Jungle World)",
+      "description": "",
+      "results": {
+        "1-25": "Toxic",
+        "26-30": "Corrosive",
+        "31-60": "Marginal",
+        "61-90": "Breathable",
+        "91-100": "Ideal"
+      }
+    },
+    "8c593f0f2ac6527a": {
+      "name": "Atmosphere (Ocean World)",
+      "description": "",
+      "results": {
+        "1-5": "None / thin",
+        "6-20": "Toxic",
+        "21-25": "Corrosive",
+        "26-60": "Marginal",
+        "61-90": "Breathable",
+        "91-100": "Ideal"
+      }
+    },
+    "5c0e2dc25a949b14": {
+      "name": "Atmosphere (Rocky World)",
+      "description": "",
+      "results": {
+        "1-65": "None / thin",
+        "66-85": "Toxic",
+        "86-90": "Corrosive",
+        "91-100": "Marginal"
+      }
+    },
+    "00e404023a5dc5ba": {
+      "name": "Atmosphere (Shattered World)",
+      "description": "",
+      "results": {
+        "1-93": "None / thin",
+        "94-95": "Toxic",
+        "96-97": "Corrosive",
+        "97-99": "Marginal",
+        "100-100": "Breathable"
+      }
+    },
+    "98cf03d0bdf9af1b": {
+      "name": "Atmosphere (Tainted World)",
+      "description": "",
+      "results": {
+        "1-65": "Toxic",
+        "66-85": "Corrosive",
+        "86-95": "Marginal",
+        "96-100": "Breathable"
+      }
+    },
+    "3b83c11a94c70b87": {
+      "name": "Atmosphere (Vital World)",
+      "description": "",
+      "results": {
+        "1-20": "Marginal",
+        "21-50": "Breathable",
+        "51-100": "Ideal"
+      }
+    },
+    "c18d325e41207e90": {
+      "name": "Atmosphere (Grave World)",
+      "description": "",
+      "results": {
+        "1-10": "None / thin",
+        "11-45": "Toxic",
+        "46-70": "Corrosive",
+        "71-90": "Marginal",
+        "91-100": "Breathable"
       }
     },
     "Authority": {
@@ -1046,6 +1199,162 @@
         "97-100": "Planetside settlement"
       }
     },
+    "a61fc1c802579820": {
+      "name": "Expanse (Shattered World)",
+      "description": "",
+      "results": {
+        "1-95": "None",
+        "96-99": "Orbital settlement",
+        "100-100": "Planetside settlement"
+      }
+    },
+    "058fd93e957c6804": {
+      "name": "Expanse (Population)",
+      "description": "",
+      "results": {
+        "1-20": "Few",
+        "21-50": "Dozens",
+        "51-80": "Hundreds",
+        "81-95": "Thousands",
+        "96-100": "Tens of thousands"
+      }
+    },
+    "8d5220c3ac5a5199": {
+      "name": "Outlands (Population)",
+      "description": "",
+      "results": {
+        "1-15": "Few",
+        "16-35": "Dozens",
+        "36-65": "Hundreds",
+        "66-90": "Thousands",
+        "91-100": "Tens of thousands"
+      }
+    },
+    "473250ed66f4c411": {
+      "name": "Terminus (Population)",
+      "description": "",
+      "results": {
+        "1-10": "Few",
+        "11-25": "Dozens",
+        "26-55": "Hundreds",
+        "56-85": "Thousands",
+        "86-100": "Tens of thousands"
+      }
+    },
+    "41b13bb4c61799a7": {
+      "name": "Expanse (Starship Mission)",
+      "description": "",
+      "results": {
+        "1-2": "Blockade a location",
+        "3-4": "Break a blockade",
+        "5-8": "Collect a resource",
+        "9-10": "Command others",
+        "11-12": "Conduct diplomacy",
+        "13-14": "Conduct espionage",
+        "15-16": "Conduct piracy",
+        "17-22": "Conduct research",
+        "23-25": "Defend against an attack",
+        "26-29": "Deliver messages or data",
+        "30-35": "Establish a settlement",
+        "36-39": "Evacuate a location",
+        "40-45": "Explore a region",
+        "46-47": "Hold prisoners",
+        "48-49": "Hunt down another ship",
+        "50-51": "Launch an attack",
+        "52-53": "Patrol an area",
+        "54-55": "Provide medical aid",
+        "56-57": "Provide repairs",
+        "58-61": "Provide shelter",
+        "62-63": "Quarantine a danger",
+        "64-65": "Raid a settlement",
+        "66-69": "Resupply a settlement",
+        "70-71": "Retrieve salvage",
+        "72-73": "Search and rescue",
+        "74-75": "Smuggle cargo",
+        "76-77": "Survey a site",
+        "78-79": "Test a technology",
+        "80-83": "Transport cargo",
+        "84-85": "Transport passengers",
+        "86-90": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "91-100": "Roll twice"
+      }
+    },
+    "f1495105a27943af": {
+      "name": "Outlands (Starship Mission)",
+      "description": "",
+      "results": {
+        "1-2": "Blockade a location",
+        "3-4": "Break a blockade",
+        "5-7": "Collect a resource",
+        "8-9": "Command others",
+        "10-11": "Conduct diplomacy",
+        "12-13": "Conduct espionage",
+        "14-16": "Conduct piracy",
+        "17-20": "Conduct research",
+        "21-24": "Defend against an attack",
+        "25-28": "Deliver messages or data",
+        "29-32": "Establish a settlement",
+        "33-36": "Evacuate a location",
+        "37-40": "Explore a region",
+        "41-42": "Hold prisoners",
+        "43-45": "Hunt down another ship",
+        "46-48": "Launch an attack",
+        "49-50": "Patrol an area",
+        "51-53": "Provide medical aid",
+        "54-56": "Provide repairs",
+        "57-59": "Provide shelter",
+        "60-61": "Quarantine a danger",
+        "62-64": "Raid a settlement",
+        "65-68": "Resupply a settlement",
+        "69-71": "Retrieve salvage",
+        "72-73": "Search and rescue",
+        "74-75": "Smuggle cargo",
+        "76-78": "Survey a site",
+        "79-80": "Test a technology",
+        "81-83": "Transport cargo",
+        "84-85": "Transport passengers",
+        "86-90": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "91-100": "Roll twice"
+      }
+    },
+    "38e3f5f00981cc2a": {
+      "name": "Terminus (Starship Mission)",
+      "description": "",
+      "results": {
+        "1-3": "Blockade a location",
+        "4-6": "Break a blockade",
+        "7-9": "Collect a resource",
+        "10-11": "Command others",
+        "12-14": "Conduct diplomacy",
+        "15-17": "Conduct espionage",
+        "18-20": "Conduct piracy",
+        "21-23": "Conduct research",
+        "24-26": "Defend against an attack",
+        "27-29": "Deliver messages or data",
+        "30-32": "Establish a settlement",
+        "33-35": "Evacuate a location",
+        "36-37": "Explore a region",
+        "38-39": "Hold prisoners",
+        "40-42": "Hunt down another ship",
+        "43-45": "Launch an attack",
+        "46-48": "Patrol an area",
+        "49-51": "Provide medical aid",
+        "52-54": "Provide repairs",
+        "55-57": "Provide shelter",
+        "58-59": "Quarantine a danger",
+        "60-62": "Raid a settlement",
+        "63-65": "Resupply a settlement",
+        "66-68": "Retrieve salvage",
+        "69-71": "Search and rescue",
+        "72-74": "Smuggle cargo",
+        "75-77": "Survey a site",
+        "78-79": "Test a technology",
+        "80-82": "Transport cargo",
+        "83-85": "Transport passengers",
+        "86-90": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "91-100": "Roll twice"
+      }
+    },
     "Faction Name Template": {
       "name": "Faction Name Template",
       "description": "",
@@ -1258,6 +1567,158 @@
         "97-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
       }
     },
+    "f0d03da73cf89abd": {
+      "name": "Feature (Access)",
+      "description": "<p>Roll on this table when you want to reveal new aspects of your current surroundings. This is best used sparingly—a bit of occasional extra detail or ambiance—rather than rolling for every segment of your exploration.</p>",
+      "results": {
+        "1-5": "Abandoned gear",
+        "6-10": "Blood trail",
+        "11-15": "Breached door or hatch",
+        "16-20": "Control or terminal station",
+        "21-25": "Corpse",
+        "26-30": "Dismantled equipment",
+        "31-35": "Flashing strobes",
+        "36-40": "Leaking pipes",
+        "41-45": "Makeshift barricade",
+        "46-50": "Opened or missing panels",
+        "51-55": "Organic growths",
+        "56-60": "Ruined bot",
+        "61-65": "Scrawled warning",
+        "66-70": "Sealed breach",
+        "71-75": "Sounds of movement",
+        "76-80": "Steam or smoke",
+        "81-85": "Wandering bot",
+        "86-90": "Windows or viewports",
+        "91-95": "Wrecked passage or debris",
+        "96-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
+      }
+    },
+    "577ad8977e5fd707": {
+      "name": "Feature (Community)",
+      "description": "<p>Roll on this table when you want to reveal new aspects of your current surroundings. This is best used sparingly—a bit of occasional extra detail or ambiance—rather than rolling for every segment of your exploration.</p>",
+      "results": {
+        "1-8": "Ad-hoc memorials",
+        "9-16": "Art depicting historic event",
+        "17-24": "Artificial environment",
+        "25-32": "Automated announcements",
+        "33-40": "Barricaded area",
+        "41-48": "Gaming devices or interfaces",
+        "49-56": "Graffiti or vandalization",
+        "57-64": "Guard post or surveillance",
+        "65-72": "Mass grave or corpses",
+        "73-80": "Panoramic viewport",
+        "81-88": "Rubble or debris",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
+      }
+    },
+    "bd5fc9d42567e5ba": {
+      "name": "Feature (Engineering)",
+      "description": "<p>Roll on this table when you want to reveal new aspects of your current surroundings. This is best used sparingly—a bit of occasional extra detail or ambiance—rather than rolling for every segment of your exploration.</p>",
+      "results": {
+        "1-8": "Cluttered workbench",
+        "9-16": "Control terminal",
+        "17-24": "Crane or lift",
+        "25-32": "Disassembled equipment",
+        "33-40": "Flickering status monitors",
+        "41-48": "Jury-rigged equipment",
+        "49-56": "Multilevel layout",
+        "57-64": "Pipes and valves",
+        "65-72": "Sharp ozone smell",
+        "73-80": "Unfinished project",
+        "81-88": "Utility bots",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
+      }
+    },
+    "33e96704d391b4c7": {
+      "name": "Feature (Living)",
+      "description": "<p>Roll on this table when you want to reveal new aspects of your current surroundings. This is best used sparingly—a bit of occasional extra detail or ambiance—rather than rolling for every segment of your exploration.</p>",
+      "results": {
+        "1-8": "Abandoned pet",
+        "9-16": "Audible music",
+        "17-24": "Cherished personal item",
+        "25-32": "Failed barricade",
+        "33-40": "Half-eaten food",
+        "41-48": "Messages from loved ones",
+        "49-56": "Ransacked belongings",
+        "57-64": "Remains of the dead",
+        "65-72": "Scuttling vermin",
+        "73-80": "Shrine or altar",
+        "81-88": "Unusual art",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
+      }
+    },
+    "353b9201da6f1e8a": {
+      "name": "Feature (Medical)",
+      "description": "<p>Roll on this table when you want to reveal new aspects of your current surroundings. This is best used sparingly—a bit of occasional extra detail or ambiance—rather than rolling for every segment of your exploration.</p>",
+      "results": {
+        "1-8": "Autopsied corpse",
+        "9-16": "Biological specimens",
+        "17-24": "Blood spatter or pools",
+        "25-32": "Bloody medical supplies",
+        "33-40": "Broken prosthetics",
+        "41-48": "Corpse of a healer",
+        "49-56": "Dissected specimen",
+        "57-64": "Improvised overflow beds",
+        "65-72": "Medical monitors",
+        "73-80": "Medical records or scans",
+        "81-88": "Stacks of body bags",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
+      }
+    },
+    "26c2c4c80bcc63d7": {
+      "name": "Feature (Operations)",
+      "description": "<p>Roll on this table when you want to reveal new aspects of your current surroundings. This is best used sparingly—a bit of occasional extra detail or ambiance—rather than rolling for every segment of your exploration.</p>",
+      "results": {
+        "1-8": "Automated warning",
+        "9-16": "Buckled blast doors",
+        "17-24": "Control terminal",
+        "25-32": "Emergency lighting",
+        "33-40": "EV suit storage",
+        "41-48": "Hissing comms channel",
+        "49-56": "Intricate control panels",
+        "57-64": "Map of the site",
+        "65-72": "Recorded message",
+        "73-80": "Video surveillance monitors",
+        "81-88": "Written logs",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
+      }
+    },
+    "1f2db6732d59f909": {
+      "name": "Feature (Production)",
+      "description": "<p>Roll on this table when you want to reveal new aspects of your current surroundings. This is best used sparingly—a bit of occasional extra detail or ambiance—rather than rolling for every segment of your exploration.</p>",
+      "results": {
+        "1-8": "Cargo lifts",
+        "9-16": "Control panels",
+        "17-24": "Disassembled machinery",
+        "25-32": "Elevated walkways",
+        "33-40": "Environment suits",
+        "41-48": "Ill-fated workers",
+        "49-56": "Immense machinery",
+        "57-64": "Sealed or locked containers",
+        "65-72": "Tools",
+        "73-80": "Vats of chemicals or gas",
+        "81-88": "Written manifest",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
+      }
+    },
+    "60d7a7c55caaf40d": {
+      "name": "Feature (Research)",
+      "description": "<p>Roll on this table when you want to reveal new aspects of your current surroundings. This is best used sparingly—a bit of occasional extra detail or ambiance—rather than rolling for every segment of your exploration.</p>",
+      "results": {
+        "1-8": "Aquarium or tank",
+        "9-16": "Biological specimens",
+        "17-24": "Bones or fossils",
+        "25-32": "Broken equipment",
+        "33-40": "Cryptic research notes",
+        "41-48": "Hastily destroyed data",
+        "49-56": "Hazmat suits",
+        "57-64": "Inscrutable artifact",
+        "65-72": "Invasive plant growth",
+        "73-80": "Recorded research log",
+        "81-88": "Spilled chemicals",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
+      }
+    },
     "e422399eb54ed7b1": {
       "name": "First Look",
       "description": "",
@@ -1301,6 +1762,33 @@
         "93-95": "Wiry",
         "96-97": "Wounded",
         "98-100": "Youthful"
+      }
+    },
+    "5ff0f4816e9338b4": {
+      "name": "First Look",
+      "description": "",
+      "results": {
+        "1-3": "Beautiful architecture",
+        "4-9": "Built from organic materials",
+        "10-15": "Built from random scrap",
+        "16-21": "Built within repurposed ship",
+        "22-26": "Built within terrain or asteroid",
+        "27-31": "Defensible location",
+        "32-35": "Elevated or multi-level construction",
+        "36-40": "Hidden or subsurface location",
+        "41-43": "High-tech construction",
+        "44-49": "Industrial architecture",
+        "50-53": "Intimidating defenses",
+        "54-56": "Moving or transforming",
+        "57-61": "Obvious social stratification",
+        "62-66": "Precarious location",
+        "67-72": "Rustic architecture",
+        "73-76": "Significant structural damage",
+        "77-80": "Sprawling or dispersed structures",
+        "81-83": "Temporary or seasonal location",
+        "84-87": "Toxic or polluted habitat",
+        "88-90": "<p>Within or near <a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a></p>",
+        "91-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
       }
     },
     "Fleet": {
@@ -1582,6 +2070,23 @@
         "96-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/derelict\">\n    <i class=\"fa fa-caret-right\"></i> Derelict\n</a></p>"
       }
     },
+    "33d70af5643882f0": {
+      "name": "Initial Contact",
+      "description": "",
+      "results": {
+        "1-20": "Welcoming",
+        "21-30": "Neutral / automated",
+        "31-50": "Wary",
+        "51-60": "Uncooperative",
+        "61-70": "Hostile",
+        "71-83": "Asking for help",
+        "84-86": "In battle",
+        "87-89": "Captured",
+        "90-92": "Unresponsive",
+        "93-95": "Destroyed",
+        "96-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/derelict\">    <i class=\"fa fa-caret-right\"></i> Derelict</a></p>"
+      }
+    },
     "Initial Disposition": {
       "name": "Initial Disposition",
       "description": "",
@@ -1635,6 +2140,44 @@
         "85-87": "Toxic residue",
         "88-90": "Well-preserved",
         "91-93": "Wet or humid",
+        "94-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
+      }
+    },
+    "08afba3cab4c8303": {
+      "name": "Inner First Look",
+      "description": "<p>Use these First Look tables for your initial survey of the derelict's interior.</p>",
+      "results": {
+        "1-3": "Abnormal gravity",
+        "4-6": "Active bots",
+        "7-9": "Archaic equipment",
+        "10-12": "Automated announcements",
+        "13-15": "Biological infestation",
+        "16-18": "Charred surfaces",
+        "19-21": "Claw marks",
+        "22-24": "Cluttered with debris",
+        "25-27": "Corroded surfaces",
+        "28-30": "Cramped spaces",
+        "31-33": "Creaking hull",
+        "34-36": "Esoteric writing or symbols",
+        "37-39": "Evidence of new inhabitants",
+        "40-42": "Exposed wiring or conduits",
+        "43-45": "Flashing strobe lights",
+        "46-48": "Fluctuating power",
+        "49-51": "Haunting visions of the dead",
+        "52-54": "Hazardous temperature",
+        "55-57": "Heavy steam or moisture",
+        "58-60": "Littered with corpses",
+        "61-63": "Nesting or feeding creatures",
+        "64-66": "Ornate furnishings",
+        "67-69": "Scarred by gunfire",
+        "70-72": "Sealed against intruders",
+        "73-75": "Signs of looting or scavenging",
+        "76-78": "Smell of decay",
+        "79-81": "Splattered with blood",
+        "82-84": "Temporal distortions",
+        "85-87": "Thick haze or smoke",
+        "88-90": "Unstable energy surges",
+        "91-93": "Watchful AI",
         "94-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
       }
     },
@@ -1836,6 +2379,118 @@
         "96-100": "Diverse"
       }
     },
+    "60c1f7ec10dbe793": {
+      "name": "Life (Shattered World)",
+      "description": "",
+      "results": {
+        "1-30": "None",
+        "31-85": "Extinct",
+        "86-95": "Scarce",
+        "96-100": "Diverse"
+      }
+    },
+    "0e78eba5eb3335da": {
+      "name": "Life (Desert World)",
+      "description": "",
+      "results": {
+        "1-20": "None",
+        "21-40": "Extinct",
+        "41-70": "Scarce",
+        "71-90": "Diverse",
+        "91-97": "Bountiful",
+        "98-100": "Overrun"
+      }
+    },
+    "b8f3a2fbed4f9fa8": {
+      "name": "Life (Furnace World)",
+      "description": "",
+      "results": {
+        "1-35": "None",
+        "36-60": "Extinct",
+        "61-85": "Scarce",
+        "86-95": "Diverse",
+        "96-98": "Bountiful",
+        "99-100": "Overrun"
+      }
+    },
+    "17e0658e24e16cba": {
+      "name": "Life (Ice World)",
+      "description": "",
+      "results": {
+        "1-20": "None",
+        "21-40": "Extinct",
+        "41-70": "Scarce",
+        "71-90": "Diverse",
+        "91-97": "Bountiful",
+        "98-100": "Overrun"
+      }
+    },
+    "13b331f5507f9e6e": {
+      "name": "Life (Jovian World)",
+      "description": "",
+      "results": {
+        "1-35": "None",
+        "36-60": "Extinct",
+        "61-85": "Scarce",
+        "86-95": "Diverse",
+        "96-98": "Bountiful",
+        "99-100": "Overrun"
+      }
+    },
+    "a552534dd9dc98f9": {
+      "name": "Life (Jungle World)",
+      "description": "",
+      "results": {
+        "1-5": "Scarce",
+        "6-35": "Diverse",
+        "36-75": "Bountiful",
+        "76-100": "Overrun"
+      }
+    },
+    "8cd36c6e7a6c2e3d": {
+      "name": "Life (Ocean World)",
+      "description": "",
+      "results": {
+        "1-5": "None",
+        "6-15": "Extinct",
+        "16-30": "Scarce",
+        "31-60": "Diverse",
+        "61-90": "Bountiful",
+        "91-100": "Overrun"
+      }
+    },
+    "93ce6be5248299c9": {
+      "name": "Life (Rocky World)",
+      "description": "",
+      "results": {
+        "1-65": "None",
+        "66-80": "Extinct",
+        "81-90": "Scarce",
+        "91-95": "Diverse",
+        "96-98": "Bountiful",
+        "99-100": "Overrun"
+      }
+    },
+    "b7438eaef6d264f7": {
+      "name": "Life (Tainted World)",
+      "description": "",
+      "results": {
+        "1-10": "Scarce",
+        "11-35": "Diverse",
+        "36-65": "Bountiful",
+        "66-100": "Overrun"
+      }
+    },
+    "24cee8d5613c80eb": {
+      "name": "Life (Vital World)",
+      "description": "",
+      "results": {
+        "1-10": "Scarce",
+        "11-45": "Diverse",
+        "46-85": "Bountiful",
+        "86-100": "Overrun"
+      }
+    },
     "e201f187190ad227": {
       "name": "Lifebearing (Planetside Opportunity)",
       "description": "",
@@ -1867,6 +2522,46 @@
         "97-100": "Vantage point reveals the lay of the land"
       }
     },
+    "6973e5b34ea40e49": {
+      "name": "Lifebearing (Planetside Peril)",
+      "description": "",
+      "results": {
+        "1-3": "Corrupted or mutated lifeform",
+        "4-6": "Signs of a lifeform's power or cunning",
+        "7-9": "Hazardous plant life or malignant spores",
+        "10-12": "Lifeform hunts for prey",
+        "13-15": "Lifeform lairs here",
+        "16-18": "Lifeforms guided by a greater threat",
+        "19-21": "Lifeforms spooked or stampeding",
+        "22-24": "Threatening lifeform draws near",
+        "25-27": "Life is revealed or takes an unexpected form",
+        "28-30": "Blocked or impassible path",
+        "31-33": "Corrosive substance or environment",
+        "34-36": "Disturbing remains or evidence of death",
+        "37-39": "Drastic environmental change",
+        "40-42": "Enemy holds this area",
+        "43-45": "Entangling or engulfing hazard",
+        "46-48": "Equipment fails or malfunctions",
+        "49-51": "Guarded or patrolled path",
+        "52-54": "Led astray",
+        "55-57": "Lost the path",
+        "58-60": "Meteorites fall from the sky",
+        "61-63": "Irradiated area or object",
+        "64-66": "Realization that something was left behind",
+        "67-69": "Seismic or volcanic upheaval",
+        "70-72": "Signs of a lurking or trailing foe",
+        "73-75": "Storm or atmospheric disruption",
+        "76-78": "Toxic or sickening environment",
+        "79-81": "Trap or alarm",
+        "82-84": "Treacherous or arduous path",
+        "85-87": "Troubling visions or apparitions",
+        "88-90": "Visibility hindered by atmospheric effects",
+        "91-93": "Worrying arrival of a ship or vehicle",
+        "94-96": "Wreckage or ruins portend a new threat",
+        "97-99": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "100-100": "Roll twice"
+      }
+    },
     "bba55b6a1f7dc11f": {
       "name": "Lifeless (Planetside Opportunity)",
       "description": "",
@@ -1891,6 +2586,38 @@
         "86-90": "Plea for help from a potential benefactor",
         "91-95": "Refuge offers a place to hide, plan, or recover",
         "96-100": "Vantage point reveals the lay of the land"
+      }
+    },
+    "5a15d4f1aca3723d": {
+      "name": "Lifeless (Planetside Peril)",
+      "description": "",
+      "results": {
+        "1-3": "Life is revealed or takes an unexpected form",
+        "4-7": "Blocked or impassible path",
+        "8-11": "Corrosive substance or environment",
+        "12-15": "Disturbing remains or evidence of death",
+        "16-19": "Drastic environmental change",
+        "20-23": "Enemy holds this area",
+        "24-27": "Entangling or engulfing hazard",
+        "28-31": "Equipment fails or malfunctions",
+        "32-35": "Guarded or patrolled path",
+        "36-39": "Led astray",
+        "40-43": "Lost the path",
+        "44-47": "Meteorites fall from the sky",
+        "48-51": "Irradiated area or object",
+        "52-55": "Realization that something was left behind",
+        "56-59": "Seismic or volcanic upheaval",
+        "60-63": "Signs of a lurking or trailing foe",
+        "64-67": "Storm or atmospheric disruption",
+        "68-71": "Toxic or sickening environment",
+        "72-75": "Trap or alarm",
+        "76-79": "Treacherous or arduous path",
+        "80-83": "Troubling visions or apparitions",
+        "84-87": "Visibility hindered by atmospheric effects",
+        "88-91": "Worrying arrival of a ship or vehicle",
+        "92-95": "Wreckage or ruins portend a new threat",
+        "96-99": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "100-100": "Roll twice"
       }
     },
     "Likely": {
@@ -1926,6 +2653,24 @@
       }
     },
     "68efb47a93ee8925": {
+      "name": "Location",
+      "description": "",
+      "results": {
+        "1-40": "Planetside",
+        "41-60": "Orbital",
+        "61-100": "Deep Space"
+      }
+    },
+    "0b7dc258c5edc9ef": {
+      "name": "Location",
+      "description": "",
+      "results": {
+        "1-50": "Planetside",
+        "51-75": "Orbital",
+        "76-100": "Deep Space"
+      }
+    },
+    "d5a68858aa2e7ce3": {
       "name": "Location",
       "description": "",
       "results": {
@@ -2011,6 +2756,166 @@
         "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">\n    <i class=\"fa fa-caret-right\"></i> Precursor Vault\n</a> (orbital)</p>"
       }
     },
+    "7083695541c913d9": {
+      "name": "Observed From Space (Furnace World)",
+      "description": "",
+      "results": {
+        "1-11": "Fiery world-spanning chasms",
+        "12-22": "Glowing rivers of lava",
+        "23-33": "Lightning-wracked ash clouds",
+        "34-44": "Magma seas",
+        "45-55": "Massive supervolcano",
+        "56-66": "Once verdant terrain",
+        "67-77": "Towering mountain ranges",
+        "78-88": "World-spanning fissures",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (orbital)</p>"
+      }
+    },
+    "7520168fe11e73f4": {
+      "name": "Observed From Space (Grave World)",
+      "description": "",
+      "results": {
+        "1-11": "Broken moon",
+        "12-22": "Perpetual overcast",
+        "23-33": "Cratered surface",
+        "34-44": "Sky-breaching ruins",
+        "45-55": "Dry seabeds",
+        "56-66": "Vast wastelands",
+        "67-77": "Irradiated atmosphere",
+        "78-88": "Orbiting ship graveyard",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (orbital)</p>"
+      }
+    },
+    "c56edfcd0c123ee3": {
+      "name": "Observed From Space (Ice World)",
+      "description": "",
+      "results": {
+        "1-11": "Feeble sunlight",
+        "12-22": "Supersized ice volcano",
+        "23-33": "Frozen oceans",
+        "34-44": "Vibrantly colored ice",
+        "45-55": "Rocky glacial islands",
+        "56-66": "World-spanning ice canyon",
+        "67-77": "Snowbound mountains",
+        "78-88": "Sky-breaching geysers",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (orbital)</p>"
+      }
+    },
+    "fc741bbc131b5a0b": {
+      "name": "Observed From Space (Jovian World)",
+      "description": "",
+      "results": {
+        "1-11": "Complex ring system",
+        "12-22": "Intense gravity well",
+        "23-33": "Numerous moons",
+        "34-44": "Perpetual superstorm",
+        "45-55": "Powerful magnetic field",
+        "56-66": "Severe electrical storms",
+        "67-77": "Superheated atmosphere",
+        "78-88": "Unusual atmospheric colors",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (orbital)</p>"
+      }
+    },
+    "3dfa3974fd38aa41": {
+      "name": "Observed From Space (Jungle World)",
+      "description": "",
+      "results": {
+        "1-11": "Cloud-breaching trees",
+        "12-22": "Towering mountains",
+        "23-33": "Expansive rivers or wetlands",
+        "34-44": "Unbroken canopy",
+        "45-55": "Inland seas",
+        "56-66": "Unusual vegetation color",
+        "67-77": "Massive canyons",
+        "78-88": "Persistent cloud cover",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (orbital)</p>"
+      }
+    },
+    "efc010d3643bed54": {
+      "name": "Observed From Space (Ocean World)",
+      "description": "",
+      "results": {
+        "1-11": "Complex reef systems",
+        "12-22": "Emerging volcanoes",
+        "23-33": "Floating forests",
+        "34-44": "Global hurricanes",
+        "45-55": "Large moon and strong tides",
+        "56-66": "Scattered islands",
+        "67-77": "Semi-frozen oceans",
+        "78-88": "Unusual water color",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (orbital)</p>"
+      }
+    },
+    "e03b485571f904d3": {
+      "name": "Observed From Space (Rocky World)",
+      "description": "",
+      "results": {
+        "1-11": "Barren plains",
+        "12-22": "Constant asteroid strikes",
+        "23-33": "Dense ring system",
+        "34-44": "Jagged mountains",
+        "45-55": "Massive impact crater",
+        "56-66": "Misshapen form (low gravity)",
+        "67-77": "Perpetual night",
+        "78-88": "Towering plateaus",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (orbital)</p>"
+      }
+    },
+    "96bc7309f47d4af6": {
+      "name": "Observed From Space (Shattered World)",
+      "description": "",
+      "results": {
+        "1-11": "Demolished space fleet",
+        "12-22": "Preserved planetary fragment",
+        "23-33": "Dense ring system",
+        "34-44": "Swirling debris field",
+        "45-55": "Fiery planetary core",
+        "56-66": "Fiery planetary core",
+        "67-77": "Geomagnetic storms",
+        "78-88": "Intense solar radiation",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (orbital)</p>"
+      }
+    },
+    "b6761b93d9f1fc4d": {
+      "name": "Observed From Space (Tainted World)",
+      "description": "",
+      "results": {
+        "1-11": "Expansive fungal plains",
+        "12-22": "Stagnant cloud cover",
+        "23-33": "Fungal forests",
+        "34-44": "Thick, murky atmosphere",
+        "45-55": "Scabrous, infected terrain",
+        "56-66": "Toxic seas",
+        "67-77": "Sky-breaching fungus",
+        "78-88": "Sludge-filled river networks",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (orbital)</p>"
+      }
+    },
+    "88ca6ad4d5965c0b": {
+      "name": "Observed From Space (Vital World)",
+      "description": "",
+      "results": {
+        "1-11": "Complex ring system",
+        "12-22": "Numerous small moons",
+        "23-33": "Dramatic seasonal variation",
+        "34-44": "Unusual day or night cycle",
+        "45-55": "High gravity",
+        "56-66": "Vibrantly colored landscapes",
+        "67-77": "Large moon",
+        "78-88": "Narrow livable band",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (orbital)</p>"
+      }
+    },
     "fbbdcd39d711576f": {
       "name": "Opportunity",
       "description": "<p>Roll on this table when you want inspiration for a beneficial encounter or event within a derelict, such as when you roll a strong hit with a match as you @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Undertake an Expedition}, or if you @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Explore a Waypoint} and find an opportunity.</p>",
@@ -2020,6 +2925,171 @@
         "41-60": "Specialized research tools",
         "61-80": "Unique prototype",
         "81-100": "Useful navigational data"
+      }
+    },
+    "fb75d70c9f85b525": {
+      "name": "Opportunity (Access)",
+      "description": "<p>Roll on this table when you want inspiration for a beneficial encounter or event within a derelict, such as when you roll a strong hit with a match as you @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Undertake an Expedition}, or if you @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Explore a Waypoint} and find an opportunity.</p>",
+      "results": {
+        "1-20": "Directions, shortcut, or alternate path",
+        "21-40": "Encounter with a friendly survivor, explorer, or denizen",
+        "41-60": "Hopeful signs of life",
+        "61-80": "Opening to outmaneuver or escape a threat or foe",
+        "81-100": "Useful equipment"
+      }
+    },
+    "d505bfd2e5b2eabb": {
+      "name": "Opportunity (Community)",
+      "description": "<p>Roll on this table when you want inspiration for a beneficial encounter or event within a derelict, such as when you roll a strong hit with a match as you @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Undertake an Expedition}, or if you @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Explore a Waypoint} and find an opportunity.</p>",
+      "results": {
+        "1-20": "Culturally significant object or artifact",
+        "21-40": "Salvageable goods or resources",
+        "41-60": "Secure area offers a moment of peace",
+        "61-80": "Terminal with access to site details",
+        "81-100": "Valuable item"
+      }
+    },
+    "dd60b57e87a5deea": {
+      "name": "Opportunity (Engineering)",
+      "description": "<p>Roll on this table when you want inspiration for a beneficial encounter or event within a derelict, such as when you roll a strong hit with a match as you @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Undertake an Expedition}, or if you @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Explore a Waypoint} and find an opportunity.</p>",
+      "results": {
+        "1-20": "Advanced or experimental equipment",
+        "21-40": "Chance to restore power or function",
+        "41-60": "Helpful plans or schematics",
+        "61-80": "Helpful utility bot",
+        "81-100": "Useful tool or device"
+      }
+    },
+    "4f9d34432eefbe9a": {
+      "name": "Opportunity (Living)",
+      "description": "<p>Roll on this table when you want inspiration for a beneficial encounter or event within a derelict, such as when you roll a strong hit with a match as you @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Undertake an Expedition}, or if you @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Explore a Waypoint} and find an opportunity.</p>",
+      "results": {
+        "1-20": "Culturally significant object or artifact",
+        "21-40": "Hidden stash of valuable contraband",
+        "41-60": "Intact barricade or protected area",
+        "61-80": "Recorded message reveals helpful aspects of this site",
+        "81-100": "Useful personal gear"
+      }
+    },
+    "55f85175b4108e97": {
+      "name": "Opportunity (Medical)",
+      "description": "<p>Roll on this table when you want inspiration for a beneficial encounter or event within a derelict, such as when you roll a strong hit with a match as you @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Undertake an Expedition}, or if you @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Explore a Waypoint} and find an opportunity.</p>",
+      "results": {
+        "1-20": "Cache of medicine",
+        "21-40": "Clues to a medical mystery",
+        "41-60": "Helpful medical bot",
+        "61-80": "Unusual or rare specimen",
+        "81-100": "Useful medical equipment"
+      }
+    },
+    "3d33a1c9547a4c28": {
+      "name": "Opportunity (Operations)",
+      "description": "<p>Roll on this table when you want inspiration for a beneficial encounter or event within a derelict, such as when you roll a strong hit with a match as you @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Undertake an Expedition}, or if you @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Explore a Waypoint} and find an opportunity.</p>",
+      "results": {
+        "1-20": "Cache of weapons or ammo",
+        "21-40": "Helpful AI",
+        "41-60": "Keycard or access code",
+        "61-80": "Log offers insight into this site's downfall",
+        "81-100": "Secure area offers a moment of peace"
+      }
+    },
+    "8cff4e3060f79148": {
+      "name": "Opportunity (Production)",
+      "description": "<p>Roll on this table when you want inspiration for a beneficial encounter or event within a derelict, such as when you roll a strong hit with a match as you @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Undertake an Expedition}, or if you @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Explore a Waypoint} and find an opportunity.</p>",
+      "results": {
+        "1-20": "Helpful vehicle or transport",
+        "21-40": "Rare or valuable resource",
+        "41-60": "Salvageable materials",
+        "61-80": "Useful equipment",
+        "81-100": "Valuable cargo"
+      }
+    },
+    "51674ae2080b3b1e": {
+      "name": "Opportunity (Chaotic)",
+      "description": "<p>Use this table to help envision a beneficial encounter or event, such as when rolling a strong hit with a match in a location.</p>",
+      "results": {
+        "1-20": "Chaos ebbs or withdraws for a time",
+        "21-40": "Chaos empowers you with strange but useful abilities",
+        "41-60": "Chaos manifests as comforting or inspiring visions",
+        "61-80": "Chaotic changes hamper your foes",
+        "81-100": "Insight into the source or nature of the chaos"
+      }
+    },
+    "df4e0162e8aa0698": {
+      "name": "Opportunity (Fortified)",
+      "description": "<p>Use this table to help envision a beneficial encounter or event, such as when rolling a strong hit with a match in a location.</p>",
+      "results": {
+        "1-20": "Insight into the plans or methods of the enemy force",
+        "21-40": "Opening to get the drop on an enemy",
+        "41-60": "Opening to outmaneuver or escape enemies",
+        "61-80": "Potential collaborator or informant reveals themselves",
+        "81-100": "Access to useful equipment or weapons"
+      }
+    },
+    "660a3bba595c310a": {
+      "name": "Opportunity (Haunted)",
+      "description": "<p>Use this table to help envision a beneficial encounter or event, such as when rolling a strong hit with a match in a location.</p>",
+      "results": {
+        "1-20": "Encounter with a benign spirit or being",
+        "21-40": "Helpful vision of past events",
+        "41-60": "Message or clue offers insight into the nature of this haunting",
+        "61-80": "Secret area or path is revealed",
+        "81-100": "Useful or interesting artifact or device"
+      }
+    },
+    "e588fbdc090fa1a3": {
+      "name": "Opportunity (Infested)",
+      "description": "<p>Use this table to help envision a beneficial encounter or event, such as when rolling a strong hit with a match in a location.</p>",
+      "results": {
+        "1-20": "Clue to the nature or vulnerabilities of these creatures",
+        "21-40": "Creatures turn on each other",
+        "41-60": "Early warning of an attack or ambush",
+        "61-80": "External event provides a helpful distraction",
+        "81-100": "Helpful resource or equipment"
+      }
+    },
+    "e35de30578a5863c": {
+      "name": "Opportunity (Inhabited)",
+      "description": "<p>Use this table to help envision a beneficial encounter or event, such as when rolling a strong hit with a match in a location.</p>",
+      "results": {
+        "1-20": "Intriguing offer from an unexpected source",
+        "21-40": "Lively festival or gathering place provides a chance to socialize",
+        "41-60": "Local gossip proves interesting or helpful",
+        "61-80": "Needed item, resource, or buyer is available",
+        "81-100": "Old friend or connection resurfaces"
+      }
+    },
+    "6fe85ab379183432": {
+      "name": "Opportunity (Mechanical)",
+      "description": "<p>Use this table to help envision a beneficial encounter or event, such as when rolling a strong hit with a match in a location.</p>",
+      "results": {
+        "1-20": "Helpful device",
+        "21-40": "Insight into the workings or purpose of the machines",
+        "41-60": "Intelligent machine offers aid",
+        "61-80": "Salvageable resource",
+        "81-100": "Wondrous technology"
+      }
+    },
+    "f83f31579bd9a886": {
+      "name": "Opportunity (Ruined)",
+      "description": "<p>Use this table to help envision a beneficial encounter or event, such as when rolling a strong hit with a match in a location.</p>",
+      "results": {
+        "1-20": "Access to an untouched or preserved area",
+        "21-40": "Insight into what brought this place to ruin",
+        "41-60": "Interesting or useful device or artifact",
+        "61-80": "Salvageable equipment or resources",
+        "81-100": "Shortcut or passage through the destruction"
+      }
+    },
+    "250a2b2b4658be5c": {
+      "name": "Opportunity (Sacred)",
+      "description": "<p>Use this table to help envision a beneficial encounter or event, such as when rolling a strong hit with a match in a location.</p>",
+      "results": {
+        "1-20": "Access to a hidden or sealed area",
+        "21-40": "Encounter with a helpful adherent or heretic",
+        "41-60": "Insight into the nature or history of the faith",
+        "61-80": "Insight into the schemes or methods of religious zealots",
+        "81-100": "Interesting or valuable artifact or device"
       }
     },
     "Orbital": {
@@ -2093,6 +3163,389 @@
         "98-100": "Settlements in conflict"
       }
     },
+    "7ebc64758d4d2fb3": {
+      "name": "Expanse (Furnace World)",
+      "description": "",
+      "results": {
+        "1-95": "None",
+        "96-98": "Orbital settlement",
+        "99-100": "Planetside settlement"
+      }
+    },
+    "390b632dc01efb09": {
+      "name": "Expanse (Grave World)",
+      "description": "",
+      "results": {
+        "1-95": "None",
+        "96-98": "Orbital settlement",
+        "99-100": "Planetside settlement"
+      }
+    },
+    "49874676539b4373": {
+      "name": "Expanse (Ice World)",
+      "description": "",
+      "results": {
+        "1-90": "None",
+        "91-96": "Orbital settlement",
+        "97-100": "Planetside settlement"
+      }
+    },
+    "be073af48707259c": {
+      "name": "Expanse (Jovian World)",
+      "description": "",
+      "results": {
+        "1-90": "None",
+        "91-96": "Orbital settlement",
+        "97-100": "Planetside settlement"
+      }
+    },
+    "a1016cd9acd174c4": {
+      "name": "Expanse (Jungle World)",
+      "description": "",
+      "results": {
+        "1-85": "None",
+        "86-90": "Orbital settlement",
+        "91-97": "Planetside settlement",
+        "98-99": "Multiple settlements",
+        "100-100": "Settlements in conflict"
+      }
+    },
+    "74f04d013e32ea57": {
+      "name": "Expanse (Ocean World)",
+      "description": "",
+      "results": {
+        "1-85": "None",
+        "86-90": "Orbital settlement",
+        "91-97": "Planetside settlement",
+        "98-99": "Multiple settlements",
+        "100-100": "Settlements in conflict"
+      }
+    },
+    "5868927d66d7e2f5": {
+      "name": "Expanse (Rocky World)",
+      "description": "",
+      "results": {
+        "1-90": "None",
+        "91-96": "Orbital settlement",
+        "97-100": "Planetside settlement"
+      }
+    },
+    "ad0097a5058cd9c1": {
+      "name": "Expanse (Tainted World)",
+      "description": "",
+      "results": {
+        "1-95": "None",
+        "96-98": "Orbital settlement",
+        "99-100": "Planetside settlement"
+      }
+    },
+    "54e8523dc4079ec5": {
+      "name": "Expanse (Vital World)",
+      "description": "",
+      "results": {
+        "1-80": "None",
+        "81-83": "Orbital settlement",
+        "84-93": "Planetside settlement",
+        "94-98": "Multiple settlements",
+        "99-100": "Settlements in conflict"
+      }
+    },
+    "59c4a74f678768a9": {
+      "name": "Outlands (Desert World)",
+      "description": "",
+      "results": {
+        "1-75": "None",
+        "76-83": "Orbital settlement",
+        "84-95": "Planetside settlement",
+        "96-98": "Multiple settlements",
+        "99-100": "Settlements in conflict"
+      }
+    },
+    "d2fc0f4324dbc21e": {
+      "name": "Outlands (Furnace World)",
+      "description": "",
+      "results": {
+        "1-85": "None",
+        "86-92": "Orbital settlement",
+        "93-97": "Planetside settlement",
+        "98-99": "Multiple settlements",
+        "100-100": "Settlements in conflict"
+      }
+    },
+    "2e8633d90281fbc0": {
+      "name": "Outlands (Grave World)",
+      "description": "",
+      "results": {
+        "1-90": "None",
+        "91-97": "Orbital settlement",
+        "98-100": "Planetside settlement"
+      }
+    },
+    "06291d14b5db76ca": {
+      "name": "Outlands (Ice World)",
+      "description": "",
+      "results": {
+        "1-75": "None",
+        "76-83": "Orbital settlement",
+        "84-95": "Planetside settlement",
+        "96-98": "Multiple settlements",
+        "99-100": "Settlements in conflict"
+      }
+    },
+    "230ae9b478fc2a81": {
+      "name": "Outlands (Jovian World)",
+      "description": "",
+      "results": {
+        "1-75": "None",
+        "76-87": "Orbital settlement",
+        "88-95": "Planetside settlement",
+        "96-98": "Multiple settlements",
+        "99-100": "Settlements in conflict"
+      }
+    },
+    "f685e6ae7ae07fce": {
+      "name": "Outlands (Jungle World)",
+      "description": "",
+      "results": {
+        "1-65": "None",
+        "66-75": "Orbital settlement",
+        "76-92": "Planetside settlement",
+        "93-97": "Multiple settlements",
+        "98-100": "Settlements in conflict"
+      }
+    },
+    "6785082354ef4799": {
+      "name": "Outlands (Rocky World)",
+      "description": "",
+      "results": {
+        "1-75": "None",
+        "76-87": "Orbital settlement",
+        "88-95": "Planetside settlement",
+        "96-98": "Multiple settlements",
+        "99-100": "Settlements in conflict"
+      }
+    },
+    "0ae67f0b015e92ea": {
+      "name": "Outlands (Shattered World)",
+      "description": "",
+      "results": {
+        "1-85": "None",
+        "86-96": "Orbital settlement",
+        "97-99": "Planetside settlement",
+        "100-100": "Multiple settlements"
+      }
+    },
+    "52936e230bbdf507": {
+      "name": "Outlands (Tainted World)",
+      "description": "",
+      "results": {
+        "1-90": "None",
+        "91-97": "Orbital settlement",
+        "98-100": "Planetside settlement"
+      }
+    },
+    "4205b3662d1533bb": {
+      "name": "Outlands (Vital World)",
+      "description": "",
+      "results": {
+        "1-50": "None",
+        "51-55": "Orbital settlement",
+        "56-85": "Planetside settlement",
+        "86-95": "Multiple settlements",
+        "96-100": "Settlements in conflict"
+      }
+    },
+    "a4ff9c712f8733e0": {
+      "name": "Terminus (Desert World)",
+      "description": "",
+      "results": {
+        "1-50": "None",
+        "51-60": "Orbital settlement",
+        "61-80": "Planetside settlement",
+        "81-92": "Multiple settlements",
+        "93-100": "Settlements in conflict"
+      }
+    },
+    "d6d9b70dc52f751a": {
+      "name": "Terminus (Furnace World)",
+      "description": "",
+      "results": {
+        "1-60": "None",
+        "61-75": "Orbital settlement",
+        "76-87": "Planetside settlement",
+        "88-96": "Multiple settlements",
+        "97-100": "Settlements in conflict"
+      }
+    },
+    "1b73d153908226fd": {
+      "name": "Terminus (Grave World)",
+      "description": "",
+      "results": {
+        "1-80": "None",
+        "81-90": "Orbital settlement",
+        "91-95": "Planetside settlement",
+        "96-98": "Multiple settlements",
+        "99-100": "Settlements in conflict"
+      }
+    },
+    "05350c04f7a14dd1": {
+      "name": "Terminus (Ice World)",
+      "description": "",
+      "results": {
+        "1-50": "None",
+        "51-60": "Orbital settlement",
+        "61-80": "Planetside settlement",
+        "81-92": "Multiple settlements",
+        "93-100": "Settlements in conflict"
+      }
+    },
+    "8030cabc69db376b": {
+      "name": "Terminus (Jovian World)",
+      "description": "",
+      "results": {
+        "1-50": "None",
+        "51-70": "Orbital settlement",
+        "71-85": "Planetside settlement",
+        "86-95": "Multiple settlements",
+        "96-100": "Settlements in conflict"
+      }
+    },
+    "b7ac749357be557a": {
+      "name": "Terminus (Jungle World)",
+      "description": "",
+      "results": {
+        "1-40": "None",
+        "41-55": "Orbital settlement",
+        "56-80": "Planetside settlement",
+        "81-92": "Multiple settlements",
+        "93-100": "Settlements in conflict"
+      }
+    },
+    "6a3f3345b141f37e": {
+      "name": "Terminus (Rocky World)",
+      "description": "",
+      "results": {
+        "1-50": "None",
+        "51-70": "Orbital settlement",
+        "71-85": "Planetside settlement",
+        "86-95": "Multiple settlements",
+        "96-100": "Settlements in conflict"
+      }
+    },
+    "9df6b2c78477aa1b": {
+      "name": "Terminus (Shattered World)",
+      "description": "",
+      "results": {
+        "1-70": "None",
+        "71-90": "Orbital settlement",
+        "91-95": "Planetside settlement",
+        "96-98": "Multiple settlements",
+        "99-100": "Settlements in conflict"
+      }
+    },
+    "e4a454e66d46cd8a": {
+      "name": "Terminus (Tainted World)",
+      "description": "",
+      "results": {
+        "1-80": "None",
+        "81-90": "Orbital settlement",
+        "91-95": "Planetside settlement",
+        "96-98": "Multiple settlements",
+        "99-100": "Settlements in conflict"
+      }
+    },
+    "6ae9370dd758370a": {
+      "name": "Terminus (Vital World)",
+      "description": "",
+      "results": {
+        "1-20": "None",
+        "21-30": "Orbital settlement",
+        "31-70": "Planetside settlement",
+        "71-90": "Multiple settlements",
+        "91-100": "Settlements in conflict"
+      }
+    },
+    "962aad67f6ade2b7": {
+      "name": "Expanse (Space Sighting)",
+      "description": "",
+      "results": {
+        "1-15": "@Compendium[foundry-ironsworn.starforgedoracles.f2bba7a759c5871a]{Stellar Object}",
+        "16-35": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/planet\">    <i class=\"fa fa-caret-right\"></i> Planet</a></p>",
+        "36-37": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/settlement\">    <i class=\"fa fa-caret-right\"></i> Settlement</a></p>",
+        "38-39": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/starship\">    <i class=\"fa fa-caret-right\"></i> Starship</a></p>",
+        "40-41": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/derelict\">    <i class=\"fa fa-caret-right\"></i> Derelict</a></p>",
+        "42-45": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a></p>",
+        "46-49": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/creature\">    <i class=\"fa fa-caret-right\"></i> Creature</a></p>",
+        "50-56": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "57-61": "Debris field: Mineral asteroids",
+        "62-64": "Debris field: Frozen asteroids",
+        "65-66": "Debris field: Crystalline asteroids",
+        "67-68": "Debris field: Creature boneyard",
+        "69-70": "Debris field: Metallic wreckage",
+        "71-72": "Large rogue asteroid",
+        "73-74": "Comet with a tail of ionized gas",
+        "75-79": "Fiery energy storm",
+        "80-81": "Chaotic meteoroid storm",
+        "82-85": "Turbulent gravitational wave",
+        "86-93": "Dense nebula cloud",
+        "94-98": "Roll twice",
+        "99-100": "Roll three times"
+      }
+    },
+    "a156f24660ef431d": {
+      "name": "Outlands (Space Sighting)",
+      "description": "",
+      "results": {
+        "1-15": "@Compendium[foundry-ironsworn.starforgedoracles.f2bba7a759c5871a]{Stellar Object}",
+        "16-35": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/planet\">    <i class=\"fa fa-caret-right\"></i> Planet</a></p>",
+        "36-38": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/settlement\">    <i class=\"fa fa-caret-right\"></i> Settlement</a></p>",
+        "39-43": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/starship\">    <i class=\"fa fa-caret-right\"></i> Starship</a></p>",
+        "44-46": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/derelict\">    <i class=\"fa fa-caret-right\"></i> Derelict</a></p>",
+        "47-49": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a></p>",
+        "50-52": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/creature\">    <i class=\"fa fa-caret-right\"></i> Creature</a></p>",
+        "53-58": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "59-63": "Debris field: Mineral asteroids",
+        "64-66": "Debris field: Frozen asteroids",
+        "67-68": "Debris field: Crystalline asteroids",
+        "69-70": "Debris field: Creature boneyard",
+        "71-72": "Debris field: Metallic wreckage",
+        "73-74": "Large rogue asteroid",
+        "75-76": "Comet with a tail of ionized gas",
+        "77-80": "Fiery energy storm",
+        "81-82": "Chaotic meteoroid storm",
+        "83-85": "Turbulent gravitational wave",
+        "86-93": "Dense nebula cloud",
+        "94-98": "Roll twice",
+        "99-100": "Roll three times"
+      }
+    },
+    "557152a8a249759b": {
+      "name": "Terminus (Space Sighting)",
+      "description": "",
+      "results": {
+        "1-15": "@Compendium[foundry-ironsworn.starforgedoracles.f2bba7a759c5871a]{Stellar Object}",
+        "16-35": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/planet\">    <i class=\"fa fa-caret-right\"></i> Planet</a></p>",
+        "36-40": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/settlement\">    <i class=\"fa fa-caret-right\"></i> Settlement</a></p>",
+        "41-47": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/starship\">    <i class=\"fa fa-caret-right\"></i> Starship</a></p>",
+        "48-51": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/derelict\">    <i class=\"fa fa-caret-right\"></i> Derelict</a></p>",
+        "52-53": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a></p>",
+        "54-55": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/creature\">    <i class=\"fa fa-caret-right\"></i> Creature</a></p>",
+        "56-60": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "61-65": "Debris field: Mineral asteroids",
+        "66-68": "Debris field: Frozen asteroids",
+        "69-70": "Debris field: Crystalline asteroids",
+        "71-72": "Debris field: Creature boneyard",
+        "73-74": "Debris field: Metallic wreckage",
+        "75-76": "Large rogue asteroid",
+        "77-78": "Comet with a tail of ionized gas",
+        "79-81": "Fiery energy storm",
+        "82-83": "Chaotic meteoroid storm",
+        "84-85": "Turbulent gravitational wave",
+        "86-93": "Dense nebula cloud",
+        "94-98": "Roll twice",
+        "99-100": "Roll three times"
+      }
+    },
     "Pay the Price": {
       "name": "Pay the Price",
       "description": "",
@@ -2133,6 +3586,285 @@
         "64-72": "Unearthed secrets best left buried",
         "73-81": "Unstable or broken path",
         "82-90": "Volatile device or artifact",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "3e2b6f482533ee52": {
+      "name": "Peril (Access)",
+      "description": "<p>Roll on this table when you want help envisioning a complication or danger within a zone, such as when suffering a cost as an outcome of your exploration.</p>",
+      "results": {
+        "1-10": "Alarm or failsafe is triggered",
+        "11-20": "Automated defenses",
+        "21-30": "Blocked or sealed path",
+        "31-40": "Dreadful scene of death or violence",
+        "41-50": "Foe closes in",
+        "51-60": "Gear is failing or broken",
+        "61-70": "Hazardous environmental change",
+        "71-80": "Path is trapped",
+        "81-90": "Unsettling sound or disturbance",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "dca107d423be386a": {
+      "name": "Peril (Community)",
+      "description": "<p>Roll on this table when you want help envisioning a complication or danger within a zone, such as when suffering a cost as an outcome of your exploration.</p>",
+      "results": {
+        "1-10": "Biological infestation",
+        "11-20": "Breached or broken structure",
+        "21-30": "Distressing signs of mass violence or death",
+        "31-40": "Flooded environment",
+        "41-50": "Foe lurks within concealment",
+        "51-60": "Fragile structural integrity",
+        "61-70": "Haunting vision of life here before the fall",
+        "71-80": "Hazardous environmental change",
+        "81-90": "Heartbreaking memento of lost lives",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "a356d5b6ee30dc2a": {
+      "name": "Peril (Engineering)",
+      "description": "<p>Roll on this table when you want help envisioning a complication or danger within a zone, such as when suffering a cost as an outcome of your exploration.</p>",
+      "results": {
+        "1-10": "Corrosive leak",
+        "11-20": "Erratic utility bots",
+        "21-30": "Failing equipment requires a specific part or skill",
+        "31-40": "Fire or energy surge",
+        "41-50": "Precarious or broken path",
+        "51-60": "Radioactive hotspot",
+        "61-70": "Sabotaged equipment",
+        "71-80": "Shrouded atmosphere conceals a lurking foe",
+        "81-90": "Unstable or failing power core",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "aaaa354071686ca8": {
+      "name": "Peril (Living)",
+      "description": "<p>Roll on this table when you want help envisioning a complication or danger within a zone, such as when suffering a cost as an outcome of your exploration.</p>",
+      "results": {
+        "1-10": "Booby trap",
+        "11-20": "Distressing written message",
+        "21-30": "Disturbing evidence of exploitive living conditions",
+        "31-40": "Dreadful scene of death or violence",
+        "41-50": "Lured into danger by signs of life",
+        "51-60": "Recorded message reveals a threat or complication",
+        "61-70": "Sealed door or hatch blocks access",
+        "71-80": "Signs of unwelcome invaders",
+        "81-90": "Unsettling sound or disturbance",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "c2bb6dd4858a95e6": {
+      "name": "Peril (Medical)",
+      "description": "<p>Roll on this table when you want help envisioning a complication or danger within a zone, such as when suffering a cost as an outcome of your exploration.</p>",
+      "results": {
+        "1-10": "Disgusting sight / smell",
+        "11-20": "Disturbing evidence of medical misconduct",
+        "21-30": "Erratic medical bots",
+        "31-40": "Evidence of a virulent disease",
+        "41-50": "Malfunctioning medical equipment",
+        "51-60": "Repercussions of a medical experiment",
+        "61-70": "Restless dead",
+        "71-80": "Signs of a horrific death",
+        "81-90": "Signs of broken quarantine",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "bc9629fcef972cbe": {
+      "name": "Peril (Operations)",
+      "description": "<p>Roll on this table when you want help envisioning a complication or danger within a zone, such as when suffering a cost as an outcome of your exploration.</p>",
+      "results": {
+        "1-10": "Automated defenses target you",
+        "11-20": "Broken equipment limits control",
+        "21-30": "Coded message or puzzling security device",
+        "31-40": "Discouraging evidence of failed plans or defenses",
+        "41-50": "Displays reveal a new threat elsewhere in this site",
+        "51-60": "Failing power",
+        "61-70": "Hostile AI",
+        "71-80": "Sealed blast doors block access",
+        "81-90": "Sensors indicate the arrival of an external threat",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "dc5d9617bec6283a": {
+      "name": "Peril (Production)",
+      "description": "<p>Roll on this table when you want help envisioning a complication or danger within a zone, such as when suffering a cost as an outcome of your exploration.</p>",
+      "results": {
+        "1-10": "Claustrophobic spaces",
+        "11-20": "Dangerous machinery",
+        "21-30": "Disturbing evidence of exploited labor",
+        "31-40": "Extreme temperatures",
+        "41-50": "Hazardous materials",
+        "51-60": "Impending industrial disaster",
+        "61-70": "Malfunctioning automation",
+        "71-80": "Rivals seek to secure these resources",
+        "81-90": "Signs of an unearthed or manufactured threat",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "b643fbd885826f05": {
+      "name": "Peril (Research)",
+      "description": "<p>Roll on this table when you want help envisioning a complication or danger within a zone, such as when suffering a cost as an outcome of your exploration.</p>",
+      "results": {
+        "1-10": "Automated containment protocols are activated",
+        "11-20": "Biological infestation",
+        "21-30": "Dangerous specimen",
+        "31-40": "Disturbing outcome of a failed experiment",
+        "41-50": "Evidence of sinister experiments",
+        "51-60": "Fragile vault holds a dire threat",
+        "61-70": "Signs of broken containment",
+        "71-80": "Toxic environment",
+        "81-90": "Unstable technology",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "33dcf85f786628fd": {
+      "name": "Peril (Chaotic)",
+      "description": "<p>Use this table to help envision a complication or hazard.</p>",
+      "results": {
+        "1-9": "Chaos makes its mark upon you",
+        "10-18": "Chaos spreads or intensifies",
+        "19-27": "Chaos tempts or lures you",
+        "28-36": "Chaotic energies block the path or assail you",
+        "37-45": "Disorienting changes in time or location",
+        "46-54": "Dreadful scene of those who fell prey to chaos",
+        "55-63": "Equipment is made unstable or dangerous",
+        "64-72": "Foes harness or wield chaos",
+        "73-81": "Hazardous environmental changes",
+        "82-90": "Lifeforms made hostile by chaos",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "b643fbd885826f05": {
+      "name": "Peril (Research)",
+      "description": "<p>Roll on this table when you want help envisioning a complication or danger within a zone, such as when suffering a cost as an outcome of your exploration.</p>",
+      "results": {
+        "1-10": "Automated containment protocols are activated",
+        "11-20": "Biological infestation",
+        "21-30": "Dangerous specimen",
+        "31-40": "Disturbing outcome of a failed experiment",
+        "41-50": "Evidence of sinister experiments",
+        "51-60": "Fragile vault holds a dire threat",
+        "61-70": "Signs of broken containment",
+        "71-80": "Toxic environment",
+        "81-90": "Unstable technology",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "090a57e0703ff3d0": {
+      "name": "Peril (Fortified)",
+      "description": "<p>Use this table to help envision a complication or hazard.</p>",
+      "results": {
+        "1-9": "Alarm is triggered",
+        "10-18": "Automated security or weapons target you",
+        "19-27": "Automated security or weapons target you",
+        "28-36": "Enemies converge on this area",
+        "37-45": "Enemies reveal new capabilities or technology",
+        "46-54": "Enemies trick you or lure you into a trap",
+        "55-63": "Powerful enemy appears",
+        "64-72": "Problematic alliance or affiliation is revealed",
+        "73-81": "Revealed schemes of an enemy leader create new urgency",
+        "82-90": "Your plan is undone by an unexpected complication",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "95e3b5f38b793f5b": {
+      "name": "Peril (Haunted)",
+      "description": "<p>Use this table to help envision a complication or hazard.</p>",
+      "results": {
+        "1-9": "Assailed by an angry or vengeful being",
+        "10-18": "Beguiling illusions tempt you to linger or stay",
+        "19-27": "Besieged by frightening sensations",
+        "28-36": "Equipment is plagued by unexplainable malfunctions",
+        "37-45": "Plunged into disorienting darkness or illusionary surroundings",
+        "46-54": "Spectral manifestations of your fears",
+        "55-63": "Spirits or undead reveal surprising abilities or motivations",
+        "64-72": "Sudden, shocking reveal of a ghostly manifestation or undead form",
+        "73-81": "Trickery leads you into danger",
+        "82-90": "Visions reveal a horrifying aspect of this place",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "4689857ac9c1af86": {
+      "name": "Peril (Infested)",
+      "description": "<p>Use this table to help envision a complication or hazard.</p>",
+      "results": {
+        "1-9": "Creatures attack without warning",
+        "10-18": "Creatures guided or controlled by a greater threat",
+        "19-27": "Creatures reveal new aspects or abilities",
+        "28-36": "Creatures reveal surprising cleverness",
+        "37-45": "Creatures take or destroy something important",
+        "46-54": "Discovery of a live but threatened victim",
+        "55-63": "Hazardous architecture or terrain",
+        "64-72": "Lured or driven into a trap or dead-end",
+        "73-81": "Powerful or dominant creature reveals itself",
+        "82-90": "Toxic or sickening environment",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "0f8307dd660fb69c": {
+      "name": "Peril (Inhabited)",
+      "description": "<p>Use this table to help envision a complication or hazard.</p>",
+      "results": {
+        "1-9": "Announcement or notification brings harrowing news",
+        "10-18": "Arrival of a foe or rival",
+        "19-27": "Blockade or security cordon cuts off needed access",
+        "28-36": "Caught in the crossfire of a dispute",
+        "37-45": "Disturbing evidence of exploitive conditions",
+        "46-54": "Lured into danger",
+        "55-63": "Signs of disease, infestation, or toxic environment",
+        "64-72": "Signs of unrest or rebellion",
+        "73-81": "Signs that you are being watched or followed",
+        "82-90": "Unwanted attention from authority or enemies",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "8c5a4c2514797da3": {
+      "name": "Peril (Mechanical)",
+      "description": "<p>Use this table to help envision a complication or hazard.</p>",
+      "results": {
+        "1-9": "Alarm or warning is triggered",
+        "10-18": "Automated weapon or trap is activated",
+        "19-27": "Environment made unsuitable for life",
+        "28-36": "Hostile machines on patrol",
+        "37-45": "Machines transform to reveal new capabilities",
+        "46-54": "Machines with corrupted or hacked programming",
+        "55-63": "Malfunctioning machines or technology",
+        "64-72": "Moving machinery creates a danger or obstacle",
+        "73-81": "Under surveillance by a central machine intelligence",
+        "82-90": "Volatile technology",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
+        "99-100": "Roll twice"
+      }
+    },
+    "6e5de5add738b39a": {
+      "name": "Peril (Sacred)",
+      "description": "<p>Use this table to help envision a complication or hazard.</p>",
+      "results": {
+        "1-9": "An aspect of the faith beguiles you or lures you into danger",
+        "10-18": "Dreadful aspects or powers of the faith are revealed",
+        "19-27": "Embodiment of a god or power is given corrupted form or purpose",
+        "28-36": "Guardians seek martyrdom in defense of this place",
+        "37-45": "Leaders corrupt or exploit their followers to oppose you",
+        "46-54": "Prophecies portend a dire threat",
+        "55-63": "Protective ward or enigmatic puzzle blocks the way",
+        "64-72": "Religious artifact evokes unnerving power",
+        "73-81": "Unnatural corruption or decay fouls the environment",
+        "82-90": "Zealots enact a ceremony to unlock forbidden powers",
         "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}",
         "99-100": "Roll twice"
       }
@@ -2181,6 +3913,216 @@
         "85-91": "Virulent fungal infestations",
         "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
         "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">\n    <i class=\"fa fa-caret-right\"></i> Precursor Vault\n</a> (planetside)</p>"
+      }
+    },
+    "88fd2037f0802836": {
+      "name": "Planetside Feature (Desert World)",
+      "description": "",
+      "results": {
+        "1-7": "Cavernous sinkholes",
+        "8-14": "Engulfing sandstorms",
+        "15-21": "Fleeting rainstorms and flash floods",
+        "22-28": "Flooded grottos",
+        "29-35": "Petrified forest",
+        "36-42": "Rampaging whirlwinds",
+        "43-49": "Scorched glass plains",
+        "50-56": "Severe temperature fluctuations",
+        "57-63": "Sunbaked bones of titanic creatures",
+        "64-70": "Timeworn cliffside caves",
+        "71-77": "Towering rock formations",
+        "78-84": "Violent electrical storms",
+        "85-91": "Windborne metallic sand",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (planetside)</p>"
+      }
+    },
+    "de35c746982df2bc": {
+      "name": "Planetside Feature (Furnace World)",
+      "description": "",
+      "results": {
+        "1-7": "Blinding ash storms",
+        "8-14": "Catastrophic earthquakes",
+        "15-21": "Colorful geothermal springs",
+        "22-28": "Intricate volcanic rock formations",
+        "29-35": "Lava tube tunnel networks",
+        "36-42": "Masses of scorched bones",
+        "43-49": "Plains of volcanic glass",
+        "50-56": "Pools of liquid metal",
+        "57-63": "Rocky islands adrift on magma",
+        "64-70": "Roiling clouds of superheated gas",
+        "71-77": "Scalding geysers",
+        "78-84": "Silica or metal storms",
+        "85-91": "Steaming mudflats",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (planetside)</p>"
+      }
+    },
+    "9eca6bc0a308c58f": {
+      "name": "Planetside Feature (Grave World)",
+      "description": "",
+      "results": {
+        "1-7": "Acid pools",
+        "8-14": "Ash dunes",
+        "15-21": "Corrosive rains",
+        "22-28": "Dead forests",
+        "29-35": "Fetid mudflats",
+        "36-42": "Mass graves",
+        "43-49": "Moldering bones",
+        "50-56": "Noxious fog",
+        "57-63": "Radioactive hotspots",
+        "64-70": "Ravaged cities",
+        "71-77": "Scarred battlefields",
+        "78-84": "Ship graveyards",
+        "85-91": "Whispers of the dead",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (planetside)</p>"
+      }
+    },
+    "0370e0b345eeddb7": {
+      "name": "Planetside Feature (Ice World)",
+      "description": "",
+      "results": {
+        "1-7": "Abyssal ice fissures",
+        "8-14": "Blinding snow storms",
+        "15-21": "Clusters of ice spikes",
+        "22-28": "Colossal ice caves",
+        "29-35": "Glistening ice spires",
+        "36-42": "Massive snow drifts",
+        "43-49": "Preserved carcasses",
+        "50-56": "Rocky islands amid icy wastes",
+        "57-63": "Shattered plains of pack ice",
+        "64-70": "Steaming hot springs",
+        "71-77": "Subsurface liquid oceans",
+        "78-84": "Vibrant auroras",
+        "85-91": "Wind-carved ice formations",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (planetside)</p>"
+      }
+    },
+    "6a7ee7ca3f72a34f": {
+      "name": "Planetside Feature (Jovian World)",
+      "description": "",
+      "results": {
+        "1-7": "Clouds of metal particles",
+        "8-14": "Crystalline rains",
+        "15-21": "Floating glaciers",
+        "22-28": "Floating islands",
+        "29-35": "Layer of suspended liquid",
+        "36-42": "Pockets of explosive gases",
+        "43-49": "Powerful vortexes",
+        "50-56": "Radiation fields",
+        "57-63": "Storm-swept rocky debris",
+        "64-70": "Torrential rain",
+        "71-77": "Towering thunderheads",
+        "78-84": "Violent turbulence",
+        "85-91": "Zones of localized atmosphere",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (planetside)</p>"
+      }
+    },
+    "315dd67fb3d71259": {
+      "name": "Planetside Feature (Jungle World)",
+      "description": "",
+      "results": {
+        "1-7": "Bioluminescent flora",
+        "8-14": "Deep river gorges",
+        "15-21": "Extensive exposed root systems",
+        "22-28": "Immense tiered waterfalls",
+        "29-35": "Languid rivers",
+        "36-42": "Low-lying fog",
+        "43-49": "Plunging sinkholes",
+        "50-56": "Scarred clearings",
+        "57-63": "Sinking quagmires",
+        "64-70": "Surging rivers",
+        "71-77": "Torrential rainstorms",
+        "78-84": "Violent electrical storms",
+        "85-91": "Waterlogged caves",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (planetside)</p>"
+      }
+    },
+    "a36493cd810f2c37": {
+      "name": "Planetside Feature (Ocean World)",
+      "description": "",
+      "results": {
+        "1-7": "Abyssal trenches",
+        "8-14": "Living islands",
+        "15-21": "Luminescent seas",
+        "22-28": "Roaming icebergs",
+        "29-35": "Shallow-water plains",
+        "36-42": "Subsurface volcanoes",
+        "43-49": "Titanic waves",
+        "50-56": "Undersea air pockets",
+        "57-63": "Undersea caves",
+        "64-70": "Undersea forests",
+        "71-77": "Unrelenting rainfall",
+        "78-84": "Violent currents",
+        "85-91": "Windborne waterspouts",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (planetside)</p>"
+      }
+    },
+    "189900171ce9133f": {
+      "name": "Planetside Feature (Rocky World)",
+      "description": "",
+      "results": {
+        "1-7": "Crystalline formations",
+        "8-14": "Crystalline caves",
+        "15-21": "Exposed mineral deposits",
+        "22-28": "Geometric terrain features",
+        "29-35": "Geothermal vents",
+        "36-42": "Glassy impact craters",
+        "43-49": "Massive dust dunes",
+        "50-56": "Powerful magnetic fields",
+        "57-63": "Rubble-strewn lava fields",
+        "64-70": "Steam-heated caves",
+        "71-77": "Subsurface magma flows",
+        "78-84": "Swirling low-lying gases",
+        "85-91": "Towering rocky spires",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (planetside)</p>"
+      }
+    },
+    "1fdde544c04e021a": {
+      "name": "Planetside Feature (Shattered World)",
+      "description": "",
+      "results": {
+        "1-7": "Broken cities",
+        "8-14": "Colliding fragments",
+        "15-21": "Energy storms",
+        "22-28": "Exposed caverns",
+        "29-35": "Fluctuating gravity",
+        "36-42": "Magnetic disturbances",
+        "43-49": "Molten fissures",
+        "50-56": "Phantom visions of the past",
+        "57-63": "Pocket atmosphere",
+        "64-70": "Residual energy storms",
+        "71-77": "Swirling corrosive gases",
+        "78-84": "Unstable and fracturing terrain",
+        "85-91": "Venting magma",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (planetside)</p>"
+      }
+    },
+    "bcc68163e523f6c9": {
+      "name": "Planetside Feature (Vital World)",
+      "description": "",
+      "results": {
+        "1-7": "Background radiation",
+        "8-14": "Chaotically juxtaposed biomes",
+        "15-21": "Creature boneyards",
+        "22-28": "Creature lairs or watering holes",
+        "29-35": "Crystalline formations",
+        "36-42": "Fierce electrical storms",
+        "43-49": "Floating terrain",
+        "50-56": "Frequent seismic activity",
+        "57-63": "Magnetic disturbances",
+        "64-70": "Scarred or excavated terrain",
+        "71-77": "Signs of an engineered biosphere",
+        "78-84": "Sudden weather fluctuations",
+        "85-91": "Towering geological formations",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Precursor Vault</a> (planetside)</p>"
       }
     },
     "Prefix": {
@@ -3035,17 +4977,6 @@
         "89-100": "It gets complicated: The true nature of a foe or objective is revealed"
       }
     },
-    "1b73d153908226fd": {
-      "name": "Terminus",
-      "description": "",
-      "results": {
-        "1-80": "None",
-        "81-90": "Orbital settlement",
-        "91-95": "Planetside settlement",
-        "96-98": "Multiple settlements",
-        "99-100": "Settlements in conflict"
-      }
-    },
     "Theme": {
       "name": "Theme",
       "description": "<p>When you @Compendium[foundry-ironsworn.starforgedmoves.bd6278f18bbd6739]{Ask the Oracle} about a goal, situation, or event, roll for an @Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Action} and @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Theme}. Together, these provide an interpretative verb/noun prompt.</p>",
@@ -3230,6 +5161,148 @@
         "71-85": "It's a rough ride. All aboard must make the @Compendium[foundry-ironsworn.starforgedmoves.905205c073b09eac]{Endure Harm}, @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Endure Stress}, or @Compendium[foundry-ironsworn.starforgedmoves.d34cdf2408cd22b6]{Companion Takes a Hit} move, suffering a serious (-2) cost.",
         "86-95": "You’ve lost fuel, energy, or cargo. @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrifice Resources} (-2).",
         "96-100": "Against all odds, the vehicle holds together."
+      }
+    },
+    "55f725025da32338": {
+      "name": "First Look",
+      "description": "",
+      "results": {
+        "1-4": "Abnormal sensor readings",
+        "5-8": "Brightly painted",
+        "9-13": "Bristling with weapons",
+        "14-18": "Dark or stealthy",
+        "19-23": "Heavy armor",
+        "24-28": "Immobile",
+        "29-33": "Intimidating profile",
+        "34-37": "Large sensor arrays",
+        "38-41": "Leaking radiation",
+        "42-45": "Low-profile or disguised",
+        "46-49": "Modern or advanced design",
+        "50-54": "Obsolete design",
+        "55-59": "Obvious damage",
+        "60-63": "Biological components",
+        "64-67": "Ornate markings",
+        "68-71": "Oversized engines",
+        "72-75": "Prominent guild emblem",
+        "76-80": "Refitted or repurposed hull",
+        "81-85": "Scarred hull",
+        "86-90": "Built from scrap",
+        "91-94": "Towing or linked",
+        "95-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
+      }
+    },
+    "8874e6a1761a0e69": {
+      "name": "Feature (Haunted)",
+      "description": "<p>Use this table to reveal a new aspect of the location.</p>",
+      "results": {
+        "1-8": "Disembodied voices",
+        "9-16": "Eerie cold",
+        "17-24": "Foreboding omen or message",
+        "25-32": "Ghostly visions of this place in another time",
+        "33-40": "Glimpses of shadowy movement",
+        "41-48": "Objects move of their own accord",
+        "49-56": "Sensation of being watched",
+        "57-64": "Signs of death or violence",
+        "65-72": "Spectral sounds",
+        "73-80": "Twisted or altered architecture or terrain",
+        "81-88": "Unnatural blight, decay, or ruin",
+        "89-96": "Unnatural mists or darkness",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
+      }
+    },
+    "5d673d674c3d1395": {
+      "name": "Feature (Infested)",
+      "description": "<p>Use this table to reveal a new aspect of the location.</p>",
+      "results": {
+        "1-8": "Corpse of an unfortunate victim",
+        "9-16": "Eggs, cocoons, or nest",
+        "17-24": "Environment corrupted by the infestation",
+        "25-32": "Evidence of a lurking creature",
+        "33-40": "Evidence of an ill-fated victim",
+        "41-48": "Hoarded food",
+        "49-56": "Indistinct movement or sounds",
+        "57-64": "Lair of lesser creatures",
+        "65-72": "Ravaged supplies or equipment",
+        "73-80": "Remains of a creature or remnants of a previous form",
+        "81-88": "Territorial markings",
+        "89-96": "Trail or evidence of a creature's passage",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
+      }
+    },
+    "2cc2de495cf3038e": {
+      "name": "Feature (Inhabited)",
+      "description": "<p>Use this table to reveal a new aspect of the location.</p>",
+      "results": {
+        "1-8": "Conspicuous patrols or surveillance",
+        "9-16": "Crews at work",
+        "17-24": "Display or monument honors a notable cultural event",
+        "25-32": "Emergency teams responding to an incident or crisis",
+        "33-40": "Families gathering or children playing",
+        "41-48": "Festival, celebration, or observance",
+        "49-56": "Fight breaks out",
+        "57-64": "Notable figure stands out from the crowd",
+        "65-72": "Protest or strike",
+        "73-80": "Unrepaired damage",
+        "81-88": "Unusually empty or quiet area",
+        "89-96": "Vendor or merchant hawking their wares",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
+      }
+    },
+    "418418906723c8b7": {
+      "name": "Feature (Mechanical)",
+      "description": "<p>Use this table to reveal a new aspect of the location.</p>",
+      "results": {
+        "1-8": "Control station or terminal",
+        "9-16": "Device or technology with a mysterious function",
+        "17-24": "Disassembled machinery or parts",
+        "25-32": "Heavy machinery at work",
+        "33-40": "Machine fabrication or repair",
+        "41-48": "Machines emulating or fusing with biological life",
+        "49-56": "Machines in stasis or powered down",
+        "57-64": "Machines single-mindedly executing a function or program",
+        "65-72": "Major project under construction",
+        "73-80": "Mechanical environment in motion or transforming",
+        "81-88": "Mechanical wreckage or destruction",
+        "89-96": "Power source for the machines",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
+      }
+    },
+    "e08c9e47bca97a85": {
+      "name": "Feature (Ruined)",
+      "description": "<p>Use this table to reveal a new aspect of the location.</p>",
+      "results": {
+        "1-8": "Collapsed or broken structures or terrain",
+        "9-16": "Device or artifact with residual power or function",
+        "17-24": "Focal point or nexus of the destruction",
+        "25-32": "Graves or corpses",
+        "33-40": "Innermost or hidden spaces laid bare by the destruction",
+        "41-48": "Message or recording from before the fall",
+        "49-56": "Overgrown or entombed spaces",
+        "57-64": "Rubble-strewn paths",
+        "65-72": "Sad memento of a lost life",
+        "73-80": "Sights or sounds of structural instability",
+        "81-88": "Signs of looting or scavenging",
+        "89-96": "Survivors or guardians dwell among the ruins",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
+      }
+    },
+    "fbfc3484208af06d": {
+      "name": "Feature (Sacred)",
+      "description": "<p>Use this table to reveal a new aspect of the location.</p>",
+      "results": {
+        "1-8": "Adherents performing worship or enacting rituals",
+        "9-16": "Altar or temple",
+        "17-24": "Dwellings for the faithful",
+        "25-32": "Enigmatic symbols",
+        "33-40": "Graves or remains of glorified disciples",
+        "41-48": "Holy text or archives",
+        "49-56": "Offerings or atonements",
+        "57-64": "Pilgrims arriving to pay homage",
+        "65-72": "Protected reliquary of an artifact or token",
+        "73-80": "Religious art or idols",
+        "81-88": "Subtle manifestations of mystical power or visions",
+        "89-96": "Tokens or motifs representing the faith's domain",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Focus}"
       }
     }
   }

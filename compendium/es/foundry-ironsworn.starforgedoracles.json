@@ -14,7 +14,53 @@
     "Precursor Vault Oracles": "Oráculos de Cámara de los Precursores",
     "Settlement Oracles": "Oráculos de Asentamiento",
     "Space Enconter Oracles": "Oráculos de Encuentros Espaciales",
-    "Starship Oracles": "Oráculos de Naves estelares"
+    "Starship Oracles": "Oráculos de Naves estelares",
+    "Launching Your Campaign": "Inicia tu campaña",
+    "Begin Your Adventure": "Comienza tu aventura",
+    "Build Your Starting Sector": "Crea tu sector inicial",
+    "Create Your Character": "Crear tu Personaje",
+    "Population": "Población",
+    "Interior": "Interiores",
+    "Sanctum": "Santuario",
+    "Creature Basic Form": "Forma básica de la criatura",
+    "Faction Name": "Nombre de la Facción",
+    "Access": "Acceso",
+    "Community": "Comunidad",
+    "Derelict Type (by location)": "Tipo de pecio (por localización)",
+    "Derelict Zones": "Zonas del pecio",
+    "Engineering": "Ingeniería",
+    "Living": "Vivo",
+    "Medical": "Enfermería",
+    "Operations": "Operaciones",
+    "Production": "Producción",
+    "Research": "Investigación",
+    "Starship Mission": "Misión de Nave estelar",
+    "Character Name": "Nombre del personaje",
+    "Desert World": "Mundo desértico",
+    "Furnace World": "Mundo volcánico",
+    "Grave World": "Mundo funerario",
+    "Ice World": "Mundo helado",
+    "Jovian World": "Mundo joviano",
+    "Jungle World": "Mundo selvático",
+    "Ocean World": "Mundo oceánico",
+    "Planetside Opportunity": "Oportunidad planetaria",
+    "Planetside Peril": "Peligro planetario",
+    "Rocky World": "Mundo rocoso",
+    "Shattered World": "Mundo devastado",
+    "Tainted World": "Mundo contaminado",
+    "Vital World": "Mundo vivo",
+    "Chaotic": "Caótico",
+    "Fortified": "Fortificado",
+    "Haunted": "Embrujado",
+    "Infested": "Infestado",
+    "Inhabited": "Habitado",
+    "Mechanical": "Mecánico",
+    "Ruined": "Ruinoso",
+    "Sacred": "Sagrado",
+    "Sector Name": "Nombre del sector",
+    "Space Sighting": "Avistamientos espaciales",
+    "Step 5: Board Your Starship": "Paso 5: Embárcate en tu nave",
+    "Settlements": "Asentamientos"
   },
   "entries": {
     "50/50": {
@@ -383,6 +429,113 @@
         "41-70": "Marginal",
         "71-95": "Respirable",
         "96-100": "Ideal"
+      }
+    },
+    "c274f74ecf7ce593": {
+      "name": "Atmósfera",
+      "description": "",
+      "results": {
+        "1-15": "Ninguna / delgada",
+        "16-35": "Tóxica",
+        "36-40": "Corrosiva",
+        "41-70": "Marginal",
+        "71-95": "Respirable",
+        "96-100": "Ideal"
+      }
+    },
+    "b7b9ee078847e834": {
+      "name": "Atmósfera",
+      "description": "",
+      "results": {
+        "1-10": "Ninguna / delgada",
+        "11-50": "Tóxica",
+        "51-65": "Corrosiva",
+        "66-90": "Marginal",
+        "91-100": "Respirable"
+      }
+    },
+    "32962e84047f17b5": {
+      "name": "Atmósfera",
+      "description": "",
+      "results": {
+        "1-50": "Tóxica",
+        "51-65": "Corrosiva",
+        "66-85": "Marginal",
+        "86-100": "Respirable"
+      }
+    },
+    "d5ac3f9b20d9f5dc": {
+      "name": "Atmósfera",
+      "description": "",
+      "results": {
+        "1-25": "Tóxica",
+        "26-30": "Corrosiva",
+        "31-60": "Marginal",
+        "61-90": "Respirable",
+        "91-100": "Ideal"
+      }
+    },
+    "8c593f0f2ac6527a": {
+      "name": "Atmósfera",
+      "description": "",
+      "results": {
+        "1-5": "Ninguna / delgada",
+        "6-20": "Tóxica",
+        "21-25": "Corrosiva",
+        "26-60": "Marginal",
+        "61-90": "Respirable",
+        "91-100": "Ideal"
+      }
+    },
+    "5c0e2dc25a949b14": {
+      "name": "Atmósfera",
+      "description": "",
+      "results": {
+        "1-65": "Ninguna / delgada",
+        "66-85": "Tóxica",
+        "86-90": "Corrosiva",
+        "91-100": "Marginal"
+      }
+    },
+    "00e404023a5dc5ba": {
+      "name": "Atmósfera",
+      "description": "",
+      "results": {
+        "1-93": "Ninguna / delgada",
+        "94-95": "Tóxica",
+        "96-97": "Corrosiva",
+        "97-99": "Marginal",
+        "100-100": "Respirable"
+      }
+    },
+    "98cf03d0bdf9af1b": {
+      "name": "Atmósfera",
+      "description": "",
+      "results": {
+        "1-65": "Tóxica",
+        "66-85": "Corrosiva",
+        "86-95": "Marginal",
+        "96-100": "Respirable"
+      }
+    },
+    "3b83c11a94c70b87": {
+      "name": "Atmósfera",
+      "description": "",
+      "results": {
+        "1-20": "Marginal",
+        "21-50": "Respirable",
+        "51-100": "Ideal"
+      }
+    },
+    "c18d325e41207e90": {
+      "name": "Atmósfera",
+      "description": "",
+      "results": {
+        "1-10": "Ninguna / delgada",
+        "11-45": "Tóxica",
+        "46-70": "Corrosiva",
+        "71-90": "Marginal",
+        "91-100": "Respirable"
       }
     },
     "Authority": {
@@ -1038,12 +1191,168 @@
       }
     },
     "bdbf63d8edaef61f": {
-      "name": "La inmensidad",
+      "name": "La Inmensidad",
       "description": "",
       "results": {
         "1-90": "Ninguno",
         "91-96": "Asentamiento orbital",
         "97-100": "Asentamiento planetario"
+      }
+    },
+    "a61fc1c802579820": {
+      "name": "La Inmensidad",
+      "description": "",
+      "results": {
+        "1-95": "Ninguno",
+        "96-99": "Asentamiento orbital",
+        "100-100": "Asentamiento planetario"
+      }
+    },
+    "058fd93e957c6804": {
+      "name": "La Inmensidad",
+      "description": "",
+      "results": {
+        "1-20": "Pocos",
+        "21-50": "Docenas",
+        "51-80": "Centenares",
+        "81-95": "Miles",
+        "96-100": "Decenas de miles"
+      }
+    },
+    "8d5220c3ac5a5199": {
+      "name": "Regiones exteriores",
+      "description": "",
+      "results": {
+        "1-15": "Pocos",
+        "16-35": "Docenas",
+        "36-65": "Centenares",
+        "66-90": "Miles",
+        "91-100": "Decenas de miles"
+      }
+    },
+    "473250ed66f4c411": {
+      "name": "Terminus",
+      "description": "",
+      "results": {
+        "1-10": "Pocos",
+        "11-25": "Docenas",
+        "26-55": "Centenares",
+        "56-85": "Miles",
+        "86-100": "Decenas de miles"
+      }
+    },
+    "41b13bb4c61799a7": {
+      "name": "La Inmensidad",
+      "description": "",
+      "results": {
+        "1-2": "Bloquear una ubicación",
+        "3-4": "Romper un bloqueo",
+        "5-8": "Recoger un recurso",
+        "9-10": "Comandar a otros",
+        "11-12": "Diplomacia",
+        "13-14": "Realizar espionaje",
+        "15-16": "Piratería",
+        "17-22": "Investigación",
+        "23-25": "Defenderse de un ataque",
+        "26-29": "Transmitir mensajes o datos",
+        "30-35": "Establecer un asentamiento",
+        "36-39": "Evacuar una localización",
+        "40-45": "Exporar una región",
+        "46-47": "Retener prisioneros",
+        "48-49": "Cazar otra nave",
+        "50-51": "Lanzar un ataque",
+        "52-53": "Patrullar un área",
+        "54-55": "Proporcionar ayuda médica",
+        "56-57": "Proporcionar reparación",
+        "58-61": "Proporcionar refugio",
+        "62-63": "Poner en cuarentena un peligro",
+        "64-65": "Asaltar un asentamiento",
+        "66-69": "Reabastecer un asentamiento",
+        "70-71": "Recuperar restos",
+        "72-73": "Búsqueda y rescate",
+        "74-75": "Contrabando de mercancías",
+        "76-77": "Inspeccionar un emplazamiento",
+        "78-79": "Probar una tecnología",
+        "80-83": "Transporte de mercancías",
+        "84-85": "Transporte de pasajeros",
+        "86-90": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Acción} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "91-100": "Tira dos veces"
+      }
+    },
+    "f1495105a27943af": {
+      "name": "Regiones exteriores",
+      "description": "",
+      "results": {
+        "1-2": "Bloquear una ubicación",
+        "3-4": "Romper un bloqueo",
+        "5-7": "Recoger un recurso",
+        "8-9": "Comandar a otros",
+        "10-11": "Diplomacia",
+        "12-13": "Realizar espionaje",
+        "14-16": "Piratería",
+        "17-20": "Investigación",
+        "21-24": "Defenderse de un ataque",
+        "25-28": "Transmitir mensajes o datos",
+        "29-32": "Establecer un asentamiento",
+        "33-36": "Evacuar una localización",
+        "37-40": "Exporar una región",
+        "41-42": "Retener prisioneros",
+        "43-45": "Cazar otra nave",
+        "46-48": "Lanzar un ataque",
+        "49-50": "Patrullar un área",
+        "51-53": "Proporcionar ayuda médica",
+        "54-56": "Proporcionar reparación",
+        "57-59": "Proporcionar refugio",
+        "60-61": "Poner en cuarentena un peligro",
+        "62-64": "Asaltar un asentamiento",
+        "65-68": "Reabastecer un asentamiento",
+        "69-71": "Recuperar restos",
+        "72-73": "Búsqueda y rescate",
+        "74-75": "Contrabando de mercancías",
+        "76-78": "Inspeccionar un emplazamiento",
+        "79-80": "Probar una tecnología",
+        "81-83": "Transporte de mercancías",
+        "84-85": "Transporte de pasajeros",
+        "86-90": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Acción} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "91-100": "Tira dos veces"
+      }
+    },
+    "38e3f5f00981cc2a": {
+      "name": "Terminus",
+      "description": "",
+      "results": {
+        "1-3": "Bloquear una ubicación",
+        "4-6": "Romper un bloqueo",
+        "7-9": "Recoger un recurso",
+        "10-11": "Comandar a otros",
+        "12-14": "Diplomacia",
+        "15-17": "Realizar espionaje",
+        "18-20": "Piratería",
+        "21-23": "Investigación",
+        "24-26": "Defenderse de un ataque",
+        "27-29": "Transmitir mensajes o datos",
+        "30-32": "Establecer un asentamiento",
+        "33-35": "Evacuar una localización",
+        "36-37": "Exporar una región",
+        "38-39": "Retener prisioneros",
+        "40-42": "Cazar otra nave",
+        "43-45": "Lanzar un ataque",
+        "46-48": "Patrullar un área",
+        "49-51": "Proporcionar ayuda médica",
+        "52-54": "Proporcionar reparación",
+        "55-57": "Proporcionar refugio",
+        "58-59": "Poner en cuarentena un peligro",
+        "60-62": "Asaltar un asentamiento",
+        "63-65": "Reabastecer un asentamiento",
+        "66-68": "Recuperar restos",
+        "69-71": "Búsqueda y rescate",
+        "72-74": "Contrabando de mercancías",
+        "75-77": "Inspeccionar un emplazamiento",
+        "78-79": "Probar una tecnología",
+        "80-82": "Transporte de mercancías",
+        "83-85": "Transporte de pasajeros",
+        "86-90": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Ación} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "91-100": "Tira dos veces"
       }
     },
     "Faction Name Template": {
@@ -1258,6 +1567,158 @@
         "97-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
       }
     },
+    "f0d03da73cf89abd": {
+      "name": "Característica",
+      "description": "<p>Tira en esta tabla cuando quieras revelar nuevos aspectos de tu entorno actual. Esto es mejor usarlo con moderación -algunos detalles extras o ambientación- en lugar de tirar para cada tramo de tu exploración.</p>",
+      "results": {
+        "1-5": "Equipo abandonado",
+        "6-10": "Rastro de sangre",
+        "11-15": "Puerta o escotilla forzada",
+        "16-20": "Puesto de control o terminal",
+        "21-25": "Cadáver",
+        "26-30": "Equipos desmantelados",
+        "31-35": "Luces estroboscópicas intermitentes",
+        "36-40": "Tuberías con fugas",
+        "41-45": "Barricada improvisada",
+        "46-50": "Paneles abiertos o ausentes",
+        "51-55": "Crecimiento orgánico",
+        "56-60": "Bot estropeado",
+        "61-65": "Advertencia garabateada",
+        "66-70": "Brecha sellada",
+        "71-75": "Sonido de movimiento",
+        "76-80": "Vapor o humo",
+        "81-85": "Bot errante",
+        "86-90": "Ventanas o escotillas",
+        "91-95": "Pasadizo destrozado o escombros",
+        "96-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
+      }
+    },
+    "577ad8977e5fd707": {
+      "name": "Característica",
+      "description": "<p>Tira en esta tabla cuando quieras revelar nuevos aspectos de tu entorno actual. Esto es mejor usarlo con moderación -algunos detalles extras o ambientación- en lugar de tirar para cada tramo de tu exploración.</p>",
+      "results": {
+        "1-8": "Conmemoraciones ad-hoc",
+        "9-16": "Arte representando un acontecimiento histórico",
+        "17-24": "Entorno artificial",
+        "25-32": "Anuncios automáticos",
+        "33-40": "Zona con barricadas",
+        "41-48": "Dispositivos o interfaces de juego",
+        "49-56": "Pintadas o vandalismo",
+        "57-64": "Puestos de guardia o vigilancia",
+        "65-72": "Fosas comunes o cadáveres",
+        "73-80": "Vista panorámica",
+        "81-88": "Escombros",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
+      }
+    },
+    "bd5fc9d42567e5ba": {
+      "name": "Característica",
+      "description": "<p>Tira en esta tabla cuando quieras revelar nuevos aspectos de tu entorno actual. Esto es mejor usarlo con moderación -algunos detalles extras o ambientación- en lugar de tirar para cada tramo de tu exploración.</p>",
+      "results": {
+        "1-8": "Mesa de trabajo desordenada",
+        "9-16": "Terminal de control",
+        "17-24": "Grúa o elevador",
+        "25-32": "Equipos desmontados",
+        "33-40": "Monitores de estado parpadeantes",
+        "41-48": "Equipo improvisado",
+        "49-56": "Disposición en varios niveles",
+        "57-64": "Tuberías y válvulas",
+        "65-72": "Olor fuerte a ozono",
+        "73-80": "Proyecto sin terminar",
+        "81-88": "Bots de utilidad",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
+      }
+    },
+    "33e96704d391b4c7": {
+      "name": "Característica",
+      "description": "<p>Tira en esta tabla cuando quieras revelar nuevos aspectos de tu entorno actual. Esto es mejor usarlo con moderación -algunos detalles extras o ambientación- en lugar de tirar para cada tramo de tu exploración.</p>",
+      "results": {
+        "1-8": "Mascota abandonada",
+        "9-16": "Se escucha música",
+        "17-24": "Objeto personal preciado",
+        "25-32": "Barricada fallida",
+        "33-40": "Alimentos a medio comer",
+        "41-48": "Mensajes de seres queridos",
+        "49-56": "Pertenencias saqueadas",
+        "57-64": "Restos de muertos",
+        "65-72": "Alimañas",
+        "73-80": "Santuario o altar",
+        "81-88": "Arte insólito",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
+      }
+    },
+    "353b9201da6f1e8a": {
+      "name": "Característica",
+      "description": "<p>Tira en esta tabla cuando quieras revelar nuevos aspectos de tu entorno actual. Esto es mejor usarlo con moderación -algunos detalles extras o ambientación- en lugar de tirar para cada tramo de tu exploración.</p>",
+      "results": {
+        "1-8": "Autopsia de un cadáver",
+        "9-16": "Especímenes biológicos",
+        "17-24": "Salpicaduras o charcos de sangre",
+        "25-32": "Suministros médicos ensangrentados",
+        "33-40": "Prótesis rotas",
+        "41-48": "Cadáver de un curandero",
+        "49-56": "Espécimen diseccionado",
+        "57-64": "Camas superpuestas improvisadas",
+        "65-72": "Monitores médicos",
+        "73-80": "Registros médicos o análisis",
+        "81-88": "Pilas de bolsas de cuerpos",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
+      }
+    },
+    "26c2c4c80bcc63d7": {
+      "name": "Característica",
+      "description": "<p>Tira en esta tabla cuando quieras revelar nuevos aspectos de tu entorno actual. Esto es mejor usarlo con moderación -algunos detalles extras o ambientación- en lugar de tirar para cada tramo de tu exploración.</p>",
+      "results": {
+        "1-8": "Advertencia automática",
+        "9-16": "Puertas blindadas dobladas",
+        "17-24": "Terminal de control",
+        "25-32": "Iluminación de emergencia\n",
+        "33-40": "Almacen de trajes ambientales",
+        "41-48": "Canal de comunicación siseante",
+        "49-56": "Paneles de control complejos",
+        "57-64": "Mapa de la zona",
+        "65-72": "Mensaje grabado",
+        "73-80": "Monitores de videovigilancia",
+        "81-88": "Registros escritos",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
+      }
+    },
+    "1f2db6732d59f909": {
+      "name": "Característica",
+      "description": "<p>Tira en esta tabla cuando quieras revelar nuevos aspectos de tu entorno actual. Esto es mejor usarlo con moderación -algunos detalles extras o ambientación- en lugar de tirar para cada tramo de tu exploración.</p>",
+      "results": {
+        "1-8": "Montacargas",
+        "9-16": "Paneles de control",
+        "17-24": "Maquinaria desmontada",
+        "25-32": "Pasarelas elevadas",
+        "33-40": "Trajes ambientales",
+        "41-48": "Trabajadores condenados",
+        "49-56": "Maquinaria inmensa",
+        "57-64": "Contenedores sellados o cerrados",
+        "65-72": "Herramientas",
+        "73-80": "Tanques de productos químicos o gas",
+        "81-88": "Manifiesto escrito",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
+      }
+    },
+    "60d7a7c55caaf40d": {
+      "name": "Característica",
+      "description": "<p>Tira en esta tabla cuando quieras revelar nuevos aspectos de tu entorno actual. Esto es mejor usarlo con moderación -algunos detalles extras o ambientación- en lugar de tirar para cada tramo de tu exploración.</p>",
+      "results": {
+        "1-8": "Acuario o tanque",
+        "9-16": "Especímenes biológicos",
+        "17-24": "Huesos o fósiles",
+        "25-32": "Equipo roto",
+        "33-40": "Notas de investigación crípticas",
+        "41-48": "Datos destruidos apresuradamente",
+        "49-56": "Trajes de protección",
+        "57-64": "Artefacto inescrutable",
+        "65-72": "Crecimiento de plantas invasoras",
+        "73-80": "Registro de investigación",
+        "81-88": "Productos químicos derramados",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
+      }
+    },
     "e422399eb54ed7b1": {
       "name": "Apariencia básica",
       "description": "",
@@ -1301,6 +1762,33 @@
         "93-95": "Fornido",
         "96-97": "Herido",
         "98-100": "Joven"
+      }
+    },
+    "5ff0f4816e9338b4": {
+      "name": "Primer vistazo",
+      "description": "",
+      "results": {
+        "1-3": "Hermosa arquitectura",
+        "4-9": "Construido con materiales orgánicos",
+        "10-15": "Construido a partir de chatarra",
+        "16-21": "Construido dentro de nave reutilizada",
+        "22-26": "Construido dentro de terreno o asteroide",
+        "27-31": "Ubicación defendible",
+        "32-35": "Construcción elevada o de varios niveles",
+        "36-40": "Ubicación oculta o subterránea",
+        "41-43": "Construcción de alta tecnología",
+        "44-49": "Arquitectura industrial",
+        "50-53": "Defensas intimidatorias",
+        "54-56": "Movimiento o transformación",
+        "57-61": "Estratificación social evidente",
+        "62-66": "Ubicación precaria",
+        "67-72": "Arquitectura rústica",
+        "73-76": "Daños estructurales importantes",
+        "77-80": "Estructuras en expansión o dispersas",
+        "81-83": "Ubicación temporal o estacional",
+        "84-87": "Hábitat tóxico o contaminado",
+        "88-90": "<p>Dentro o cerca de <a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\"> <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a></p>",
+        "91-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
       }
     },
     "Fleet": {
@@ -1582,6 +2070,23 @@
         "96-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/derelict\">\n    <i class=\"fa fa-caret-right\"></i> Pecio\n</a></p>"
       }
     },
+    "33d70af5643882f0": {
+      "name": "Primer contacto",
+      "description": "",
+      "results": {
+        "1-20": "Bienvenida",
+        "21-30": "Neutral / automatizado",
+        "31-50": "Desconfiado",
+        "51-60": "Poco colaborador",
+        "61-70": "Hostil",
+        "71-83": "Solicitando ayuda",
+        "84-86": "En combate",
+        "87-89": "Capturado",
+        "90-92": "Sin respuesta",
+        "93-95": "Destruido",
+        "96-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/derelict\">    <i class=\"fa fa-caret-right\"></i> Pecio</a></p>"
+      }
+    },
     "Initial Disposition": {
       "name": "Actitud inicial",
       "description": "",
@@ -1635,6 +2140,44 @@
         "85-87": "Residuo tóxico",
         "88-90": "Bien conservado",
         "91-93": "Mojado o húmedo",
+        "94-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
+      }
+    },
+    "08afba3cab4c8303": {
+      "name": "Apariencia básica del interior",
+      "description": "<p>Utiliza estas tablas de Primer Vistazo para tu reconocimiento inicial del interior del pecio.</p>",
+      "results": {
+        "1-3": "Gravedad anómala",
+        "4-6": "Bots activos",
+        "7-9": "Equipo arcaico",
+        "10-12": "Anuncios automáticos",
+        "13-15": "Infección biológica",
+        "16-18": "Superficies carbonizadas",
+        "19-21": "Huellas de garra",
+        "22-24": "Lleno de escombros",
+        "25-27": "Superficies corroídas",
+        "28-30": "Espacios reducidos",
+        "31-33": "Casco chirriante",
+        "34-36": "Escritura o símbolos esotéricos",
+        "37-39": "Evidencias de nuevos habitantes",
+        "40-42": "Cableado o conductos expuestos",
+        "43-45": "Luces estroboscópicas intermitentes",
+        "46-48": "Energía fluctuante",
+        "49-51": "Visiones inquietantes de los muertos",
+        "52-54": "Temperatura peligrosa",
+        "55-57": "Mucho vapor o humedad",
+        "58-60": "Lleno de cadáveres",
+        "61-63": "Criaturas anidando o alimentándose",
+        "64-66": "Mobiliario ornamentado",
+        "67-69": "Marcado por los disparos",
+        "70-72": "Sellado contra intrusos",
+        "73-75": "Señales de pillaje y saqueo",
+        "76-78": "Olor a putrefacción",
+        "79-81": "Salpicado de sangre",
+        "82-84": "Distorsiones temporales",
+        "85-87": "Bruma o humo denso",
+        "88-90": "Picos de energía inestables",
+        "91-93": "IA vigilante",
         "94-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
       }
     },
@@ -1836,6 +2379,118 @@
         "96-100": "Diversa"
       }
     },
+    "60c1f7ec10dbe793": {
+      "name": "Vida",
+      "description": "",
+      "results": {
+        "1-30": "Ninguno",
+        "31-85": "Extinta",
+        "86-95": "Escasa",
+        "96-100": "Diversa"
+      }
+    },
+    "0e78eba5eb3335da": {
+      "name": "Vida ",
+      "description": "",
+      "results": {
+        "1-20": "Ninguna",
+        "21-40": "Extinta",
+        "41-70": "Escasa",
+        "71-90": "Diversa",
+        "91-97": "Abundante",
+        "98-100": "Sobrepasado "
+      }
+    },
+    "b8f3a2fbed4f9fa8": {
+      "name": "Vida ",
+      "description": "",
+      "results": {
+        "1-35": "Ninguna",
+        "36-60": "Extinta",
+        "61-85": "Escasa",
+        "86-95": "Diversa",
+        "96-98": "Abundante",
+        "99-100": "Sobrepasado "
+      }
+    },
+    "17e0658e24e16cba": {
+      "name": "Vida ",
+      "description": "",
+      "results": {
+        "1-20": "Ninguna",
+        "21-40": "Extinta",
+        "41-70": "Escasa",
+        "71-90": "Diversa",
+        "91-97": "Abundante",
+        "98-100": "Sobrepasado "
+      }
+    },
+    "13b331f5507f9e6e": {
+      "name": "Vida ",
+      "description": "",
+      "results": {
+        "1-35": "Ninguna",
+        "36-60": "Extinta",
+        "61-85": "Escasa",
+        "86-95": "Diversa",
+        "96-98": "Abundante",
+        "99-100": "Sobrepasado "
+      }
+    },
+    "a552534dd9dc98f9": {
+      "name": "Vida ",
+      "description": "",
+      "results": {
+        "1-5": "Escasa",
+        "6-35": "Diversa",
+        "36-75": "Abundante",
+        "76-100": "Sobrepasado "
+      }
+    },
+    "8cd36c6e7a6c2e3d": {
+      "name": "Vida ",
+      "description": "",
+      "results": {
+        "1-5": "Ninguna",
+        "6-15": "Extinta",
+        "16-30": "Escasa",
+        "31-60": "Diversa",
+        "61-90": "Abundante",
+        "91-100": "Sobrepasado "
+      }
+    },
+    "93ce6be5248299c9": {
+      "name": "Vida ",
+      "description": "",
+      "results": {
+        "1-65": "Ninguna",
+        "66-80": "Extinta",
+        "81-90": "Escasa",
+        "91-95": "Diversa",
+        "96-98": "Abundante",
+        "99-100": "Sobrepasado "
+      }
+    },
+    "b7438eaef6d264f7": {
+      "name": "Vida ",
+      "description": "",
+      "results": {
+        "1-10": "Escasa",
+        "11-35": "Diversa",
+        "36-65": "Abundante",
+        "66-100": "Sobrepasado "
+      }
+    },
+    "24cee8d5613c80eb": {
+      "name": "Vida ",
+      "description": "",
+      "results": {
+        "1-10": "Escasa",
+        "11-45": "Diversa",
+        "46-85": "Abundante",
+        "86-100": "Sobrepasado "
+      }
+    },
     "e201f187190ad227": {
       "name": "Habitable (Evento planetario)",
       "description": "",
@@ -1867,6 +2522,46 @@
         "97-100": "Un punto estratégico revela la disposición del terreno"
       }
     },
+    "6973e5b34ea40e49": {
+      "name": "Habitable",
+      "description": "",
+      "results": {
+        "1-3": "Forma de vida corrompida o mutada",
+        "4-6": "Señales del poder o la inteligencia de una forma de vida",
+        "7-9": "Plantas peligrosas o esporas malignas",
+        "10-12": "Forma de vida cazadora",
+        "13-15": "Guarida de alguna forma de vida",
+        "16-18": "Formas de vida guiadas por una amenaza mayor",
+        "19-21": "Formas de vida asustadas o en estampida",
+        "22-24": "Una forma de vida amenazante se aproxima",
+        "25-27": "La vida se revela o adopta una forma inesperada",
+        "28-30": "Camino bloqueado o impracticable",
+        "31-33": "Sustancia o entorno corrosivo",
+        "34-36": "Restos inquietantes o indicios de muerte",
+        "37-39": "Cambio ambiental drástico",
+        "40-42": "El enemigo controla esta zona",
+        "43-45": "Peligro de quedar atrapado",
+        "46-48": "El equipo falla o funciona mal",
+        "49-51": "Camino vigilado o patrullado",
+        "52-54": "Descarriado",
+        "55-57": "Ha perdido el rumbo",
+        "58-60": "Los meteoritos caen del cielo",
+        "61-63": "Área u objeto irradiado",
+        "64-66": "Darse cuenta de que se ha dejado algo",
+        "67-69": "Agitación sísmica o volcánica",
+        "70-72": "Señales de un enemigo oculto o al acecho",
+        "73-75": "Tormenta o perturbación atmosférica",
+        "76-78": "Ambiente tóxico o enfermizo",
+        "79-81": "Trampa o alarma",
+        "82-84": "Camino traicionero o complicado",
+        "85-87": "Visiones o apariciones inquietantes",
+        "88-90": "Visibilidad dificultada por efectos atmosféricos",
+        "91-93": "Preocupante llegada de una nave o vehículo",
+        "94-96": "Los restos o ruinas presagian una nueva amenaza",
+        "97-99": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Ación} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "100-100": "Tira dos veces"
+      }
+    },
     "bba55b6a1f7dc11f": {
       "name": "Sin vida (Evento planetario)",
       "description": "",
@@ -1891,6 +2586,38 @@
         "86-90": "Petición de ayuda de un posible benefactor",
         "91-95": "Un refugio ofrece un lugar para esconderse, planificar o recuperarse",
         "96-100": "Un punto estratégico revela la disposición del terreno"
+      }
+    },
+    "5a15d4f1aca3723d": {
+      "name": "Sin vida",
+      "description": "",
+      "results": {
+        "1-3": "La vida se revela o adopta una forma inesperada",
+        "4-7": "Camino bloqueado o impracticable",
+        "8-11": "Sustancia o entorno corrosivo",
+        "12-15": "Restos inquietantes o indicios de muerte",
+        "16-19": "Cambio ambiental drástico",
+        "20-23": "El enemigo controla esta zona",
+        "24-27": "Peligro de quedar atrapado",
+        "28-31": "El equipo falla o funciona mal",
+        "32-35": "Camino vigilado o patrullado",
+        "36-39": "Descarriado",
+        "40-43": "Ha perdido el rumbo",
+        "44-47": "Los meteoritos caen del cielo",
+        "48-51": "Área u objeto irradiado",
+        "52-55": "Darse cuenta de que se ha dejado algo",
+        "56-59": "Agitación sísmica o volcánica",
+        "60-63": "Señales de un enemigo oculto o al acecho",
+        "64-67": "Tormenta o perturbación atmosférica",
+        "68-71": "Ambiente tóxico o enfermizo",
+        "72-75": "Trampa o alarma",
+        "76-79": "Camino traicionero o complicado",
+        "80-83": "Visiones o apariciones inquietantes",
+        "84-87": "Visibilidad dificultada por efectos atmosféricos",
+        "88-91": "Preocupante llegada de una nave o vehículo",
+        "92-95": "Los restos o ruinas presagian una nueva amenaza",
+        "96-99": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Ación} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "100-100": "Tira dos veces"
       }
     },
     "Likely": {
@@ -1926,6 +2653,24 @@
       }
     },
     "68efb47a93ee8925": {
+      "name": "Localización",
+      "description": "",
+      "results": {
+        "1-40": "Planetaria",
+        "41-60": "Orbital",
+        "61-100": "Espacio profundo"
+      }
+    },
+    "0b7dc258c5edc9ef": {
+      "name": "Localización",
+      "description": "",
+      "results": {
+        "1-50": "Planetaria",
+        "51-75": "Orbital",
+        "76-100": "Espacio profundo"
+      }
+    },
+    "d5a68858aa2e7ce3": {
       "name": "Localización",
       "description": "",
       "results": {
@@ -2011,6 +2756,166 @@
         "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">\n    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores\n</a> (orbital)</p>"
       }
     },
+    "7083695541c913d9": {
+      "name": "Observado desde el espacio",
+      "description": "",
+      "results": {
+        "1-11": "Abismos ardientes que cubren el planeta",
+        "12-22": "Ríos brillantes de lava",
+        "23-33": "Nubes de ceniza con relámpagos",
+        "34-44": "Mares de magma",
+        "45-55": "Supervolcán masivo",
+        "56-66": "Superficie una vez verde",
+        "67-77": "Montañas imponentes",
+        "78-88": "Fisuras que cubren el planeta",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (orbital)</p>"
+      }
+    },
+    "7520168fe11e73f4": {
+      "name": "Observado desde el espacio",
+      "description": "",
+      "results": {
+        "1-11": "Luna rota",
+        "12-22": "Nublado perpetuo",
+        "23-33": "Superficie con cráteres",
+        "34-44": "Ruinas colosales",
+        "45-55": "Fondos secos",
+        "56-66": "Vastos páramos",
+        "67-77": "Atmósfera irradiada",
+        "78-88": "Cementerio de naves orbitando",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (orbital)</p>"
+      }
+    },
+    "c56edfcd0c123ee3": {
+      "name": "Observado desde el espacio",
+      "description": "",
+      "results": {
+        "1-11": "Luz solar débil",
+        "12-22": "Volcán helado gigantesco",
+        "23-33": "Océanos helados",
+        "34-44": "Hielo de colores vibrantes",
+        "45-55": "Islas glaciares rocosas",
+        "56-66": "Cañón de hielo que cubre todo el planeta",
+        "67-77": "Montañas nevadas",
+        "78-88": "Géiseres titánicos",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (orbital)</p>"
+      }
+    },
+    "fc741bbc131b5a0b": {
+      "name": "Observado desde el espacio",
+      "description": "",
+      "results": {
+        "1-11": "Sistema de anillos complejo",
+        "12-22": "Campo gravitacional intenso",
+        "23-33": "Numerosas lunas",
+        "34-44": "Supertormenta permanente",
+        "45-55": "Campo magnético poderoso",
+        "56-66": "Tormentas eléctricas intensas",
+        "67-77": "Atmósfera sobrecalentada",
+        "78-88": "Colores atmosféricos inusuales",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (orbital)</p>"
+      }
+    },
+    "3dfa3974fd38aa41": {
+      "name": "Observado desde el espacio",
+      "description": "",
+      "results": {
+        "1-11": "Árboles que tocan las nubes",
+        "12-22": "Montañas imponentes",
+        "23-33": "Ríos extensos o humedales",
+        "34-44": "Marquesina intacta",
+        "45-55": "Mares interiores",
+        "56-66": "Color inusual de la vegetación",
+        "67-77": "Cañones extensos",
+        "78-88": "Nubosidad persistente",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (orbital)</p>"
+      }
+    },
+    "efc010d3643bed54": {
+      "name": "Observado desde el espacio",
+      "description": "",
+      "results": {
+        "1-11": "Sistemas de arrecifes complejos",
+        "12-22": "Volcanes emergentes",
+        "23-33": "Bosques flotantes",
+        "34-44": "Huracanes",
+        "45-55": "Luna grande y fuertes mareas",
+        "56-66": "Islas dispersas",
+        "67-77": "Océanos semicongelados",
+        "78-88": "Aguas de color inusual",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (orbital)</p>"
+      }
+    },
+    "e03b485571f904d3": {
+      "name": "Observado desde el espacio",
+      "description": "",
+      "results": {
+        "1-11": "Llanuras estériles",
+        "12-22": "Impactos constantes de asteroides",
+        "23-33": "Denso sistema de anillos",
+        "34-44": "Montañas escarpadas",
+        "45-55": "Cráter de impacto masivo",
+        "56-66": "Forma deforme (gravedad baja)",
+        "67-77": "Noche perpetua",
+        "78-88": "Mesetas elevadas",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (orbital)</p>"
+      }
+    },
+    "96bc7309f47d4af6": {
+      "name": "Observado desde el espacio",
+      "description": "",
+      "results": {
+        "1-11": "Flota espacial demolida",
+        "12-22": "Fragmento planetario conservado",
+        "23-33": "Denso sistema de anillos",
+        "34-44": "Campo de chatarra arremolinada",
+        "45-55": "Núcleo planetario ardiente",
+        "56-66": "Núcleo planetario ardiente",
+        "67-77": "Tormentas geomagnéticas",
+        "78-88": "Radiación solar intensa",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (orbital)</p>"
+      }
+    },
+    "b6761b93d9f1fc4d": {
+      "name": "Observado desde el espacio",
+      "description": "",
+      "results": {
+        "1-11": "Extensas llanuras fúngicas",
+        "12-22": "Nubosidad estancada",
+        "23-33": "Bosques fúngicos",
+        "34-44": "Atmósfera espesa y turbia",
+        "45-55": "Terreno escabroso e infectado",
+        "56-66": "Mares tóxicos",
+        "67-77": "Hongos gigantescos",
+        "78-88": "Redes fluviales llenas de lodo",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (orbital)</p>"
+      }
+    },
+    "88ca6ad4d5965c0b": {
+      "name": "Observado desde el espacio",
+      "description": "",
+      "results": {
+        "1-11": "Sistema de anillos complejo",
+        "12-22": "Numerosas lunas pequeñas",
+        "23-33": "Variación estacional dramática",
+        "34-44": "Ciclo diurno o nocturno inusual",
+        "45-55": "Gravedad alta",
+        "56-66": "Paisajes de colores vibrantes",
+        "67-77": "Luna grande",
+        "78-88": "Estrecha banda habitable",
+        "89-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (orbital)</p>"
+      }
+    },
     "fbbdcd39d711576f": {
       "name": "Eventos",
       "description": "<p>Utiliza esta tabla cuando necesites inspiración para un encuentro o acontecimiento favorable en el interior de un pecio, como cuando obtienes un éxito total con una coincidencia al @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Iniciar una expedición}, o si @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Exploras un punto de ruta} y tienes un evento.</p>",
@@ -2020,6 +2925,171 @@
         "41-60": "Herramientas de investigación especializadas",
         "61-80": "Prototipo único",
         "81-100": "Datos de navegación útiles"
+      }
+    },
+    "fb75d70c9f85b525": {
+      "name": "Oportunidad",
+      "description": "<p>Utiliza esta tabla cuando necesites inspiración para un encuentro o acontecimiento favorable en el interior de un pecio, como cuando obtienes un éxito total con una coincidencia al @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Iniciar una expedición}, o si @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Exploras un punto de ruta} y tienes un evento.</p>",
+      "results": {
+        "1-20": "Indicaciones, atajo o camino alternativo",
+        "21-40": "Encuentro con un superviviente, explorador o habitante amistoso",
+        "41-60": "Esperanzadoras señales de vida",
+        "61-80": "Oportunidad de superar o escapar de una amenaza o enemigo",
+        "81-100": "Equipo útil"
+      }
+    },
+    "d505bfd2e5b2eabb": {
+      "name": "Oportunidad",
+      "description": "<p>Utiliza esta tabla cuando necesites inspiración para un encuentro o acontecimiento favorable en el interior de un pecio, como cuando obtienes un éxito total con una coincidencia al @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Iniciar una expedición}, o si @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Exploras un punto de ruta} y tienes un evento.</p>",
+      "results": {
+        "1-20": "Objeto o artefacto culturalmente significativo",
+        "21-40": "Bienes o recursos recuperables",
+        "41-60": "Una zona segura ofrece un instante de tranquilidad",
+        "61-80": "Terminal con acceso a los detalles del sitio",
+        "81-100": "Artículo valioso"
+      }
+    },
+    "dd60b57e87a5deea": {
+      "name": "Oportunidad",
+      "description": "<p>Utiliza esta tabla cuando necesites inspiración para un encuentro o acontecimiento favorable en el interior de un pecio, como cuando obtienes un éxito total con una coincidencia al @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Iniciar una expedición}, o si @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Exploras un punto de ruta} y tienes un evento.</p>",
+      "results": {
+        "1-20": "Equipo avanzado o experimental",
+        "21-40": "Probabilidad de restaurar la energía o la función",
+        "41-60": "Planos o esquemas útiles",
+        "61-80": "Bot de utilidad",
+        "81-100": "Herramienta o dispositivo útil"
+      }
+    },
+    "4f9d34432eefbe9a": {
+      "name": "Oportunidad",
+      "description": "<p>Utiliza esta tabla cuando necesites inspiración para un encuentro o acontecimiento favorable en el interior de un pecio, como cuando obtienes un éxito total con una coincidencia al @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Iniciar una expedición}, o si @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Exploras un punto de ruta} y tienes un evento.</p>",
+      "results": {
+        "1-20": "Objeto o artefacto culturalmente significativo",
+        "21-40": "Alijo de contrabando valioso oculto",
+        "41-60": "Barricada intacta o zona protegida",
+        "61-80": "Un mensaje grabado revela aspectos útiles de este sitio",
+        "81-100": "Equipo personal útil"
+      }
+    },
+    "55f85175b4108e97": {
+      "name": "Oportunidad",
+      "description": "<p>Utiliza esta tabla cuando necesites inspiración para un encuentro o acontecimiento favorable en el interior de un pecio, como cuando obtienes un éxito total con una coincidencia al @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Iniciar una expedición}, o si @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Exploras un punto de ruta} y tienes un evento.</p>",
+      "results": {
+        "1-20": "Alijo de medicamentos",
+        "21-40": "Pistas para un misterio de la medicina",
+        "41-60": "Bot médico útil",
+        "61-80": "Espécimen inusual o raro",
+        "81-100": "Equipo médico útil"
+      }
+    },
+    "3d33a1c9547a4c28": {
+      "name": "Oportunidad",
+      "description": "<p>Utiliza esta tabla cuando necesites inspiración para un encuentro o acontecimiento favorable en el interior de un pecio, como cuando obtienes un éxito total con una coincidencia al @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Iniciar una expedición}, o si @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Exploras un punto de ruta} y tienes un evento.</p>",
+      "results": {
+        "1-20": "Alijo de armas o munición",
+        "21-40": "IA útil",
+        "41-60": "Tarjeta o código de acceso",
+        "61-80": "Un registro ofrece una visión de la caída de este sitio",
+        "81-100": "Una zona segura ofrece un instante de tranquilidad"
+      }
+    },
+    "8cff4e3060f79148": {
+      "name": "Oportunidad",
+      "description": "<p>Utiliza esta tabla cuando necesites inspiración para un encuentro o acontecimiento favorable en el interior de un pecio, como cuando obtienes un éxito total con una coincidencia al @Compendium[foundry-ironsworn.starforgedmoves.3ff03b51f620ab26]{Iniciar una expedición}, o si @Compendium[foundry-ironsworn.starforgedmoves.367804b98f30d5f4]{Exploras un punto de ruta} y tienes un evento.</p>",
+      "results": {
+        "1-20": "Vehículo o transporte útil",
+        "21-40": "Recursos raros o valiosos",
+        "41-60": "Materiales recuperables",
+        "61-80": "Equipo útil",
+        "81-100": "Carga valiosa"
+      }
+    },
+    "51674ae2080b3b1e": {
+      "name": "Oportunidad",
+      "description": "<p>Usa esta tabla para inspirarte a generar un encuentro o evento beneficioso, como los obtenidos al obtener un éxito total con una coincidencia en una localización.</p>",
+      "results": {
+        "1-20": "El caos retrocede o se retira temporalmente",
+        "21-40": "El caos te dota de habilidades extrañas pero útiles",
+        "41-60": "El caos se manifiesta a través visiones reconfortantes o inspiradoras",
+        "61-80": "Los cambios caóticos obstaculizan a tus enemigos",
+        "81-100": "Comprensión del origen o naturaleza del caos"
+      }
+    },
+    "df4e0162e8aa0698": {
+      "name": "Oportunidad",
+      "description": "<p>Usa esta tabla para inspirarte a generar un encuentro o evento beneficioso, como los obtenidos al obtener un éxito total con una coincidencia en una localización.</p>",
+      "results": {
+        "1-20": "Conocimiento de los planes o métodos de las fuerzas enemigas",
+        "21-40": "Ventaja inesperada contra un enemigo",
+        "41-60": "Oportunidad para superar o escapar de los enemigos",
+        "61-80": "Aparece un posible colaborador o informador",
+        "81-100": "Acceso a equipo o armas útiles"
+      }
+    },
+    "660a3bba595c310a": {
+      "name": "Oportunidad",
+      "description": "<p>Usa esta tabla para inspirarte a generar un encuentro o evento beneficioso, como los obtenidos al obtener un éxito total con una coincidencia en una localización.</p>",
+      "results": {
+        "1-20": "Encuentro con un espíritu o ser benigno",
+        "21-40": "Visión útil de acontecimientos pasados",
+        "41-60": "Mensaje o pista que ofrece una visión de la naturaleza del embrujo",
+        "61-80": "Se revela una zona o camino secreto",
+        "81-100": "Artefacto o dispositivo útil o interesante"
+      }
+    },
+    "e588fbdc090fa1a3": {
+      "name": "Oportunidad",
+      "description": "<p>Usa esta tabla para inspirarte a generar un encuentro o evento beneficioso, como los obtenidos al obtener un éxito total con una coincidencia en una localización.</p>",
+      "results": {
+        "1-20": "Pista sobre la naturaleza o vulnerabilidades de estas criaturas",
+        "21-40": "Las criaturas se vuelven unas contra otras",
+        "41-60": "Alerta temprana de un ataque o emboscada",
+        "61-80": "Un suceso externo proporciona una distracción útil",
+        "81-100": "Recurso o equipo útil"
+      }
+    },
+    "e35de30578a5863c": {
+      "name": "Oportunidad",
+      "description": "<p>Usa esta tabla para inspirarte a generar un encuentro o evento beneficioso, como los obtenidos al obtener un éxito total con una coincidencia en una localización.</p>",
+      "results": {
+        "1-20": "Intrigante oferta de una fuente inesperada",
+        "21-40": "Fiesta o lugar de reunión que brinda la oportunidad de socializar",
+        "41-60": "Los cotilleos locales resultan interesantes o útiles",
+        "61-80": "Artículo, recurso o comprador necesario disponible",
+        "81-100": "Resurge un viejo amigo o contacto"
+      }
+    },
+    "6fe85ab379183432": {
+      "name": "Oportunidad",
+      "description": "<p>Usa esta tabla para inspirarte a generar un encuentro o evento beneficioso, como los obtenidos al obtener un éxito total con una coincidencia en una localización.</p>",
+      "results": {
+        "1-20": "Dispositivo útil",
+        "21-40": "Visión del funcionamiento u objetivo de las máquinas",
+        "41-60": "Máquina inteligente ofrece ayuda",
+        "61-80": "Recurso recuperable",
+        "81-100": "Tecnología maravillosa"
+      }
+    },
+    "f83f31579bd9a886": {
+      "name": "Oportunidad",
+      "description": "<p>Usa esta tabla para inspirarte a generar un encuentro o evento beneficioso, como los obtenidos al obtener un éxito total con una coincidencia en una localización.</p>",
+      "results": {
+        "1-20": "Acceso a una zona intacta o preservada",
+        "21-40": "Visión de lo que llevó a este lugar a la ruina",
+        "41-60": "Dispositivo o artefacto interesante o útil",
+        "61-80": "Equipo o recursos recuperables",
+        "81-100": "Atajo o paso a través de la destrucción"
+      }
+    },
+    "250a2b2b4658be5c": {
+      "name": "Oportunidad",
+      "description": "<p>Usa esta tabla para inspirarte a generar un encuentro o evento beneficioso, como los obtenidos al obtener un éxito total con una coincidencia en una localización.</p>",
+      "results": {
+        "1-20": "Acceso a una zona oculta o sellada",
+        "21-40": "Encuentro con un adepto o hereje amistoso",
+        "41-60": "Comprensión de la naturaleza o historia de la fe",
+        "61-80": "Comprensión de los planes o métodos de los fanáticos religiosos",
+        "81-100": "Un artefacto o reliquia interesante o valiosa"
       }
     },
     "Orbital": {
@@ -2093,6 +3163,389 @@
         "98-100": "Asentamientos en conflicto"
       }
     },
+    "7ebc64758d4d2fb3": {
+      "name": "La Inmensidad",
+      "description": "",
+      "results": {
+        "1-95": "Ninguna",
+        "96-98": "Asentamiento orbital",
+        "99-100": "Asentamiento planetario"
+      }
+    },
+    "390b632dc01efb09": {
+      "name": "La Inmensidad",
+      "description": "",
+      "results": {
+        "1-95": "Ninguna",
+        "96-98": "Asentamiento orbital",
+        "99-100": "Asentamiento planetario"
+      }
+    },
+    "49874676539b4373": {
+      "name": "La Inmensidad",
+      "description": "",
+      "results": {
+        "1-90": "Ninguna",
+        "91-96": "Asentamiento orbital",
+        "97-100": "Asentamiento planetario"
+      }
+    },
+    "be073af48707259c": {
+      "name": "La Inmensidad",
+      "description": "",
+      "results": {
+        "1-90": "Ninguna",
+        "91-96": "Asentamiento orbital",
+        "97-100": "Asentamiento planetario"
+      }
+    },
+    "a1016cd9acd174c4": {
+      "name": "La Inmensidad",
+      "description": "",
+      "results": {
+        "1-85": "Ninguno",
+        "86-90": "Asentamiento orbital",
+        "91-97": "Asentamiento planetario",
+        "98-99": "Multiples asentamientos",
+        "100-100": "Asentamientos en conflicto"
+      }
+    },
+    "74f04d013e32ea57": {
+      "name": "La Inmensidad",
+      "description": "",
+      "results": {
+        "1-85": "Ninguna",
+        "86-90": "Asentamiento orbital",
+        "91-97": "Asentamiento planetario",
+        "98-99": "Multiples asentamientos",
+        "100-100": "Asentamientos en conflicto"
+      }
+    },
+    "5868927d66d7e2f5": {
+      "name": "La Inmensidad",
+      "description": "",
+      "results": {
+        "1-90": "Ninguna",
+        "91-96": "Asentamiento orbital",
+        "97-100": "Asentamiento planetario"
+      }
+    },
+    "ad0097a5058cd9c1": {
+      "name": "La Inmensidad",
+      "description": "",
+      "results": {
+        "1-95": "Ninguna",
+        "96-98": "Asentamiento orbital",
+        "99-100": "Asentamiento planetario"
+      }
+    },
+    "54e8523dc4079ec5": {
+      "name": "La Inmensidad",
+      "description": "",
+      "results": {
+        "1-80": "Ninguno",
+        "81-83": "Asentamiento orbital",
+        "84-93": "Asentamiento planetario",
+        "94-98": "Multiples asentamientos",
+        "99-100": "Asentamientos en conflicto"
+      }
+    },
+    "59c4a74f678768a9": {
+      "name": "Regiones exteriores",
+      "description": "",
+      "results": {
+        "1-75": "Ninguna",
+        "76-83": "Asentamiento orbital",
+        "84-95": "Asentamiento planetario",
+        "96-98": "Multiples asentamientos",
+        "99-100": "Asentamientos en conflicto"
+      }
+    },
+    "d2fc0f4324dbc21e": {
+      "name": "Regiones exteriores ",
+      "description": "",
+      "results": {
+        "1-85": "Ninguna",
+        "86-92": "Asentamiento orbital",
+        "93-97": "Asentamiento planetario",
+        "98-99": "Multiples asentamientos",
+        "100-100": "Asentamientos en conflicto"
+      }
+    },
+    "2e8633d90281fbc0": {
+      "name": "Regiones exteriores ",
+      "description": "",
+      "results": {
+        "1-90": "Ninguna",
+        "91-97": "Asentamiento orbital",
+        "98-100": "Asentamiento planetario"
+      }
+    },
+    "06291d14b5db76ca": {
+      "name": "Regiones exteriores",
+      "description": "",
+      "results": {
+        "1-75": "Ninguna",
+        "76-83": "Asentamiento orbital",
+        "84-95": "Asentamiento planetario",
+        "96-98": "Multiples asentamientos",
+        "99-100": "Asentamientos en conflicto"
+      }
+    },
+    "230ae9b478fc2a81": {
+      "name": "Regiones exteriores",
+      "description": "",
+      "results": {
+        "1-75": "Ninguno",
+        "76-87": "Asentamiento orbital",
+        "88-95": "Asentamiento planetario",
+        "96-98": "Multiples asentamientos",
+        "99-100": "Asentamientos en conflicto"
+      }
+    },
+    "f685e6ae7ae07fce": {
+      "name": "Regiones exteriores",
+      "description": "",
+      "results": {
+        "1-65": "Ninguna",
+        "66-75": "Asentamiento orbital",
+        "76-92": "Asentamiento planetario",
+        "93-97": "Multiples asentamientos",
+        "98-100": "Asentamientos en conflicto"
+      }
+    },
+    "6785082354ef4799": {
+      "name": "Regiones exteriores ",
+      "description": "",
+      "results": {
+        "1-75": "Ninguna",
+        "76-87": "Asentamiento orbital",
+        "88-95": "Asentamiento planetario",
+        "96-98": "Multiples asentamientos",
+        "99-100": "Asentamientos en conflicto"
+      }
+    },
+    "0ae67f0b015e92ea": {
+      "name": "Regiones exteriores ",
+      "description": "",
+      "results": {
+        "1-85": "Ninguna",
+        "86-96": "Asentamiento orbital",
+        "97-99": "Asentamiento planetario",
+        "100-100": "Multiples asentamientos"
+      }
+    },
+    "52936e230bbdf507": {
+      "name": "Regiones exteriores",
+      "description": "",
+      "results": {
+        "1-90": "Ninguna",
+        "91-97": "Asentamiento orbital",
+        "98-100": "Asentamiento planetario"
+      }
+    },
+    "4205b3662d1533bb": {
+      "name": "Regiones exteriores",
+      "description": "",
+      "results": {
+        "1-50": "Ninguna",
+        "51-55": "Asentamiento orbital",
+        "56-85": "Asentamiento planetario",
+        "86-95": "Multiples asentamientos",
+        "96-100": "Asentamientos en conflicto"
+      }
+    },
+    "a4ff9c712f8733e0": {
+      "name": "Terminus",
+      "description": "",
+      "results": {
+        "1-50": "Ninguna",
+        "51-60": "Asentamiento orbital",
+        "61-80": "Asentamiento planetario",
+        "81-92": "Multiples asentamientos",
+        "93-100": "Asentamientos en conflicto"
+      }
+    },
+    "d6d9b70dc52f751a": {
+      "name": "Terminus",
+      "description": "",
+      "results": {
+        "1-60": "Ninguna",
+        "61-75": "Asentamiento orbital",
+        "76-87": "Asentamiento planetario",
+        "88-96": "Multiples asentamientos",
+        "97-100": "Asentamientos en conflicto"
+      }
+    },
+    "1b73d153908226fd": {
+      "name": "Terminus",
+      "description": "",
+      "results": {
+        "1-80": "Ninguno",
+        "81-90": "Asentamiento orbital",
+        "91-95": "Asentamiento planetario",
+        "96-98": "Multiples asentamientos",
+        "99-100": "Asentamientos en conflicto"
+      }
+    },
+    "05350c04f7a14dd1": {
+      "name": "Terminus",
+      "description": "",
+      "results": {
+        "1-50": "Ninguna",
+        "51-60": "Asentamiento orbital",
+        "61-80": "Asentamiento planetario",
+        "81-92": "Multiples asentamientos",
+        "93-100": "Asentamientos en conflicto"
+      }
+    },
+    "8030cabc69db376b": {
+      "name": "Terminus",
+      "description": "",
+      "results": {
+        "1-50": "Ninguna",
+        "51-70": "Asentamiento orbital",
+        "71-85": "Asentamiento planetario",
+        "86-95": "Multiples asentamientos",
+        "96-100": "Asentamientos en conflicto"
+      }
+    },
+    "b7ac749357be557a": {
+      "name": "Terminus",
+      "description": "",
+      "results": {
+        "1-40": "Ninguna",
+        "41-55": "Asentamiento orbital",
+        "56-80": "Asentamiento planetario",
+        "81-92": "Multiples asentamientos",
+        "93-100": "Asentamientos en conflicto"
+      }
+    },
+    "6a3f3345b141f37e": {
+      "name": "Terminus",
+      "description": "",
+      "results": {
+        "1-50": "Ninguna",
+        "51-70": "Asentamiento orbital",
+        "71-85": "Asentamiento planetario",
+        "86-95": "Multiples asentamientos",
+        "96-100": "Asentamientos en conflicto"
+      }
+    },
+    "9df6b2c78477aa1b": {
+      "name": "Terminus",
+      "description": "",
+      "results": {
+        "1-70": "Ninguna",
+        "71-90": "Asentamiento orbital",
+        "91-95": "Asentamiento planetario",
+        "96-98": "Multiples asentamientos",
+        "99-100": "Asentamientos en conflicto"
+      }
+    },
+    "e4a454e66d46cd8a": {
+      "name": "Terminus",
+      "description": "",
+      "results": {
+        "1-80": "Ninguna",
+        "81-90": "Asentamiento orbital",
+        "91-95": "Asentamiento planetario",
+        "96-98": "Multiples asentamientos",
+        "99-100": "Asentamientos en conflicto"
+      }
+    },
+    "6ae9370dd758370a": {
+      "name": "Terminus",
+      "description": "",
+      "results": {
+        "1-20": "Ninguna",
+        "21-30": "Asentamiento orbital",
+        "31-70": "Asentamiento planetario",
+        "71-90": "Multiples asentamientos",
+        "91-100": "Asentamientos en conflicto"
+      }
+    },
+    "962aad67f6ade2b7": {
+      "name": "La Inmensidad",
+      "description": "",
+      "results": {
+        "1-15": "@Compendium[foundry-ironsworn.starforgedoracles.f2bba7a759c5871a]{Objeto estelar}",
+        "16-35": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/planet\">    <i class=\"fa fa-caret-right\"></i> Planeta</a></p>",
+        "36-37": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/settlement\">    <i class=\"fa fa-caret-right\"></i> Asentamiento</a></p>",
+        "38-39": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/starship\">    <i class=\"fa fa-caret-right\"></i> Nave</a></p>",
+        "40-41": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/derelict\">    <i class=\"fa fa-caret-right\"></i> Pecio</a></p>",
+        "42-45": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a></p>",
+        "46-49": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/creature\">    <i class=\"fa fa-caret-right\"></i> Criatura</a></p>",
+        "50-56": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "57-61": "Campo de chatarra: Asteroides minerales",
+        "62-64": "Campo de chatarra: Asteroides congelados",
+        "65-66": "Campo de chatarra: Asteroides cristalinos",
+        "67-68": "Campo de chatarra: Cementerio de criaturas",
+        "69-70": "Campo de chatarra: Restos metálicos",
+        "71-72": "Gran asteroide rebelde",
+        "73-74": "Cometa con una cola de gas ionizado",
+        "75-79": "Tormenta de energía ardiente",
+        "80-81": "Tormenta caótica de meteoroides",
+        "82-85": "Onda gravitacional turbulenta",
+        "86-93": "Nebulosa densa",
+        "94-98": "Tira dos veces",
+        "99-100": "Tira tres veces "
+      }
+    },
+    "a156f24660ef431d": {
+      "name": "Regiones exteriores",
+      "description": "",
+      "results": {
+        "1-15": "@Compendium[foundry-ironsworn.starforgedoracles.f2bba7a759c5871a]{Objeto estelar}",
+        "16-35": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/planet\">    <i class=\"fa fa-caret-right\"></i> Planeta</a></p>",
+        "36-38": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/settlement\">    <i class=\"fa fa-caret-right\"></i> Asentamiento</a></p>",
+        "39-43": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/starship\">    <i class=\"fa fa-caret-right\"></i> Nave</a></p>",
+        "44-46": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/derelict\">    <i class=\"fa fa-caret-right\"></i> Pecio</a></p>",
+        "47-49": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a></p>",
+        "50-52": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/creature\">    <i class=\"fa fa-caret-right\"></i> Criatura</a></p>",
+        "53-58": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "59-63": "Campo de chatarra: Asteroides minerales",
+        "64-66": "Campo de chatarra: Asteroides congelados",
+        "67-68": "Campo de chatarra: Asteroides cristalinos",
+        "69-70": "Campo de chatarra: Cementerio de criaturas",
+        "71-72": "Campo de chatarra: Restos metálicos",
+        "73-74": "Gran asteroide rebelde",
+        "75-76": "Cometa con una cola de gas ionizado",
+        "77-80": "Tormenta de energía ardiente",
+        "81-82": "Tormenta caótica de meteoroides",
+        "83-85": "Onda gravitacional turbulenta",
+        "86-93": "Nebulosa densa",
+        "94-98": "Tira dos veces",
+        "99-100": "Tira tres veces "
+      }
+    },
+    "557152a8a249759b": {
+      "name": "Terminus",
+      "description": "",
+      "results": {
+        "1-15": "@Compendium[foundry-ironsworn.starforgedoracles.f2bba7a759c5871a]{Objeto estelar}",
+        "16-35": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/planet\">    <i class=\"fa fa-caret-right\"></i> Planeta</a></p>",
+        "36-40": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/settlement\">    <i class=\"fa fa-caret-right\"></i> Asentamiento</a></p>",
+        "41-47": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/starship\">    <i class=\"fa fa-caret-right\"></i> Nave</a></p>",
+        "48-51": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/derelict\">    <i class=\"fa fa-caret-right\"></i> Pecio</a></p>",
+        "52-53": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a></p>",
+        "54-55": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/creature\">    <i class=\"fa fa-caret-right\"></i> Criatura</a></p>",
+        "56-60": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "61-65": "Campo de chatarra: Asteroides minerales",
+        "66-68": "Campo de chatarra: Asteroides congelados",
+        "69-70": "Campo de chatarra: Asteroides cristalinos",
+        "71-72": "Campo de chatarra: Cementerio de criaturas",
+        "73-74": "Campo de chatarra: Restos metálicos",
+        "75-76": "Gran asteroide rebelde",
+        "77-78": "Cometa con una cola de gas ionizado",
+        "79-81": "Tormenta de energía ardiente",
+        "82-83": "Tormenta caótica de meteoroides",
+        "84-85": "Onda gravitacional turbulenta",
+        "86-93": "Nebulosa densa",
+        "94-98": "Tira dos veces",
+        "99-100": "Tira tres veces "
+      }
+    },
     "Pay the Price": {
       "name": "Paga el precio",
       "description": "",
@@ -2134,6 +3587,268 @@
         "73-81": "Camino inestable o dañado",
         "82-90": "Dispositivo o artefacto inestable",
         "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Ación} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "99-100": "Tira dos veces"
+      }
+    },
+    "3e2b6f482533ee52": {
+      "name": "Peligro ",
+      "description": "<p>Tira en esta tabla cuando quieras ayuda para imaginar una complicación o peligro dentro de una zona, como cuando sufres un coste como resultado de tu exploración.</p>",
+      "results": {
+        "1-10": "Se activa la alarma o el plan de respaldo",
+        "11-20": "Defensas automatizadas",
+        "21-30": "Camino bloqueado o sellado",
+        "31-40": "Espantosa escena de muerte o violencia",
+        "41-50": "El enemigo se acerca",
+        "51-60": "El equipo falla o está roto",
+        "61-70": "Cambio medioambiental peligroso",
+        "71-80": "El camino está bloqueado",
+        "81-90": "Sonidos o perturbaciones desconcertantes",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Acción} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "99-100": "Tira dos veces"
+      }
+    },
+    "dca107d423be386a": {
+      "name": "Peligro",
+      "description": "<p>Tira en esta tabla cuando quieras ayuda para imaginar una complicación o peligro dentro de una zona, como cuando sufres un coste como resultado de tu exploración.</p>",
+      "results": {
+        "1-10": "Infección biológica",
+        "11-20": "Estructura agrietada o rota",
+        "21-30": "Señales angustiosas de violencia masiva o muerte",
+        "31-40": "Entorno inundado",
+        "41-50": "Un enemigo acecha oculto",
+        "51-60": "Integridad estructural frágil",
+        "61-70": "Visión inquietante de la vida aquí antes de la caída",
+        "71-80": "Cambio medioambiental peligroso",
+        "81-90": "Desgarrador recuerdo de vidas perdidas",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Acción} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "99-100": "Tira dos veces"
+      }
+    },
+    "a356d5b6ee30dc2a": {
+      "name": "Peligro",
+      "description": "<p>Tira en esta tabla cuando quieras ayuda para imaginar una complicación o peligro dentro de una zona, como cuando sufres un coste como resultado de tu exploración.</p>",
+      "results": {
+        "1-10": "Fuga corrosiva",
+        "11-20": "Bots de utilidad erráticos",
+        "21-30": "Un fallo en algún equipo requiere una pieza específica o habilidades concretas",
+        "31-40": "Fuego o aumento de energía",
+        "41-50": "Camino precario o roto",
+        "51-60": "Punto radioactivo peligroso",
+        "61-70": "Equipo saboteado",
+        "71-80": "El velo atmosférico oculta a un enemigo",
+        "81-90": "Núcleo de potencia inestable o errático",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Ación} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "99-100": "Tira dos veces"
+      }
+    },
+    "aaaa354071686ca8": {
+      "name": "Peligro",
+      "description": "<p>Tira en esta tabla cuando quieras ayuda para imaginar una complicación o peligro dentro de una zona, como cuando sufres un coste como resultado de tu exploración.</p>",
+      "results": {
+        "1-10": "Trampa para bobos",
+        "11-20": "Mensaje escrito angustioso",
+        "21-30": "Pruebas inquietantes de condiciones de vida explotadoras",
+        "31-40": "Espantosa escena de muerte o violencia",
+        "41-50": "Atraído al peligro por señales de vida",
+        "51-60": "Un mensaje grabado revela una amenaza o complicación",
+        "61-70": "Una puerta o escotilla sellada bloquea el acceso",
+        "71-80": "Señales de invasores no deseados",
+        "81-90": "Sonidos o perturbaciones desconcertantes",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Ación} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "99-100": "Tira dos veces"
+      }
+    },
+    "c2bb6dd4858a95e6": {
+      "name": "Peligro",
+      "description": "<p>Tira en esta tabla cuando quieras ayuda para imaginar una complicación o peligro dentro de una zona, como cuando sufres un coste como resultado de tu exploración.</p>",
+      "results": {
+        "1-10": "Vista / olor repugnante",
+        "11-20": "Pruebas inquietantes de mala praxis médica",
+        "21-30": "Bots médicos erráticos",
+        "31-40": "Evidencia de una enfermedad virulenta",
+        "41-50": "Mal funcionamiento del equipo médico",
+        "51-60": "Repercusiones de un experimento médico",
+        "61-70": "Muerto inquieto",
+        "71-80": "Señales de una muerte horrible",
+        "81-90": "Signos de cuarentena rota",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Ación} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "99-100": "Tira dos veces"
+      }
+    },
+    "bc9629fcef972cbe": {
+      "name": "Peligro",
+      "description": "<p>Tira en esta tabla cuando quieras ayuda para imaginar una complicación o peligro dentro de una zona, como cuando sufres un coste como resultado de tu exploración.</p>",
+      "results": {
+        "1-10": "Las defensas automatizadas te tienen como objetivo",
+        "11-20": "Equipo destruido limita el control",
+        "21-30": "Mensaje codificado o dispositivo de seguridad desconcertante",
+        "31-40": "Pruebas desalentadoras de planes o defensas fallidas",
+        "41-50": "Las pantallas revelan una nueva amenaza en otra parte de este lugar",
+        "51-60": "Fallo de potencia",
+        "61-70": "IA hostil",
+        "71-80": "Puertas blindadas selladas bloquean el acceso",
+        "81-90": "Los sensores indican la llegada de una amenaza externa",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Acción} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "99-100": "Tira dos veces"
+      }
+    },
+    "dc5d9617bec6283a": {
+      "name": "Peligro",
+      "description": "<p>Tira en esta tabla cuando quieras ayuda para imaginar una complicación o peligro dentro de una zona, como cuando sufres un coste como resultado de tu exploración.</p>",
+      "results": {
+        "1-10": "Espacios claustrofóbicos",
+        "11-20": "Maquinaria peligrosa",
+        "21-30": "Pruebas inquietantes de explotación laboral",
+        "31-40": "Temperaturas extremas",
+        "41-50": "Materiales peligrosos",
+        "51-60": "Desastre industrial inminente",
+        "61-70": "Automatización defectuosa",
+        "71-80": "Rivales buscan asegurarse estos recursos",
+        "81-90": "Signos de una amenaza desenterrada o fabricada",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Ación} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "99-100": "Tira dos veces"
+      }
+    },
+    "b643fbd885826f05": {
+      "name": "Peligro",
+      "description": "<p>Tira en esta tabla cuando quieras ayuda para imaginar una complicación o peligro dentro de una zona, como cuando sufres un coste como resultado de tu exploración.</p>",
+      "results": {
+        "1-10": "Se activan los protocolos automatizados de contención",
+        "11-20": "Infección biológica",
+        "21-30": "Espécimen peligroso",
+        "31-40": "Resultado inquietante de un experimento fallido",
+        "41-50": "Pruebas de experimentos siniestros",
+        "51-60": "Una frágil cámara encierra una amenaza funesta",
+        "61-70": "Señales de contención rotas",
+        "71-80": "Entorno tóxico",
+        "81-90": "Tecnología inestable",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Acción} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "99-100": "Tira dos veces"
+      }
+    },
+    "33dcf85f786628fd": {
+      "name": "Peligro",
+      "description": "<p>Utiliza esta tabla como inspiración para un peligro o complicación.</p>",
+      "results": {
+        "1-9": "El caos deja su huella en ti",
+        "10-18": "El caos se extiende o intensifica",
+        "19-27": "El caos te tienta o te atrae",
+        "28-36": "Energías caóticas bloquean el camino o te asaltan",
+        "37-45": "Cambios desorientadores de tiempo o lugar",
+        "46-54": "Espantosa escena de los que cayeron presa del caos",
+        "55-63": "El equipo se vuelve inestable o peligroso",
+        "64-72": "Los enemigos aprovechan o abrazan el caos",
+        "73-81": "Cambios medioambientales peligrosos",
+        "82-90": "Alguna formas de vida se vuelven hostiles debido al caos",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Acción} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "99-100": "Tira dos veces"
+      }
+    },
+    "090a57e0703ff3d0": {
+      "name": "Peligro",
+      "description": "<p>Utiliza esta tabla como inspiración para un peligro o complicación.</p>",
+      "results": {
+        "1-9": "Alarma activada",
+        "10-18": "La seguridad automatizada o las armas te apuntan",
+        "19-27": "La seguridad automatizada o las armas te apuntan",
+        "28-36": "Los enemigos se concentran en esta zona",
+        "37-45": "Los enemigos revelan nuevas capacidades o tecnología",
+        "46-54": "Los enemigos te engañan o te hacen caer en una trampa",
+        "55-63": "Aparece un poderoso enemigo",
+        "64-72": "Se revela una alianza o afiliación problemática",
+        "73-81": "Los planes revelados de un líder enemigo crean una nueva urgencia",
+        "82-90": "Tu plan se deshace por una complicación inesperada",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Acción} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "99-100": "Tira dos veces"
+      }
+    },
+    "95e3b5f38b793f5b": {
+      "name": "Peligro ",
+      "description": "<p>Utiliza esta tabla como inspiración para un peligro o complicación.</p>",
+      "results": {
+        "1-9": "Asaltado por un ser furioso o vengativo",
+        "10-18": "Las ilusiones seductoras te tientan a permanecer o quedarte",
+        "19-27": "Asediado por sensaciones aterradoras",
+        "28-36": "El equipo está plagado de fallos inexplicables",
+        "37-45": "Sumergido en una oscuridad confusa o en un entorno ilusorio",
+        "46-54": "Manifestaciones espectrales de tus miedos",
+        "55-63": "Los espíritus o muertos vivientes revelan habilidades o motivaciones sorprendentes",
+        "64-72": "Revelación repentina e impactante de una manifestación fantasmal o no muerta",
+        "73-81": "Un engaño te pone en peligro",
+        "82-90": "Las visiones revelan un aspecto horrible de este lugar",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Acción} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "99-100": "Tira dos veces"
+      }
+    },
+    "4689857ac9c1af86": {
+      "name": "Peligro",
+      "description": "<p>Utiliza esta tabla como inspiración para un peligro o complicación.</p>",
+      "results": {
+        "1-9": "Criaturas atacan sin avisar",
+        "10-18": "Criaturas guiadas o controladas por una amenaza mayor",
+        "19-27": "Criaturas revelan nuevos aspectos o habilidades",
+        "28-36": "Criaturas revelan una astucia sorprendente",
+        "37-45": "Criaturas se llevan o destruyen algo importante",
+        "46-54": "Descubrimiento de una víctima viva pero amenazada",
+        "55-63": "Arquitectura o terreno peligroso",
+        "64-72": "Atraído o conducido a una trampa o callejón sin salida",
+        "73-81": "Aparece una criatura poderosa o dominante",
+        "82-90": "Ambiente tóxico o enfermizo",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Acción} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "99-100": "Tira dos veces"
+      }
+    },
+    "0f8307dd660fb69c": {
+      "name": "Peligro",
+      "description": "<p>Utiliza esta tabla como inspiración para un peligro o complicación.</p>",
+      "results": {
+        "1-9": "Anuncio o notificación trae noticias desgarradoras",
+        "10-18": "Llegada de un enemigo o rival",
+        "19-27": "Bloqueo o cordón de seguridad corta un acceso necesario",
+        "28-36": "Atrapado en el fuego cruzado de una disputa",
+        "37-45": "Pruebas inquietantes de condiciones de explotación",
+        "46-54": "Atraído al peligro",
+        "55-63": "Signos de enfermedad, infección o ambiente tóxico",
+        "64-72": "Signos de malestar o rebelión",
+        "73-81": "Indicios de que te vigilan o te siguen",
+        "82-90": "Atención no deseada de la autoridad o de los enemigos",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Acción} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "99-100": "Tira dos veces"
+      }
+    },
+    "8c5a4c2514797da3": {
+      "name": "Peligro",
+      "description": "<p>Utiliza esta tabla como inspiración para un peligro o complicación.</p>",
+      "results": {
+        "1-9": "Se activa una alarma o advertencia",
+        "10-18": "Arma automatizada o trampa activada",
+        "19-27": "Entorno inadecuado para la vida",
+        "28-36": "Máquinas hostiles patrullando",
+        "37-45": "Las máquinas se transforman y revelan nuevas capacidades",
+        "46-54": "Máquinas con programación corrupta o pirateada",
+        "55-63": "Máquinas o tecnología defectuosas",
+        "64-72": "Un movimiento de maquinaria crea un peligro u obstáculo",
+        "73-81": "Bajo la vigilancia de una máquina central de inteligencia",
+        "82-90": "Tecnología volátil",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Acción} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
+        "99-100": "Tira dos veces"
+      }
+    },
+    "6e5de5add738b39a": {
+      "name": "Peligro ",
+      "description": "<p>Utiliza esta tabla como inspiración para un peligro o complicación.</p>",
+      "results": {
+        "1-9": "Un aspecto de la fe te seduce o te atrae hacia el peligro",
+        "10-18": "Se revelan terribles aspectos o poderes de la fe",
+        "19-27": "Se da forma o propósito corrupto a la encarnación de un dios o poder",
+        "28-36": "Los guardianes defienden este lugar como mártires",
+        "37-45": "Los líderes corrompen o explotan a sus seguidores para oponerse a ti",
+        "46-54": "Las profecías presagian una terrible amenaza",
+        "55-63": "Una protección o un enigmático rompecabezas bloquean el camino",
+        "64-72": "Un artefacto religioso evoca un poder desconcertante",
+        "73-81": "La corrupción o descomposición antinatural ensucia el entorno",
+        "82-90": "Los zelotes promulgan una ceremonia para desbloquear poderes prohibidos",
+        "91-98": "@Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Acción} + @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}",
         "99-100": "Tira dos veces"
       }
     },
@@ -2181,6 +3896,216 @@
         "85-91": "Infecciones fúngicas virulentas",
         "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
         "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">\n    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores\n</a> (planetaria)</p>"
+      }
+    },
+    "88fd2037f0802836": {
+      "name": "Característica planetaria",
+      "description": "",
+      "results": {
+        "1-7": "Sumideros cavernosos",
+        "8-14": "Tormentas de arena envolventes",
+        "15-21": "Lluvias fugaces e inundaciones repentinas",
+        "22-28": "Grutas inundadas",
+        "29-35": "Bosque petrificado",
+        "36-42": "Torbellinos arrasadores",
+        "43-49": "Llanuras de cristal quemadas",
+        "50-56": "Fluctuaciones severas de temperatura",
+        "57-63": "Huesos de criaturas titánicas quemados por el sol ",
+        "64-70": "Cuevas en acantilados desgastadas por el tiempo",
+        "71-77": "Formaciones rocosas imponentes",
+        "78-84": "Violentas tormentas eléctricas",
+        "85-91": "Arena metálica transportada por el viento",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (planetaria)</p>"
+      }
+    },
+    "de35c746982df2bc": {
+      "name": "Característica planetaria",
+      "description": "",
+      "results": {
+        "1-7": "Tormentas de ceniza cegadoras",
+        "8-14": "Terremotos catastróficos",
+        "15-21": "Coloridas fuentes geotérmicas",
+        "22-28": "Intrincadas formaciones de roca volcánica",
+        "29-35": "Redes de túneles de canales de lava",
+        "36-42": "Masas de huesos calcinados",
+        "43-49": "Llanuras de vidrio volcánico",
+        "50-56": "Charcos de metal líquido",
+        "57-63": "Islas rocosas a la deriva sobre magma",
+        "64-70": "Nubes hirvientes de gas sobrecalentado",
+        "71-77": "Géiseres escaldados",
+        "78-84": "Tormentas de sílice o metal",
+        "85-91": "Barrizales humeantes",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (planetaria)</p>"
+      }
+    },
+    "9eca6bc0a308c58f": {
+      "name": "Característica planetaria",
+      "description": "",
+      "results": {
+        "1-7": "Piscinas de ácido",
+        "8-14": "Dunas de ceniza",
+        "15-21": "Lluvias corrosivas",
+        "22-28": "Bosques muertos",
+        "29-35": "Fangales fétidos",
+        "36-42": "Fosas comunes",
+        "43-49": "Huesos en descomposición",
+        "50-56": "Niebla nociva",
+        "57-63": "Punto radioactivo peligroso",
+        "64-70": "Ciudades devastadas",
+        "71-77": "Campos de batalla marcados",
+        "78-84": "Cementerios de naves",
+        "85-91": "Susurros de los muertos",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (planetaria)</p>"
+      }
+    },
+    "0370e0b345eeddb7": {
+      "name": "Característica planetaria",
+      "description": "",
+      "results": {
+        "1-7": "Fisuras de hielo abisal",
+        "8-14": "Tormentas de nieve cegadoras",
+        "15-21": "Grupos de puntas de hielo",
+        "22-28": "Cuevas de hielo colosales",
+        "29-35": "Brillantes agujas de hielo",
+        "36-42": "Grandes acumulaciones de nieve",
+        "43-49": "Cadáveres conservados",
+        "50-56": "Islas rocosas en medio de yermos helados",
+        "57-63": "Planicies destrozadas de hielo compacto",
+        "64-70": "Aguas termales humeantes",
+        "71-77": "Océanos líquidos bajo la superficie",
+        "78-84": "Auroras vibrantes",
+        "85-91": "Formaciones de hielo esculpidas por el viento",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (planetaria)</p>"
+      }
+    },
+    "6a7ee7ca3f72a34f": {
+      "name": "Característica planetaria",
+      "description": "",
+      "results": {
+        "1-7": "Nubes de partículas metálicas",
+        "8-14": "Lluvias cristalinas",
+        "15-21": "Glaciares flotantes",
+        "22-28": "Islas flotantes",
+        "29-35": "Capa de líquido en suspensión",
+        "36-42": "Bolsas de gases explosivos",
+        "43-49": "Vórtices potentes",
+        "50-56": "Campos de radiación",
+        "57-63": "Restos rocosos barridos por la tormenta",
+        "64-70": "Lluvia torrencial",
+        "71-77": "Grandes yunques cumuliformes",
+        "78-84": "Turbulencia violenta",
+        "85-91": "Zonas de atmósfera localizada",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (planetaria)</p>"
+      }
+    },
+    "315dd67fb3d71259": {
+      "name": "Característica planetaria",
+      "description": "",
+      "results": {
+        "1-7": "Flora bioluminiscente",
+        "8-14": "Desfiladeros profundos",
+        "15-21": "Extensos sistemas radiculares expuestos",
+        "22-28": "Inmensas cascadas escalonadas",
+        "29-35": "Ríos lánguidos",
+        "36-42": "Niebla baja",
+        "43-49": "Sumideros",
+        "50-56": "Claros escarpados",
+        "57-63": "Ciénagas hundidas",
+        "64-70": "Ríos crecidos",
+        "71-77": "Tormentas torrenciales",
+        "78-84": "Violentas tormentas eléctricas",
+        "85-91": "Cuevas anegadas",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (planetaria)</p>"
+      }
+    },
+    "a36493cd810f2c37": {
+      "name": "Característica planetaria",
+      "description": "",
+      "results": {
+        "1-7": "Trincheras abisales",
+        "8-14": "Islas vivientes",
+        "15-21": "Mares luminiscentes",
+        "22-28": "Icebergs itinerantes",
+        "29-35": "Llanuras de aguas poco profundas",
+        "36-42": "Volcanes subterráneos",
+        "43-49": "Olas titánicas",
+        "50-56": "Bolsas de aire submarinas",
+        "57-63": "Cuevas submarinas",
+        "64-70": "Bosques submarinos",
+        "71-77": "Lluvia implacable",
+        "78-84": "Corrientes violentas",
+        "85-91": "Trombas de agua arrastradas por el viento",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (planetaria)</p>"
+      }
+    },
+    "189900171ce9133f": {
+      "name": "Característica planetaria",
+      "description": "",
+      "results": {
+        "1-7": "Formaciones cristalinas",
+        "8-14": "Cuevas cristalinas",
+        "15-21": "Depósitos minerales expuestos",
+        "22-28": "Características geométricas del terreno",
+        "29-35": "Ventilación geotérmica",
+        "36-42": "Cráteres de impacto vítreos",
+        "43-49": "Dunas de polvo inmensas",
+        "50-56": "Campo magnético poderoso",
+        "57-63": "Campos de lava cubiertos de escombros",
+        "64-70": "Cuevas calentadas por vapor",
+        "71-77": "Flujos magmáticos bajo la superficie",
+        "78-84": "Remolinos de gases a baja altura",
+        "85-91": "Torres rocosas",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (planetaria)</p>"
+      }
+    },
+    "1fdde544c04e021a": {
+      "name": "Característica planetaria",
+      "description": "",
+      "results": {
+        "1-7": "Ciudades destruidas",
+        "8-14": "Fragmentos colisionando",
+        "15-21": "Tormentas energéticas",
+        "22-28": "Cavernas expuestas",
+        "29-35": "Gravedad fluctuante",
+        "36-42": "Perturbaciones magnéticas",
+        "43-49": "Fisuras fundidas",
+        "50-56": "Visiones fantasmales del pasado",
+        "57-63": "Atmósfera embolsada",
+        "64-70": "Tormentas de energía residual",
+        "71-77": "Remolinos de gases corrosivos",
+        "78-84": "Terreno inestable y fracturado",
+        "85-91": "Fumarola magmática",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (planetaria)</p>"
+      }
+    },
+    "bcc68163e523f6c9": {
+      "name": "Característica planetaria",
+      "description": "",
+      "results": {
+        "1-7": "Radiación residual",
+        "8-14": "Biomas caóticamente yuxtapuestos",
+        "15-21": "Cementerio de criaturas",
+        "22-28": "Guaridas de criaturas o abrevaderos",
+        "29-35": "Formaciones cristalinas",
+        "36-42": "Tormentas eléctricas feroces",
+        "43-49": "Terreno flotante",
+        "50-56": "Actividad sísmica frecuente",
+        "57-63": "Perturbaciones magnéticas",
+        "64-70": "Terreno escarbado o excavado",
+        "71-77": "Signos de una biosfera manipulada",
+        "78-84": "Fluctuaciones meteorológicas repentinas",
+        "85-91": "Formaciones geológicas imponentes",
+        "92-98": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}",
+        "99-100": "<p><a class=\"entity-link oracle-category-link\" data-dsid=\"oracle_collection:starforged/precursor_vault\">    <i class=\"fa fa-caret-right\"></i> Cámara de los Precursores</a> (planetaria)</p>"
       }
     },
     "Prefix": {
@@ -2699,7 +4624,7 @@
       "name": "Nombre de la nave",
       "description": "<p>Ponle un nombre a la nave que tenga un rol importante en tu historia. Consulta esta tabla y selecciona un nombre que se adecue a lo que sabes del aspecto y la función de la nave. O puedes tirar en la tabla para que el resultado aleatorio contribuya a la historia y propósito de la nave gracias a sus contradicciones.</p>",
       "results": {
-        "1-1": "Arclight",
+        "1-1": "Rayo de luz",
         "2-2": "Flecha Argenta",
         "3-3": "Artemisa",
         "4-4": "Explorador Astral",
@@ -2781,10 +4706,10 @@
         "80-80": "Polvo Estelar",
         "81-81": "Lluvia de Estrellas",
         "82-82": "Halcón Estelar",
-        "83-83": "Stormswept",
+        "83-83": "Barretormentas",
         "84-84": "Égida Dividida",
         "85-85": "Atardecer",
-        "86-86": "Sureshot",
+        "86-86": "Disparo certero",
         "87-87": "Clíper de Terminus",
         "88-88": "Tortuga",
         "89-89": "Lobo Gris",
@@ -2797,7 +4722,7 @@
         "96-96": "Venganza",
         "97-97": "Negocio",
         "98-98": "Vigilante",
-        "99-99": "Voidtreader",
+        "99-99": "Aplastadora del Vacío",
         "100-100": "Buitre"
       }
     },
@@ -3035,17 +4960,6 @@
         "89-100": "Se complica: Se revela la verdadera naturaleza de un adversario u objetivo"
       }
     },
-    "1b73d153908226fd": {
-      "name": "Terminus",
-      "description": "",
-      "results": {
-        "1-80": "Ninguno",
-        "81-90": "Asentamiento orbital",
-        "91-95": "Asentamiento planetario",
-        "96-98": "Multiples asentamientos",
-        "99-100": "Asentamientos en conflicto"
-      }
-    },
     "Theme": {
       "name": "Tema",
       "description": "<p>Cuando @Compendium[foundry-ironsworn.starforgedmoves.bd6278f18bbd6739]{Preguntas al oráculo} sobre un objetivo, situación o evento, tira en la tabla @Compendium[foundry-ironsworn.starforgedoracles.b347a87fb81a3abb]{Acción} y en la tabla @Compendium[foundry-ironsworn.starforgedoracles.0c5ce82c7adbb4e2]{Tema}. Juntos proporcionan una combinación verbo/sustantivo que tendrás que interpretar.</p>",
@@ -3230,6 +5144,148 @@
         "71-85": "Ha sido un duro viaje. Todos aquellos que estuviesen a bordo deben realizar el movimiento @Compendium[foundry-ironsworn.starforgedmoves.905205c073b09eac]{Soportar el daño}, @Compendium[foundry-ironsworn.starforgedmoves.ff32c523829d6481]{Soportar el estrés} o @Compendium[foundry-ironsworn.starforgedmoves.d34cdf2408cd22b6]{Tu compañero sufre daño}, sufriendo un coste serio (-2).",
         "86-95": "Has perdido el combustible, energía o el cargamento. @Compendium[foundry-ironsworn.starforgedmoves.0fcfea7696d1de15]{Sacrifica suministros} (-2).",
         "96-100": "Contra todo pronóstico, el vehículo se mantiene de una pieza."
+      }
+    },
+    "55f725025da32338": {
+      "name": "Primer vistazo",
+      "description": "",
+      "results": {
+        "1-4": "Lecturas anormales de los sensores",
+        "5-8": "Pintura brillante",
+        "9-13": "Armas en ristre",
+        "14-18": "Oscuro o sigiloso",
+        "19-23": "Armadura pesada",
+        "24-28": "Inmóvil",
+        "29-33": "Perfil intimidante",
+        "34-37": "Grandes grupos de sensores",
+        "38-41": "Fuga de radiación",
+        "42-45": "Perfil bajo o disfrazado",
+        "46-49": "Diseño moderno o avanzado",
+        "50-54": "Diseño obsoleto",
+        "55-59": "Daño evidente",
+        "60-63": "Componentes biológicos",
+        "64-67": "Marcas ornamentales",
+        "68-71": "Motores sobredimensionados",
+        "72-75": "Emblema destacado del gremio",
+        "76-80": "Casco reacondicionado o reutilizado",
+        "81-85": "Casco marcado",
+        "86-90": "Construido a partir de chatarra",
+        "91-94": "Remolque o conectado",
+        "95-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
+      }
+    },
+    "8874e6a1761a0e69": {
+      "name": "Característica",
+      "description": "<p>Utiliza esta tabla para descubrir un nuevo aspecto de la localización.</p>",
+      "results": {
+        "1-8": "Voces incorpóreas",
+        "9-16": "Frío inquietante",
+        "17-24": "Presagio o mensaje premonitorio",
+        "25-32": "Visiones fantasmales de este lugar en otro tiempo",
+        "33-40": "Atisbos de movimiento en la sombra",
+        "41-48": "Los objetos se mueven por sí solos",
+        "49-56": "Sensación de ser observado",
+        "57-64": "Signos de muerte o violencia",
+        "65-72": "Sonidos espectrales",
+        "73-80": "Arquitectura o terreno retorcidos o alterados",
+        "81-88": "Plaga, decadencia o ruina antinatural",
+        "89-96": "Nieblas u oscuridad antinaturales",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
+      }
+    },
+    "5d673d674c3d1395": {
+      "name": "Característica",
+      "description": "<p>Utiliza esta tabla para descubrir un nuevo aspecto de la localización.</p>",
+      "results": {
+        "1-8": "Cadáver de una víctima desafortunada ",
+        "9-16": "Huevos, capullos o nido",
+        "17-24": "Entorno corrompido por la infección",
+        "25-32": "Evidencias de una criatura acechante",
+        "33-40": "Evidencias de una víctima desafortunada",
+        "41-48": "Comida acumulada",
+        "49-56": "Movimiento o sonidos poco definidos",
+        "57-64": "Guarida de criaturas menores",
+        "65-72": "Suministros o equipos dañados",
+        "73-80": "Restos de una criatura o de una forma anterior",
+        "81-88": "Marcas territoriales",
+        "89-96": "Rastro o evidencia del paso de una criatura",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
+      }
+    },
+    "2cc2de495cf3038e": {
+      "name": "Característica",
+      "description": "<p>Utiliza esta tabla para descubrir un nuevo aspecto de la localización.</p>",
+      "results": {
+        "1-8": "Patrullas o vigilancia llamativas",
+        "9-16": "Equipos trabajando",
+        "17-24": "Una exposición o monumento honra un acontecimiento cultural notable",
+        "25-32": "Equipos de emergencia responden a un incidente o crisis",
+        "33-40": "Familias reunidas o niños jugando",
+        "41-48": "Fiesta, celebración o práctica religiosa",
+        "49-56": "Comienza una pelea",
+        "57-64": "Una figura notable destaca entre la multitud",
+        "65-72": "Protesta o huelga",
+        "73-80": "Daño sin reparar",
+        "81-88": "Zona inusualmente vacía o tranquila",
+        "89-96": "Vendedor o mercader vendiendo sus mercancías",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
+      }
+    },
+    "418418906723c8b7": {
+      "name": "Característica",
+      "description": "<p>Utiliza esta tabla para descubrir un nuevo aspecto de la localización.</p>",
+      "results": {
+        "1-8": "Estación de control o terminal",
+        "9-16": "Dispositivo o tecnología con una función misteriosa",
+        "17-24": "Maquinaria o piezas desmontadas",
+        "25-32": "Maquinaria pesada trabajando",
+        "33-40": "Fabricación o reparación de máquinas",
+        "41-48": "Máquinas que emulan o se fusionan con la vida biológica",
+        "49-56": "Máquinas en estasis o apagadas",
+        "57-64": "Máquinas que ejecutan una función o un programa",
+        "65-72": "Gran proyecto en construcción",
+        "73-80": "Entorno mecánico en movimiento o transformación",
+        "81-88": "Restos mecánicos o destrucción",
+        "89-96": "Fuente de alimentación de las máquinas",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
+      }
+    },
+    "e08c9e47bca97a85": {
+      "name": "Característica",
+      "description": "<p>Utiliza esta tabla para descubrir un nuevo aspecto de la localización.</p>",
+      "results": {
+        "1-8": "Estructuras o terreno derrumbados o destruidos",
+        "9-16": "Dispositivo o artefacto con energía o función residual",
+        "17-24": "Punto focal o nexo de la destrucción",
+        "25-32": "Tumbas o cadáveres",
+        "33-40": "Espacios interiores u ocultos puestos al descubierto por la destrucción",
+        "41-48": "Mensaje o grabación de antes de la caída",
+        "49-56": "Espacios cubiertos o sepultados",
+        "57-64": "Caminos llenos de escombros",
+        "65-72": "Triste recuerdo de una vida perdida",
+        "73-80": "Muestras o sonidos de inestabilidad estructural",
+        "81-88": "Señales de pillaje y saqueo",
+        "89-96": "Supervivientes o guardianes moran entre las ruinas",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
+      }
+    },
+    "fbfc3484208af06d": {
+      "name": "Característica",
+      "description": "<p>Utiliza esta tabla para descubrir un nuevo aspecto de la localización.</p>",
+      "results": {
+        "1-8": "Los fieles rinden culto o celebran rituales",
+        "9-16": "Altar o templo",
+        "17-24": "Residencias para fieles",
+        "25-32": "Símbolos enigmáticos",
+        "33-40": "Tumbas o restos de discípulos glorificados",
+        "41-48": "Texto sagrado o archivos",
+        "49-56": "Ofrendas o expiaciones",
+        "57-64": "Peregrinos que llegan para rendir culto",
+        "65-72": "Relicario protegido de un artefacto o símbolo",
+        "73-80": "Arte religioso o ídolos",
+        "81-88": "Manifestaciones sutiles de poder místico o visiones",
+        "89-96": "Símbolos o motivos representativos del credo",
+        "89-100": "@Compendium[foundry-ironsworn.starforgedoracles.e2bae1632870e2d2]{Descriptor} + @Compendium[foundry-ironsworn.starforgedoracles.9d920a9da68abf62]{Foco}"
       }
     }
   }
