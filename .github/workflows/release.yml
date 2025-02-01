@@ -52,7 +52,7 @@ jobs:
           yarn install
           yarn run compendium:compile
 
-      - run: zip ${{ env.ZIP_NAME }} -r register.js module.json compendium lang  --exclude "packs/_source/*"
+      - run: zip ${{ env.ZIP_NAME }} -r register.js module.json compendium lang packs --exclude "packs/_source/*"
 
       - name: Fetch Release Body
         id: release
