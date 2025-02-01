@@ -45,16 +45,19 @@ function autoRegisterBabel () {
       },
       sfTruthsConverter: (value, translations, data, tc, translation) => {
         const { pages } = babele.converters
-        const tPages = pages(value, translations)
-        for (let page of tPages) {
-          tc.translations[page.name] = translation.pages[page.name]
-          page = tc.translate({
-            ...page,
-            translated: false
-          })
+        const tPages = []
+        for (let page of value) {
+          if (page.type === 'truth') {
+            tc.translations[page.name] = translation.pages[page.name]
+            page = tc.translate({
+              ...page,
+              translated: false
+            })
+          }
+          tPages.push(page)
         }
 
-        return tPages
+        return pages(tPages, translations)
       },
       sfTruthsSubtable: (...args) => {
         const value = args[0]
