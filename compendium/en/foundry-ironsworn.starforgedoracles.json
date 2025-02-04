@@ -2657,8 +2657,8 @@
       "description": "",
       "results": {
         "1-40": "Planetside",
-        "41-60": "Orbital",
-        "61-100": "Deep Space"
+        "41-75": "Orbital",
+        "76-100": "Deep Space"
       }
     },
     "0b7dc258c5edc9ef": {

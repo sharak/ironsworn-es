@@ -1,6 +1,7 @@
 const MODULE_ID = 'ironsworn-es'
 
 Hooks.on('init', () => {
+  CONFIG.debug.hooks = true
   game.settings.register(MODULE_ID, 'autoRegisterBabel', {
     name: 'Automatically activate translation via Babele',
     hint: 'Automatically implements Babele translations without needing to point to the directory containing the translations.',
@@ -19,6 +20,13 @@ Hooks.on('init', () => {
 
   if (game.settings.get(MODULE_ID, 'autoRegisterBabel')) {
     autoRegisterBabel()
+  }
+})
+let translatedOracles = []
+Hooks.on('ironswornOracles', tree => {
+  if (!translatedOracles.includes(tree.dsIdentifier)) {
+    tree.children.forEach(node => translateOracles(node))
+    translatedOracles.push(tree.dsIdentifier)
   }
 })
 
@@ -71,5 +79,14 @@ function autoRegisterBabel () {
         return value
       }
     })
+  }
+}
+
+function translateOracles (node) {
+  if (node.children.length > 0) {
+    node.children.forEach(child => translateOracles(child))
+  } else {
+    const oracle = fromUuidSync(node.tables[0])
+    node.displayName = oracle.name
   }
 }
