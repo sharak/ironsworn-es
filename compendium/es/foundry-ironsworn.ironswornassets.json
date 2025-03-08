@@ -1,0 +1,1488 @@
+{
+  "label": "Recursos de Ironsworn",
+  "mapping": {
+    "category": "system.category",
+    "requirement": "system.requirement",
+    "abilities": {
+      "path": "system.abilities",
+      "converter": "arrayConverter"
+    },
+    "fields": {
+      "path": "system.fields",
+      "converter": "arrayConverter"
+    },
+    "track": "system.track.name"
+  },
+  "folders": {
+    "Combat Talent Assets": "Talentos de Combate",
+    "Companion Assets": "Compañeros",
+    "Path Assets": "Sendas",
+    "Ritual Assets": "Rituales"
+  },
+  "entries": {
+    "Alchemist": {
+      "name": "Alquimista",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando creas un elixir, elige un efecto: audacia (corazón), destreza (filo), vigor (hierro), claridad (mente) o astucia (sombra). A continuación, pierdes -1 de suministros y tiras +mente. Con un éxito total, creas una sola dosis. El personaje que consume el elixir debe @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} +hierro y obtener un éxito (total o parcial). En tal caso, siempre que haga movimientos con la característica relacionada sumará +1. El efecto dura hasta que su salud, entereza o impulso caigan por debajo de +1. Con un éxito parcial, como arriba, pero pierdes adicionalmente -1 de suministros al crearlo.</p>"
+        },
+        {
+          "description": "<p>Como arriba, pero puedes elegir que una sola dosis tenga dos efectos o crear dos dosis con el mismo efecto.</p>"
+        },
+        {
+          "description": "<p>Cuando prepares un elixir, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Animal Kin": {
+      "name": "Afinidad Animal",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando hagas un movimiento para apaciguar, calmar, controlar, ayudar o ahuyentar a un animal (o a un compañero que sea un animal o una bestia), suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Adquirir o mejorar un recurso de compañero animal o bestia te cuesta 1 punto de experiencia menos. Una vez que hayas marcado todas sus capacidades, puedes @Compendium[foundry-ironsworn.ironswornmoves.b643d9ea53ff8d98]{Forjar un vínculo} con el compañero: considéralo un éxito total automático. Al hacerlo, ganas 1 punto de experiencia y registras dos marcas (en vez de una) en el contador de progreso de tus vínculos.</p>"
+        },
+        {
+          "description": "<p>Una vez por combate, cuando te aprovechas de las capacidades de tu compañero animal o bestia para hacer un movimiento, vuelve a tirar de nuevo (uno o más dados). En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Archer": {
+      "name": "Arquero",
+      "category": "Talento de combate",
+      "requirement": "<p>Requisito: sostener un arco.</p>",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} tomándote un momento para apuntar, elige tu estrategia y suma +1.</p>\n<ul>\n<li>Confiar en tu instinto: tira +mente. En caso de éxito total, ganas +2 de impulso.</li>\n<li>Enfilar tu disparo: tira +filo. En caso de éxito (total o parcial), ganas +1 de impulso.</li>\n</ul>"
+        },
+        {
+          "description": "<p>Una vez por combate, al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} o al @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} puedes realizar disparos adicionales a cambio de perder -1 de suministros. En tal caso, vuelve a tirar de nuevo (uno o más dados). Con un éxito (total o parcial), ganas +1 de impulso e infliges +2 de daño.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.8d90dd472856be27]{Reabastecerte} cazando, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Augur": {
+      "name": "Augurio",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando invocas una bandada de cuervos y haces una sola pregunta, tira +mente. Con un éxito total, interpretas sus graznidos como un buen presagio. Di qué es lo que te responden (@Compendium[foundry-ironsworn.ironswornmoves.aba3e44b7e810c0f]{Pregunta al oráculo} en caso de duda). Ganas +2 de impulso. Con un éxito parcial, los cuervos no responden tu pregunta, sino que te ofrecen una pista sobre una oportunidad o problema presentes en la zona. Di qué es lo que descubres (@Compendium[foundry-ironsworn.ironswornmoves.aba3e44b7e810c0f]{Pregunta al oráculo} en caso de duda). Ganas+1 de impulso</p>"
+        },
+        {
+          "description": "<p>Como arriba, pero los cuervos también te ayudarán guiándote en la dirección correcta. Con un éxito (total o parcial), suma +1 al @Compendium[foundry-ironsworn.ironswornmoves.ac19f4c7f3fe31be]{Viajar} en el siguiente tramo que recorras.</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Awakening": {
+      "name": "Despertar",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando creas un simulacro, tira +corazón. Con un éxito total, imbuyes, contra natura, vida en tu creación. Cuando te ayude a hacer un movimiento para atacar o superar un obstáculo empleando su fuerza, suma +2. El simulacro tiene salud 3 y sufre daño con normalidad, pero no es un compañero. No puede ser curado y muere si su salud llega a 0. Con un éxito parcial, como arriba, pero si sacas un 1 en el dado de acción cuando tu creación te está ayudando, debes @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} +corazón para evitar que se vuelva contra ti (oponente formidable).</p>"
+        },
+        {
+          "description": "<p>Tu simulacro tiene salud 6.</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Banner-Sworn": {
+      "name": "Vasallaje",
+      "category": "Senda",
+      "requirement": "<p>Requisito: tener un vínculo con una figura de poder o una facción.</p>",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.010e27aa4376d4df]{Jurar por el Hierro} que servirás a tu facción o a tu líder durante una misión puedes volver a tirar de nuevo (uno o más dados). Al @Compendium[foundry-ironsworn.ironswornmoves.725a21e2f02d7e12]{Cumplir tu juramento} y registrar la experiencia que has ganado, ganas 1 punto de experiencia adicional.</p>"
+        },
+        {
+          "description": "<p>Tanto al @Compendium[foundry-ironsworn.ironswornmoves.25421995c803340e]{Pasar tiempo en una comunidad} como al @Compendium[foundry-ironsworn.ironswornmoves.30046577bc83f2f0]{Acampar} con tus iguales, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.ed343c963b08f301]{Entrar en liza} portando tu estandarte, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso. Cuando te aprovechas del impulso mientras portas tu estandarte en combate, tras restablecer el impulso a su valor inicial, ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Battle-Scarred": {
+      "name": "Cicatrices de Guerra",
+      "category": "Senda",
+      "requirement": "<p>Requisito: estar mutilado.</p>",
+      "abilities": [
+        {
+          "description": "<p>Centrarse en lo importante: reduce tu filo o hierro en 1. Puedes repartir 2 puntos entre corazón y mente como tú quieras, pero ninguna puede superar +4.</p>"
+        },
+        {
+          "description": "<p>Superar tus limitaciones: reduce tu salud máxima en 1. Mutilado ya no cuenta como una debilidad para ti y no reduce tu impulso máximo ni tu impulso inicial. Al @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} +corazón, suma +1.</p>"
+        },
+        {
+          "description": "<p>Mirarle a la Muerte a la cara: al @Compendium[foundry-ironsworn.ironswornmoves.fdb51ee928b4fca2]{Soportar el daño}, si tu salud está a 0 puedes tirar +corazón o +mente (en vez de +hierro o +salud). En ese caso, con un éxito (total o parcial) ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Berserker": {
+      "name": "Berserker",
+      "category": "Talento de Combate",
+      "requirement": "<p>Requisito: vestir únicamente con pieles de animales.</p>",
+      "abilities": [
+        {
+          "description": "<p>Si al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} o al @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} te conviertes en la personificación de tu naturaleza salvaje, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Si al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} o al @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} desatas tu rabia (decídelo antes de tirar), infliges +1 de daño con un éxito (total o parcial). A continuación, elige una.</p>\n<ul>\n<li>Llevar al límite tu cuerpo: debes @Compendium[foundry-ironsworn.ironswornmoves.fdb51ee928b4fca2]{Soportar el daño} (1 de daño).</li>\n<li>Perder la cabeza: debes @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} (2 de estrés).</li>\n</ul>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.fdb51ee928b4fca2]{Soportar el daño} en un combate, si tu salud es mayor de 0, puedes dejar que el dolor inflame tu naturaleza salvaje (decídelo antes de tirar). En tal caso, si obtienes un éxito total y eliges «el dolor es mi alimento», ganas tanto +impulso como tu salud restante (en vez de +1 de impulso), pero un éxito parcial cuenta como un fallo.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Bind": {
+      "name": "Vínculo Salvaje",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando vistes con las pieles de un animal y bailas a la luz de la luna, tira +mente. Con un éxito total, tú o un personaje aliado podéis llevar puestas las pieles y sumar +1 al hacer movimientos con la característica relacionada: corazón (ciervo), filo (lobo), hierro (oso), mente (jabalí) y sombra (zorro). Al hacer un movimiento usando las pieles, si quien las lleva puestas saca un 1 en el dado de acción, el efecto termina. Con un éxito parcial, como arriba, pero la naturaleza te llama mientras bailas; debes @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} (2 de estrés).</p>"
+        },
+        {
+          "description": "<p>Como arriba, pero puedes elegir llevar a cabo este ritual vistiendo las pieles de una bestia. Si lo haces, indica cuál es la característica relacionada y suma +2 (en vez de +1).</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Blade-Bound": {
+      "name": "Espada Viviente",
+      "category": "Senda",
+      "requirement": "<p>Requisito: haber marcado un vínculo con la espada de tu familia, una reliquia inteligente imbuida con el espíritu de uno de tus antepasados.</p>",
+      "abilities": [
+        {
+          "description": "<p>Tanto al @Compendium[foundry-ironsworn.ironswornmoves.ed343c963b08f301]{Entrar en liza} como al @Compendium[foundry-ironsworn.ironswornmoves.c0967ba47f57393b]{Trazar el círculo} empuñando tu espada familiar, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información} escuchando los susurros de tu espada familiar, suma +1. En caso de éxito (total o parcial), ganas +2 de impulso. A continuación, debes @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} (2 de estrés).</p>"
+        },
+        {
+          "description": "<p>Antes de tirar @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} con tu espada familiar, puedes decidir intentar infligir un daño brutal. Si es así, suma +1. En caso de éxito (total o parcial), infliges +2 de daño. A continuación, debes @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} (2 de estrés).</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Bonded": {
+      "name": "Fuertes Vínculos",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando hagas un movimiento que te dé una bonificación por tener un vínculo, suma +1 adicional.</p>"
+        },
+        {
+          "description": "<p>Cuando rellenas por completo una casilla del contador de progreso de tus vínculos, piensa lo que has aprendido de tus relaciones hasta ahora. Luego, ganas +2 de impulso y 1 punto de experiencia.</p>"
+        },
+        {
+          "description": "<p>Cuando hagas un movimiento en un momento crucial y obtengas un fallo, el recuerdo de tu gente puede darte aliento y coraje. Puedes, si quieres, volver a tirar de nuevo (uno o más dados), pero si vuelves a fallar, además del resultado del movimiento, debes marcar la debilidad conmocionado o corrompido. Si ambas están marcadas, debes @Compendium[foundry-ironsworn.ironswornmoves.1f978f9faa43d5c6]{Afrontar la desolación}.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Brawler": {
+      "name": "Púgil",
+      "category": "Talento de Combate",
+      "requirement": "<p>Requisito: estar luchando sin armas o con un arma no letal.</p>",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} +hierro cuando te enzarzas en una pelea cuerpo a cuerpo a base de puñetazos, forcejeos o proyecciones, suma +1. En caso de éxito (total o parcial), infliges +1 de daño.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear}, cuando haces un ataque desarmado o con un arma sencilla con la intención de matar a tu objetivo, suma +2. En caso de éxito (total o parcial), infliges 2 de daño (en vez de 1). Con un éxito parcial o un fallo, pierdes -1 de impulso (adicionalmente a lo que indique el resultado del movimiento).</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} o al @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} haciendo frente a ataques de oponentes sin armas (o con armas no letales), suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Cave Lion": {
+      "name": "León de las Cavernas",
+      "category": "Compañero",
+      "requirement": "<p>Tu felino derriba a su presa.</p>",
+      "abilities": [
+        {
+          "description": "<p>Ávido: cuando tu felino abate una pieza de caza mayor, puedes @Compendium[foundry-ironsworn.ironswornmoves.8d90dd472856be27]{Reabastecerte} con +filo (en vez de +mente). En tal caso, si obtienes un éxito total, ganas +1 de suministros o +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Inexorable: si ordenas a tu felino que ataque al @Compendium[foundry-ironsworn.ironswornmoves.ed343c963b08f301]{Entrar en liza} o al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear}, tira +filo. En caso de éxito (total o parcial), ganas +2 de impulso.</p>"
+        },
+        {
+          "description": "<p>Protector: al @Compendium[foundry-ironsworn.ironswornmoves.30046577bc83f2f0]{Acampar} tu felino vigila. Si eliges relajarte ganas +1 de entereza. Cualquier personaje aliado que elija relajarse también gana +1 de entereza.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Commander": {
+      "name": "Comandante",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Eres líder de una cuadrilla de guerra de fuerza +4. Tira +fuerza cuando les ordenes Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro}, @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja}, @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} o hagas una @Compendium[foundry-ironsworn.ironswornmoves.412156232a6d42bf]{Batalla simplificada}. Cuando afrontes el resultado negativo de un movimiento, como coste, puedes reducir la fuerza de la cuadrilla en -1. Siempre que al @Compendium[foundry-ironsworn.ironswornmoves.30046577bc83f2f0]{Acampar} o @Compendium[foundry-ironsworn.ironswornmoves.25421995c803340e]{Pasar tiempo en una comunidad}obtengas un éxito (total o parcial), la cuadrilla gana +1 de fuerza. Mientras la cuadrilla tenga fuerza 0, este recurso contará como una debilidad.</p>"
+        },
+        {
+          "description": "<p>Puedes enviar a tu gente a explorar para @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información} o @Compendium[foundry-ironsworn.ironswornmoves.8d90dd472856be27]{Reabastecerte}. Cuando lo hagas, tira +fuerza.</p>"
+        },
+        {
+          "description": "<p>Primero has de @Compendium[foundry-ironsworn.ironswornmoves.b643d9ea53ff8d98]{Forjar un vínculo} con tu cuadrilla. A partir de entonces, cuando te aproveches de sus habilidades, ganas +1 de impulso en caso de éxito (total o parcial).</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Fuerza"
+    },
+    "Communion": {
+      "name": "Comunión",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando rodeas con velas los restos mortales de una criatura inteligente recientemente fallecida e invocas su espíritu, tira +corazón. Suma +1 si tienes un vínculo con ella. Con un éxito total, el espíritu se aparece y puedes conversar durante unos minutos. Haz los movimientos que consideres apropiados (suma +1). Con un éxito parcial, como arriba, pero el espíritu te transmite también noticias preocupantes no relacionadas con tus intenciones. Establece qué es lo que te dice (@Compendium[foundry-ironsworn.ironswornmoves.aba3e44b7e810c0f]{Pregunta al oráculo} en caso de duda) y @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soporta el estrés} (1 de estrés).</p>"
+        },
+        {
+          "description": "<p>Como arriba, pero puedes entrar en comunión con quienes llevan muertos largo tiempo.</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Cutthroat": {
+      "name": "Rebanapescuezos",
+      "category": "Talento de Combate",
+      "requirement": "<p>Requisito: empuñar una daga o un cuchillo.</p>",
+      "abilities": [
+        {
+          "description": "<p>Cuando estás en posición de @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} a un oponente que no se lo espera, elige una (antes de tirar).</p>\n<ul>\n<li>Suma +2. En caso de éxito (total o parcial), ganas +1 de impulso.</li>\n<li>Con un éxito (total o parcial) infliges +2 de daño.</li>\n</ul>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} a alguien con tu hoja en su cuello (o en otra parte vulnerable) o al confiar en tu cuchillo o daga para @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro}, suma +1.</p>"
+        },
+        {
+          "description": "<p>Una vez por combate, al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} +sombra para realizar una finta o una maniobra de distracción vuelve a tirar de nuevo (uno o más dados). En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Dancer": {
+      "name": "Danzante",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} +filo bailando para el público, suma +1. En caso de éxito (total o parcial), ganas +2 de impulso. En caso de éxito total, suma +2 ( Puedes hacerlo una sola vez.) si haces un movimiento para interactuar con alguien del público.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} +filo en una lucha esquivando con agilidad los ataques de tu oponente, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando tú o un personaje aliado hacéis un movimiento de progreso y obtenéis un éxito (total o parcial), podéis realizar un baile para conmemorar el evento. En tal caso, tira +filo. Con un éxito total, tú y tus aliados ganáis +2 de impulso y +1 de entereza. Con un éxito parcial, tú ganas +1 de impulso y +1 de entereza, pero tus aliados no se conmueven.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Devotant": {
+      "name": "Creyente",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando rezas tus oraciones diarias, puedes @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} pidiéndole a tu dios que te conceda su bendición. En tal caso, tira +característica de tu dios. Con un éxito (total o parcial), ganas +2 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.010e27aa4376d4df]{Jurar por el Hierro} que servirás a tu dios en una búsqueda divina, puedes tirar +característica de tu dios y volver a tirar de nuevo (uno o más dados). Al @Compendium[foundry-ironsworn.ironswornmoves.725a21e2f02d7e12]{Cumplir tu juramento} y registrar la experiencia que has ganado, ganas 1 punto de experiencia adicional.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.25421995c803340e]{Pasar tiempo en una comunidad} predicando puedes tirar +característica de tu dios. En ese caso, con un éxito (total o parcial) ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre del dios"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Divination": {
+      "name": "Adivinación",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando tomas una gota de sangre de un sujeto voluntario (no puedes ser tú) y echas a rodar las piedras rúnicas, tira +corazón. Con un éxito total, puedes leer las runas para obtener información presente y pasada sobre el sujeto y las personas cercanas a él, incluyendo información que ni tú ni el sujeto conocéis. Cuando uses la lectura para @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información}, @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} o @Compendium[foundry-ironsworn.ironswornmoves.b643d9ea53ff8d98]{Forjar un vínculo}, suma +1. Con un éxito parcial, como arriba, pero para que las runas te revelen sus secretos, has de invertir tiempo y concentración extra: pierdes -2 de impulso.</p>"
+        },
+        {
+          "description": "<p>Como arriba, pero la adivinación también puede revelar información sobre el futuro del sujeto.</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Duelist": {
+      "name": "Duelista",
+      "category": "Talento de Combate",
+      "requirement": "<p>Requisito: empuñar un arma blanca en cada mano.</p>",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} o al @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} puedes sumar +2. Si lo haces (decídelo antes de tirar) y obtienes un éxito total, infliges +1 de daño, pero un éxito parcial cuenta como un fallo.</p>"
+        },
+        {
+          "description": "<p>Una vez por combate, al arriesgarte a @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} +filo haciendo alarde de tu habilidad en combate, puedes volver a tirar de nuevo (uno o más dados).</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.c0967ba47f57393b]{Al Trazar el círculo}, elige una (antes de tirar).</p>\n<ul>\n<li>Suma +2.</li>\n<li>En caso de éxito (total o parcial), ganas +2 de impulso.</li>\n</ul>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Empowered": {
+      "name": "Prócer",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Si obtienes un éxito parcial o un fallo al @Compendium[foundry-ironsworn.ironswornmoves.25421995c803340e]{Pasar un tiempo en una comunidad}, puedes exigir los derechos de hospitalidad que te corresponden por tu título o linaje. En tal caso, tira todos los dados otra vez y suma +1. Con un fallo, te rechazan y tu presuntuosidad es la fuente de nuevos y graves problemas.</p>"
+        },
+        {
+          "description": "<p>Cuando al @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} haces valer tu título o linaje, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Tanto al @Compendium[foundry-ironsworn.ironswornmoves.010e27aa4376d4df]{Jurar por el Hierro} que servirás a alguien de menor condición como al @Compendium[foundry-ironsworn.ironswornmoves.b643d9ea53ff8d98]{Forjar un vínculo} de igual a igual, prescindiendo de tu título o linaje, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso o +1 de entereza.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Título/Linaje"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Fated": {
+      "name": "Un Destino que Cumplir",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.92b85c33a17ab487]{Afrontar la muerte} o al @Compendium[foundry-ironsworn.ironswornmoves.1f978f9faa43d5c6]{Afrontar la desolación}, si tienes un juramento de trasfondo de nivel épico que aún no hayas cumplido, no ha llegado aún tu hora. En vez de tirar, considera que has obtenido un éxito total. Cuando lo hagas, este recurso contará como una debilidad (y ya no estarás bajo su protección) hasta @Compendium[foundry-ironsworn.ironswornmoves.c3696751a921323b]{Alcanzar un hito} en el juramento de trasfondo.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.c3696751a921323b]{Alcanzar un hito} en tu juramento de trasfondo, ganas +1 de impulso o +1 de entereza.</p>"
+        },
+        {
+          "description": "<p>Ganas 1 punto de experiencia por cada dos casillas que completes del contador de progreso de tu juramento de trasfondo. Al @Compendium[foundry-ironsworn.ironswornmoves.725a21e2f02d7e12]{Cumplir tu juramento} tu destino estará al alcance de la mano. Establece tu sacrificio final. Puedes volver a tirar de nuevo (uno o más dados).</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Fletcher": {
+      "name": "Fabricante de Flechas",
+      "category": "Talento de Combate",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} fabricando flechas de gran calidad, suma +1. En tal caso, si obtienes un éxito (total o parcial), ganas +1 de suministros o +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.8d90dd472856be27]{Reabastecerte} recuperando o recogiendo flechas tras una batalla, suma +2.</p>"
+        },
+        {
+          "description": "<p>Cuando diseñas y fabricas una sola flecha para derrotar a un oponente específico, establece cuál es el proceso y los materiales que empleas y tira +mente. Con un éxito total, elige ambas. Con un éxito parcial, elige una.</p>\n<ul>\n<li>Rastreadora: cuando se dispara la flecha para @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} o @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} contra este oponente, se puede volver a tirar de nuevo (uno o más dados). Puedes hacerlo una sola vez.</li>\n<li>Asesina: cuando la flecha inflige daño a este oponente, suma +1d6 de daño (puedes hacerlo una sola vez).</li>\n</ul>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Fortune Hunter": {
+      "name": "Cazatesoros",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.010e27aa4376d4df]{Jurar por el Hierro} a cambio de una promesa de pago, suma +1 y marca dicho juramento con un símbolo para que puedas reconocerlo. Al @Compendium[foundry-ironsworn.ironswornmoves.725a21e2f02d7e12]{Cumplir tu juramento} exitosamente con esa persona, ganas +riqueza igual al nivel de desafío de la búsqueda. Puedes aprovecharte de la riqueza en aquellos movimientos donde los recursos sean un factor que haya que tener en cuenta. En tal caso, suma +riqueza y pierdes -1 de riqueza.</p>"
+        },
+        {
+          "description": "<p>Cuando estés en una comunidad o comerciando puedes elegir perder -1 de riqueza y ganar +2 de suministros.</p>"
+        },
+        {
+          "description": "<p>Cuando obtienes una coincidencia en un éxito total al @Compendium[foundry-ironsworn.ironswornmoves.8d90dd472856be27]{Reabastecerte} rebuscando para encontrar algo de utilidad o saqueando, puedes describir cómo encuentras un objeto de valor. En tal caso, ganas +1 de suministros (en vez de +2) y +1 de riqueza.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Riqueza"
+    },
+    "Giant Spider": {
+      "name": "Araña Gigante",
+      "category": "Compañero",
+      "requirement": "<p>Tu araña desvela secretos.</p>",
+      "abilities": [
+        {
+          "description": "<p>Discreta: si envías a tu araña a explorar un lugar, suma +1 al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja}. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Atravesar el alma: puedes @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} +sombra enviando a tu araña para escudriñar en secreto a alguien. En caso de éxito (total o parcial), la araña regresa y te revela, en forma de reflejos en sus ojos vidriosos, los miedos más profundos del objetivo. Esto te permite volver a tirar de nuevo (uno o más dados) al @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información}.</p>"
+        },
+        {
+          "description": "<p>Acechadora: cuando tu araña tiende una trampa, suma +1 al @Compendium[foundry-ironsworn.ironswornmoves.ed343c963b08f301]{Entrar en liza} +sombra. En caso de éxito total, infliges 2 de daño.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Hawk": {
+      "name": "Halcón",
+      "category": "Compañero",
+      "requirement": "<p>Tu halcón puede ayudarte mientras esté en el aire.</p>",
+      "abilities": [
+        {
+          "description": "<p>Otear: tanto al @Compendium[foundry-ironsworn.ironswornmoves.ac19f4c7f3fe31be]{Viajar} como al @Compendium[foundry-ironsworn.ironswornmoves.8d90dd472856be27]{Reabastecerte} cobrando piezas de caza menor, suma +1.</p>"
+        },
+        {
+          "description": "<p>Feroz: al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} +filo usando tu halcón para acosar y distraer a tus enemigos, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Alerta: tanto al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} +mente para detectar una amenaza en ciernes como al @Compendium[foundry-ironsworn.ironswornmoves.ed343c963b08f301]{Entrar en liza} +mente si te emboscan, suma +1.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Herbalist": {
+      "name": "Herborista",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando intentes @Compendium[foundry-ironsworn.ironswornmoves.3d315ee54e9ce845]{Curar} empleando remedios de hierbas y tengas al menos +1 de suministros, elige una (decídelo antes de tirar).</p>\n<ul>\n<li>Suma +2.</li>\n<li>En caso de éxito (total o parcial), curas al objetivo (que puedes ser tú) +1 punto de salud adicional.</li>\n</ul>"
+        },
+        {
+          "description": "<p>Si obtienes un éxito (total o parcial) al @Compendium[foundry-ironsworn.ironswornmoves.3d315ee54e9ce845]{Curar} a un personaje aliado, compañero u otro personaje, ganas +1 de entereza o +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.30046577bc83f2f0]{Acampar} y elegir la opción de compartir, puedes preparar una comida reconstituyente. En tal caso, tú y tus compañeros ganáis +1 de salud. Cualquier personaje aliado que elija compartir gana también +1 de salud y no pierde -suministros.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Honorbound": {
+      "name": "Honorable",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.12e23cfe23534a8f]{Cambiar las tornas}, establece cómo tus juramentos te dan fuerza en este momento. A continuación, cuando hagas tu movimiento, suma +2 (en vez de +1). En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Tanto al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} como al @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} diciendo una verdad cruda, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso. Con un éxito parcial o un fallo, determina cómo esta verdad complica tu situación actual.</p>"
+        },
+        {
+          "description": "<p>Si obtienes un fallo al @Compendium[foundry-ironsworn.ironswornmoves.725a21e2f02d7e12]{Cumplir tu juramento}, puedes volver a tirar un dado de desafío. Si vuelves a fallar, reduce tu entereza máxima en 1. Puedes recuperar la entereza perdida la próxima vez que obtengas un éxito total al @Compendium[foundry-ironsworn.ironswornmoves.725a21e2f02d7e12]{Cumplir tu juramento}.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Horse": {
+      "name": "Caballo",
+      "category": "Compañero",
+      "requirement": "<p>Tu montura y tú sois uno.</p>",
+      "abilities": [
+        {
+          "description": "<p>Veloz: al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} +filo aprovechándote de la agilidad y rapidez de tu caballo o al @Compendium[foundry-ironsworn.ironswornmoves.ac19f4c7f3fe31be]{Viajar}, suma +1.</p>"
+        },
+        {
+          "description": "<p>Intrépido: tanto al @Compendium[foundry-ironsworn.ironswornmoves.ed343c963b08f301]{Entrar en liza} +corazón como al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} +corazón cargando al combate sobre tu montura, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Imponente: tanto al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} como al @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} cuerpo a cuerpo desde tu montura, suma +1. En caso de éxito (total o parcial), infliges +1 de daño.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Hound": {
+      "name": "Sabueso",
+      "category": "Compañero",
+      "requirement": "<p>Tu perro es un compañero incondicional.</p>",
+      "abilities": [
+        {
+          "description": "<p>Perspicaz: al @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información} usando los agudos sentidos de tu sabueso para rastrear a una presa o investigar una escena, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Feroz: tanto al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} como al @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} con la ayuda de tu sabueso, si obtienes un éxito (total o parcial), infliges +1 de daño o ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Leal: al @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} en compañía de tu sabueso, suma +1.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Improviser": {
+      "name": "Improvisación",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironsworndelvemoves.48f642fd361e9c03]{Revisar tu equipo}, puedes tirar +mente (en vez de +suministros). En tal caso, explica cómo te las arreglas para encontrar una solución ingeniosa. Con un éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Tanto al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} como al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} improvisando una herramienta o artefacto para salir al paso, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso. Después de tirar, también puedes perder -1 de suministros para sumar un +1 adicional.</p>"
+        },
+        {
+          "description": "<p>Cuando te juegas el todo por el todo y haces un movimiento impulsivo en una situación de riesgo, puedes sumar +2. En tal caso, con un éxito total ganas +1 de impulso, pero un éxito parcial se considera un fallo.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Infiltrator": {
+      "name": "Infiltración",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando hagas un movimiento para esconderte, penetrar o recorrer un área enemiga, suma+1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información} en el interior de un área enemiga con la intención de averiguar sus planes, sus métodos o sus posiciones o al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} dentro de esa área mediante la observación, puedes tirar +sombra (en vez de +mente). En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.8d90dd472856be27]{Reabastecerte} dentro de un área enemiga rebuscando para encontrar algo de utilidad o saqueando, puedes tirar +sombra (en vez de +mente). En tal caso, con un éxito (total o parcial) ganas +1 de impulso o +1 de suministros.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Invoke": {
+      "name": "Conjuración",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando consumes y utilizas la esencia mística de tu entorno, tira +mente. Con un éxito total, suma el valor del dado de acción a tu contador de esencia (máx. 6). A continuación, puedes @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} o @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} +esencia para crear efectos místicos menores e ilusiones menores. En tal caso, con un éxito (total o parcial), pierdes -1 de esencia y ganas +1 de impulso. Con un éxito parcial, como arriba, pero el proceso de absorción de la energía resulta traumático: debes @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} (2 de estrés).</p>"
+        },
+        {
+          "description": "<p>Puedes @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} +esencia (pierdes -1 de esencia) con una demostración de tu poder.</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Esencia"
+    },
+    "Ironclad": {
+      "name": "Vestir el Hierro",
+      "category": "Talento de Combate",
+      "requirement": "<p>Requisito: llevar puesta una armadura.</p>",
+      "abilities": [
+        {
+          "description": "<p>Cuando te equipas o ajustas tu armadura, elige una.</p>\n<ul>\n<li>Armadura ligera: al @Compendium[foundry-ironsworn.ironswornmoves.fdb51ee928b4fca2]{Soportar el daño} durante un combate, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</li>\n<li>Armadura de guerra: marca sobrecargado. Al @Compendium[foundry-ironsworn.ironswornmoves.fdb51ee928b4fca2]{Soportar el daño} durante un combate, suma +2. En caso de éxito (total o parcial), ganas +1 de impulso.</li>\n</ul>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar}, si llevas puesta una armadura de guerra, suma +1.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} en una situación donde la fuerza de las armas es un factor que tener en cuenta, suma +2.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Keen": {
+      "name": "Afiladura",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando sostienes un arma que ha arrebatado una vida y entonas un canto fúnebre, tira +corazón. Con un éxito total, quien blanda el arma infligirá +1 de daño al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} o @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar}. Si se obtiene un 1 en el dado de acción al hacer un movimiento para infligir daño, el efecto termina. Con un éxito parcial, como arriba, pero las voces de quienes fueron asesinados con el arma, se cuelan en tu canto fúnebre: debes @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} (2 de estrés).</p>"
+        },
+        {
+          "description": "<p>Como arriba, pero si quien porta el arma obtiene un éxito (total o parcial) al @Compendium[foundry-ironsworn.ironswornmoves.c0967ba47f57393b]{Trazar el\ncírculo}, @Compendium[foundry-ironsworn.ironswornmoves.ed343c963b08f301]{Entrar en liza} o en una @Compendium[foundry-ironsworn.ironswornmoves.412156232a6d42bf]{Batalla\nsimplificada}, puede (una sola vez) sumar +1 y ganar +2 de impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Kindred": {
+      "name": "Amigo",
+      "category": "Compañero",
+      "requirement": "<p>Puedes contar con tu amigo.</p>",
+      "abilities": [
+        {
+          "description": "<p>Hábil: cuando hagas un movimiento fuera del combate y tu compañero te ayude con su habilidad, suma +1.</p>"
+        },
+        {
+          "description": "<p>Soy tu escudo: cuando al @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} o en una @Compendium[foundry-ironsworn.ironswornmoves.412156232a6d42bf]{Batalla simplificada} peleas codo con codo con tu compañero o cuando permanecéis unidos al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} defendiéndoos de un ataque, suma +1.</p>"
+        },
+        {
+          "description": "<p>Vinculado: si compartes un vínculo con tu compañero, suma +1 cuando debas @Compendium[foundry-ironsworn.ironswornmoves.1f978f9faa43d5c6]{Afrontar la desolación} en su compañía.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Leech": {
+      "name": "Chupasangre",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando te marcas las manos o marcas un arma con una intrincada runa de sangre, tira +hierro. Con un éxito total, la runa tiene sed de sangre. Una sola vez por ritual, cuando hagas un movimiento para infligir daño, puedes volver a tirar de nuevo (uno o más dados). En caso de éxito (total o parcial), infliges +2 de daño. A continuación, por cada punto de daño infligido ganas +1 que asignas como +salud o +impulso. Con un éxito parcial, como arriba, pero este recurso contará como una debilidad hasta que la runa sacie su sed de sangre.</p>"
+        },
+        {
+          "description": "<p>Como arriba, pero puedes tocar a un personaje aliado o a un compañero y permitirle ganar cualquier cantidad de puntos sobrantes en forma de +salud o +impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Lightbearer": {
+      "name": "Luz Primordial",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando te concentras en una fuente de luz y capturas su esencia, tira +mente. Con un éxito total, establece tu contador de luz en +6. Con un éxito parcial, establece tu contador de luz en +3. Luego, cuando hagas un movimiento para superar la oscuridad o guiarte en ella, puedes sumar +2 y perder -1 de luz.</p>"
+        },
+        {
+          "description": "<p>Puedes usar la luz primordial para @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} o @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} a moradores de la infraoscuridad. Elige la cantidad de luz que vas a descargar y tira +luz (en vez de +hierro o +filo). Pierdes -luz igual a esa cantidad. Con un éxito (total o parcial), tu daño es 1 + la cantidad de luz descargada.</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Luz"
+    },
+    "Long-Arm": {
+      "name": "Maestría con el Bastón",
+      "category": "Talento de Combate",
+      "requirement": "<p>Requisito: empuñar un bastón.</p>",
+      "abilities": [
+        {
+          "description": "<p>En tus manos, un humilde bastón es un arma letal (2 de daño). Cuando usas el bastón como un arma sencilla (1 de daño), puedes @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} o @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} +filo (en vez de +hierro). En tal caso, con un éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} +filo usando el bastón para desarmar, derribar, empujar o aturdir a tu oponente, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando obtienes un éxito total al @Compendium[foundry-ironsworn.ironswornmoves.ac19f4c7f3fe31be]{Viajar} —o si acompañas a un personaje aliado que obtiene un éxito total en ese movimiento— tu bastón te proporciona apoyo y comodidad en tus viajes; ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Lorekeeper": {
+      "name": "Archivo Místico",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Llevas contigo un archivo místico. Al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} o @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información} usando los conocimientos de tus años de estudio, suma +1. Si dispones de algunas horas para consultar el archivo, suma +2. En caso de éxito (total o parcial), ganas +1 de impulso. Detalla cómo tus conocimientos ocultos te ayudan (@Compendium[foundry-ironsworn.ironswornmoves.aba3e44b7e810c0f]{Pregunta al oráculo} en caso de duda).</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.010e27aa4376d4df]{Jurar por el Hierro} que recopilarás para el archivo conocimientos olvidados de un lugar o un objeto, puedes volver a tirar de nuevo (uno o más dados). Al @Compendium[foundry-ironsworn.ironswornmoves.725a21e2f02d7e12]{Cumplir tu juramento} y registrar la experiencia que has ganado, ganas +1 punto de experiencia adicional.</p>"
+        },
+        {
+          "description": "<p>Una sola vez en la vida, puedes navegar las profundidades prohibidas del archivo. Si lo haces, suma +1 a mente y tira un dado de acción. Con un resultado de 1-3, debes, además, marcar corrompido o @Compendium[foundry-ironsworn.ironswornmoves.1f978f9faa43d5c6]{Afrontar la desolación} (no puedes usar tu impulso en esta tirada).</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Loyalist": {
+      "name": "Leal",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.f762e8f471fe875f]{Ayudar a un aliado}, suma +1. Con un éxito (total o parcial) ganas +1 de impulso (adicionalmente a los beneficios que recibe tu aliado).</p>"
+        },
+        {
+          "description": "<p>Cuando un personaje aliado hace el movimiento @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} en tu presencia, puede sumar +1. En caso de éxito (total o parcial), tú ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando apoyas a tu aliado mientras hace un movimiento de progreso, detalla cómo le ayudas. A continuación tira un dado de desafío. Con un 1-9, tu aliado puede reemplazar uno de sus propios dados de desafío por el tuyo. Con un 10, describe cómo le perjudicas involuntariamente; tu aliado debe reemplazar su dado de desafío más bajo por el tuyo.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Mammoth": {
+      "name": "Mamut",
+      "category": "Compañero",
+      "requirement": "<p>Tu mamut camina con decisión.</p>",
+      "abilities": [
+        {
+          "description": "<p>La tierra tiembla: suma +2 si quieres al @Compendium[foundry-ironsworn.ironswornmoves.ac19f4c7f3fe31be]{Viajar} con tu mamut (decídelo antes de tirar). En tal caso, pierdes -1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Bestia de carga: cuando hagas un movimiento que requiera que tires +suministros, puedes, en vez de ello, tirar +salud de tu mamut.</p>"
+        },
+        {
+          "description": "<p>Sobrecogedor: tanto al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} como al @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} a lomos de tu mamut contra un grupo de oponentes, suma +1. En caso de éxito (total o parcial), infliges +1 de daño.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Masked": {
+      "name": "La Máscara",
+      "category": "Senda",
+      "requirement": "<p>Requisito: haber marcado un vínculo con los elfos y que te regalen una máscara de madera preciosa de un árbol primigenio.</p>",
+      "abilities": [
+        {
+          "description": "<p>¿De qué está hecha tu máscara?</p>\n<ul>\n<li>Madera del trueno: filo/salud.</li>\n<li>Madera sangrante: hierro/salud.</li>\n<li>Madera espectral: sombra/entereza.</li>\n<li>Madera susurrante: mente/entereza.</li>\n</ul>\n<p>Cuando llevas puesta la máscara y haces un movimiento con la característica indicada, suma +1. Si sacas un 1 en el dado de acción, adicionalmente a lo que indique el resultado del movimiento, pierdes -1 en el contador asociado.</p>"
+        },
+        {
+          "description": "<p>Como arriba, pero puedes elegir sumar +2 y perder -2 (decídelo antes de tirar).</p>"
+        },
+        {
+          "description": "<p>Tanto al @Compendium[foundry-ironsworn.ironswornmoves.92b85c33a17ab487]{Afrontar la muerte} como al @Compendium[foundry-ironsworn.ironswornmoves.1f978f9faa43d5c6]{Afrontar la desolación} mientras llevas puesta la máscara, puedes tirar +característica de la máscara (en vez de +corazón).</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Oathbreaker": {
+      "name": "Rompejuramentos",
+      "category": "Senda",
+      "requirement": "<p>Requisito: @Compendium[foundry-ironsworn.ironswornmoves.f968f5e0a837a83a]{Romper tu juramento} te causó un gran dolor.</p>",
+      "abilities": [
+        {
+          "description": "<p>Este recurso cuenta como una debilidad. Una sola vez en la vida, al @Compendium[foundry-ironsworn.ironswornmoves.010e27aa4376d4df]{Jurar por el Hierro} que te redimirás (desafío extremo o mayor), marca dicho juramento con un símbolo para que puedas reconocerlo. Al @Compendium[foundry-ironsworn.ironswornmoves.c3696751a921323b]{Alcanzar un hito} en el juramento que has marcado, ganas +2 de impulso.</p>"
+        },
+        {
+          "description": "<p>Tanto al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} como al @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} reafirmando tu compromiso con el juramento marcado, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso</p>"
+        },
+        {
+          "description": "<p>Cuando obtienes un éxito (total o parcial) al @Compendium[foundry-ironsworn.ironswornmoves.725a21e2f02d7e12]{Cumplir tu juramento} marcado, encuentras la redención que buscabas y esta capacidad se activa automáticamente sin ningún coste asociado. A continuación, mejora una de tus características en +1 y descarta este recurso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Outcast": {
+      "name": "Paria",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando tus suministros se ven reducidos a 0, pierdes cualquier sobrante de -suministros en -impulso. A continuación, tira +mente. Con un éxito total, te las arreglas para salir al paso y ganas +1 de suministros. Con un éxito parcial, puedes elegir perder -2 de impulso a cambio de ganar +1 de suministros. En caso de fallo, haz el movimiento @Compendium[foundry-ironsworn.ironswornmoves.e599a449ce2cc52b]{Quedarse sin suministros}.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.25421995c803340e]{Pasar tiempo en una comunidad}, puedes volver a tirar de nuevo (uno o más dados). Si lo haces (decídelo antes de tirar), te aíslas y te las apañas con lo mínimo, pero al mismo tiempo tu actitud te distingue del resto y te señala. Un éxito total cuenta como un éxito parcial.</p>"
+        },
+        {
+          "description": "<p>Al obtener un éxito total al @Compendium[foundry-ironsworn.ironswornmoves.727eb47e8f031e81]{Alcanzar tu destino}, recuerdas o reconoces algo en este lugar que te resulta útil; detállalo. Ganas +2 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Owl": {
+      "name": "Búho",
+      "category": "Compañero",
+      "requirement": "<p>Tu búho sobrevuela en la oscuridad.</p>",
+      "abilities": [
+        {
+          "description": "<p>Nocturno: si obtienes un éxito (total o parcial) al @Compendium[foundry-ironsworn.ironswornmoves.8d90dd472856be27]{Reabastecerte} por la noche enviando tu búho a cazar, ganas+2 de impulso. Si te emboscan en la oscuridad y tienes que tirar @Compendium[foundry-ironsworn.ironswornmoves.ed343c963b08f301]{Entrar en liza} +mente, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Sabio: cuando te aprovechas del conocimiento secreto de tu búho para realizar un ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Encarnación: al @Compendium[foundry-ironsworn.ironswornmoves.92b85c33a17ab487]{Afrontar la muerte} ganas +impulso igual a la salud de tu búho antes de tirar.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Pretender": {
+      "name": "Farsante",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando estableces una falsa identidad, tira +sombra. Con un éxito total, puedes sumar +2 cuando hagas movimientos con tu identidad falsa para engañar o influenciar a otras personas. Si sacas un 1 en el dado de acción cuando empleas tu identidad falsa, alguien sospechará de ti. Haz los movimientos apropiados para calmar la situación o evitar que revele la verdad. Con un éxito parcial, como arriba, pero suma +1 (en vez de +2).</p>"
+        },
+        {
+          "description": "<p>Como arriba y además puedes tirar +sombra (en vez de +corazón) al @Compendium[foundry-ironsworn.ironswornmoves.25421995c803340e]{Pasar tiempo en una comunidad} bajo tu identidad falsa. En ese caso, con un éxito (total o parcial) ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} revelando tu verdadera identidad en un momento dramáticamente apropiado, vuelve a tirar de nuevo (uno o más dados).</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Raven": {
+      "name": "Cuervo",
+      "category": "Compañero",
+      "requirement": "<p>Tu cuervo acude siempre que lo llamas.</p>",
+      "abilities": [
+        {
+          "description": "<p>Astuto: tanto al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} como al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} +sombra usando tu cuervo para llevar a cabo una artimaña (como crear una distracción o robar un pequeño objeto), suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Cómplice: al @Compendium[foundry-ironsworn.ironswornmoves.92b85c33a17ab487]{Afrontar la muerte}, suma +2. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Diligente: cuando tu cuervo transporta tus mensajes, puedes @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja}, @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información} o @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} a distancia.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Revenant": {
+      "name": "Renacimiento",
+      "category": "Senda",
+      "requirement": "<p>Requisito: @Compendium[foundry-ironsworn.ironswornmoves.92b85c33a17ab487]{Afrontar la muerte} y regresar al mundo de los vivos.</p>",
+      "abilities": [
+        {
+          "description": "<p>Si tu salud llega a 0 y has de @Compendium[foundry-ironsworn.ironswornmoves.fdb51ee928b4fca2]{Soportar el daño} o @Compendium[foundry-ironsworn.ironswornmoves.92b85c33a17ab487]{Afrontar la muerte}, suma +1. Entonces, si te aprovechas del impulso para mejorar tu resultado, declara qué vínculo o juramento te ata a este mundo. Tras restablecer el impulso a su valor inicial, ganas +2 de impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando hagas un movimiento para investigar, oponerte o interactuar con una abominación, un espíritu u otros no muertos, suma +1.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.aac3783710ad7499]{Terminar la lucha} dando muerte a tu oponente, puedes aprovecharte del impulso para cancelar un dado de desafío (no ambos) si tu impulso es mayor que el valor de ese dado. En tal caso, debes @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} (2 de estrés). Normalmente no está permitido aprovecharse del impulso en un movimiento de progreso. Esta es una excepción a esa regla.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Rider": {
+      "name": "Jinete",
+      "category": "Senda",
+      "requirement": "<p>Requisito: estar junto a tu compañero caballo.</p>",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.3d315ee54e9ce845]{Curar} a tu caballo o al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} para calmarlo o animarlo, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.ac19f4c7f3fe31be]{Viajar} puedes forzar a tu montura y sumar +1 (después de tirar). En tal caso, @Compendium[foundry-ironsworn.ironswornmoves.5042c9574d4faf61]{Tu compañero sufre daño} (1 de daño).</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} +mente al estudiar una situación peligrosa desde la silla de tu montura, te unes en espíritu con tu caballo. Suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Ritualist": {
+      "name": "Ritualista",
+      "category": "Senda",
+      "requirement": "<p>Requisito: @Compendium[foundry-ironsworn.ironswornmoves.725a21e2f02d7e12]{Forjar un vínculo} con un anciano o anciana para que te adiestre en los poderes místicos y @Compendium[foundry-ironsworn.ironswornmoves.b643d9ea53ff8d98]{Cumplir tu juramento} a su servicio (formidable, al menos).</p>",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} para prepararte para un ritual, describe cómo te preparas. A continuación, suma +1. En caso de un éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando realices un ritual, puedes elegir perder -1 de suministros y sumar +1 (decídelo antes de tirar).</p>"
+        },
+        {
+          "description": "<p>Cuando te tatúas la esencia de un nuevo ritual sobre tu piel, describe los trazos que lo representan. Entonces puedes adquirir y mejorar ese recurso ritual por 1 punto menos de experiencia.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Scry": {
+      "name": "Escudriñar",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando miras las llamas para estudiar a una persona o un lugar remotos, tira +sombra. Tú o alguien que esté contigo debe conocer el objetivo. Con un éxito total, puedes @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información} mediante la observación usando +sombra o +mente. Con un éxito parcial, como arriba, pero las llamas tienen hambre. Elige un sacrificio.</p>\n<ul>\n<li>Tu sangre: debes @Compendium[foundry-ironsworn.ironswornmoves.fdb51ee928b4fca2]{Soportar el daño} (2 de daño).</li>\n<li>Algo valioso: debes @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} (2 de estrés).</li>\n<li>Provisiones: pierdes -2 de suministros.</li>\n</ul>"
+        },
+        {
+          "description": "<p>Como arriba, pero en su lugar puedes estudiar un suceso del pasado.</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Shadow-Kin": {
+      "name": "Sombra",
+      "category": "Senda",
+      "requirement": "<p>Requisito: estar corrompido.</p>",
+      "abilities": [
+        {
+          "description": "<p>Has endurecido el corazón: reduce tu corazón en 1. Incrementa tu sombra en +2 (hasta un máximo de +4).</p>"
+        },
+        {
+          "description": "<p>En comunión con el reino de las sombras: cuando realices un ritual, suma +1.</p>"
+        },
+        {
+          "description": "<p>Conoces los caminos secretos de la muerte: al @Compendium[foundry-ironsworn.ironswornmoves.92b85c33a17ab487]{Afrontar la muerte} puedes tirar +sombra (en vez de +corazón). Con un éxito parcial, si eliges llevar a cabo una búsqueda para la Muerte, puedes tirar +sombra (en vez de +corazón). Además, al @Compendium[foundry-ironsworn.ironswornmoves.010e27aa4376d4df]{Jurar por el Hierro} puedes volver a tirar de nuevo (uno o más dados). Al @Compendium[foundry-ironsworn.ironswornmoves.725a21e2f02d7e12]{Cumplir tu juramento} para esa búsqueda y registrar la experiencia que has ganado, ganas 2 puntos de experiencia adicionales.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Shadow-Walk": {
+      "name": "Caminar por las Sombras",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando te ocultas tras el fino velo de los reinos de la sombra, tira +sombra. Con un éxito total, ganas +1 de impulso. Luego, cuando hagas un movimiento para acechar, emboscar o esconderte, puedes volver a tirar de nuevo (uno o más dados). Puedes hacerlo una sola vez. Con un éxito parcial, como arriba, pero las sombras intentan confundirte. Primero debes @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} para encontrar tu camino.</p>"
+        },
+        {
+          "description": "<p>Como arriba, pero también puedes @Compendium[foundry-ironsworn.ironswornmoves.ac19f4c7f3fe31be]{Viajar} por las sendas ocultas de los reinos de la sombra usando +sombra (en vez de +mente). En tal caso, debes @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} (1 de estrés). Con un éxito total, registras el progreso dos veces.</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Shield-Bearer": {
+      "name": "Maestría con el Escudo",
+      "category": "Talento de Combate",
+      "requirement": "<p>Requisito: empuñar un escudo.</p>",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} usando tu escudo como protección, suma +1. Si obtienes un éxito total al @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} cuerpo a cuerpo, ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando decoras tu escudo con un emblema que tenga para ti un especial significado, descríbelo. A partir de entonces, siempre que tengas que @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} al enfrentarte a un oponente temible, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando debas @Compendium[foundry-ironsworn.ironswornmoves.fdb51ee928b4fca2]{Soportar el daño} durante una lucha, puedes sacrificar tu escudo e ignorar todo el daño. En tal caso, el escudo queda destruido. Una vez por combate, cuando sacrificas tu escudo para evitar el daño, te haces también con la iniciativa.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Sighted": {
+      "name": "Segunda Visión",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tanto al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} como al @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información} para identificar o detectar fuerzas místicas, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir}, @Compendium[foundry-ironsworn.ironswornmoves.b643d9ea53ff8d98]{Forjar un vínculo} o @Compendium[foundry-ironsworn.ironswornmoves.421b379cb40b6ab7]{Poner a prueba tu vínculo} con otro practicante de las artes místicas o con un ser místico, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} estudiando a alguien o algo en una situación complicada, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso. Cuando, además, traspasas el velo para explorar verdades más profundas (decídelo antes de tirar), puedes volver a tirar de nuevo (uno o más dados). En tal caso, un éxito parcial cuenta como un fallo.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Skirmisher": {
+      "name": "Maestría con la Lanza",
+      "category": "Talento de Combate",
+      "requirement": "<p>Requisito: empuñar una lanza.</p>",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} manteniendo a raya a tu oponente aprovechándote del alcance de tu lanza, tira +hierro o +filo. Con un éxito (total o parcial), puedes:</p>\n<ul>\n<li>Hierro: @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} (si tienes la iniciativa) o @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} ahora y sumar +1.</li>\n<li>Filo: ganar +1 de impulso.</li>\n</ul>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} en combate cuerpo a cuerpo, puedes intentar empalar a tu oponente (decídelo antes de tirar). En tal caso, suma +1. Con un éxito (total o parcial) infliges +2 de daño y si el combate continúa, debes @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} +hierro para recuperar tu lanza.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} para apuntalar la lanza contra la carga de tu oponente, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Slayer": {
+      "name": "Azote de las Bestias",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tanto al @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información} para rastrear a una bestia o una abominación como al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} cuando te preparas para luchar contra ellas, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.010e27aa4376d4df]{Jurar por el Hierro} que acabarás con una bestia o una abominación, puedes volver a tirar de nuevo (uno o más dados). Al @Compendium[foundry-ironsworn.ironswornmoves.725a21e2f02d7e12]{Cumplir tu juramento} y registrar la experiencia que has ganado, ganas 1 punto de experiencia adicional.</p>"
+        },
+        {
+          "description": "<p>Cuando acabas con una bestia o una abominación (con un nivel de desafío al menos formidable), toma algo de ella como trofeo y elige una.</p>\n<ul>\n<li>Potenciar un ritual: una sola vez por trofeo, cuando tú o un personaje aliado haga un movimiento ritual, podéis volver a tirar de nuevo (uno o más dados).</li>\n<li>Demostrar tu valía: una sola vez por trofeo, al @Compendium[foundry-ironsworn.ironswornmoves.25421995c803340e]{Pasar tiempo en una comunidad} puedes volver a tirar de nuevo (uno o más dados).</li>\n</ul>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Slinger": {
+      "name": "Maestría con la Honda",
+      "category": "Talento de Combate",
+      "requirement": "<p>Requisito: sostener una honda.</p>",
+      "abilities": [
+        {
+          "description": "<p>Proyectada desde tu honda, una simple piedra inflige daño letal (2 de daño). Si obtienes un éxito total al @Compendium[foundry-ironsworn.ironswornmoves.ed343c963b08f301]{Entrar en liza}, haciendo caer una lluvia de piedras de tu honda sobre tu oponente, le infliges daño (2 de daño).</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} lanzando piedras a un oponente que avanza, puedes elegir una (antes de tirar).</p>\n<ul>\n<li>Obstaculizar su avance: mantén la iniciativa en caso de un éxito parcial, pero solo infliges 1 de daño.</li>\n<li>Golpear duro: en caso de éxito infliges +1 de daño, pero pierdes -1 de impulso.</li>\n</ul>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} seleccionando piedras por su especial calidad o materiales, suma +1. A continuación, en caso de éxito (total o parcial), ganas +1 de impulso o +1 de suministros.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Spirit-Bound": {
+      "name": "Espíritu Vinculado",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Tus acciones o tus errores provocaron la muerte de alguien. Ahora su espíritu te acompaña. Si le consultas al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} o al @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información}, suma +1. En caso de éxito (total o parcial), ganas +2 de impulso. Con un éxito parcial, debes @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} (1 de estrés).</p>"
+        },
+        {
+          "description": "<p>Cuando el espíritu te hace de guía al @Compendium[foundry-ironsworn.ironswornmoves.92b85c33a17ab487]{Afrontar la muerte}, suma +1. Con un éxito total, di qué has aprendido. Ganas +1 punto de experiencia.</p>"
+        },
+        {
+          "description": "<p>Una sola vez en la vida, al @Compendium[foundry-ironsworn.ironswornmoves.725a21e2f02d7e12]{Cumplir tu juramento} (formidable, al menos) con éxito al servicio del espíritu, elige una.</p>\n<ul>\n<li>Decir adiós: ganas 2 puntos de experiencia por cada capacidad activa (con el cuadradito relleno). Descarta este recurso.</li>\n<li>Reforzar el vínculo: suma un +1 adicional cuando te aproveches de este recurso.</li>\n</ul>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Storyweaver": {
+      "name": "Cuentacuentos",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Si al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja}, @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} o @Compendium[foundry-ironsworn.ironswornmoves.b643d9ea53ff8d98]{Forjar un vínculo} usas una canción, un poema o un cuento para inspirar o instruir, relata a grandes rasgos tu historia. A continuación, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.30046577bc83f2f0]{Acampar}, si eliges la opción de relajarte, puedes compartir una historia con tus aliados o crear una nueva si nadie te acompaña. Relata a grandes rasgos tu historia. Ganas +1 de entereza o +1 de impulso. Si lo desea, cualquier personaje aliado que elija relajarse en tu compañía gana +1 de entereza o +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.25421995c803340e]{Pasar tiempo en una comunidad} con la que tienes un vínculo, suma +2 (en vez de +1).</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Sunderer": {
+      "name": "Maestría con el Hacha",
+      "category": "Talento de Combate",
+      "requirement": "<p>Requisito: empuñar un hacha.</p>",
+      "abilities": [
+        {
+          "description": "<p>Antes de tirar para @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} o @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} en combate cuerpo a cuerpo, puedes decidir perder -1 de impulso. En tal caso, si obtienes un éxito (total o parcial), infliges +1 de daño.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} o @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} hacha en mano, amenazando con usar la violencia, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando tallas una runa en el mango de tu hacha tras dar muerte a tu oponente (al menos formidable) rindiéndole tributo, tira +corazón. Con un éxito total, infliges +1d6 de daño (una sola vez) al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} o @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} con ella. Con un éxito parcial, como arriba, pero su muerte pesa sobre tu conciencia; debes @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} (2 de estrés).</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Sway": {
+      "name": "Influjo",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando dices al viento tres veces el nombre de una persona, tira +mente. Con un éxito total, el viento te susurra de vuelta qué necesita esa persona. Establece qué es lo que te susurra el viento (@Compendium[foundry-ironsworn.ironswornmoves.aba3e44b7e810c0f]{Pregunta al oráculo} en caso de duda). Si al @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} a esta persona, satisfaces su necesidad o utilizas esta información, puedes volver a tirar de nuevo (uno o más dados). Puedes hacerlo una sola vez. Con un éxito parcial, como arriba, pero la necesidad de esta persona crea un dilema o una complicación que te preocupa. Explica por qué. A continuación, debes @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} (1 de estrés).</p>"
+        },
+        {
+          "description": "<p>Como arriba, pero si obtienes un éxito total al @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir}, puedes volver a tirar de nuevo (uno o más dados) al @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información} sobre esta persona. Puedes hacerlo una sola vez.</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Swordmaster": {
+      "name": "Maestría con la Espada",
+      "category": "Talento de Combate",
+      "requirement": "<p>Requisito: empuñar una espada.</p>",
+      "abilities": [
+        {
+          "description": "<p>Cuando te aprovechas del impulso para mejorar tu resultado al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} o @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar}, infliges +2 de daño. Si el combate continúa, suma +1 al hacer tu siguiente movimiento.</p>"
+        },
+        {
+          "description": "<p>Si obtienes un éxito total al @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar}, e inmediatamente procedes a @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear}, suma +1 a Golpear.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.010e27aa4376d4df]{Jurar por el Hierro} arrodillándote y tomando tu espada por el filo, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso. Si dejas que la hoja te haga sangrar las manos, debes @Compendium[foundry-ironsworn.ironswornmoves.fdb51ee928b4fca2]{Soportar el daño} (1 de daño), pero en caso de un éxito (total o parcial) a cambio ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Talisman": {
+      "name": "Talismán",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando fabricas un amuleto, descríbelo y especifica contra qué persona o criatura protege. Después, tira +mente. Con un éxito total, cuando el portador del talismán se enfrente a dicho objetivo haciendo un movimiento, suma +2. Cuando se usa el talismán al hacer un movimiento y se saca un 1 en el dado de acción, el amuleto pierde su poder. Con un éxito parcial, como arriba, pero el portador suma +1 (en lugar de +2).</p>"
+        },
+        {
+          "description": "<p>Como arriba, pero puedes crear un amuleto que ayude a quien lo lleve contra todas las amenazas sobrenaturales, como los rituales místicos o las abominaciones.</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Tether": {
+      "name": "Ligadura",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando entras en comunión con los espíritus de un lugar, tira +corazón. Si compartes un vínculo con alguien de allí, suma +1. Con un éxito total, el lugar y tú quedáis vinculados. Al @Compendium[foundry-ironsworn.ironswornmoves.ac19f4c7f3fe31be]{Viajar} para regresar a él, puedes tirar +entereza o +corazón (en vez de +mente) y en caso de éxito (total o parcial), ganas +1 de impulso. Al @Compendium[foundry-ironsworn.ironswornmoves.727eb47e8f031e81]{Alcanzar tu destino}, si obtienes un éxito total, ganas +2 de impulso. La ligadura se rompe si realizas este ritual en otro sitio o si debes @Compendium[foundry-ironsworn.ironswornmoves.1f978f9faa43d5c6]{Afrontar la desolación}. Con un éxito parcial, como arriba, pero los espíritus revelan un aspecto perturbador del lugar: debes @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} (2 de estrés).</p>"
+        },
+        {
+          "description": "<p>Como arriba, pero puedes volver a tirar de nuevo (uno o más dados) al @Compendium[foundry-ironsworn.ironswornmoves.25421995c803340e]{Pasar tiempo en una comunidad} situada en ese sitio.</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Thunder-Bringer": {
+      "name": "Maestría con el Martillo",
+      "category": "Talento de Combate",
+      "requirement": "<p>Requisito: empuñar un poderoso martillo.</p>",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro}, @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} o @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} golpeando o rompiendo un objeto inanimado, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} con la intención de aturdir, desequilibrar o hacer que tu oponente retroceda, infliges 1 de daño (en vez de 2). En caso de éxito (total o parcial), ganas +2 de impulso. Además, con un éxito total abres su guardia: suma +1 al hacer tu siguiente movimiento.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.12e23cfe23534a8f]{Cambiar las tornas} puedes @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} con todo el ímpetu y la furia que seas capaz de reunir. Si lo haces (decídelo antes de tirar) puedes volver a tirar de nuevo (uno o más dados). Con un éxito total, infliges +2 de daño, pero un éxito parcial cuenta como un fallo.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Totem": {
+      "name": "Tótem",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando sostienes una talla de tu compañero (animal o bestia) y te concentras, tira +corazón. Con un éxito total, vuestras almas quedan vinculadas. Cuando uses una capacidad del compañero, suma +1 y si al tirar obtienes un éxito (total o parcial), ganas +1 de impulso. Si sacas un 1 en el dado de acción al usar la capacidad de tu compañero, el efecto termina. Con un éxito parcial, como arriba, pero crear la unión resulta inquietante: debes @Compendium[foundry-ironsworn.ironswornmoves.e09e2fc8bb709320]{Soportar el estrés} (1 de estrés).</p>"
+        },
+        {
+          "description": "<p>Como arriba y, además, mientras tu compañero te ayude a hacer movimientos podrás percibir el mundo a través de sus sentidos (incluso si estáis separados).</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Trickster": {
+      "name": "Lengua de Plata",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro}, @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} o @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} mintiendo, robando, marcándote un farol o haciendo trampas, suma +1.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información} para desentrañar una conspiración maquiavélica, puedes tirar +sombra (en vez de +mente). En ese caso, con un éxito (total o parcial) ganas +2 de impulso.</p>"
+        },
+        {
+          "description": "<p>Antes de @Compendium[foundry-ironsworn.ironswornmoves.b643d9ea53ff8d98]{Forjar un vínculo} basado en una mentira, elige una.</p>\n<ul>\n<li>Guardo mi secreto: tira +sombra (en vez de +corazón).</li>\n<li>Revelo la verdad: tira +corazón. Con un éxito total, ganas 1 punto de experiencia y registras dos marcas (en vez de una) en el contador de progreso de tus vínculos. Un éxito parcial se considera un fallo.</li>\n</ul>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Veteran": {
+      "name": "Veteranía en Combate",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando te aprovechas del impulso para mejorar tu resultado en el combate, explica cómo tu experiencia en combate, ganada con sudor y sangre, te da la ventaja. Tras restablecer el impulso a su valor inicial, ganas +1 de impulso. Suma +1 en tu próximo movimiento. Además, una vez por combate, cuando te aprovechas del impulso para convertir un fallo en un éxito parcial, tomas la iniciativa.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.010e27aa4376d4df]{Jurar por el Hierro} a alguien que ha luchado a tu lado que completarás una búsqueda o al @Compendium[foundry-ironsworn.ironswornmoves.b643d9ea53ff8d98]{Forjar un vínculo} con esa persona, suma +2. En caso de éxito (total o parcial), ganas +2 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.8d90dd472856be27]{Reabastecerte} saqueando a los muertos en un campo de batalla, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Visage": {
+      "name": "Rostro del Terror",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando te pintas el rostro con sangre y cenizas, tira +mente. Con un éxito total, suma +2 al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} o @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir} usando el miedo o la intimidación como arma. En tal caso, si obtienes un éxito (total o parcial), ganas +1 de impulso. Si haces un movimiento con la ayuda de tu rostro terrorífico y sacas un 1 en el dado de acción, el efecto termina. Con un éxito parcial, como arriba, pero la sangre ha de ser tuya: debes @Compendium[foundry-ironsworn.ironswornmoves.fdb51ee928b4fca2]{Soportar el daño} (2 de daño).</p>"
+        },
+        {
+          "description": "<p>Como arriba, y además puedes sumar +1 al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear}, @Compendium[foundry-ironsworn.ironswornmoves.7e008d0f656dc8b3]{Contratacar} o en una @Compendium[foundry-ironsworn.ironswornmoves.412156232a6d42bf]{Batalla simplificada}.</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Ward": {
+      "name": "Guarda",
+      "category": "Ritual",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Cuando caminas trazando un amplio círculo espolvoreando el suelo con sal, tira +mente. Con un éxito total, elige dos. Con un éxito parcial, elige una.</p>\n<ul>\n<li>Cuando un adversario cruza por primera vez el círculo, ganas +1 de impulso.</li>\n<li>La primera vez que infliges daño a un adversario dentro de los límites del círculo, infliges +1 de daño.</li>\n<li>Es «probable» (@Compendium[foundry-ironsworn.ironswornoracles.e1928307bb4e0afb]{Pregunta al oráculo}) que tu guarda atrape a un adversario en el interior del círculo.</li>\n</ul>"
+        },
+        {
+          "description": "<p>Como arriba, pero aumentas los efectos de la guarda (+2 de impulso, +2 de daño y @Compendium[foundry-ironsworn.ironswornoracles.f8ddf2d8098dc74e]{«casi seguro»}).</p>"
+        },
+        {
+          "description": "<p>Cuando realices este ritual, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Waterborn": {
+      "name": "Navegante",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro}, @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información} o @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} relacionados con tu conocimiento sobre viajes marítimos o fluviales, embarcaciones, criaturas y entornos acuáticos, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.ac19f4c7f3fe31be]{Viajar} en bote o barco, suma +1. Con un éxito total, elige además una.</p>\n<ul>\n<li>Los vientos te son propicios: registra el progreso dos veces.</li>\n<li>Un buen lugar para echar el ancla: decides @Compendium[foundry-ironsworn.ironswornmoves.30046577bc83f2f0]{Acampar} ahora. Vuelve a tirar de nuevo (uno o más dados).</li>\n<li>Recoger los beneficios: haces el movimiento @Compendium[foundry-ironsworn.ironswornmoves.8d90dd472856be27]{Reabastecerte}. Vuelve a tirar de nuevo (uno o más dados).</li>\n</ul>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.ed343c963b08f301]{Entrar en liza} a bordo de un bote o un barco, vuelve a tirar de nuevo (uno o más dados).</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Wayfinder": {
+      "name": "Batidor",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.ac19f4c7f3fe31be]{Viajar} ganas +1 de impulso en caso de un éxito total. Si te aprovechas del impulso para mejorar tu resultado, tras restablecer el impulso a su valor inicial, ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} o al @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información} escrutando el paisaje o adelantándote para reconocer el terreno, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.010e27aa4376d4df]{Jurar por el Hierro} que guiarás a alguien de forma segura en un viaje peligroso, puedes volver a tirar de nuevo (uno o más dados). Al @Compendium[foundry-ironsworn.ironswornmoves.725a21e2f02d7e12]{Cumplir tu juramento} y registrar la experiencia que has ganado, ganas 1 punto de experiencia adicional.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Weaponmaster": {
+      "name": "Maestría con las Armas",
+      "category": "Senda",
+      "requirement": "<p>Requisito: @Compendium[foundry-ironsworn.ironswornmoves.b643d9ea53ff8d98]{Forjar un vínculo} con alguien con gran experiencia en la guerra para que te entrene y @Compendium[foundry-ironsworn.ironswornmoves.725a21e2f02d7e12]{Cumplir tu juramento} a su servicio (formidable, al menos).</p>",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} evaluando las capacidades de tu contrincante en una pelea (o en una situación tensa que podría conducir a una pelea), suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Cuando entrenas con una nueva arma o estudias una nueva técnica, adquirir o mejorar ese talento de combate te cuesta 1 punto de experiencia menos.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.12e23cfe23534a8f]{Cambiar las tornas} con una inesperada maniobra de combate o un repentino cambio de arma, si tu siguiente movimiento es @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear}, suma +1. En tal caso, con un éxito total, infliges +2 de daño.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Wildblood": {
+      "name": "Sangre Salvaje",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro}, @Compendium[foundry-ironsworn.ironswornmoves.4244b77103f55bc4]{Reunir información} o @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} utilizando tus conocimientos sobre los bosques y sus habitantes o tu pericia para rastrear, suma +1.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} o @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} escondiéndote o acechando en el bosque, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.30046577bc83f2f0]{Acampar} en el bosque, puedes tirar +mente (en vez de +suministros). Con un éxito (total o parcial), tú y tus aliados escogéis una opción adicional.</p>"
+        }
+      ],
+      "fields": [],
+      "track": "Salud"
+    },
+    "Wright": {
+      "name": "Artesanía",
+      "category": "Senda",
+      "requirement": "",
+      "abilities": [
+        {
+          "description": "<p>Al @Compendium[foundry-ironsworn.ironswornmoves.4dd8468e095810a4]{Crear una ventaja} para fabricar un objeto que sea de utilidad usando tu especialidad o al @Compendium[foundry-ironsworn.ironswornmoves.c8bacc17f73d3103]{Afrontar el peligro} creando o reparando un objeto en una situación peligrosa, suma +1. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Como arriba, y además puedes, después de tirar, perder -1 de suministros para sumar un +1 adicional.</p>"
+        },
+        {
+          "description": "<p>Cuando entregas el objeto que has creado como un regalo para conmemorar un acontecimiento o una relación importantes, puedes (una sola vez) volver a tirar de nuevo (uno o más dados) al @Compendium[foundry-ironsworn.ironswornmoves.be95ca063ded2b19]{Persuadir}, @Compendium[foundry-ironsworn.ironswornmoves.b643d9ea53ff8d98]{Forjar un vínculo} o al @Compendium[foundry-ironsworn.ironswornmoves.421b379cb40b6ab7]{Poner a prueba tu vínculo}.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Especialidad"
+        }
+      ],
+      "track": "Salud"
+    },
+    "Young Wyvern": {
+      "name": "Wyverna (Joven)",
+      "category": "Compañero",
+      "requirement": "<p>Tu wyverna no te devorará. De momento.</p>",
+      "abilities": [
+        {
+          "description": "<p>Insaciable: al @Compendium[foundry-ironsworn.ironswornmoves.ac19f4c7f3fe31be]{Viajar}, si obtienes un éxito (total o parcial), puedes perder -1 de suministros a cambio de ganar +2 de impulso.</p>"
+        },
+        {
+          "description": "<p>Indómita: cuando hagas el movimiento @Compendium[foundry-ironsworn.ironswornmoves.5042c9574d4faf61]{Tu compañero sufre daño} por tu wyverna, suma +2. En caso de éxito (total o parcial), ganas +1 de impulso.</p>"
+        },
+        {
+          "description": "<p>Salvaje: al @Compendium[foundry-ironsworn.ironswornmoves.5288e935906f6d28]{Golpear} ordenando a tu wyverna que ataque, tira +corazón. En caso de éxito (total o parcial), tu wyverna inflige 3 de daño.</p>"
+        }
+      ],
+      "fields": [
+        {
+          "name": "Nombre"
+        }
+      ],
+      "track": "Salud"
+    }
+  }
+}
