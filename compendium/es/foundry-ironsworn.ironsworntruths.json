@@ -1,0 +1,306 @@
+{
+  "label": "Verdades de Ironsworn",
+  "mapping": {
+    "subtableResults": {
+      "path": "system.Subtable",
+      "converter": "sfTruthsSubtable"
+    },
+    "result": "system.Result",
+    "description": "system.Description",
+    "summary": "system.Summary",
+    "quest": "system.Quest",
+    "rollTemplate": "system.Roll template.Description",
+    "pages": {
+      "path": "pages",
+      "converter": "sfTruthsConverter"
+    }
+  },
+  "entries": {
+    "Beasts": {
+      "name": "Bestias",
+      "pages": {
+        "truth.option:classic/beasts.0": {
+          "name": "truth.option:classic/beasts.0",
+          "description": "Las bestias de antaño no son sino leyendas. Quienes se han internado en los profundos bosques y en las grandes montañas a veces han regresado con historias increíbles sobre criaturas monstruosas, pero obviamente no son más que alucinaciones. No existen tales cosas.",
+          "summary": "",
+          "quest": "Un animal —que a ti te pareció de dimensiones monstruosas— ha matado a un hombre. No había más testigos que tú y nadie te cree. De hecho, te acusan de asesinato. ¿Cómo puedes demostrar tu inocencia? ¿Puedes confiar en tus propios recuerdos sobre lo sucedido?",
+          "rollTemplate": "Las bestias de antaño no son sino leyendas. Quienes se han internado en los profundos bosques y en las grandes montañas a veces han regresado con historias increíbles sobre criaturas monstruosas, pero obviamente no son más que alucinaciones. No existen tales cosas."
+        },
+        "truth.option:classic/beasts.1": {
+          "name": "truth.option:classic/beasts.1",
+          "description": "Bestias monstruosas merodean en las zonas más salvajes de las Tierras del Hierro.",
+          "summary": "",
+          "quest": "Una personalidad del Hierro está consumida por el deseo de vengarse de determinada bestia. ¿Qué hizo la bestia para granjearse su ira? ¿Qué hace a esta criatura diferente? ¿Ayudas a esta persona en su búsqueda o actúas para evitar que su odio ciego destruya algo más que la bestia?",
+          "rollTemplate": "Bestias monstruosas merodean en las zonas más salvajes de las Tierras del Hierro."
+        },
+        "truth.option:classic/beasts.2": {
+          "name": "truth.option:classic/beasts.2",
+          "description": "Todo tipo de bestias deambulan por las Tierras del Hierro. Habitan principalmente más allá de las fronteras coloniales, pero se adentran en las tierras civilizadas para cazar. Una vez allí, se alimentan del ganado, aunque no son raros los ataques a viajeros, caravanas e incluso a los mismos asentamientos.",
+          "summary": "",
+          "quest": "Los exterminadores se ganan la vida matando bestias. Durante una cacería, ha desaparecido una exterminadora, en particular, que era famosa en Las Tierras del Hierro por su enorme eficacia. ¿Habrá encontrado por fin la horma de su zapato o hay juego sucio? ¿Cuál es tu vínculo con ella?",
+          "rollTemplate": "Todo tipo de bestias deambulan por las Tierras del Hierro. Habitan principalmente más allá de las fronteras coloniales, pero se adentran en las tierras civilizadas para cazar. Una vez allí, se alimentan del ganado, aunque no son raros los ataques a viajeros, caravanas e incluso a los mismos asentamientos."
+        }
+      }
+    },
+    "Communities": {
+      "name": "Comunidades",
+      "pages": {
+        "truth.option:classic/communities.0": {
+          "name": "truth.option:classic/communities.0",
+          "description": "Somos pocas las personas que habitamos estas malditas tierras. Raramente tenemos contacto con alguien fuera de nuestras aldeas o granjas y miramos a los extraños con sospecha.",
+          "summary": "",
+          "quest": "En lo más duro del invierno, un hombre desesperado llega a una granja que ha quedado aislada por la nieve. Está herido, hambriento y casi congelado de frío. Dice que se han llevado a su familia. ¿Quiénes? ¿Te enfrentarás al despiadado invierno para salvar a su familia?",
+          "rollTemplate": "Somos pocas las personas que habitamos estas malditas tierras. Raramente tenemos contacto con alguien fuera de nuestras aldeas o granjas y miramos a los extraños con sospecha."
+        },
+        "truth.option:classic/communities.1": {
+          "name": "truth.option:classic/communities.1",
+          "description": "Vivimos en comunidades llamadas círculos. Los círculos son asentamientos que varían en tamaño, desde haciendas con unas pocas familias hasta pueblos de varios centenares de habitantes. Algunos círculos son de tradición nómada. Algunos círculos se han hecho poderosos absorbiendo y reuniendo comunidades más pequeñas. Comerciamos con otros círculos —y, a veces, también nos peleamos—.",
+          "summary": "",
+          "quest": "Hace décadas que dos círculos mantienen una disputa encubierta. Ahora ha escalado hasta convertirse en un conflicto abierto. ¿Cuál es la causa de la disputa? ¿Te unirás a la lucha o jurarás ponerle fin?",
+          "rollTemplate": "Vivimos en comunidades llamadas círculos. Los círculos son asentamientos que varían en tamaño, desde haciendas con unas pocas familias hasta pueblos de varios centenares de habitantes. Algunos círculos son de tradición nómada. Algunos círculos se han hecho poderosos absorbiendo y reuniendo comunidades más pequeñas. Comerciamos con otros círculos —y, a veces, también nos peleamos—."
+        },
+        "truth.option:classic/communities.2": {
+          "name": "truth.option:classic/communities.2",
+          "description": "Hemos domado la tierra y forjado el Hierro para convertirlo en nuestro hogar. De unas comunidades a otras, por las calzadas de piedra, van las gentes del Refugio. Las caravanas de comerciantes viajan de asentamiento en asentamiento y comercian también con las regiones limítrofes. Aun así, gran parte de esta tierra sigue virgen.",
+          "summary": "",
+          "quest": "Las caravanas se ven forzadas a pagar para utilizar una importante calzada comercial. El peaje —un cuarto de las mercancías transportadas— ha dejado a varias comunidades sin suficientes suministros para el invierno. ¿Quién está recaudando? ¿Cómo piensas solucionarlo?",
+          "rollTemplate": "Hemos domado la tierra y forjado el Hierro para convertirlo en nuestro hogar. De unas comunidades a otras, por las calzadas de piedra, van las gentes del Refugio. Las caravanas de comerciantes viajan de asentamiento en asentamiento y comercian también con las regiones limítrofes. Aun así, gran parte de esta tierra sigue virgen."
+        }
+      }
+    },
+    "Defense": {
+      "name": "Defensas",
+      "pages": {
+        "truth.option:classic/defense.0": {
+          "name": "truth.option:classic/defense.0",
+          "description": "Aquí, en el Hierro, los suministros son demasiado valiosos y las tierras tienen tan poca población que rara vez se organiza algún tipo de milicia regular. Cuando una comunidad se ve amenazada, la gente se une para proteger a los suyos.",
+          "summary": "",
+          "quest": "Un asentamiento no puede —o no quiere— defenderse de una amenaza inminente. ¿Por qué? ¿A qué peligro se enfrentan? ¿Qué harás para proteger el asentamiento?",
+          "rollTemplate": "Aquí, en el Hierro, los suministros son demasiado valiosos y las tierras tienen tan poca población que rara vez se organiza algún tipo de milicia regular. Cuando una comunidad se ve amenazada, la gente se une para proteger a los suyos."
+        },
+        "truth.option:classic/defense.1": {
+          "name": "truth.option:classic/defense.1",
+          "description": "Los custodios son nuestros soldados, centinelas y milicia. Sirven a sus comunidades como ejército regular, encargándose de las guardias, patrullando las tierras circundantes y organizando las defensas en tiempos de crisis. La mayoría tienen vínculos fuertes con la comunidad. Luego están los custodios libres, que son personas que ejercen como mercenarios errantes y que se ofrecen para servir a una comunidad o proteger las caravanas.",
+          "summary": "",
+          "quest": "Te encuentras con un custodio moribundo. Es una mujer que te habla de una misión importante y que te encarga que la completes. «Júramelo», dice, y extiende la mano ensangrentada para entregarte un objeto crucial para la búsqueda. ¿Qué es?",
+          "rollTemplate": "Los custodios son nuestros soldados, centinelas y milicia. Sirven a sus comunidades como ejército regular, encargándose de las guardias, patrullando las tierras circundantes y organizando las defensas en tiempos de crisis. La mayoría tienen vínculos fuertes con la comunidad. Luego están los custodios libres, que son personas que ejercen como mercenarios errantes y que se ofrecen para servir a una comunidad o proteger las caravanas."
+        },
+        "truth.option:classic/defense.2": {
+          "name": "truth.option:classic/defense.2",
+          "description": "Nuestras cuadrillas de guerra locales se han unido para atacar a nuestros enemigos y defender nuestras tierras. Aunque no son tan impresionantes como los ejércitos que una vez marcharon por el Viejo Mundo, estas fuerzas están tan bien adiestradas y equipadas como nuestras comunidades pueden permitirse. Los estandartes de guerra se adornan con representaciones de la historia del Viejo Mundo y las victorias de las Tierras del Hierro.",
+          "summary": "",
+          "quest": "Una cuadrilla de guerra ha sido aniquilada en combate contra fuerzas muy superiores en número. ¿Qué vínculo te une a ella? ¿Quién la derrotó? ¿Llevarás su estandarte en tu búsqueda de venganza o jurarás devolverlo a su hogar, presidiendo el lugar de honor que merece?",
+          "rollTemplate": "Nuestras cuadrillas de guerra locales se han unido para atacar a nuestros enemigos y defender nuestras tierras. Aunque no son tan impresionantes como los ejércitos que una vez marcharon por el Viejo Mundo, estas fuerzas están tan bien adiestradas y equipadas como nuestras comunidades pueden permitirse. Los estandartes de guerra se adornan con representaciones de la historia del Viejo Mundo y las victorias de las Tierras del Hierro."
+        }
+      }
+    },
+    "Firstborn": {
+      "name": "Los primeros nacidos",
+      "pages": {
+        "truth.option:classic/firstborn.0": {
+          "name": "truth.option:classic/firstborn.0",
+          "description": "Los primeros nacidos son cosa de las leyendas. Se dice que hay supervivientes de las primeras tribus que aún habitan en las profundidades de los bosques y en las montañas más altas, pero casi todo el mundo cree que los primeros nacidos nunca fueron más que un mito.",
+          "summary": "",
+          "quest": "Alguien que quiere hallar pruebas de la existencia de los primeros nacidos no ha escatimado en recursos. Ha montado una expedición que ha de alcanzar los confines de las Tierras del Hierro. ¿Cuál es tu papel en esta misión?",
+          "rollTemplate": "Los primeros nacidos son cosa de las leyendas. Se dice que hay supervivientes de las primeras tribus que aún habitan en las profundidades de los bosques y en las montañas más altas, pero casi todo el mundo cree que los primeros nacidos nunca fueron más que un mito."
+        },
+        "truth.option:classic/firstborn.1": {
+          "name": "truth.option:classic/firstborn.1",
+          "description": "Los primeros nacidos viven aislados del resto del mundo y protegen con ferocidad sus tierras.",
+          "summary": "",
+          "quest": "Un elfo fue desterrado por su propio pueblo y terminó viviendo entre seres humanos. Con el tiempo, ha acabado siendo aceptado en la comunidad. Ahora se está muriendo. Su último deseo antes de morir es regresar con su gente. ¿Busca absolución o justicia? ¿Por qué has jurado ayudarlo? ¿Qué fuerza se opone a su retorno?",
+          "rollTemplate": "Los primeros nacidos viven aislados del resto del mundo y protegen con ferocidad sus tierras."
+        },
+        "truth.option:classic/firstborn.2": {
+          "name": "truth.option:classic/firstborn.2",
+          "description": "Los primeros nacidos gobiernan las Tierras del Hierro. Los elfos de los profundos bosques y los gigantes de las colinas toleran e incluso comercian —por ahora— con la gente del Hierro. El pueblo del Hierro teme el día en que los primeros nacidos decidan que los seres humanos ya no son bienvenidos.",
+          "summary": "",
+          "quest": "Los humanos y los gigantes están al borde de la guerra. ¿Qué ha ocurrido? ¿De qué lado estás? ¿Se puede hacer algo para calmar la situación?",
+          "rollTemplate": "Los primeros nacidos gobiernan las Tierras del Hierro. Los elfos de los profundos bosques y los gigantes de las colinas toleran e incluso comercian —por ahora— con la gente del Hierro. El pueblo del Hierro teme el día en que los primeros nacidos decidan que los seres humanos ya no son bienvenidos."
+        }
+      }
+    },
+    "Horrors": {
+      "name": "Abominaciones",
+      "pages": {
+        "truth.option:classic/horrors.0": {
+          "name": "truth.option:classic/horrors.0",
+          "description": "No son más que cuentos para asustar a los niños.",
+          "summary": "",
+          "quest": "Las muertes comenzaron durante la última estación. Según los rumores locales, se trata de la obra de una abominación vengativa, pero puede haber implicadas fuerzas más terrenales. ¿Qué te conecta con los asesinatos? ¿Qué harás para detenerlos?",
+          "rollTemplate": "No son más que cuentos para asustar a los niños."
+        },
+        "truth.option:classic/horrors.1": {
+          "name": "truth.option:classic/horrors.1",
+          "description": "Tememos adentrarnos en los bosques tenebrosos y en las aguas profundas, porque los monstruos acechan en esos lugares. En las largas noches oscuras, cuando todo queda envuelto en tinieblas, solo las personas más estúpidas o las más temerarias se aventuran más allá de sus hogares.",
+          "summary": "",
+          "quest": "El ataque de una abominación dejó en ti sus cicatrices. ¿Tus cicatrices son físicas, emocionales o ambas? ¿Cómo era la abominación? ¿Cómo buscas superarlo y volver a ser la misma persona que eras?",
+          "rollTemplate": "Tememos adentrarnos en los bosques tenebrosos y en las aguas profundas, porque los monstruos acechan en esos lugares. En las largas noches oscuras, cuando todo queda envuelto en tinieblas, solo las personas más estúpidas o las más temerarias se aventuran más allá de sus hogares."
+        },
+        "truth.option:classic/horrors.2": {
+          "name": "truth.option:classic/horrors.2",
+          "description": "Los muertos no descansan en las Tierras del Hierro. Por las noches encendemos antorchas, esparcimos sal y apostamos centinelas en las puertas. No es suficiente. Ya están llegando.",
+          "summary": "",
+          "quest": "Un grupo de habitantes del Hierro ha establecido una comunidad en un territorio maldito por una abominación diabólica. ¿Qué mal azota esta tierra? ¿Por qué insisten en establecerse aquí? ¿Ayudarás a los colonos o intentarás forzarlos a que abandonen su imprudente empresa?",
+          "rollTemplate": "Los muertos no descansan en las Tierras del Hierro. Por las noches encendemos antorchas, esparcimos sal y apostamos centinelas en las puertas. No es suficiente. Ya están llegando."
+        }
+      }
+    },
+    "Iron": {
+      "name": "Hierro",
+      "pages": {
+        "truth.option:classic/iron.0": {
+          "name": "truth.option:classic/iron.0",
+          "description": "Las imponentes colinas y montañas de las Tierras del Hierro son ricas en mena de hierro. El mineral más preciado de todos es el hierro negro, que cae de los cielos y se cree que se forja en las estrellas.",
+          "summary": "",
+          "quest": "La caravana que marchaba hacia las lejanas tierras del sur abandonó el asentamiento minero la estación pasada, pero nunca llegó a su destino. Llevaba consigo una gran cantidad de hierro negro. ¿Por qué es tan importante para ti encontrar esta caravana perdida?",
+          "rollTemplate": "Las imponentes colinas y montañas de las Tierras del Hierro son ricas en mena de hierro. El mineral más preciado de todos es el hierro negro, que cae de los cielos y se cree que se forja en las estrellas."
+        },
+        "truth.option:classic/iron.1": {
+          "name": "truth.option:classic/iron.1",
+          "description": "El clima es deprimente. Las lluvias y los vientos oceánicos castigan la tierra desde las costas. Los inviernos son largos y crueles. Una de las primeras colonas se quejaba: «Hay que estar hecha de hierro para atreverse a vivir en este maldito lugar». Así es nuestra patria. El Hierro es su nombre.",
+          "summary": "",
+          "quest": "La cosecha ha sido insuficiente. Las nevadas constantes han dejado el pueblo aislado. La comida se está acabando. ¿Qué harás para que esta gente supere el invierno y lleguen a ver una nueva primavera?",
+          "rollTemplate": "El clima es deprimente. Las lluvias y los vientos oceánicos castigan la tierra desde las costas. Los inviernos son largos y crueles. Una de las primeras colonas se quejaba: «Hay que estar hecha de hierro para atreverse a vivir en este maldito lugar». Así es nuestra patria. El Hierro es su nombre."
+        },
+        "truth.option:classic/iron.2": {
+          "name": "truth.option:classic/iron.2",
+          "description": "Repartidos por toda la tierra hay unos enigmáticos pilares de metal. Son grises como el hierro y suaves al tacto como un canto rodado. Nadie sabe para qué sirven. Hay quien dice que son tan antiguos como el propio mundo. Hay quienes los veneran, como los Sacerdotes del Hierro, que llevan a cabo sus rituales de juramento en ellos. La gran mayoría, sin embargo, hacen el signo de protección contra el mal de ojo y se apresuran cuando se cruzan con uno. Estos pilares no se deterioran y ni siquiera la hoja más afilada puede hacerles mella.",
+          "summary": "",
+          "quest": "Te atormentan visiones en tus sueños. Un pilar solitario se alza en mitad de un paisaje desconocido. ¿Qué es lo que ves? ¿Por qué has jurado buscarlo?",
+          "rollTemplate": "Repartidos por toda la tierra hay unos enigmáticos pilares de metal. Son grises como el hierro y suaves al tacto como un canto rodado. Nadie sabe para qué sirven. Hay quien dice que son tan antiguos como el propio mundo. Hay quienes los veneran, como los Sacerdotes del Hierro, que llevan a cabo sus rituales de juramento en ellos. La gran mayoría, sin embargo, hacen el signo de protección contra el mal de ojo y se apresuran cuando se cruzan con uno. Estos pilares no se deterioran y ni siquiera la hoja más afilada puede hacerles mella."
+        }
+      }
+    },
+    "Leaders": {
+      "name": "Líderes",
+      "pages": {
+        "truth.option:classic/leaders.0": {
+          "name": "truth.option:classic/leaders.0",
+          "description": "El liderazgo es tan variado como nuestra propia gente. Algunas comunidades están gobernadas por la cabeza visible de una familia poderosa. Otras tienen un consejo de ancianos que toman las decisiones y resuelven las disputas. En otras, los sacerdotes tienen la última palabra. En algunas, los duelos en el círculo de arena son los que deciden.",
+          "summary": "",
+          "quest": "Tienes sueños vívidos y recurrentes sobre una ciudad en las Tierras del Hierro. Tiene gruesas murallas de piedra, mercados bulliciosos, una fortaleza en una alta colina... ¡y mucha gente! Sin embargo, una ciudad así no existe en ningún lugar de las Tierras del Hierro. En tus sueños gobiernas la ciudad. De algún modo, cueste lo que cueste, debes convertir esta visión en realidad.",
+          "rollTemplate": "El liderazgo es tan variado como nuestra propia gente. Algunas comunidades están gobernadas por la cabeza visible de una familia poderosa. Otras tienen un consejo de ancianos que toman las decisiones y resuelven las disputas. En otras, los sacerdotes tienen la última palabra. En algunas, los duelos en el círculo de arena son los que deciden."
+        },
+        "truth.option:classic/leaders.1": {
+          "name": "truth.option:classic/leaders.1",
+          "description": "Cada una de nuestras comunidades tiene su propio líder, al que llamamos supervisor. Cada siete primaveras, el pueblo revalida al supervisor en el cargo o elige a otra persona. Algunos supervisores llevan la corona de hierro a regañadientes, pero hay quien se vale de la intriga y la intimidación para conseguirla.",
+          "summary": "",
+          "quest": "Una supervisora ha enfermado. Se sabe que morirá si no recibe ayuda, pero la enfermedad es desconocida para el curandero del pueblo. Sospecha de algún veneno o, incluso, de magia negra. Las distintas familias de la comunidad están ahora en un todos contra todos, colocando a sus candidaturas preferidas para que se hagan con la corona de hierro. ¿Descubrirás la verdad que hay tras la enfermedad de la supervisora y conseguirás que recupere la salud?",
+          "rollTemplate": "Cada una de nuestras comunidades tiene su propio líder, al que llamamos supervisor. Cada siete primaveras, el pueblo revalida al supervisor en el cargo o elige a otra persona. Algunos supervisores llevan la corona de hierro a regañadientes, pero hay quien se vale de la intriga y la intimidación para conseguirla."
+        },
+        "truth.option:classic/leaders.2": {
+          "name": "truth.option:classic/leaders.2",
+          "description": "Un gran número de caciques de clanes gobiernan sus insignificantes señoríos. La mayoría quieren convertirse en los únicos y verdaderos reyes de esta tierra. Sus rencillas nos traerán la ruina.",
+          "summary": "",
+          "quest": "Nadie más sabe que posees la mitad de la Corona Real, una reliquia del Viejo Mundo. Hace siglos, la corona se separó en dos partes cuando el hacha de un asesino partió por la mitad la cabeza del gobernante supremo. Eres descendiente de ese linaje. ¿Quién te dio esta reliquia? ¿Encontrarás la otra mitad de la corona e intentarás unir a los clanes bajo tu gobierno o tienes previsto darle otro uso?",
+          "rollTemplate": "Un gran número de caciques de clanes gobiernan sus insignificantes señoríos. La mayoría quieren convertirse en los únicos y verdaderos reyes de esta tierra. Sus rencillas nos traerán la ruina."
+        }
+      }
+    },
+    "Legacies": {
+      "name": "Legados",
+      "pages": {
+        "truth.option:classic/legacies.0": {
+          "name": "truth.option:classic/legacies.0",
+          "description": "Somos los primeros seres humanos que caminan por estas tierras.",
+          "summary": "",
+          "quest": "Entre las notas de uno de los primeros colonos se describe un claro en el corazón de los Bosques Primigenios. El colono afirma que los espíritus de ese lugar le concedieron una bendición milagrosa. ¿En qué consiste?",
+          "rollTemplate": "Somos los primeros seres humanos que caminan por estas tierras."
+        },
+        "truth.option:classic/legacies.1": {
+          "name": "truth.option:classic/legacies.1",
+          "description": "Hace muchos, muchos años, navegando desde el Viejo Mundo llegaron aquí otros humanos. Son los quebrados, un pueblo salvaje y primitivo. ¿Correremos la misma suerte?",
+          "summary": "",
+          "quest": "Encuentras a un niño; es uno de los quebrados. Está herido y lo persigue su propia gente. ¿Lo protegerás, incluso corriendo el riesgo de despertar la ira de las tribus de los quebrados?",
+          "rollTemplate": "Hace muchos, muchos años, navegando desde el Viejo Mundo llegaron aquí otros humanos. Son los quebrados, un pueblo salvaje y primitivo. ¿Correremos la misma suerte?"
+        },
+        "truth.option:classic/legacies.2": {
+          "name": "truth.option:classic/legacies.2",
+          "description": "Antes que el pueblo del Hierro, antes incluso de los primeros nacidos, otro pueblo vivió en estas tierras. Pueden encontrarse vestigios y ruinas antiguas de este pueblo por todas las Tierras del Hierro.",
+          "summary": "",
+          "quest": "Un grupo de mineros descubrió una ruina subterránea. Poco después, las gentes del asentamiento comenzaron a tener sueños extraños. Dicen que las ruinas saben sus nombres. Varias personas han desaparecido en ese lugar ancestral y oscuro, incluido alguien importante para ti.",
+          "rollTemplate": "Antes que el pueblo del Hierro, antes incluso de los primeros nacidos, otro pueblo vivió en estas tierras. Pueden encontrarse vestigios y ruinas antiguas de este pueblo por todas las Tierras del Hierro."
+        }
+      }
+    },
+    "Mysticism": {
+      "name": "Artes místicas",
+      "pages": {
+        "truth.option:classic/mysticism.0": {
+          "name": "truth.option:classic/mysticism.0",
+          "description": "Hay quienes todavía encuentran consuelo en las viejas tradiciones. Recurren a las artes místicas para conocer cuál será el destino de su recién nacido o para encargar rituales que atraigan las buenas cosechas. Pero hay personas que, por miedo, actúan contra quienes sospechan que tienen el poder antiguo. Sin embargo, la mayoría de la gente cree que la auténtica magia ha desaparecido —si es que alguna vez realmente existió—.",
+          "summary": "",
+          "quest": "Han acusado a alguien cercano a ti de maldecir a una comunidad, causar que los campos se agosten y el ganado enferme. ¿Qué pruebas hay de ello? ¿Defenderás a esta persona y descubrirás la verdadera causa de las calamidades de esta comunidad?",
+          "rollTemplate": "Hay quienes todavía encuentran consuelo en las viejas tradiciones. Recurren a las artes místicas para conocer cuál será el destino de su recién nacido o para encargar rituales que atraigan las buenas cosechas. Pero hay personas que, por miedo, actúan contra quienes sospechan que tienen el poder antiguo. Sin embargo, la mayoría de la gente cree que la auténtica magia ha desaparecido —si es que alguna vez realmente existió—."
+        },
+        "truth.option:classic/mysticism.1": {
+          "name": "truth.option:classic/mysticism.1",
+          "description": "La magia es rara y peligrosa, pero hay un puñado de gente que tiene el don y es capaz de esgrimir su poder.",
+          "summary": "",
+          "quest": "Has escuchado historias sobre alguien con el don verdadero. Vive en una comunidad remota, muy lejos de aquí. ¿Quién te ha hablado sobre esta persona? ¿La temen o la respetan? ¿Por qué has jurado que la encontrarás?",
+          "rollTemplate": "La magia es rara y peligrosa, pero hay un puñado de gente que tiene el don y es capaz de esgrimir su poder."
+        },
+        "truth.option:classic/mysticism.2": {
+          "name": "truth.option:classic/mysticism.2",
+          "description": "La magia fluye a través de esta tierra como los ríos por las colinas. El poder está ahí, al alcance de cualquiera que decida aprovecharlo. Incluso la gente común conoce uno o dos rituales útiles.",
+          "summary": "",
+          "quest": "Los poderes místicos corrompieron a alguien que amabas. ¿Quién es? ¿Por qué cayó en la oscuridad? ¿Dónde se encuentra ahora? ¿Buscas salvar a esta persona o acabar con ella?",
+          "rollTemplate": "La magia fluye a través de esta tierra como los ríos por las colinas. El poder está ahí, al alcance de cualquiera que decida aprovecharlo. Incluso la gente común conoce uno o dos rituales útiles."
+        }
+      }
+    },
+    "Religion": {
+      "name": "Religión",
+      "pages": {
+        "truth.option:classic/religion.0": {
+          "name": "truth.option:classic/religion.0",
+          "description": "Unos pocos habitantes del Hierro aún hacen signos de protección con las manos o murmuran oraciones, bien por costumbre, bien por tradición, pero la mayoría creen que los dioses nos abandonaron hace mucho tiempo.",
+          "summary": "",
+          "quest": "Una mujer del Hierro, muy carismática, alienta a sus seguidores a renunciar a los vestigios de las religiones del Viejo Mundo. Propone una nueva vía para un nuevo mundo. ¿Qué doctrina enseña? ¿Qué es lo que busca lograr? ¿Has jurado ayudarla o detenerla?",
+          "rollTemplate": "Unos pocos habitantes del Hierro aún hacen signos de protección con las manos o murmuran oraciones, bien por costumbre, bien por tradición, pero la mayoría creen que los dioses nos abandonaron hace mucho tiempo."
+        },
+        "truth.option:classic/religion.1": {
+          "name": "truth.option:classic/religion.1",
+          "description": "La gente honra tanto a los antiguos dioses como a los nuevos. En esta dura tierra, una sencilla oración ofrece un poderoso consuelo.",
+          "summary": "",
+          "quest": "Un habitante del Hierro va a emprender un peregrinaje a tierras peligrosas aunque le cueste la vida. ¿Qué lugar sagrado busca? ¿Por qué has jurado ayudar a esta persona en su viaje? ¿Quién quiere impedirlo y por qué?",
+          "rollTemplate": "La gente honra tanto a los antiguos dioses como a los nuevos. En esta dura tierra, una sencilla oración ofrece un poderoso consuelo."
+        },
+        "truth.option:classic/religion.2": {
+          "name": "truth.option:classic/religion.2",
+          "description": "Muchos son nuestros dioses. Se dan a conocer a través de portentos y milagros. Hay quien dice que incluso caminan en secreto por la tierra. Los sacerdotes y sacerdotisas transmiten la voluntad de los dioses y ejercen gran influencia en numerosas comunidades.",
+          "summary": "",
+          "quest": "Llevas una marca distintiva. Los sacerdotes afirman que es la señal de una diosa. La marca te señala como alguien con un destino que cumplir. ¿Cómo es la marca? ¿Aceptas tu destino y juras que lo harás realidad o, por el contrario, lucharás para que nunca se cumpla? ¿Qué fuerza se opone a ti?",
+          "rollTemplate": "Muchos son nuestros dioses. Se dan a conocer a través de portentos y milagros. Hay quien dice que incluso caminan en secreto por la tierra. Los sacerdotes y sacerdotisas transmiten la voluntad de los dioses y ejercen gran influencia en numerosas comunidades."
+        }
+      }
+    },
+    "The Old World": {
+      "name": "El Viejo Mundo",
+      "pages": {
+        "truth.option:classic/old_world.0": {
+          "name": "truth.option:classic/old_world.0",
+          "description": "Los clanes bárbaros de los Skulde invadieron los reinos del Viejo Mundo. Nuestros ejércitos cayeron. Los Skulde asesinaron o esclavizaron a la mayoría. Quienes conseguían escapar se embarcaban a bordo de cualquier cosa capaz de flotar. Tras un durísimo viaje, meses después de zarpar, las mujeres y hombres que habían logrado sobrevivir arribaron a las Tierras del Hierro.",
+          "summary": "",
+          "quest": "La sangre de los Skulde corre por tus venas. Debido a tu linaje, tu familia ha sufrido por largo tiempo la desconfianza de tus compatriotas del Hierro. Ahora, un pequeño destacamento de Skulde ha desembarcado en nuestras costas. ¿Son los precursores de una invasión? ¿A quiénes debes lealtad?",
+          "rollTemplate": "Los clanes bárbaros de los Skulde invadieron los reinos del Viejo Mundo. Nuestros ejércitos cayeron. Los Skulde asesinaron o esclavizaron a la mayoría. Quienes conseguían escapar se embarcaban a bordo de cualquier cosa capaz de flotar. Tras un durísimo viaje, meses después de zarpar, las mujeres y hombres que habían logrado sobrevivir arribaron a las Tierras del Hierro."
+        },
+        "truth.option:classic/old_world.1": {
+          "name": "truth.option:classic/old_world.1",
+          "description": "La epidemia barrió el Viejo Mundo; no dejaba vida a su paso. Barcos zarpaban con miles de personas a bordo. Sin embargo, no se pudo contener la enfermedad. En muchos casos, las medidas que se tomaban eran crueles, como arrojar por la borda a cualquiera que mostrase el más mínimo síntoma. Hubo naves que se perdieron para siempre. Al final, los hombres y mujeres que sobrevivieron encontraron en las Tierras del Hierro un nuevo hogar. Hay quienes dicen que seremos malditos para siempre por las almas que dejamos atrás.",
+          "summary": "",
+          "quest": "Un asentamiento se ve azotado por una plaga. Aunque esta enfermedad comparte algunas similitudes con la del Viejo Mundo, no mata a sus víctimas: las cambia. ¿Cómo se manifiesta esta enfermedad? ¿Por qué has jurado que encontrarás una cura?",
+          "rollTemplate": "La epidemia barrió el Viejo Mundo; no dejaba vida a su paso. Barcos zarpaban con miles de personas a bordo. Sin embargo, no se pudo contener la enfermedad. En muchos casos, las medidas que se tomaban eran crueles, como arrojar por la borda a cualquiera que mostrase el más mínimo síntoma. Hubo naves que se perdieron para siempre. Al final, los hombres y mujeres que sobrevivieron encontraron en las Tierras del Hierro un nuevo hogar. Hay quienes dicen que seremos malditos para siempre por las almas que dejamos atrás."
+        },
+        "truth.option:classic/old_world.2": {
+          "name": "truth.option:classic/old_world.2",
+          "description": "El Viejo Mundo ya no podía sostenernos. Éramos demasiados. Habíamos talado los bosques. Nuestro suelo era estéril. Las cosechas se marchitaban. Las gentes, desesperadas y hambrientas, abarrotaban las ciudades y las aldeas. Patéticos reyes peleaban por los despojos. Nos encomendamos al mar y encontramos las Tierras del Hierro. Un nuevo mundo. Un nuevo comienzo.",
+          "summary": "",
+          "quest": "El éxodo terminó hace ya décadas. Desde entonces no ha llegado a nuestras costas ningún barco del Viejo Mundo. Hasta ahora. Se dice que un solitario barco, recién llegado desde más allá del vasto océano, ha encallado en las rocas de las Islas del Escudo. Cuando escuchas el nombre del navío, juras que averiguarás cuál ha sido el destino de sus pasajeros. ¿Por qué es tan importante para ti?",
+          "rollTemplate": "El Viejo Mundo ya no podía sostenernos. Éramos demasiados. Habíamos talado los bosques. Nuestro suelo era estéril. Las cosechas se marchitaban. Las gentes, desesperadas y hambrientas, abarrotaban las ciudades y las aldeas. Patéticos reyes peleaban por los despojos. Nos encomendamos al mar y encontramos las Tierras del Hierro. Un nuevo mundo. Un nuevo comienzo."
+        }
+      }
+    }
+  }
+}
